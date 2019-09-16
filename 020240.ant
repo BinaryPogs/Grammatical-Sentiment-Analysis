@@ -1,0 +1,662 @@
+020240.psd
+
+1) Hell's Kitchen Australia: rotten eggs rule Reality star Sam Frost has a steep learning curve on Channel Seven's new Sunday night cooking show, Hell's Kitchen Australia. 
+
+nmod:poss(Australia-4, Hell-1)
+case(Hell-1, 's-2)
+compound(Australia-4, Kitchen-3)
+root(ROOT-0, Australia-4)
+amod(eggs-7, rotten-6)
+dep(Australia-4, eggs-7)
+compound(Frost-12, rule-8)
+compound(Frost-12, Reality-9)
+compound(Frost-12, star-10)
+compound(Frost-12, Sam-11)
+nsubj(has-13, Frost-12)
+acl:relcl(eggs-7, has-13)
+det(curve-17, a-14)
+amod(curve-17, steep-15) s1
+compound(curve-17, learning-16) t1
+dobj(has-13, curve-17) t1
+case(show-26, on-18)
+compound(Seven-20, Channel-19)
+nmod:poss(show-26, Seven-20)
+case(Seven-20, 's-21)
+amod(night-24, new-22)
+compound(night-24, Sunday-23)
+compound(show-26, night-24)
+compound(show-26, cooking-25)
+nmod:on(curve-17, show-26)
+nmod:poss(Australia-31, Hell-28)
+case(Hell-28, 's-29)
+compound(Australia-31, Kitchen-30)
+appos(show-26, Australia-31)
+
+2) ``All I have is this s **** y scrambled egg. 
+
+nsubj(scrambled-10, All-2)
+nsubj(y-9, I-3)
+aux(y-9, have-4)
+cop(y-9, is-5)
+det(y-9, this-6)
+amod(y-9, s-7)
+amod(y-9, ****-8)
+acl:relcl(All-2, y-9)
+root(ROOT-0, scrambled-10) s1
+dobj(scrambled-10, egg-11) t1
+
+3) It looks like vomit,'' she says as she plates up her first attempt at impressing celebrity chef Marco Pierre White. 
+
+nsubj(looks-2, It-1) t1
+ccomp(says-8, looks-2)
+case(vomit-4, like-3)
+nmod:like(looks-2, vomit-4) s1
+nsubj(says-8, she-7)
+root(ROOT-0, says-8)
+mark(plates-11, as-9)
+nsubj(plates-11, she-10)
+advcl(says-8, plates-11)
+compound:prt(plates-11, up-12)
+nmod:poss(attempt-15, her-13)
+amod(attempt-15, first-14)
+dobj(plates-11, attempt-15)
+mark(impressing-17, at-16)
+advcl(plates-11, impressing-17)
+compound(White-22, celebrity-18)
+compound(White-22, chef-19)
+compound(White-22, Marco-20)
+compound(White-22, Pierre-21)
+dobj(impressing-17, White-22)
+
+4) He agrees. 
+
+nsubj(agrees-2, He-1)
+root(ROOT-0, agrees-2)
+
+5) ``It's a shocker,'' he tells her. 
+
+nsubj(shocker-5, It-2) t1
+cop(shocker-5, 's-3)
+det(shocker-5, a-4)
+ccomp(tells-9, shocker-5) s1
+nsubj(tells-9, he-8)
+root(ROOT-0, tells-9)
+dobj(tells-9, her-10)
+
+6) And, frankly, so is this show. 
+
+cc(show-8, And-1)
+advmod(show-8, frankly-3)
+advmod(show-8, so-5)
+cop(show-8, is-6)
+det(show-8, this-7)
+root(ROOT-0, show-8)
+
+7) Let's imagine how the decision was taken to make this show. 
+
+nsubj(imagine-3, Let-1)
+case(Let-1, 's-2)
+root(ROOT-0, imagine-3)
+advmod(taken-8, how-4)
+det(decision-6, the-5)
+nsubjpass(taken-8, decision-6)
+nsubj:xsubj(make-10, decision-6)
+auxpass(taken-8, was-7)
+ccomp(imagine-3, taken-8)
+mark(make-10, to-9)
+xcomp(taken-8, make-10)
+det(show-12, this-11)
+dobj(make-10, show-12)
+
+8) ``We've got the option on Hell's Kitchen Australia!'' 
+
+nsubj(got-4, We-2)
+aux(got-4, 've-3)
+root(ROOT-0, got-4)
+det(option-6, the-5)
+dobj(got-4, option-6)
+case(Australia-11, on-7)
+nmod:poss(Australia-11, Hell-8)
+case(Hell-8, 's-9)
+compound(Australia-11, Kitchen-10)
+nmod:on(option-6, Australia-11)
+
+9) says an excited producer. 
+
+root(ROOT-0, says-1)
+det(producer-4, an-2)
+amod(producer-4, excited-3) s1
+dobj(says-1, producer-4) t1
+
+10) ``Wow - like the brilliant US one with Gordon Ramsay?'' 
+
+root(ROOT-0, Wow-2)
+case(US-7, like-4)
+det(US-7, the-5)
+amod(US-7, brilliant-6) s1
+nmod:like(Wow-2, US-7) t1
+nummod(US-7, one-8)
+mark(Gordon-10, with-9)
+advcl(Wow-2, Gordon-10)
+dobj(Gordon-10, Ramsay-11)
+
+11) asks the impressed TV executive. 
+
+root(ROOT-0, asks-1)
+det(executive-5, the-2)
+amod(executive-5, impressed-3) s1
+compound(executive-5, TV-4)
+dobj(asks-1, executive-5) t1
+
+12) ``Um, no, the one with Marco Pierre White,'' says the producer. 
+
+dep(says-14, Um-2)
+appos(Um-2, no-4)
+det(one-7, the-6)
+appos(Um-2, one-7)
+case(White-11, with-8)
+compound(White-11, Marco-9)
+compound(White-11, Pierre-10)
+nmod:with(one-7, White-11)
+root(ROOT-0, says-14)
+det(producer-16, the-15)
+nsubj(says-14, producer-16)
+
+13) ``Our show will have huge celebrities who can't cook but it will be hilarious.'' 
+
+nmod:poss(show-3, Our-2)
+nsubj(have-5, show-3)
+aux(have-5, will-4)
+root(ROOT-0, have-5)
+amod(celebrities-7, huge-6)
+dobj(have-5, celebrities-7) t2
+nsubj(cook-11, celebrities-7)
+ref(celebrities-7, who-8)
+aux(cook-11, ca-9) s2-1/3
+neg(cook-11, n't-10) s2-2/3
+acl:relcl(celebrities-7, cook-11) s2-3/3
+cc(have-5, but-12)
+nsubj(hilarious-16, it-13) t1
+aux(hilarious-16, will-14)
+cop(hilarious-16, be-15)
+conj:but(have-5, hilarious-16) s1
+
+14) And that's where Seven's execs should have pulled the plug because the show doesn't have huge celebrities, it's not that funny and Marco Pierre White isn't Gordon Ramsay. 
+
+cc('s-23, And-1)
+nsubj('s-3, that-2)
+advcl('s-23, 's-3)
+advmod(pulled-10, where-4)
+nmod:poss(execs-7, Seven-5)
+case(Seven-5, 's-6)
+nsubj(pulled-10, execs-7) t1
+aux(pulled-10, should-8)
+aux(pulled-10, have-9)
+advcl('s-3, pulled-10) s1-1/3
+det(plug-12, the-11) s1-2/3
+dobj(pulled-10, plug-12) s1-3/3
+mark(have-18, because-13)
+det(show-15, the-14)
+nsubj(have-18, show-15)
+aux(have-18, does-16)
+neg(have-18, n't-17)
+advcl(pulled-10, have-18)
+amod(celebrities-20, huge-19)
+dobj(have-18, celebrities-20)
+nsubj('s-23, it-22) t2
+root(ROOT-0, 's-23)
+neg('s-23, not-24) s2-1/2
+mark(Ramsay-34, that-25)
+amod(White-30, funny-26) s2-2/2
+cc(funny-26, and-27)
+conj:and(funny-26, Marco-28)
+amod(White-30, Marco-28)
+compound(White-30, Pierre-29)
+nsubj(Ramsay-34, White-30)
+cop(Ramsay-34, is-31)
+neg(Ramsay-34, n't-32)
+compound(Ramsay-34, Gordon-33)
+ccomp('s-23, Ramsay-34)
+
+15) Seriously. 
+
+root(ROOT-0, Seriously-1)
+
+16) Is Australia so bereft of people to do this stuff that we have to import Gaz Beadle from Geordie Shore? 
+
+cop(bereft-4, Is-1)
+nsubj(bereft-4, Australia-2)
+advmod(bereft-4, so-3)
+root(ROOT-0, bereft-4)
+case(people-6, of-5)
+nmod:of(bereft-4, people-6)
+mark(do-8, to-7)
+dep(bereft-4, do-8)
+det(stuff-10, this-9)
+dobj(do-8, stuff-10)
+mark(have-13, that-11)
+nsubj(have-13, we-12)
+nsubj:xsubj(import-15, we-12)
+ccomp(do-8, have-13)
+mark(import-15, to-14)
+xcomp(have-13, import-15)
+compound(Beadle-17, Gaz-16)
+dobj(import-15, Beadle-17)
+case(Shore-20, from-18)
+compound(Shore-20, Geordie-19)
+nmod:from(Beadle-17, Shore-20)
+
+17) Who from what? 
+
+root(ROOT-0, Who-1)
+case(what-3, from-2)
+nmod:from(Who-1, what-3)
+
+18) In case you're wondering, it's a low-rent British TV show screened on Foxtel.Photo: Getty Then there's the new default reality participant, former One Nation politician David Oldfield, who guarantees to offend. 
+
+mark(wondering-5, In-1)
+mwe(In-1, case-2)
+nsubj(wondering-5, you-3)
+aux(wondering-5, 're-4)
+advcl(show-13, wondering-5)
+nsubj(show-13, it-7)
+cop(show-13, 's-8)
+det(show-13, a-9)
+amod(show-13, low-rent-10) s1
+amod(show-13, British-11)
+compound(show-13, TV-12)
+root(ROOT-0, show-13) t1
+acl:relcl(show-13, screened-14)
+case(Foxtel.Photo-16, on-15)
+nmod:on(screened-14, Foxtel.Photo-16)
+nsubj(participant-26, Getty-18)
+advmod(participant-26, Then-19)
+advmod(participant-26, there-20)
+cop(participant-26, 's-21)
+det(participant-26, the-22)
+amod(participant-26, new-23)
+compound(participant-26, default-24)
+compound(participant-26, reality-25)
+parataxis(show-13, participant-26)
+nsubj(guarantees-36, participant-26)
+nsubj:xsubj(offend-38, participant-26)
+amod(Oldfield-33, former-28)
+compound(Oldfield-33, One-29)
+compound(Oldfield-33, Nation-30)
+compound(Oldfield-33, politician-31)
+compound(Oldfield-33, David-32)
+appos(participant-26, Oldfield-33)
+ref(participant-26, who-35)
+acl:relcl(participant-26, guarantees-36)
+mark(offend-38, to-37)
+xcomp(guarantees-36, offend-38)
+
+19) Some of his show mates looked disgusted to see him arrive on set - but at least they knew who he was. 
+
+nsubj(looked-6, Some-1)
+case(mates-5, of-2)
+nmod:poss(mates-5, his-3)
+compound(mates-5, show-4) t1
+nmod:of(Some-1, mates-5) t1
+root(ROOT-0, looked-6)
+dep(looked-6, disgusted-7) s1
+mark(see-9, to-8)
+xcomp(disgusted-7, see-9)
+nsubj(arrive-11, him-10)
+ccomp(see-9, arrive-11)
+case(set-13, on-12)
+nmod:on(arrive-11, set-13)
+cc(knew-19, but-15)
+advmod(knew-19, at-16)
+mwe(at-16, least-17)
+nsubj(knew-19, they-18)
+parataxis(looked-6, knew-19)
+dobj(was-22, who-20)
+nsubj(was-22, he-21)
+ccomp(knew-19, was-22)
+
+20) During the excruciatingly long ``celebrity'' introduction, it was clear, more than once, that nobody really knew who they were meeting. 
+
+case(introduction-8, During-1)
+det(introduction-8, the-2)
+amod(introduction-8, excruciatingly-3)
+amod(introduction-8, long-4)
+compound(introduction-8, celebrity-6)
+nmod:during(clear-12, introduction-8)
+nsubj(clear-12, it-10)
+cop(clear-12, was-11)
+root(ROOT-0, clear-12)
+dep(clear-12, more-14)
+case(once-16, than-15)
+advmod(clear-12, once-16)
+mark(knew-21, that-18)
+nsubj(knew-21, nobody-19)
+advmod(knew-21, really-20)
+ccomp(clear-12, knew-21)
+dobj(meeting-25, who-22)
+nsubj(meeting-25, they-23)
+aux(meeting-25, were-24)
+ccomp(knew-21, meeting-25)
+
+21) Frost - about to appear on Seven's Home and Away - and NRL ``bad boy'' Willie Mason were probably the best known. 
+
+root(ROOT-0, Frost-1)
+dep(Frost-1, about-3)
+mark(appear-5, to-4)
+xcomp(about-3, appear-5)
+case(Home-9, on-6)
+nmod:poss(Home-9, Seven-7)
+case(Seven-7, 's-8)
+dep(appear-5, Home-9)
+cc(Home-9, and-10)
+dep(appear-5, Away-11)
+conj:and(Home-9, Away-11)
+cc(appear-5, and-13)
+xcomp(about-3, NRL-14)
+conj:and(appear-5, NRL-14)
+amod(boy-17, bad-16)
+dobj(NRL-14, boy-17)
+compound(Mason-20, Willie-19) t1
+nsubj(best-24, Mason-20) t1
+cop(best-24, were-21)
+advmod(best-24, probably-22)
+det(best-24, the-23)
+acl:relcl(boy-17, best-24) s1-1/2
+acl(best-24, known-25) s1-2/2
+
+22) But there were also some sporting champions, a Real Housewife `star' and actors Debra Lawrance and Lincoln Lewis. 
+
+cc(were-3, But-1)
+expl(were-3, there-2)
+root(ROOT-0, were-3)
+advmod(were-3, also-4)
+det(champions-7, some-5)
+compound(champions-7, sporting-6)
+nsubj(were-3, champions-7) s1
+det(star-13, a-9)
+amod(star-13, Real-10)
+amod(star-13, Housewife-11)
+nsubj(were-3, star-13)
+conj:and(champions-7, star-13) s2
+cc(champions-7, and-15)
+compound(Lawrance-18, actors-16) t1 t2
+compound(Lawrance-18, Debra-17) t1 t2
+nsubj(were-3, Lawrance-18) t1 t2
+conj:and(champions-7, Lawrance-18)
+cc(Lawrance-18, and-19)
+compound(Lewis-21, Lincoln-20) t1 t2
+conj:and(champions-7, Lewis-21) t1 t2
+conj:and(Lawrance-18, Lewis-21)
+
+23) With the exception of Lawrance none of them did any better than Frost in that first challenge. 
+
+case(exception-3, With-1)
+det(exception-3, the-2)
+nmod:with(did-9, exception-3)
+case(Lawrance-5, of-4)
+nmod:of(exception-3, Lawrance-5)
+nsubj(did-9, none-6)
+case(them-8, of-7)
+nmod:of(none-6, them-8)
+root(ROOT-0, did-9)
+det(better-11, any-10)
+dobj(did-9, better-11)
+case(Frost-13, than-12)
+nmod:than(did-9, Frost-13)
+case(challenge-17, in-14)
+det(challenge-17, that-15)
+amod(challenge-17, first-16)
+nmod:in(did-9, challenge-17)
+
+24) White -LRB- who does a great impression of Hannibal Lecter in this show -RRB- asked them to cook anything with eggs in 15 minutes. 
+
+nsubj(asked-15, White-1)
+nsubj(does-4, who-3)
+dep(White-1, does-4)
+det(impression-7, a-5)
+amod(impression-7, great-6)
+dobj(does-4, impression-7)
+case(Lecter-10, of-8)
+compound(Lecter-10, Hannibal-9)
+nmod:of(impression-7, Lecter-10)
+case(show-13, in-11)
+det(show-13, this-12)
+nmod:in(Lecter-10, show-13)
+root(ROOT-0, asked-15)
+dobj(asked-15, them-16)
+nsubj:xsubj(cook-18, them-16)
+mark(cook-18, to-17)
+xcomp(asked-15, cook-18)
+dobj(cook-18, anything-19)
+case(eggs-21, with-20)
+nmod:with(cook-18, eggs-21)
+case(minutes-24, in-22)
+nummod(minutes-24, 15-23)
+nmod:in(eggs-21, minutes-24)
+
+25) Most of them ran around like headless chooks. 
+
+nsubj(ran-4, Most-1) t1
+case(them-3, of-2) t1
+nmod:of(Most-1, them-3) t1
+root(ROOT-0, ran-4)
+compound:prt(ran-4, around-5)
+case(chooks-8, like-6)
+amod(chooks-8, headless-7) s1
+nmod:like(ran-4, chooks-8) t1
+
+26) Many of the results were so bad that White wouldn't even taste them. 
+
+nsubj(bad-7, Many-1) t1 
+case(results-4, of-2) t1
+det(results-4, the-3) t1 
+nmod:of(Many-1, results-4) t1
+cop(bad-7, were-5)
+advmod(bad-7, so-6) s2
+root(ROOT-0, bad-7) s1 t2
+mark(taste-13, that-8)
+nsubj(taste-13, White-9) t3
+aux(taste-13, would-10)
+neg(taste-13, n't-11) s3-1/2
+advmod(taste-13, even-12)
+ccomp(bad-7, taste-13) s3-2/2
+dobj(taste-13, them-14)
+
+27) And as for ``cooking'' for ``restaurant patrons'' the most they did was shove a few things in the oven or assemble pre-prepared ingredients, admittedly under the pressure of White shouting at them but with the help of two of his best assistants. 
+
+cc(did-15, And-1)
+advmod(cooking-5, as-2)
+mark(cooking-5, for-3)
+advcl(did-15, cooking-5)
+case(patrons-10, for-7)
+compound(patrons-10, restaurant-9)
+nmod:for(cooking-5, patrons-10)
+det(most-13, the-12)
+dep(patrons-10, most-13)
+nsubj(did-15, they-14)
+root(ROOT-0, did-15)
+ccomp(did-15, was-16)
+ccomp(was-16, shove-17)
+det(things-20, a-18)
+amod(things-20, few-19)
+dobj(shove-17, things-20)
+case(oven-23, in-21)
+det(oven-23, the-22)
+nmod:in(things-20, oven-23)
+cc(shove-17, or-24)
+ccomp(was-16, assemble-25)
+conj:or(shove-17, assemble-25)
+amod(ingredients-27, pre-prepared-26)
+dobj(assemble-25, ingredients-27)
+advmod(shouting-35, admittedly-29)
+mark(shouting-35, under-30)
+det(pressure-32, the-31)
+nsubj(shouting-35, pressure-32) s1
+nsubj(shouting-35', pressure-32)
+case(White-34, of-33)
+nmod:of(pressure-32, White-34)
+advcl(assemble-25, shouting-35)
+advcl(assemble-25, shouting-35')
+conj:but(shouting-35, shouting-35')
+case(them-37, at-36)
+nmod:at(shouting-35, them-37) t1
+cc(shouting-35, but-38)
+case(help-41, with-39)
+det(help-41, the-40)
+nmod:with(shouting-35', help-41) s2
+case(two-43, of-42)
+nmod:of(help-41, two-43)
+case(assistants-47, of-44)
+nmod:poss(assistants-47, his-45)
+amod(assistants-47, best-46) s3
+nmod:of(two-43, assistants-47) t2 t3
+
+28) At least Frost didn't take it all very seriously. 
+
+advmod(take-6, At-1)
+mwe(At-1, least-2)
+nsubj(take-6, Frost-3) t1
+aux(take-6, did-4)
+neg(take-6, n't-5) s1-1/4
+root(ROOT-0, take-6) s1-2/4
+dobj(take-6, it-7) s1-3/4
+advmod(seriously-10, all-8)
+advmod(seriously-10, very-9) s2
+advmod(take-6, seriously-10) s1-4/4 t2
+
+29) When the desserts were frozen by mistake and White went feral, she had the perfect solution. 
+
+advmod(frozen-5, When-1)
+det(desserts-3, the-2)
+nsubjpass(frozen-5, desserts-3) t1
+auxpass(frozen-5, were-4) s1-1/2 t2
+advcl(had-14, frozen-5) s1-2/2 t2
+case(mistake-7, by-6) s2-1/2
+nmod:by(frozen-5, mistake-7) s2-2/2
+cc(frozen-5, and-8)
+nsubj(went-10, White-9)
+conj:and(frozen-5, went-10)
+advcl(had-14, went-10)
+xcomp(went-10, feral-11)
+nsubj(had-14, she-13) t3
+root(ROOT-0, had-14)
+det(solution-17, the-15)
+amod(solution-17, perfect-16) s3
+dobj(had-14, solution-17) t3
+
+30) ``I think all the boys need to do is a quick 30 in the microwave. 
+
+nsubj(think-3, I-2)
+root(ROOT-0, think-3)
+det:predet(boys-6, all-4)
+det(boys-6, the-5)
+nsubj(need-7, boys-6)
+nsubj:xsubj(do-9, boys-6)
+ccomp(think-3, need-7)
+mark(do-9, to-8)
+xcomp(need-7, do-9)
+cop(30-13, is-10)
+det(30-13, a-11)
+amod(30-13, quick-12)
+ccomp(do-9, 30-13)
+case(microwave-16, in-14)
+det(microwave-16, the-15)
+nmod:in(30-13, microwave-16)
+
+31) Problem solved. 
+
+nsubj(solved-2, Problem-1) t1
+root(ROOT-0, solved-2) s1
+
+32) Easy peasey.'' 
+
+nsubj(peasey-2, Easy-1) s1
+root(ROOT-0, peasey-2) t1
+
+33) When White asked why they were all there, several replied to learn how to cook. 
+
+advmod(asked-3, When-1)
+nsubj(asked-3, White-2)
+advcl(replied-11, asked-3)
+advmod(were-6, why-4)
+nsubj(were-6, they-5)
+ccomp(asked-3, were-6)
+dep(there-8, all-7)
+advmod(were-6, there-8)
+nsubj(replied-11, several-10)
+nsubj:xsubj(learn-13, several-10)
+root(ROOT-0, replied-11)
+mark(learn-13, to-12)
+xcomp(replied-11, learn-13)
+advmod(cook-16, how-14)
+mark(cook-16, to-15)
+ccomp(learn-13, cook-16)
+
+34) ``No you're not,'' he told them, ``You're here to win $50k for your chosen charity.'' 
+
+discourse('re-4, No-2)
+nsubj('re-4, you-3)
+ccomp('re-14, 're-4)
+neg('re-4, not-5)
+nsubj(told-9, he-8)
+parataxis('re-14, told-9)
+dobj(told-9, them-10)
+nsubj('re-14, You-13)
+nsubj:xsubj(win-17, You-13)
+root(ROOT-0, 're-14)
+advmod('re-14, here-15)
+mark(win-17, to-16)
+xcomp('re-14, win-17) s1
+dep(50k-19, $-18)
+dobj(win-17, 50k-19)
+case(charity-23, for-20)
+nmod:poss(charity-23, your-21)
+amod(charity-23, chosen-22)
+nmod:for(50k-19, charity-23) t1
+
+35) No they're not, Marco, they are doing it to be on the telly! 
+
+discourse('re-3, No-1)
+nsubj('re-3, they-2)
+ccomp(doing-10, 're-3)
+neg('re-3, not-4)
+nsubj(doing-10, Marco-6)
+nsubj(doing-10, they-8)
+aux(doing-10, are-9)
+root(ROOT-0, doing-10)
+dobj(doing-10, it-11)
+nsubj:xsubj(telly-16, it-11)
+mark(telly-16, to-12)
+cop(telly-16, be-13)
+case(telly-16, on-14)
+det(telly-16, the-15)
+xcomp(doing-10, telly-16)
+
+36) Which begs two questions. 
+
+nsubj(begs-2, Which-1)
+root(ROOT-0, begs-2)
+nummod(questions-4, two-3)
+dobj(begs-2, questions-4)
+
+37) ``Marco - what are you doing there?'' 
+
+compound(--3, Marco-2)
+root(ROOT-0, --3)
+nsubj(you-6, --3)
+ref(--3, what-4)
+cop(you-6, are-5)
+acl:relcl(--3, you-6)
+acl(you-6, doing-7)
+advmod(doing-7, there-8)
+
+38) And: ``Why, Channel Seven? 
+
+dep(Seven-7, And-1)
+advmod(Seven-7, Why-4)
+nsubj(Seven-7, Channel-6)
+root(ROOT-0, Seven-7)
+
+39) Why?'' 
+
+root(ROOT-0, Why-1)

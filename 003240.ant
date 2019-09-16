@@ -1,0 +1,780 @@
+003240.psd
+
+1) Sydney Kings to play NBA stars in US THE Sydney Kings will head up an Australian triple header against NBA teams in a historic first for the NBL. 
+
+compound(Kings-2, Sydney-1)
+nsubj(head-13, Kings-2)
+mark(play-4, to-3)
+acl(Kings-2, play-4)
+compound(stars-6, NBA-5)
+dobj(play-4, stars-6)
+case(Kings-11, in-7)
+compound(Kings-11, US-8)
+compound(Kings-11, THE-9)
+compound(Kings-11, Sydney-10)
+nmod:in(play-4, Kings-11)
+aux(head-13, will-12)
+root(ROOT-0, head-13)
+compound:prt(head-13, up-14)
+det(header-18, an-15)
+amod(header-18, Australian-16) t1 t2
+amod(header-18, triple-17) s1
+dobj(head-13, header-18) t1 s2
+case(teams-21, against-19)
+compound(teams-21, NBA-20)
+nmod:against(header-18, teams-21)
+case(first-25, in-22)
+det(first-25, a-23)
+amod(first-25, historic-24)
+nmod:in(head-13, first-25)
+case(NBL-28, for-26)
+det(NBL-28, the-27)
+nmod:for(first-25, NBL-28)
+
+2) The Daily Telegraph can reveal the NBL has struck an agreement for the Sydney Kings, Melbourne United and the Brisbane Bullets to take on NBA teams in preseason clashes in the US in October. 
+Neutral.
+det(Telegraph-3, The-1)
+compound(Telegraph-3, Daily-2)
+nsubj(reveal-5, Telegraph-3)
+aux(reveal-5, can-4)
+root(ROOT-0, reveal-5)
+det(NBL-7, the-6)
+nsubj(struck-9, NBL-7)
+aux(struck-9, has-8)
+ccomp(reveal-5, struck-9)
+det(agreement-11, an-10)
+dobj(struck-9, agreement-11)
+case(Kings-15, for-12)
+det(Kings-15, the-13)
+compound(Kings-15, Sydney-14)
+nmod:for(struck-9, Kings-15)
+compound(United-18, Melbourne-17)
+nmod:for(struck-9, United-18)
+conj:and(Kings-15, United-18)
+cc(Kings-15, and-19)
+det(Bullets-22, the-20)
+compound(Bullets-22, Brisbane-21)
+nmod:for(struck-9, Bullets-22)
+conj:and(Kings-15, Bullets-22)
+mark(take-24, to-23)
+advcl(struck-9, take-24)
+case(teams-27, on-25)
+compound(teams-27, NBA-26)
+nmod:on(take-24, teams-27)
+case(clashes-30, in-28)
+compound(clashes-30, preseason-29)
+nmod:in(take-24, clashes-30)
+case(US-33, in-31)
+det(US-33, the-32)
+nmod:in(clashes-30, US-33)
+case(October-35, in-34)
+nmod:in(US-33, October-35)
+
+3) The Kings will clash with the Utah Jazz in Salt Lake City on October 3, pitting Australian internationals Kevin Lisch and Brad Newley up against fellow Boomers Joe Ingles and Dante Exum. 
+Neutral.
+det(Kings-2, The-1)
+nsubj(clash-4, Kings-2)
+aux(clash-4, will-3)
+root(ROOT-0, clash-4)
+case(Jazz-8, with-5)
+det(Jazz-8, the-6)
+compound(Jazz-8, Utah-7)
+nmod:with(clash-4, Jazz-8)
+case(City-12, in-9)
+compound(City-12, Salt-10)
+compound(City-12, Lake-11)
+nmod:in(clash-4, City-12)
+case(October-14, on-13)
+nmod:on(City-12, October-14)
+nummod(October-14, 3-15)
+xcomp(clash-4, pitting-17)
+amod(Lisch-21, Australian-18)
+amod(Lisch-21, internationals-19)
+compound(Lisch-21, Kevin-20)
+dobj(pitting-17, Lisch-21)
+cc(Lisch-21, and-22)
+compound(Newley-24, Brad-23)
+dobj(pitting-17, Newley-24)
+conj:and(Lisch-21, Newley-24)
+compound:prt(pitting-17, up-25)
+case(Ingles-30, against-26)
+amod(Ingles-30, fellow-27)
+compound(Ingles-30, Boomers-28)
+compound(Ingles-30, Joe-29)
+nmod:against(pitting-17, Ingles-30)
+cc(Ingles-30, and-31)
+compound(Exum-33, Dante-32)
+nmod:against(pitting-17, Exum-33)
+conj:and(Ingles-30, Exum-33)
+
+4) Melbourne United will play Oklahoma City Thunder, who feature reigning MVP Russell Westborok and former Indiana Pacers star Paul George, while the Brisbane Bullets will play the Phoenix Suns. 
+Neutral.
+compound(United-2, Melbourne-1)
+nsubj(play-4, United-2)
+aux(play-4, will-3)
+root(ROOT-0, play-4)
+compound(Thunder-7, Oklahoma-5)
+compound(Thunder-7, City-6)
+dobj(play-4, Thunder-7)
+nsubj(feature-10, Thunder-7)
+ref(Thunder-7, who-9)
+acl:relcl(Thunder-7, feature-10)
+amod(Westborok-14, reigning-11)
+compound(Westborok-14, MVP-12)
+compound(Westborok-14, Russell-13)
+dobj(feature-10, Westborok-14)
+cc(Westborok-14, and-15)
+amod(George-21, former-16)
+compound(George-21, Indiana-17)
+compound(George-21, Pacers-18)
+compound(George-21, star-19)
+compound(George-21, Paul-20)
+dobj(feature-10, George-21)
+conj:and(Westborok-14, George-21)
+mark(play-28, while-23)
+det(Bullets-26, the-24)
+compound(Bullets-26, Brisbane-25)
+nsubj(play-28, Bullets-26)
+aux(play-28, will-27)
+advcl(feature-10, play-28)
+det(Suns-31, the-29)
+compound(Suns-31, Phoenix-30)
+dobj(play-28, Suns-31)
+
+5) The three-game pre-season coup will be officially announced at a press conference in Sydney this morning. 
+Neutral.
+det(coup-4, The-1)
+amod(coup-4, three-game-2)
+amod(coup-4, pre-season-3)
+nsubjpass(announced-8, coup-4)
+aux(announced-8, will-5)
+auxpass(announced-8, be-6)
+advmod(announced-8, officially-7)
+root(ROOT-0, announced-8)
+case(conference-12, at-9)
+det(conference-12, a-10)
+compound(conference-12, press-11)
+nmod:at(announced-8, conference-12)
+case(Sydney-14, in-13)
+nmod:in(conference-12, Sydney-14)
+det(morning-16, this-15)
+dep(conference-12, morning-16)
+
+6) Ingles and representatives from the other two NBA franchises will be at the announcement. 
+Neutral.
+nsubj(announcement-14, Ingles-1)
+cc(Ingles-1, and-2)
+conj:and(Ingles-1, representatives-3)
+nsubj(announcement-14, representatives-3)
+case(franchises-9, from-4)
+det(franchises-9, the-5)
+amod(franchises-9, other-6)
+nummod(franchises-9, two-7)
+compound(franchises-9, NBA-8)
+nmod:from(Ingles-1, franchises-9)
+aux(announcement-14, will-10)
+cop(announcement-14, be-11)
+case(announcement-14, at-12)
+det(announcement-14, the-13)
+root(ROOT-0, announcement-14)
+
+7) The Jazz are one of the most respected franchises in the NBA, and faced the Golden State Warriors in last season's conference semi-finals. 
+
+det(Jazz-2, The-1)
+nsubj(one-4, Jazz-2) t1 t2
+nsubj(faced-15, Jazz-2) 
+cop(one-4, are-3)
+root(ROOT-0, one-4)
+case(franchises-9, of-5)
+det(franchises-9, the-6)
+advmod(respected-8, most-7) s1
+amod(franchises-9, respected-8) t1 s2
+nmod:of(one-4, franchises-9) t2
+case(NBA-12, in-10)
+det(NBA-12, the-11)
+nmod:in(franchises-9, NBA-12)
+cc(one-4, and-14)
+conj:and(one-4, faced-15)
+det(Warriors-19, the-16)
+compound(Warriors-19, Golden-17)
+compound(Warriors-19, State-18)
+dobj(faced-15, Warriors-19)
+case(semi-finals-25, in-20)
+amod(season-22, last-21)
+nmod:poss(semi-finals-25, season-22)
+case(season-22, 's-23)
+compound(semi-finals-25, conference-24)
+nmod:in(faced-15, semi-finals-25)
+
+8) John Stockton and Karl Malone helped build the Jazz into a powerhouse in the 1980s and 90s, culminating in back-to-back losses to Michael Jordan's Chicago Bulls in 1997-98. 
+
+compound(Stockton-2, John-1) t1
+nsubj(helped-6, Stockton-2) t1
+cc(Stockton-2, and-3)
+compound(Malone-5, Karl-4) t1
+conj:and(Stockton-2, Malone-5) t1
+nsubj(helped-6, Malone-5)
+root(ROOT-0, helped-6) s1
+ccomp(helped-6, build-7) t1
+det(Jazz-9, the-8)
+dobj(build-7, Jazz-9) t1 t2 t3 t4
+case(powerhouse-12, into-10)
+det(powerhouse-12, a-11)
+nmod:into(build-7, powerhouse-12) s2
+case(1980s-15, in-13)
+dep(1980s-15, the-14)
+nmod:in(powerhouse-12, 1980s-15)
+cc(1980s-15, and-16)
+nmod:in(powerhouse-12, 90s-17)
+conj:and(1980s-15, 90s-17)
+xcomp(helped-6, culminating-19)
+case(losses-22, in-20)
+amod(losses-22, back-to-back-21) s3
+nmod:in(culminating-19, losses-22) s4
+case(Bulls-28, to-23)
+compound(Jordan-25, Michael-24)
+nmod:poss(Bulls-28, Jordan-25)
+case(Jordan-25, 's-26)
+compound(Bulls-28, Chicago-27)
+nmod:to(culminating-19, Bulls-28)
+case(1997-98-30, in-29)
+nmod:in(culminating-19, 1997-98-30)
+
+9) They lost All Star forward Gordon Hayward to Boston last month, but still boast a $136 million roster packed with talent. 
+
+nsubj(lost-2, They-1) t1 t3
+nsubj(boast-15, They-1)
+root(ROOT-0, lost-2) s1
+det(Hayward-7, All-3)
+compound(Hayward-7, Star-4)
+compound(Hayward-7, forward-5)
+compound(Hayward-7, Gordon-6) t1
+dobj(lost-2, Hayward-7) t1
+case(Boston-9, to-8)
+nmod:to(lost-2, Boston-9)
+amod(month-11, last-10)
+nmod:tmod(lost-2, month-11)
+cc(lost-2, but-13)
+advmod(boast-15, still-14) s2
+conj:but(lost-2, boast-15) t2 s3
+det(roster-20, a-16)
+amod(roster-20, $-17)
+compound(million-19, 136-18)
+nummod($-17, million-19)
+dobj(boast-15, roster-20)
+acl(roster-20, packed-21)
+case(talent-23, with-22)
+nmod:with(packed-21, talent-23)
+
+10) Utah's payroll next season is headlined by centre Rudy Gobert, who will earn $26.5 million, while former Minnesota guard Ricky Rubio is on $17.6 million. 
+Neutral.
+nmod:poss(payroll-3, Utah-1)
+case(Utah-1, 's-2)
+nsubjpass(headlined-7, payroll-3)
+amod(season-5, next-4)
+nsubjpass(headlined-7, season-5)
+auxpass(headlined-7, is-6)
+root(ROOT-0, headlined-7)
+case(Gobert-11, by-8)
+compound(Gobert-11, centre-9)
+compound(Gobert-11, Rudy-10)
+nmod:by(headlined-7, Gobert-11)
+nsubj(earn-15, Gobert-11)
+ref(Gobert-11, who-13)
+aux(earn-15, will-14)
+acl:relcl(Gobert-11, earn-15)
+dobj(earn-15, $-16)
+compound(million-18, 26.5-17)
+nummod($-16, million-18)
+mark($-28, while-20)
+amod(Rubio-25, former-21)
+compound(Rubio-25, Minnesota-22)
+compound(Rubio-25, guard-23)
+compound(Rubio-25, Ricky-24)
+nsubj($-28, Rubio-25)
+cop($-28, is-26)
+case($-28, on-27)
+advcl(earn-15, $-28)
+compound(million-30, 17.6-29)
+nummod($-28, million-30)
+
+11) By comparison, the NBL has a soft salary cap of $1.1 million for each team. 
+Neutral.
+case(comparison-2, By-1)
+nmod:by(has-6, comparison-2)
+det(NBL-5, the-4)
+nsubj(has-6, NBL-5)
+root(ROOT-0, has-6)
+det(cap-10, a-7)
+amod(cap-10, soft-8)
+compound(cap-10, salary-9)
+dobj(has-6, cap-10)
+case($-12, of-11)
+nmod:of(cap-10, $-12)
+compound(million-14, 1.1-13)
+nummod($-12, million-14)
+case(team-17, for-15)
+det(team-17, each-16)
+nmod:for($-12, team-17)
+
+12) The Jazz-Kings pre-season game will be on Utah's home court at Vivint Smart Home Arena, regarded as one of the loudest in the NBA. 
+
+det(game-4, The-1)
+compound(game-4, Jazz-Kings-2) t1
+amod(game-4, pre-season-3) t1
+nsubj(court-11, game-4) t1
+aux(court-11, will-5)
+cop(court-11, be-6)
+case(court-11, on-7)
+nmod:poss(court-11, Utah-8)
+case(Utah-8, 's-9)
+compound(court-11, home-10)
+root(ROOT-0, court-11)
+case(Arena-16, at-12)
+compound(Arena-16, Vivint-13)
+compound(Arena-16, Smart-14)
+compound(Arena-16, Home-15)
+nmod:at(court-11, Arena-16)
+acl(Arena-16, regarded-18)
+case(one-20, as-19)
+nmod:as(regarded-18, one-20)
+case(loudest-23, of-21)
+det(loudest-23, the-22)
+nmod:of(one-20, loudest-23) s1
+case(NBA-26, in-24)
+det(NBA-26, the-25)
+nmod:in(loudest-23, NBA-26)
+
+13) For NBL boss Larry Kestelman, the pre-season matches are the culmination of a vision years in the making. 
+
+case(Kestelman-5, For-1)
+compound(Kestelman-5, NBL-2)
+compound(Kestelman-5, boss-3)
+compound(Kestelman-5, Larry-4)
+nmod:for(culmination-12, Kestelman-5)
+det(matches-9, the-7)
+amod(matches-9, pre-season-8) t1
+nsubj(culmination-12, matches-9) t1
+cop(culmination-12, are-10)
+det(culmination-12, the-11)
+root(ROOT-0, culmination-12) s1
+case(years-16, of-13)
+det(years-16, a-14)
+compound(years-16, vision-15)
+nmod:of(culmination-12, years-16)
+case(making-19, in-17)
+det(making-19, the-18)
+nmod:in(years-16, making-19)
+
+14) Speaking to The Daily Telegraph in January, Kestelman revealed he was in advanced talks with the NBA about NBL teams playing pre-season games in America. 
+Neutral.
+advcl(revealed-10, Speaking-1)
+case(Telegraph-5, to-2)
+det(Telegraph-5, The-3)
+compound(Telegraph-5, Daily-4)
+nmod:to(Speaking-1, Telegraph-5)
+case(January-7, in-6)
+nmod:in(Telegraph-5, January-7)
+nsubj(revealed-10, Kestelman-9)
+root(ROOT-0, revealed-10)
+nsubj(talks-15, he-11)
+cop(talks-15, was-12)
+case(talks-15, in-13)
+amod(talks-15, advanced-14)
+ccomp(revealed-10, talks-15)
+case(NBA-18, with-16)
+det(NBA-18, the-17)
+nmod:with(talks-15, NBA-18)
+mark(playing-22, about-19)
+compound(teams-21, NBL-20)
+nsubj(playing-22, teams-21)
+advcl(talks-15, playing-22)
+amod(games-24, pre-season-23)
+dobj(playing-22, games-24)
+case(America-26, in-25)
+nmod:in(playing-22, America-26)
+
+15) Now after plenty of work building relationships, Kestelman's dream has become reality. 
+
+advmod(plenty-3, Now-1)
+case(plenty-3, after-2)
+nmod:after(become-13, plenty-3)
+case(relationships-7, of-4)
+compound(relationships-7, work-5)
+compound(relationships-7, building-6)
+nmod:of(plenty-3, relationships-7)
+nmod:poss(dream-11, Kestelman-9) t1
+case(Kestelman-9, 's-10)
+nsubj(become-13, dream-11) t1
+aux(become-13, has-12)
+root(ROOT-0, become-13)
+xcomp(become-13, reality-14) s1
+
+16) ``I won't rest until we see the Sydney Kings playing the Warriors or the Chicago Bulls,'' Kestelman said in January. 
+Neutral.
+nsubj(rest-5, I-2)
+aux(rest-5, wo-3)
+neg(rest-5, n't-4)
+ccomp(said-22, rest-5)
+mark(see-8, until-6)
+nsubj(see-8, we-7)
+advcl(rest-5, see-8)
+det(Kings-11, the-9)
+compound(Kings-11, Sydney-10)
+nsubj(playing-12, Kings-11)
+dep(see-8, playing-12)
+det(Warriors-14, the-13)
+dobj(playing-12, Warriors-14)
+cc(Warriors-14, or-15)
+det(Bulls-18, the-16)
+compound(Bulls-18, Chicago-17)
+dobj(playing-12, Bulls-18)
+conj:or(Warriors-14, Bulls-18)
+nsubj(said-22, Kestelman-21)
+root(ROOT-0, said-22)
+case(January-24, in-23)
+nmod:in(said-22, January-24)
+
+17) ``It will happen, whether it's on our soil or theirs, but it will definitely happen. 
+Neutral.
+nsubj(happen-4, It-2)
+aux(happen-4, will-3)
+root(ROOT-0, happen-4)
+mark(soil-11, whether-6)
+nsubj(soil-11, it-7)
+cop(soil-11, 's-8)
+case(soil-11, on-9)
+nmod:poss(soil-11, our-10)
+ccomp(happen-4, soil-11)
+cc(soil-11, or-12)
+ccomp(happen-4, theirs-13)
+conj:or(soil-11, theirs-13)
+cc(happen-4, but-15)
+nsubj(happen-19, it-16)
+aux(happen-19, will-17)
+advmod(happen-19, definitely-18)
+conj:but(happen-4, happen-19)
+
+18) ``As soon as they know what their pre-season looks like, we are certainly having a chat to them about some of our teams travelling over there to play as part of their pre-season. 
+Neutral.
+advmod(soon-3, As-2)
+advmod(having-16, soon-3)
+mark(know-6, as-4)
+nsubj(know-6, they-5)
+ccomp(soon-3, know-6)
+dobj(like-11, what-7)
+nmod:poss(looks-10, their-8)
+amod(looks-10, pre-season-9)
+nsubj(like-11, looks-10)
+ccomp(know-6, like-11)
+nsubj(having-16, we-13)
+aux(having-16, are-14)
+advmod(having-16, certainly-15)
+root(ROOT-0, having-16)
+det(chat-18, a-17)
+dobj(having-16, chat-18)
+mark(them-20, to-19)
+advcl(having-16, them-20)
+advmod(some-22, about-21)
+dobj(them-20, some-22)
+case(teams-25, of-23)
+nmod:poss(teams-25, our-24)
+nmod:of(some-22, teams-25)
+xcomp(them-20, travelling-26)
+compound:prt(travelling-26, over-27)
+advmod(travelling-26, there-28)
+mark(play-30, to-29)
+xcomp(travelling-26, play-30)
+case(part-32, as-31)
+nmod:as(play-30, part-32)
+case(pre-season-35, of-33)
+nmod:poss(pre-season-35, their-34)
+nmod:of(part-32, pre-season-35)
+
+19) ``We are one of the few leagues in the world that can actually challenge their teams and put up a good fight. 
+
+nsubj(one-4, We-2) t1
+cop(one-4, are-3)
+root(ROOT-0, one-4)
+case(leagues-8, of-5)
+det(leagues-8, the-6)
+amod(leagues-8, few-7)
+nmod:of(one-4, leagues-8) t1
+case(world-11, in-9)
+det(world-11, the-10)
+nmod:in(leagues-8, world-11)
+nsubj(challenge-15, world-11)
+nsubj(put-19, world-11)
+ref(world-11, that-12)
+aux(challenge-15, can-13)
+advmod(challenge-15, actually-14)
+acl:relcl(world-11, challenge-15)
+nmod:poss(teams-17, their-16)
+dobj(challenge-15, teams-17)
+cc(challenge-15, and-18)
+acl:relcl(world-11, put-19)
+conj:and(challenge-15, put-19)
+compound:prt(put-19, up-20)
+det(fight-23, a-21)
+amod(fight-23, good-22) s1
+dobj(put-19, fight-23) t1
+
+20) ``It's either us or a few of the Euro League teams and that's about it. 
+Neutral.
+nsubj(us-5, It-2)
+nsubj(few-8, It-2)
+cop(us-5, 's-3)
+advmod(us-5, either-4)
+root(ROOT-0, us-5)
+cc(us-5, or-6)
+det(few-8, a-7)
+conj:or(us-5, few-8)
+case(teams-13, of-9)
+det(teams-13, the-10)
+compound(teams-13, Euro-11)
+compound(teams-13, League-12)
+nmod:of(few-8, teams-13)
+cc(us-5, and-14)
+nsubj(it-18, that-15)
+cop(it-18, 's-16)
+case(it-18, about-17)
+conj:and(us-5, it-18)
+
+21) ``There is no other competition in the world that would have the standard of play that would be any serious challenge to an NBA club.'' 
+
+expl(is-3, There-2)
+root(ROOT-0, is-3)
+neg(competition-6, no-4)
+amod(competition-6, other-5)
+nsubj(is-3, competition-6)
+case(world-9, in-7)
+det(world-9, the-8)
+nmod:in(competition-6, world-9)
+nsubj(have-12, world-9)
+ref(world-9, that-10)
+aux(have-12, would-11)
+acl:relcl(world-9, have-12)
+det(standard-14, the-13)
+dobj(have-12, standard-14)
+nsubj(challenge-22, standard-14)
+case(play-16, of-15)
+nmod:of(standard-14, play-16)
+ref(standard-14, that-17)
+aux(challenge-22, would-18)
+cop(challenge-22, be-19)
+det(challenge-22, any-20)
+amod(challenge-22, serious-21)
+acl:relcl(standard-14, challenge-22)
+case(club-26, to-23)
+det(club-26, an-24)
+compound(club-26, NBA-25)
+nmod:to(challenge-22, club-26)
+
+22) Since taking ownership of the NBL in 2015, Kestelman has worked tirelessly to build a strong and respected relationship with the NBA. 
+
+mark(taking-2, Since-1)
+advcl(worked-12, taking-2)
+dobj(taking-2, ownership-3)
+case(NBL-6, of-4)
+det(NBL-6, the-5)
+nmod:of(ownership-3, NBL-6)
+case(2015-8, in-7)
+nmod:in(taking-2, 2015-8)
+nsubj(worked-12, Kestelman-10)
+nsubj:xsubj(build-15, Kestelman-10) t1 t2 t3
+aux(worked-12, has-11)
+root(ROOT-0, worked-12) t1
+advmod(worked-12, tirelessly-13) s1
+mark(build-15, to-14)
+xcomp(worked-12, build-15) 
+det(relationship-20, a-16)
+amod(relationship-20, strong-17) s2
+cc(strong-17, and-18)
+conj:and(strong-17, respected-19) s3
+amod(relationship-20, respected-19)
+dobj(build-15, relationship-20) t2 t3
+case(NBA-23, with-21)
+det(NBA-23, the-22)
+nmod:with(relationship-20, NBA-23)
+
+23) The effort is paying off, with the NBL competition and Australian basketball now well and truly on the NBA's radar. 
+
+det(effort-2, The-1)
+nsubj(paying-4, effort-2) t1 t2
+aux(paying-4, is-3)
+root(ROOT-0, paying-4) s1
+compound:prt(paying-4, off-5) s2
+case(competition-10, with-7)
+det(competition-10, the-8)
+compound(competition-10, NBL-9) t3 t4
+nmod:with(paying-4, competition-10) t3 t4
+cc(competition-10, and-11)
+amod(basketball-13, Australian-12) t3 t4
+nmod:with(paying-4, basketball-13) t3 t4
+conj:and(competition-10, basketball-13)
+advmod(well-15, now-14)
+advmod(and-16, well-15) s3
+advmod(competition-10, and-16)
+advmod(and-16, truly-17) s4
+case(radar-22, on-18)
+det(NBA-20, the-19)
+nmod:poss(radar-22, NBA-20)
+case(NBA-20, 's-21)
+nmod:on(competition-10, radar-22)
+
+24) This has been seen through the set-up of a Global NBA Academy at the AIS in Canberra this year. 
+
+nsubjpass(seen-4, This-1)
+aux(seen-4, has-2)
+auxpass(seen-4, been-3)
+root(ROOT-0, seen-4)
+case(set-up-7, through-5)
+det(set-up-7, the-6)
+nmod:through(seen-4, set-up-7)
+case(Academy-12, of-8)
+det(Academy-12, a-9)
+compound(Academy-12, Global-10)
+compound(Academy-12, NBA-11)
+nmod:of(set-up-7, Academy-12)
+case(AIS-15, at-13)
+det(AIS-15, the-14)
+nmod:at(seen-4, AIS-15)
+case(Canberra-17, in-16)
+nmod:in(AIS-15, Canberra-17)
+det(year-19, this-18)
+nmod:tmod(seen-4, year-19)
+
+25) NBL coaches have also picked up assistant gigs with NBA clubs during this year's pre-season Summer League, including Sydney's Andrew Gaze with Indiana and Adelaide's Joey Wright at Utah.
+
+compound(coaches-2, NBL-1)
+nsubj(picked-5, coaches-2)
+aux(picked-5, have-3)
+advmod(picked-5, also-4)
+root(ROOT-0, picked-5) s1
+compound:prt(picked-5, up-6) s2
+amod(gigs-8, assistant-7) t1 t2
+dobj(picked-5, gigs-8) t1 t2
+case(clubs-11, with-9)
+compound(clubs-11, NBA-10)
+nmod:with(gigs-8, clubs-11)
+case(League-18, during-12)
+det(year-14, this-13)
+nmod:poss(League-18, year-14)
+case(year-14, 's-15)
+amod(League-18, pre-season-16)
+compound(League-18, Summer-17)
+nmod:during(picked-5, League-18)
+case(Gaze-24, including-20)
+nmod:poss(Gaze-24, Sydney-21) 
+case(Sydney-21, 's-22)
+compound(Gaze-24, Andrew-23) t1 t2
+nmod:including(picked-5, Gaze-24) t1 t2
+case(Indiana-26, with-25)
+nmod:with(Gaze-24, Indiana-26)
+cc(Gaze-24, and-27)
+nmod:poss(Wright-31, Adelaide-28)
+case(Adelaide-28, 's-29)
+compound(Wright-31, Joey-30) t1 t2
+nmod:including(picked-5, Wright-31) t1 t2
+conj:and(Gaze-24, Wright-31)
+case(Utah-33, at-32)
+nmod:at(Wright-31, Utah-33)
+
+26) NBA officials also have respect for Australia's junior programs with eight Australians set to play in the upcoming 2017-2018 NBA season. 
+
+compound(officials-2, NBA-1)
+nsubj(have-4, officials-2)
+advmod(have-4, also-3)
+root(ROOT-0, have-4)
+dobj(have-4, respect-5) s1
+case(programs-10, for-6)
+nmod:poss(programs-10, Australia-7) t1
+case(Australia-7, 's-8) t1
+amod(programs-10, junior-9) t1
+nmod:for(respect-5, programs-10) t1
+case(Australians-13, with-11)
+nummod(Australians-13, eight-12)
+nmod:with(have-4, Australians-13)
+acl(Australians-13, set-14)
+mark(play-16, to-15)
+xcomp(set-14, play-16)
+case(season-22, in-17)
+det(season-22, the-18)
+amod(season-22, upcoming-19)
+nummod(season-22, 2017-2018-20)
+compound(season-22, NBA-21)
+nmod:in(play-16, season-22)
+
+27) It's why Kestelman has fought hard for a strong relationship with the NBA. 
+
+nsubj('s-2, It-1)
+root(ROOT-0, 's-2)
+advmod(fought-6, why-3)
+nsubj(fought-6, Kestelman-4)
+aux(fought-6, has-5)
+advcl('s-2, fought-6)
+advmod(fought-6, hard-7)
+case(relationship-11, for-8)
+det(relationship-11, a-9)
+amod(relationship-11, strong-10)
+nmod:for(fought-6, relationship-11)
+case(NBA-14, with-12)
+det(NBA-14, the-13)
+nmod:with(relationship-11, NBA-14)
+
+28) ``They no longer talk about if we'll get games; it's just a question of when,'' he said earlier this year. 
+Neutral.
+nsubj(talk-5, They-2)
+neg(longer-4, no-3)
+advmod(talk-5, longer-4)
+ccomp(said-23, talk-5)
+compound:prt(talk-5, about-6)
+mark(get-10, if-7)
+nsubj(get-10, we-8)
+aux(get-10, 'll-9)
+advcl(talk-5, get-10)
+dobj(get-10, games-11)
+nsubj('s-14, it-13)
+parataxis(talk-5, 's-14)
+advmod('s-14, just-15)
+det(question-17, a-16)
+nmod:npmod(just-15, question-17)
+case(when-19, of-18)
+advcl(just-15, when-19)
+nsubj(said-23, he-22)
+root(ROOT-0, said-23)
+advmod(year-26, earlier-24)
+det(year-26, this-25)
+nmod:tmod(said-23, year-26)
+
+29) ``They now respect what we do here; they know they have a true partner in the NBL who they can work with.'' 
+
+nsubj(respect-4, They-2)
+advmod(respect-4, now-3)
+root(ROOT-0, respect-4) s1
+dobj(do-7, what-5) t1
+nsubj(do-7, we-6) t1 t2 t3
+ccomp(respect-4, do-7) t1
+advmod(do-7, here-8)
+nsubj(know-11, they-10)
+parataxis(respect-4, know-11)
+nsubj(have-13, they-12)
+ccomp(know-11, have-13)
+det(partner-16, a-14)
+amod(partner-16, true-15) s2
+dobj(have-13, partner-16) s3
+nmod:with(work-23, partner-16)
+case(NBL-19, in-17)
+det(NBL-19, the-18)
+nmod:in(partner-16, NBL-19)
+ref(partner-16, who-20)
+nsubj(work-23, they-21)
+aux(work-23, can-22)
+acl:relcl(partner-16, work-23)
+case(who-20, with-24)
+
+30) Originally published as 
+Neutral.
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

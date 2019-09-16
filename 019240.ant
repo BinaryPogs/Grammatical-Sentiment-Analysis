@@ -1,0 +1,144 @@
+019240.psd
+
+1) Cycle Challenge rolls into another successful year THE cycling gods were happy this morning as they provided the perfect conditions for 560 cyclists to ride in the C.ex McDonalds Cycle Challenge. 
+
+compound(Challenge-2, Cycle-1) t1
+nsubj(rolls-3, Challenge-2) t1
+root(ROOT-0, rolls-3)
+case(year-7, into-4)
+det(year-7, another-5)
+amod(year-7, successful-6) s1 s2
+nmod:into(rolls-3, year-7) t2
+det(gods-10, THE-8)
+compound(gods-10, cycling-9) t3
+nsubj(happy-12, gods-10) t3
+cop(happy-12, were-11)
+acl:relcl(year-7, happy-12) s3
+det(morning-14, this-13)
+nmod:tmod(happy-12, morning-14)
+mark(provided-17, as-15)
+nsubj(provided-17, they-16) t4
+advcl(happy-12, provided-17) s4 t5
+det(conditions-20, the-18)
+amod(conditions-20, perfect-19) s5
+dobj(provided-17, conditions-20) t5
+case(cyclists-23, for-21)
+nummod(cyclists-23, 560-22)
+nmod:for(provided-17, cyclists-23) t5
+mark(ride-25, to-24)
+advcl(provided-17, ride-25)
+case(Challenge-31, in-26)
+det(Challenge-31, the-27)
+compound(Challenge-31, C.ex-28)
+compound(Challenge-31, McDonalds-29)
+compound(Challenge-31, Cycle-30)
+nmod:in(ride-25, Challenge-31)
+
+2) This morning marked the eighth year that the Rotary Club of Coffs Harbour City event had the roads south of Coffs Harbour dominated by bicycles. 
+Neutral.
+det(morning-2, This-1)
+nsubj(marked-3, morning-2)
+root(ROOT-0, marked-3)
+det(year-6, the-4)
+amod(year-6, eighth-5)
+nmod:tmod(marked-3, year-6)
+mark(had-16, that-7)
+det(Club-10, the-8)
+amod(Club-10, Rotary-9)
+nsubj(had-16, Club-10)
+case(event-15, of-11)
+compound(event-15, Coffs-12)
+compound(event-15, Harbour-13)
+compound(event-15, City-14)
+nmod:of(Club-10, event-15)
+ccomp(marked-3, had-16)
+det(south-19, the-17)
+compound(south-19, roads-18)
+dobj(had-16, south-19)
+case(Harbour-22, of-20)
+compound(Harbour-22, Coffs-21)
+nmod:of(south-19, Harbour-22)
+acl(Harbour-22, dominated-23)
+case(bicycles-25, by-24)
+nmod:by(dominated-23, bicycles-25)
+
+3) While the speed was on in the 100 km event that took cyclist south down Pine Creek way and Giinagay Way to Nambucca Heads and back to Geoff King Motors Park, there was plenty of fun to be had riding in the lesser distance events. 
+
+mark(event-10, While-1)
+det(speed-3, the-2)
+nsubj(event-10, speed-3)
+cop(event-10, was-4)
+case(event-10, on-5)
+case(event-10, in-6)
+det(event-10, the-7)
+nummod(event-10, 100-8)
+compound(event-10, km-9)
+nsubj(took-12, event-10)
+advcl(was-34, event-10)
+ref(event-10, that-11)
+acl:relcl(event-10, took-12)
+dobj(took-12, cyclist-13)
+advmod(down-15, south-14)
+advmod(took-12, down-15)
+compound(way-18, Pine-16)
+compound(way-18, Creek-17)
+nmod:npmod(down-15, way-18)
+cc(way-18, and-19)
+compound(Way-21, Giinagay-20)
+nmod:npmod(down-15, Way-21)
+conj:and(way-18, Way-21)
+conj:and(way-18, Way-21')
+conj:and(Way-21, Way-21')
+case(Heads-24, to-22)
+compound(Heads-24, Nambucca-23)
+nmod:to(Way-21, Heads-24)
+cc(Way-21, and-25)
+advmod(Park-31, back-26)
+case(Park-31, to-27)
+compound(Park-31, Geoff-28)
+compound(Park-31, King-29)
+compound(Park-31, Motors-30)
+nmod:to(Way-21', Park-31)
+expl(was-34, there-33)
+root(ROOT-0, was-34)
+nsubj(was-34, plenty-35) s1-1/3
+case(fun-37, of-36) s1-2/3
+nmod:of(plenty-35, fun-37) s1-3/3
+mark(had-40, to-38)
+auxpass(had-40, be-39)
+acl(plenty-35, had-40)
+xcomp(had-40, riding-41) t1
+case(events-46, in-42)
+det(events-46, the-43)
+amod(events-46, lesser-44)
+compound(events-46, distance-45)
+nmod:in(riding-41, events-46)
+
+4) More than 60 families registered for the 10 km family ride with kids happily riding alongside their parents and grandparents on a beautiful winetr morning. 
+
+advmod(60-3, More-1)
+mwe(More-1, than-2)
+nummod(families-4, 60-3)
+nsubj(registered-5, families-4)
+root(ROOT-0, registered-5)
+case(ride-11, for-6)
+det(ride-11, the-7)
+nummod(ride-11, 10-8)
+compound(ride-11, km-9)
+compound(ride-11, family-10)
+nmod:for(registered-5, ride-11)
+case(kids-13, with-12)
+nmod:with(registered-5, kids-13) t1
+advmod(riding-15, happily-14) s1
+acl(kids-13, riding-15)
+case(parents-18, alongside-16)
+nmod:poss(parents-18, their-17)
+nmod:alongside(riding-15, parents-18)
+cc(parents-18, and-19)
+nmod:alongside(riding-15, grandparents-20)
+conj:and(parents-18, grandparents-20)
+case(winetr-24, on-21)
+det(winetr-24, a-22)
+amod(winetr-24, beautiful-23) s2
+nmod:on(parents-18, winetr-24) t2
+nmod:tmod(riding-15, morning-25) t2

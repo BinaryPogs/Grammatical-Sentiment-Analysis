@@ -1,0 +1,50 @@
+023240.psd
+
+1) `Direct challenge': North Korea hits back at $1 billion UN sanctions Beijing: North Korea has reacted angrily to international sanctions that will cut $1 billion from its exports, describing the new United Nations Security Council bans as ``a rampant violation of our sovereignty''. 
+
+amod(challenge-3, Direct-2)
+root(ROOT-0, challenge-3)
+compound(Korea-7, North-6) t1 t2
+nsubj(hits-8, Korea-7) t1 t2
+dep(challenge-3, hits-8) s1
+advmod(hits-8, back-9) s2
+case(sanctions-15, at-10)
+nummod(sanctions-15, $-11)
+compound(billion-13, 1-12)
+nummod($-11, billion-13)
+compound(sanctions-15, UN-14)
+nmod:at(back-9, sanctions-15) t1 t2
+dobj(hits-8, Beijing-16)
+compound(Korea-19, North-18) t2 t3
+nsubj(reacted-21, Korea-19) t2 t3
+aux(reacted-21, has-20)
+parataxis(hits-8, reacted-21) s2 t3
+advmod(reacted-21, angrily-22) s3
+case(sanctions-25, to-23)
+amod(sanctions-25, international-24) t2 t3
+nmod:to(reacted-21, sanctions-25) t2 t3
+nsubj(cut-28, sanctions-25)
+ref(sanctions-25, that-26)
+aux(cut-28, will-27)
+acl:relcl(sanctions-25, cut-28)
+dobj(cut-28, $-29)
+compound(billion-31, 1-30)
+nummod($-29, billion-31)
+case(exports-34, from-32)
+nmod:poss(exports-34, its-33)
+nmod:from(cut-28, exports-34)
+advcl(cut-28, describing-36)
+det(bans-43, the-37)
+amod(bans-43, new-38) t4 t5
+compound(bans-43, United-39) t4 t5
+compound(bans-43, Nations-40) t4 t5
+compound(bans-43, Security-41) t4 t5
+compound(bans-43, Council-42) t4 t5
+dobj(describing-36, bans-43) t4 t5
+case(violation-48, as-44)
+det(violation-48, a-46)
+amod(violation-48, rampant-47) s4
+nmod:as(bans-43, violation-48) s5
+case(sovereignty-51, of-49)
+nmod:poss(sovereignty-51, our-50) t4 t5
+nmod:of(violation-48, sovereignty-51) t4 t5

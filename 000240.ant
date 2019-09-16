@@ -1,0 +1,132 @@
+000240.psd
+
+1) PNG Election: Final day for counting as rival parties look to form new government The national election in Papua New Guinea is mired in more controversy, after the Electoral Commissioner, Patilias Gamato, went to Government House to return just 80 of the 111 election writs. 
+
+compound(Election-2, PNG-1)
+root(ROOT-0, Election-2)
+amod(day-5, Final-4)
+dep(Election-2, day-5)
+mark(counting-7, for-6)
+acl(day-5, counting-7)
+mark(look-11, as-8)
+amod(parties-10, rival-9)
+nsubj(look-11, parties-10)
+nsubj:xsubj(form-13, parties-10)
+advcl(counting-7, look-11)
+mark(form-13, to-12)
+xcomp(look-11, form-13)
+amod(government-15, new-14)
+dobj(form-13, government-15)
+det(election-18, The-16)
+amod(election-18, national-17) t1 t2
+nsubjpass(mired-24, election-18) t1 t2
+case(Guinea-22, in-19)
+compound(Guinea-22, Papua-20)
+compound(Guinea-22, New-21)
+nmod:in(election-18, Guinea-22)
+auxpass(mired-24, is-23)
+acl:relcl(government-15, mired-24) s1
+case(controversy-27, in-25)
+amod(controversy-27, more-26) s3
+nmod:in(mired-24, controversy-27) s2 t3
+mark(went-37, after-29)
+det(Commissioner-32, the-30)
+compound(Commissioner-32, Electoral-31)
+nsubj(went-37, Commissioner-32)
+nsubj:xsubj(return-42, Commissioner-32)
+compound(Gamato-35, Patilias-34)
+appos(Commissioner-32, Gamato-35)
+acl(controversy-27, went-37)
+case(House-40, to-38)
+compound(House-40, Government-39)
+nmod:to(went-37, House-40)
+mark(return-42, to-41)
+xcomp(went-37, return-42)
+advmod(80-44, just-43)
+dobj(return-42, 80-44)
+case(writs-49, of-45)
+det(writs-49, the-46)
+nummod(writs-49, 111-47)
+compound(writs-49, election-48)
+nmod:of(80-44, writs-49)
+
+2) With the count in the remaining 31 seats still to be completed, the country's corruption watchdog went to court and succeeded in obtaining an order to extend the deadline which is now 2 pm this afternoon. 
+
+mark(still-9, With-1)
+det(count-3, the-2)
+nsubj(still-9, count-3)
+nsubjpass:xsubj(completed-12, count-3)
+case(seats-8, in-4)
+det(seats-8, the-5)
+amod(seats-8, remaining-6)
+nummod(seats-8, 31-7)
+nmod:in(count-3, seats-8)
+advcl(went-19, still-9)
+mark(completed-12, to-10)
+auxpass(completed-12, be-11)
+xcomp(still-9, completed-12)
+det(country-15, the-14)
+nmod:poss(watchdog-18, country-15) t1
+case(country-15, 's-16)
+compound(watchdog-18, corruption-17) t1
+nsubj(went-19, watchdog-18) 
+nsubj(succeeded-23, watchdog-18) t1
+root(ROOT-0, went-19)
+case(court-21, to-20)
+nmod:to(went-19, court-21)
+cc(went-19, and-22)
+conj:and(went-19, succeeded-23) s1
+mark(obtaining-25, in-24)
+advcl(succeeded-23, obtaining-25) t1 s2
+det(order-27, an-26)
+dobj(obtaining-25, order-27) t2
+mark(extend-29, to-28)
+acl(order-27, extend-29) s3
+det(deadline-31, the-30)
+dobj(extend-29, deadline-31) t3
+nsubj(afternoon-38, deadline-31)
+ref(deadline-31, which-32)
+cop(afternoon-38, is-33)
+advmod(afternoon-38, now-34)
+nummod(pm-36, 2-35)
+nmod:npmod(now-34, pm-36)
+det(afternoon-38, this-37)
+acl:relcl(deadline-31, afternoon-38)
+
+3) And as newly elected and re-elected members decide where their allegiances lie, Paul Barker, Executive Director of the Institute of National Affairs says the dramas in the national election may not be over yet. 
+
+cc(says-25, And-1)
+mark(decide-8, as-2)
+advmod(elected-4, newly-3)
+csubj(decide-8, elected-4)
+cc(elected-4, and-5)
+conj:and(elected-4, re-elected-6)
+csubj(decide-8, re-elected-6)
+dobj(re-elected-6, members-7)
+advcl(says-25, decide-8)
+advmod(lie-12, where-9)
+nmod:poss(allegiances-11, their-10)
+nsubj(lie-12, allegiances-11)
+advcl(decide-8, lie-12)
+compound(Barker-15, Paul-14)
+nsubj(says-25, Barker-15)
+compound(Director-18, Executive-17)
+appos(Barker-15, Director-18)
+case(Institute-21, of-19)
+det(Institute-21, the-20)
+nmod:of(Director-18, Institute-21)
+case(Affairs-24, of-22)
+compound(Affairs-24, National-23)
+nmod:of(Institute-21, Affairs-24)
+root(ROOT-0, says-25)
+det(dramas-27, the-26)
+nsubj(over-35, dramas-27) t1 t2
+case(election-31, in-28)
+det(election-31, the-29)
+amod(election-31, national-30)
+nmod:in(dramas-27, election-31)
+aux(over-35, may-32)
+neg(over-35, not-33) s1
+cop(over-35, be-34)
+ccomp(says-25, over-35) s2
+advmod(over-35, yet-36)

@@ -1,0 +1,522 @@
+012240.psd
+
+1) Vladimir Putin's fortune worth $252b, says former Kremlin insider The personal wealth of Russian President is a staggering $252 billion, a US Congressional committee has been told. 
+
+compound(Putin-2, Vladimir-1)
+nmod:poss(worth-5, Putin-2)
+case(Putin-2, 's-3)
+compound(worth-5, fortune-4)
+nsubj(says-9, worth-5)
+dep(252b-7, $-6)
+dep(worth-5, 252b-7)
+ccomp(told-32, says-9)
+amod(insider-12, former-10)
+compound(insider-12, Kremlin-11)
+dobj(says-9, insider-12)
+det(wealth-15, The-13)
+amod(wealth-15, personal-14)
+nsubj($-22, wealth-15)
+case(President-18, of-16)
+compound(President-18, Russian-17)
+nmod:of(wealth-15, President-18)
+cop($-22, is-19)
+det($-22, a-20)
+amod($-22, staggering-21)
+acl:relcl(insider-12, $-22)
+compound(billion-24, 252-23)
+nummod($-22, billion-24)
+det(committee-29, a-26)
+compound(committee-29, US-27)
+compound(committee-29, Congressional-28)
+nsubjpass(told-32, committee-29)
+aux(told-32, has-30)
+auxpass(told-32, been-31)
+root(ROOT-0, told-32)
+
+2) The figure - more than the of Amazon boss Jeff Bezos and Microsoft founder Bill Gates - was provided in prepared testimony to a Judiciary Committee hearing last week by Bill Browder, a financier with an intimate knowledge of the Kremlin. 
+
+det(figure-2, The-1)
+nsubjpass(provided-19, figure-2)
+advmod(the-6, more-4)
+mwe(more-4, than-5)
+dep(figure-2, the-6)
+case(Bezos-11, of-7)
+compound(Bezos-11, Amazon-8)
+compound(Bezos-11, boss-9)
+compound(Bezos-11, Jeff-10)
+nmod:of(the-6, Bezos-11)
+cc(Bezos-11, and-12)
+compound(Gates-16, Microsoft-13)
+compound(Gates-16, founder-14)
+compound(Gates-16, Bill-15)
+nmod:of(the-6, Gates-16)
+conj:and(Bezos-11, Gates-16)
+auxpass(provided-19, was-18)
+root(ROOT-0, provided-19)
+case(testimony-22, in-20)
+amod(testimony-22, prepared-21)
+nmod:in(provided-19, testimony-22)
+case(hearing-27, to-23)
+det(hearing-27, a-24)
+compound(hearing-27, Judiciary-25)
+compound(hearing-27, Committee-26)
+nmod:to(testimony-22, hearing-27)
+amod(week-29, last-28)
+nmod:tmod(provided-19, week-29)
+case(Browder-32, by-30)
+compound(Browder-32, Bill-31)
+nmod:by(provided-19, Browder-32)
+det(financier-35, a-34)
+appos(Browder-32, financier-35)
+case(knowledge-39, with-36)
+det(knowledge-39, an-37)
+amod(knowledge-39, intimate-38)
+nmod:with(financier-35, knowledge-39)
+case(Kremlin-42, of-40)
+det(Kremlin-42, the-41)
+nmod:of(knowledge-39, Kremlin-42)
+
+3) Currently, Bezos is worth almost $107b and Gates $113b, according to Forbes' ranking. 
+
+advmod(107b-8, Currently-1)
+nsubj(107b-8, Bezos-3)
+cop(107b-8, is-4)
+case(107b-8, worth-5)
+advmod(107b-8, almost-6)
+dep(107b-8, $-7)
+root(ROOT-0, 107b-8)
+cc(107b-8, and-9)
+conj:and(107b-8, Gates-10)
+dep(113b-12, $-11)
+dep(Gates-10, 113b-12)
+case(ranking-18, according-14)
+mwe(according-14, to-15)
+nmod:poss(ranking-18, Forbes-16)
+case(Forbes-16, '-17)
+nmod:according_to(107b-8, ranking-18)
+
+4) The prepared testimony of Browder, chief executive of Hermitage Capital Management, was obtained by. 
+
+det(testimony-3, The-1)
+amod(testimony-3, prepared-2)
+nsubjpass(obtained-15, testimony-3)
+case(Browder-5, of-4)
+nmod:of(testimony-3, Browder-5)
+amod(executive-8, chief-7)
+appos(testimony-3, executive-8)
+case(Management-12, of-9)
+compound(Management-12, Hermitage-10)
+compound(Management-12, Capital-11)
+nmod:of(executive-8, Management-12)
+auxpass(obtained-15, was-14)
+root(ROOT-0, obtained-15)
+nmod(obtained-15, by-16)
+
+5) ``I estimate that -LRB- Putin -RRB- has accumulated $US200 billion -LRB- AUD$252 billion -RRB- of ill-gotten gains,'' Browder told Congress, according to The Atlantic. 
+
+nsubj(estimate-3, I-2)
+ccomp(told-24, estimate-3)
+mark(accumulated-9, that-4)
+nsubj(accumulated-9, Putin-6)
+aux(accumulated-9, has-8)
+ccomp(estimate-3, accumulated-9)
+dobj(accumulated-9, $-10)
+compound(billion-12, US200-11)
+nummod($-10, billion-12)
+appos($-10, AUD$-14)
+compound(billion-16, 252-15)
+nummod(AUD$-14, billion-16)
+case(gains-20, of-18)
+amod(gains-20, ill-gotten-19) s1
+nmod:of($-10, gains-20) t1
+nsubj(told-24, Browder-23)
+root(ROOT-0, told-24)
+dobj(told-24, Congress-25)
+case(Atlantic-30, according-27)
+mwe(according-27, to-28)
+det(Atlantic-30, The-29)
+nmod:according_to(told-24, Atlantic-30)
+
+6) ``He keeps his money in the West and all of his money in the West is potentially exposed to asset freezes and confiscation.'' 
+
+nsubj(keeps-3, He-2)
+root(ROOT-0, keeps-3)
+nmod:poss(money-5, his-4)
+dobj(keeps-3, money-5)
+case(West-8, in-6)
+det(West-8, the-7)
+nmod:in(keeps-3, West-8)
+cc(keeps-3, and-9)
+nsubjpass(exposed-19, all-10)
+case(money-13, of-11)
+nmod:poss(money-13, his-12)
+nmod:of(all-10, money-13) t1
+case(West-16, in-14)
+det(West-16, the-15)
+nmod:in(money-13, West-16)
+auxpass(exposed-19, is-17)
+advmod(exposed-19, potentially-18) s2
+conj:and(keeps-3, exposed-19) s1 t2 t3 t4
+case(freezes-22, to-20)
+compound(freezes-22, asset-21) s3-1/2
+nmod:to(exposed-19, freezes-22) s3-2/2
+cc(freezes-22, and-23)
+nmod:to(exposed-19, confiscation-24) s4
+conj:and(freezes-22, confiscation-24)
+
+7) Browder says Putin's wealth is based on iniquitous practices. 
+
+nsubj(says-2, Browder-1)
+root(ROOT-0, says-2)
+nmod:poss(wealth-5, Putin-3)
+case(Putin-3, 's-4)
+nsubjpass(based-7, wealth-5) t1
+auxpass(based-7, is-6)
+ccomp(says-2, based-7)
+case(practices-10, on-8)
+amod(practices-10, iniquitous-9) s1
+nmod:on(based-7, practices-10)
+
+8) Related Articles ``There are approximately 10,000 officials in Russia working for Putin who are given instructions to kill, torture, kidnap, extort money from people and seize their property,'' adds Browder. 
+
+compound(Articles-2, Related-1)
+nsubj(working-11, Articles-2)
+expl(working-11, There-4)
+aux(working-11, are-5)
+advmod(working-11, approximately-6)
+nummod(officials-8, 10,000-7)
+nmod:npmod(approximately-6, officials-8) t1
+case(Russia-10, in-9)
+nmod:in(approximately-6, Russia-10)
+dep(adds-35, working-11)
+case(Putin-13, for-12)
+nmod:for(working-11, Putin-13)
+nsubjpass(given-16, Putin-13)
+ref(Putin-13, who-14)
+auxpass(given-16, are-15) s1-1/3
+acl:relcl(Putin-13, given-16) s1-2/3
+dobj(given-16, instructions-17) s1-3/3 t2 t3 t4 t5
+mark(kill-19, to-18)
+advcl(given-16, kill-19) s2
+advcl(given-16, torture-21) s3
+conj:and(kill-19, torture-21)
+advcl(given-16, kidnap-23) s4
+conj:and(kill-19, kidnap-23)
+advcl(given-16, extort-25) s5-1/2
+conj:and(kill-19, extort-25) 
+dobj(extort-25, money-26) s5-2/2
+case(people-28, from-27)
+nmod:from(extort-25, people-28)
+cc(kill-19, and-29)
+advcl(given-16, seize-30)
+conj:and(kill-19, seize-30) s6
+nmod:poss(property-32, their-31) t6
+dobj(seize-30, property-32)
+root(ROOT-0, adds-35)
+nsubj(adds-35, Browder-36)
+
+9) Browder founded Hermitage Capital Management, an investment advisory company, which from 1996 to 2005 had up to $5b invested in the Russian sharemarket, reports CNBC. 
+
+nsubj(founded-2, Browder-1)
+root(ROOT-0, founded-2)
+compound(Management-5, Hermitage-3)
+compound(Management-5, Capital-4)
+nsubj(invested-22, Management-5)
+nsubj(reports-28, Management-5)
+det(company-10, an-7)
+compound(company-10, investment-8)
+amod(company-10, advisory-9)
+appos(Management-5, company-10)
+ref(Management-5, which-12)
+case(2005-16, from-13)
+nummod(2005-16, 1996-14)
+dep(2005-16, to-15)
+nmod:from(invested-22, 2005-16)
+aux(invested-22, had-17)
+advmod(invested-22, up-18)
+case(5b-21, to-19)
+dep(5b-21, $-20)
+nmod:to(up-18, 5b-21)
+acl:relcl(Management-5, invested-22)
+case(sharemarket-26, in-23)
+det(sharemarket-26, the-24)
+amod(sharemarket-26, Russian-25)
+nmod:in(invested-22, sharemarket-26)
+ccomp(founded-2, reports-28)
+dobj(reports-28, CNBC-29)
+
+10) But in 2005 Browder fell out with Putin and the Kremlin leadership, leading to him being branded a ``threat to national security'' and banned from Russia. 
+
+cc(fell-5, But-1)
+case(2005-3, in-2)
+nmod:in(fell-5, 2005-3)
+nsubj(fell-5, Browder-4) t1
+root(ROOT-0, fell-5) s1-1/2
+compound:prt(fell-5, out-6) s1-2/2
+case(Putin-8, with-7)
+nmod:with(fell-5, Putin-8) t1
+cc(Putin-8, and-9)
+det(leadership-12, the-10)
+compound(leadership-12, Kremlin-11) t1
+nmod:with(fell-5, leadership-12) t1
+conj:and(Putin-8, leadership-12)
+xcomp(fell-5, leading-14)
+mark(branded-18, to-15)
+nsubjpass(branded-18, him-16) t2 t4
+nsubjpass(banned-27, him-16)
+auxpass(branded-18, being-17) s2-1/2
+advcl(leading-14, branded-18) s2-2/2 t3
+det(threat-21, a-19)
+dobj(branded-18, threat-21) s3
+case(security-24, to-22)
+amod(security-24, national-23)
+nmod:to(branded-18, security-24)
+cc(branded-18, and-26)
+advcl(leading-14, banned-27) s4
+conj:and(branded-18, banned-27)
+case(Russia-29, from-28)
+nmod:from(banned-27, Russia-29)
+
+11) Later $290m in funds from Hermitage Capital Management were stolen by officials loyal to Putin, claims Browder. 
+
+advmod(290m-3, Later-1)
+dep(290m-3, $-2) t1
+nsubjpass(stolen-11, 290m-3) t1
+case(funds-5, in-4)
+nmod:in(290m-3, funds-5)
+case(Management-9, from-6)
+compound(Management-9, Hermitage-7)
+compound(Management-9, Capital-8)
+nmod:from(funds-5, Management-9)
+auxpass(stolen-11, were-10) s1-1/2
+ccomp(claims-18, stolen-11) s1-2/2
+case(officials-13, by-12)
+nmod:by(stolen-11, officials-13) t1 t2
+amod(officials-13, loyal-14) s2
+case(Putin-16, to-15)
+nmod:to(loyal-14, Putin-16)
+root(ROOT-0, claims-18)
+nsubj(claims-18, Browder-19)
+
+12) Browder testified to the Congressional committee because Sergei Magnitsky, the Russian lawyer he hired to investigate the seizure of his company, was jailed and killed in prison in 2009. 
+
+nsubj(testified-2, Browder-1)
+root(ROOT-0, testified-2)
+case(committee-6, to-3)
+det(committee-6, the-4)
+amod(committee-6, Congressional-5)
+nmod:to(testified-2, committee-6)
+mark(jailed-25, because-7)
+compound(Magnitsky-9, Sergei-8) t1 t2
+nsubjpass(jailed-25, Magnitsky-9) t1 t2
+nsubjpass(killed-27, Magnitsky-9)
+det(lawyer-13, the-11)
+amod(lawyer-13, Russian-12)
+appos(Magnitsky-9, lawyer-13)
+nsubj(hired-15, he-14)
+nsubj:xsubj(investigate-17, he-14)
+acl:relcl(lawyer-13, hired-15)
+mark(investigate-17, to-16)
+xcomp(hired-15, investigate-17)
+det(seizure-19, the-18)
+dobj(investigate-17, seizure-19)
+case(company-22, of-20)
+nmod:poss(company-22, his-21)
+nmod:of(seizure-19, company-22)
+auxpass(jailed-25, was-24) s1-1/2
+advcl(testified-2, jailed-25) s1-2/2
+cc(jailed-25, and-26)
+advcl(testified-2, killed-27) s2
+conj:and(jailed-25, killed-27)
+case(prison-29, in-28)
+nmod:in(jailed-25, prison-29)
+case(2009-31, in-30)
+nmod:in(prison-29, 2009-31)
+
+13) His death led to the, drawn up by Congress during the Obama administration, that targeted Russian human rights abusers by banning visas and freezing their overseas assets. 
+
+nmod:poss(death-2, His-1)
+nsubj(led-3, death-2)
+root(ROOT-0, led-3)
+case(the-5, to-4)
+nmod:to(led-3, the-5)
+acl(the-5, drawn-7)
+compound:prt(drawn-7, up-8)
+case(Congress-10, by-9)
+nmod:by(drawn-7, Congress-10)
+case(administration-14, during-11)
+det(administration-14, the-12)
+compound(administration-14, Obama-13)
+nmod:during(led-3, administration-14)
+mark(abusers-21, that-16) t1
+amod(rights-20, targeted-17) s1 t2 t3
+amod(rights-20, Russian-18)
+amod(rights-20, human-19)
+nsubj(abusers-21, rights-20)
+ccomp(led-3, abusers-21) t1
+mark(banning-23, by-22)
+advcl(abusers-21, banning-23) s2
+dobj(banning-23, visas-24)
+cc(banning-23, and-25)
+advcl(abusers-21, freezing-26) s3
+conj:and(banning-23, freezing-26)
+nmod:poss(assets-29, their-27)
+amod(assets-29, overseas-28)
+dobj(freezing-26, assets-29)
+
+14) Browder has since been a strong advocate against graft in Russia and was called to testify last Thursday into claims of Kremlin interference in the 2016 US presidential election. 
+
+nsubj(advocate-7, Browder-1)
+nsubjpass(called-14, Browder-1)
+nsubj:xsubj(testify-16, Browder-1)
+aux(advocate-7, has-2)
+advmod(advocate-7, since-3)
+cop(advocate-7, been-4)
+det(advocate-7, a-5)
+amod(advocate-7, strong-6) s2
+root(ROOT-0, advocate-7) s1 t2
+case(graft-9, against-8) s2
+nmod:against(advocate-7, graft-9) t2
+case(Russia-11, in-10)
+nmod:in(advocate-7, Russia-11)
+cc(advocate-7, and-12)
+auxpass(called-14, was-13)
+conj:and(advocate-7, called-14)
+mark(testify-16, to-15)
+xcomp(called-14, testify-16)
+amod(Thursday-18, last-17)
+nmod:tmod(testify-16, Thursday-18)
+case(claims-20, into-19)
+nmod:into(testify-16, claims-20)
+case(interference-23, of-21)
+compound(interference-23, Kremlin-22)
+nmod:of(claims-20, interference-23)
+case(election-29, in-24)
+det(election-29, the-25)
+compound(election-29, 2016-26)
+compound(election-29, US-27)
+amod(election-29, presidential-28)
+nmod:in(interference-23, election-29)
+
+15) The $252b in personal wealth of Putin is even more staggering, given his humble background. 
+
+det(252b-3, The-1)
+dep(252b-3, $-2)
+nsubj(staggering-12, 252b-3)
+case(wealth-6, in-4)
+amod(wealth-6, personal-5)
+nmod:in(252b-3, wealth-6) t1
+case(Putin-8, of-7)
+nmod:of(wealth-6, Putin-8)
+cop(staggering-12, is-9)
+advmod(staggering-12, even-10)
+advmod(staggering-12, more-11)
+root(ROOT-0, staggering-12) s1
+case(background-17, given-14)
+nmod:poss(background-17, his-15) t2
+amod(background-17, humble-16) s2 
+nmod:given(staggering-12, background-17) t2
+
+16) Newly-released photos of the Russian leader's early life show his childhood and early adulthood in the years before he began his rise to the top of the country's feared security services and a political career that took him to the Kremlin's highest offices. 
+
+amod(photos-2, Newly-released-1)
+nsubj(show-10, photos-2)
+case(life-9, of-3)
+det(leader-6, the-4)
+amod(leader-6, Russian-5)
+nmod:poss(life-9, leader-6)
+case(leader-6, 's-7)
+amod(life-9, early-8)
+nmod:of(photos-2, life-9)
+root(ROOT-0, show-10)
+nmod:poss(childhood-12, his-11)
+dobj(show-10, childhood-12)
+cc(childhood-12, and-13)
+amod(adulthood-15, early-14)
+dobj(show-10, adulthood-15)
+conj:and(childhood-12, adulthood-15)
+case(years-18, in-16)
+det(years-18, the-17)
+nmod:in(show-10, years-18)
+mark(began-21, before-19)
+nsubj(began-21, he-20)
+advcl(show-10, began-21)
+nmod:poss(rise-23, his-22)
+dobj(began-21, rise-23)
+case(top-26, to-24)
+det(top-26, the-25)
+nmod:to(began-21, top-26)
+case(services-33, of-27)
+det(country-29, the-28)
+nmod:poss(services-33, country-29)
+case(country-29, 's-30)
+amod(services-33, feared-31) s1
+compound(services-33, security-32)
+nmod:of(top-26, services-33) t1
+cc(services-33, and-34)
+det(career-37, a-35)
+amod(career-37, political-36)
+nmod:of(top-26, career-37)
+conj:and(services-33, career-37)
+nsubj(took-39, career-37)
+ref(career-37, that-38)
+acl:relcl(career-37, took-39)
+dobj(took-39, him-40) t2
+case(offices-46, to-41)
+det(Kremlin-43, the-42)
+nmod:poss(offices-46, Kremlin-43)
+case(Kremlin-43, 's-44)
+amod(offices-46, highest-45) s2-1/2
+nmod:to(took-39, offices-46) s2-2/2
+
+17) The photos reveal a gentler side of Putin and includes images with him mother, school classmates and wrestling with a classmate. 
+
+det(photos-2, The-1)
+nsubj(reveal-3, photos-2)
+nsubj(includes-10, photos-2)
+root(ROOT-0, reveal-3)
+det(side-6, a-4)
+amod(side-6, gentler-5) s1
+dobj(reveal-3, side-6) t1
+case(Putin-8, of-7)
+nmod:of(side-6, Putin-8) t1
+cc(reveal-3, and-9)
+conj:and(reveal-3, includes-10)
+dobj(includes-10, images-11)
+case(mother-14, with-12)
+dep(mother-14, him-13)
+nmod:with(images-11, mother-14)
+compound(classmates-17, school-16)
+nmod:with(images-11, classmates-17)
+conj:and(mother-14, classmates-17)
+cc(mother-14, and-18)
+nmod:with(images-11, wrestling-19)
+conj:and(mother-14, wrestling-19)
+case(classmate-22, with-20)
+det(classmate-22, a-21)
+nmod:with(includes-10, classmate-22)
+
+18) In others he nurses his infant daughter and plays with a dog. 
+
+case(others-2, In-1)
+nmod:in(nurses-4, others-2)
+nsubj(nurses-4, he-3)
+nsubj(plays-9, he-3)
+root(ROOT-0, nurses-4) s1
+nmod:poss(daughter-7, his-5)
+compound(daughter-7, infant-6) t1
+dobj(nurses-4, daughter-7)
+cc(nurses-4, and-8)
+conj:and(nurses-4, plays-9)
+case(dog-12, with-10)
+det(dog-12, a-11)
+nmod:with(plays-9, dog-12)
+
+19) -LRB- C -RRB- Nine Digital Pty Ltd 2017 
+
+root(ROOT-0, C-2)
+compound(Ltd-7, Nine-4)
+compound(Ltd-7, Digital-5)
+compound(Ltd-7, Pty-6)
+dep(C-2, Ltd-7)
+dep(C-2, 2017-8)

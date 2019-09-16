@@ -1,0 +1,171 @@
+019140.psd
+
+1) Blizzards and thunder to hit Victoria Blizzards are expected to hit Victoria's eastern alpine areas while thunderstorms and hail could batter Melbourne. 
+
+nsubjpass(expected-9, Blizzards-1) t1
+nsubj:xsubj(hit-11, Blizzards-1)
+cc(Blizzards-1, and-2)
+conj:and(Blizzards-1, thunder-3) t1
+nsubjpass(expected-9, thunder-3)
+nsubj:xsubj(hit-11, thunder-3)
+mark(hit-5, to-4)
+acl(thunder-3, hit-5) s1
+compound(Blizzards-7, Victoria-6) t1
+dobj(hit-5, Blizzards-7) t2
+auxpass(expected-9, are-8)
+root(ROOT-0, expected-9)
+mark(hit-11, to-10)
+xcomp(expected-9, hit-11) s2
+nmod:poss(areas-16, Victoria-12) t2
+case(Victoria-12, 's-13) t2
+amod(areas-16, eastern-14) t2
+compound(areas-16, alpine-15) t2
+dobj(hit-11, areas-16)
+mark(batter-22, while-17)
+nsubj(batter-22, thunderstorms-18) t3
+cc(thunderstorms-18, and-19)
+conj:and(thunderstorms-18, hail-20) t3
+nsubj(batter-22, hail-20)
+aux(batter-22, could-21)
+advcl(hit-11, batter-22) s3
+dobj(batter-22, Melbourne-23) t3
+
+2) Up to half a metre of snow is expected to fall at Mt Hotham, Mt Bulla and Falls Creek with wind gusts of more than 100km, Bureau of Meteorology forecaster Dean Stewart says. 
+Neutral.
+case(metre-5, Up-1)
+case(metre-5, to-2)
+det:predet(metre-5, half-3)
+det(metre-5, a-4)
+nmod:to(says-35, metre-5)
+case(snow-7, of-6)
+nmod:of(metre-5, snow-7)
+auxpass(expected-9, is-8)
+acl:relcl(snow-7, expected-9)
+mark(fall-11, to-10)
+xcomp(expected-9, fall-11)
+case(Hotham-14, at-12)
+compound(Hotham-14, Mt-13)
+nmod:at(fall-11, Hotham-14)
+compound(Bulla-17, Mt-16)
+nmod:at(fall-11, Bulla-17)
+conj:and(Hotham-14, Bulla-17)
+cc(Hotham-14, and-18)
+compound(Creek-20, Falls-19)
+nmod:at(fall-11, Creek-20)
+conj:and(Hotham-14, Creek-20)
+case(gusts-23, with-21)
+compound(gusts-23, wind-22)
+nmod:with(fall-11, gusts-23)
+case(100km/h-27, of-24)
+advmod(100km/h-27, more-25)
+mwe(more-25, than-26)
+nmod:of(gusts-23, 100km/h-27)
+nsubj(says-35, Bureau-29)
+case(Stewart-34, of-30)
+compound(Stewart-34, Meteorology-31)
+compound(Stewart-34, forecaster-32)
+compound(Stewart-34, Dean-33)
+nmod:of(Bureau-29, Stewart-34)
+root(ROOT-0, says-35)
+
+3) ``There will be plenty snow up in the eastern alpine regions today with the wind set to create blizzard conditions,'' Mr Stewart said. 
+Neutral.
+expl(snow-6, There-2)
+aux(snow-6, will-3)
+auxpass(snow-6, be-4)
+advmod(snow-6, plenty-5)
+ccomp(said-26, snow-6)
+compound:prt(snow-6, up-7)
+case(regions-12, in-8)
+det(regions-12, the-9)
+amod(regions-12, eastern-10)
+amod(regions-12, alpine-11)
+nmod:in(snow-6, regions-12)
+nmod:tmod(snow-6, today-13)
+case(wind-16, with-14)
+det(wind-16, the-15)
+nmod:with(snow-6, wind-16)
+acl(wind-16, set-17)
+mark(create-19, to-18)
+xcomp(set-17, create-19)
+amod(conditions-21, blizzard-20)
+dobj(create-19, conditions-21)
+compound(Stewart-25, Mr-24)
+nsubj(said-26, Stewart-25)
+root(ROOT-0, said-26)
+
+4) Melbourne can expect rain throughout the day with an unstable atmosphere creating conditions for possible thunderstorms and hail. 
+
+nsubj(expect-3, Melbourne-1)
+aux(expect-3, can-2)
+root(ROOT-0, expect-3)
+dobj(expect-3, rain-4)
+case(day-7, throughout-5)
+det(day-7, the-6)
+nmod:throughout(expect-3, day-7)
+case(atmosphere-11, with-8)
+det(atmosphere-11, an-9)
+amod(atmosphere-11, unstable-10) s1
+nmod:with(expect-3, atmosphere-11) t1
+acl(atmosphere-11, creating-12)
+dobj(creating-12, conditions-13)
+case(thunderstorms-16, for-14)
+amod(thunderstorms-16, possible-15)
+nmod:for(conditions-13, thunderstorms-16)
+cc(thunderstorms-16, and-17)
+nmod:for(conditions-13, hail-18)
+conj:and(thunderstorms-16, hail-18)
+
+5) ``There is a risk of thunderstorm and hail activity through much of the state including in Melbourne,'' he said. 
+
+expl(is-3, There-2)
+ccomp(said-22, is-3)
+det(risk-5, a-4)
+nsubj(is-3, risk-5) s1
+case(activity-10, of-6)
+compound(activity-10, thunderstorm-7)
+cc(thunderstorm-7, and-8)
+conj:and(thunderstorm-7, hail-9)
+compound(activity-10, hail-9)
+nmod:of(risk-5, activity-10)
+case(much-12, through-11)
+nmod:through(is-3, much-12) t1
+case(state-15, of-13) t1
+det(state-15, the-14)
+nmod:of(much-12, state-15) t1
+case(Melbourne-18, including-16)
+case(Melbourne-18, in-17)
+advcl(is-3, Melbourne-18)
+nsubj(said-22, he-21)
+root(ROOT-0, said-22)
+
+6) Mr Stewart said the worst of the wind had passed Melbourne overnight with winds of up to 80km recorded by some stations. 
+
+compound(Stewart-2, Mr-1)
+nsubj(said-3, Stewart-2)
+root(ROOT-0, said-3)
+det(worst-5, the-4)
+nsubj(passed-10, worst-5) s1
+case(wind-8, of-6)
+det(wind-8, the-7)
+nmod:of(worst-5, wind-8) t1
+aux(passed-10, had-9)
+ccomp(said-3, passed-10)
+dobj(passed-10, Melbourne-11) t1
+advmod(passed-10, overnight-12)
+case(winds-14, with-13)
+nmod:with(passed-10, winds-14)
+case(80km/h-18, of-15)
+dep(80km/h-18, up-16)
+mwe(up-16, to-17)
+nmod:of(winds-14, 80km/h-18)
+acl(winds-14, recorded-19)
+case(stations-22, by-20)
+det(stations-22, some-21)
+nmod:by(recorded-19, stations-22)
+
+7) Originally published as 
+Neutral.
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

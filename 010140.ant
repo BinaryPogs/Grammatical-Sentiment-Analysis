@@ -1,0 +1,299 @@
+010140.psd
+
+1) Trump signs `flawed' Russia sanctions bill Roberta Rampton and Patricia ZengerleAssociated Press Share US President Donald Trump has grudgingly signed into law new sanctions against Russia that Congress had approved overwhelmingly last week, criticising the legislation as having ``clearly unconstitutional'' elements. 
+
+nsubj(signs-2, Trump-1) t1
+root(ROOT-0, signs-2)
+xcomp(signs-2, flawed-4) s1
+compound(Rampton-10, Russia-6)
+compound(Rampton-10, sanctions-7) t1
+compound(Rampton-10, bill-8) t1
+compound(Rampton-10, Roberta-9)
+nsubj(signed-22, Rampton-10)
+cc(Rampton-10, and-11)
+compound(Trump-19, Patricia-12)
+compound(Trump-19, ZengerleAssociated-13)
+compound(Trump-19, Press-14)
+compound(Trump-19, Share-15)
+compound(Trump-19, US-16)
+compound(Trump-19, President-17)
+compound(Trump-19, Donald-18) t3
+conj:and(Rampton-10, Trump-19) t3
+nsubj(signed-22, Trump-19)
+aux(signed-22, has-20)
+advmod(signed-22, grudgingly-21) s2
+ccomp(flawed-4, signed-22) t2 s3
+case(sanctions-26, into-23)
+compound(sanctions-26, law-24)
+amod(sanctions-26, new-25)
+nmod:into(signed-22, sanctions-26)
+case(Russia-28, against-27)
+nmod:against(sanctions-26, Russia-28)
+mark(approved-32, that-29)
+nsubj(approved-32, Congress-30)
+aux(approved-32, had-31)
+ccomp(signed-22, approved-32)
+advmod(approved-32, overwhelmingly-33)
+amod(week-35, last-34)
+nmod:tmod(approved-32, week-35)
+ccomp(signs-2, criticising-37) s4
+det(legislation-39, the-38)
+dobj(criticising-37, legislation-39) t4 t5
+cc(criticising-37, as-40)
+ccomp(signs-2, having-41)
+conj:as(criticising-37, having-41)
+advmod(unconstitutional-44, clearly-43)
+amod(elements-46, unconstitutional-44) s5
+dobj(having-41, elements-46)
+
+2) After signing a bill that runs counter to his desire to improve relations with Moscow, and which also affects Iran and North Korea, the Republican president laid out a lengthy list of concerns. 
+
+mark(signing-2, After-1)
+advcl(laid-29, signing-2)
+det(bill-4, a-3)
+dobj(signing-2, bill-4) t1
+nsubj(runs-6, that-5)
+dep(signing-2, runs-6) s1-1/2
+advmod(runs-6, counter-7) s1-2/2
+case(desire-10, to-8)
+nmod:poss(desire-10, his-9) t1
+nmod:to(counter-7, desire-10) t1 t2
+mark(improve-12, to-11)
+acl(desire-10, improve-12) s2
+dobj(improve-12, relations-13)
+case(Moscow-15, with-14)
+nmod:with(improve-12, Moscow-15)
+cc(runs-6, and-17)
+nsubj(affects-20, which-18)
+advmod(affects-20, also-19)
+dep(signing-2, affects-20)
+conj:and(runs-6, affects-20)
+dobj(affects-20, Iran-21)
+cc(Iran-21, and-22)
+compound(Korea-24, North-23)
+dobj(affects-20, Korea-24)
+conj:and(Iran-21, Korea-24)
+det(president-28, the-26)
+amod(president-28, Republican-27)
+nsubj(laid-29, president-28)
+root(ROOT-0, laid-29)
+compound:prt(laid-29, out-30)
+det(list-33, a-31)
+amod(list-33, lengthy-32)
+dobj(laid-29, list-33)
+case(concerns-35, of-34)
+nmod:of(list-33, concerns-35)
+
+3) ``While I favour tough measures to punish and deter aggressive and destabilising behavior by Iran, North Korea, and Russia, this legislation is significantly flawed,'' Trump said in a statement announcing the signing. 
+
+mark(favour-4, While-2)
+nsubj(favour-4, I-3)
+advcl(flawed-28, favour-4) s1
+amod(measures-6, tough-5) s2
+dobj(favour-4, measures-6) t1 t2 t3 t4
+nsubj:xsubj(punish-8, measures-6)
+nsubj:xsubj(deter-10, measures-6)
+mark(punish-8, to-7)
+xcomp(favour-4, punish-8) s3
+cc(punish-8, and-9)
+xcomp(favour-4, deter-10) s4
+conj:and(punish-8, deter-10)
+amod(behavior-14, aggressive-11) s5
+cc(aggressive-11, and-12)
+conj:and(aggressive-11, destabilising-13) s6
+amod(behavior-14, destabilising-13)
+dobj(deter-10, behavior-14) t3 t4 t5 t6 s7
+case(Iran-16, by-15)
+nmod:by(deter-10, Iran-16) t7
+compound(Korea-19, North-18) t7
+nmod:by(deter-10, Korea-19) t7
+conj:and(Iran-16, Korea-19)
+cc(Iran-16, and-21)
+nmod:by(deter-10, Russia-22) t7
+conj:and(Iran-16, Russia-22)
+det(legislation-25, this-24)
+nsubjpass(flawed-28, legislation-25) t8
+auxpass(flawed-28, is-26)
+advmod(flawed-28, significantly-27) s9
+ccomp(said-32, flawed-28) s8 t9
+nsubj(said-32, Trump-31)
+root(ROOT-0, said-32)
+case(statement-35, in-33)
+det(statement-35, a-34)
+nmod:in(said-32, statement-35)
+acl(statement-35, announcing-36)
+det(signing-38, the-37)
+dobj(announcing-36, signing-38)
+
+4) The Republican-controlled Congress approved the legislation by such a large margin on Thursday that it would have thwarted any effort by Trump to veto the bill. 
+
+det(Congress-3, The-1)
+compound(Congress-3, Republican-controlled-2)
+nsubj(approved-4, Congress-3)
+root(ROOT-0, approved-4)
+det(legislation-6, the-5)
+dobj(approved-4, legislation-6)
+case(margin-11, by-7)
+det:predet(margin-11, such-8)
+det(margin-11, a-9)
+amod(margin-11, large-10)
+nmod:by(approved-4, margin-11)
+case(Thursday-13, on-12)
+nmod:on(margin-11, Thursday-13)
+mark(thwarted-18, that-14)
+nsubj(thwarted-18, it-15)
+aux(thwarted-18, would-16)
+aux(thwarted-18, have-17)
+ccomp(approved-4, thwarted-18) s1
+det(effort-20, any-19)
+dobj(thwarted-18, effort-20) t1
+case(Trump-22, by-21)
+nmod:by(thwarted-18, Trump-22)
+mark(veto-24, to-23)
+advcl(thwarted-18, veto-24)
+det(bill-26, the-25)
+dobj(veto-24, bill-26)
+
+5) House Democratic leader Nancy Pelosi expressed concerns after Trump's statement. 
+
+compound(Pelosi-5, House-1)
+compound(Pelosi-5, Democratic-2)
+compound(Pelosi-5, leader-3)
+compound(Pelosi-5, Nancy-4) t1
+nsubj(expressed-6, Pelosi-5) t1
+root(ROOT-0, expressed-6)
+dobj(expressed-6, concerns-7) s1
+case(statement-11, after-8)
+nmod:poss(statement-11, Trump-9)
+case(Trump-9, 's-10)
+nmod:after(expressed-6, statement-11)
+
+6) ``President Trump's signing statement raises serious questions about whether his administration intends to follow the law, or whether he will continue to enable and reward Vladimir Putin's aggression,'' she said. 
+
+compound(Trump-3, President-2)
+nmod:poss(statement-6, Trump-3)
+case(Trump-3, 's-4)
+compound(statement-6, signing-5)
+nsubj(raises-7, statement-6) t1
+ccomp(said-36, raises-7) s1 t2
+amod(questions-9, serious-8) s3
+dobj(raises-7, questions-9) s2 t3
+mark(intends-14, about-10)
+mark(intends-14, whether-11)
+nmod:poss(administration-13, his-12)
+nsubj(intends-14, administration-13)
+nsubj:xsubj(follow-16, administration-13)
+advcl(raises-7, intends-14)
+mark(follow-16, to-15)
+xcomp(intends-14, follow-16) s4
+det(law-18, the-17)
+dobj(follow-16, law-18) t4
+cc(intends-14, or-20)
+mark(continue-24, whether-21)
+nsubj(continue-24, he-22)
+nsubj:xsubj(enable-26, he-22)
+nsubj:xsubj(reward-28, he-22)
+aux(continue-24, will-23)
+advcl(raises-7, continue-24)
+conj:or(intends-14, continue-24)
+mark(enable-26, to-25)
+xcomp(continue-24, enable-26) s5
+cc(enable-26, and-27)
+xcomp(continue-24, reward-28) s6
+conj:and(enable-26, reward-28)
+compound(Putin-30, Vladimir-29)
+nmod:poss(aggression-32, Putin-30)
+case(Putin-30, 's-31)
+dobj(enable-26, aggression-32) t6 t5
+nsubj(said-36, she-35)
+root(ROOT-0, said-36)
+
+7) The legislation has already provoked countermeasures by Russian President Vladimir Putin, who has ordered big cuts to the number of staff at the US diplomatic mission to Russia. 
+
+det(legislation-2, The-1)
+nsubj(provoked-5, legislation-2)
+aux(provoked-5, has-3)
+advmod(provoked-5, already-4)
+root(ROOT-0, provoked-5)
+dobj(provoked-5, countermeasures-6)
+case(Putin-11, by-7)
+compound(Putin-11, Russian-8)
+compound(Putin-11, President-9)
+compound(Putin-11, Vladimir-10)
+nmod:by(provoked-5, Putin-11)
+nsubj(ordered-15, Putin-11)
+ref(Putin-11, who-13)
+aux(ordered-15, has-14)
+acl:relcl(Putin-11, ordered-15)
+amod(cuts-17, big-16) s2
+dobj(ordered-15, cuts-17) s1 t2
+case(number-20, to-18)
+det(number-20, the-19)
+nmod:to(ordered-15, number-20) t1
+case(staff-22, of-21)
+nmod:of(number-20, staff-22)
+case(mission-27, at-23)
+det(mission-27, the-24)
+compound(mission-27, US-25)
+amod(mission-27, diplomatic-26)
+nmod:at(ordered-15, mission-27)
+case(Russia-29, to-28)
+nmod:to(ordered-15, Russia-29)
+
+8) Congress approved the sanctions to punish the Russian government over interference in the 2016 presidential election, annexation of Ukraine's Crimea and other perceived violations of international norms. 
+
+nsubj(approved-2, Congress-1)
+root(ROOT-0, approved-2) s1
+det(sanctions-4, the-3)
+dobj(approved-2, sanctions-4) t1 t2
+mark(punish-6, to-5)
+advcl(approved-2, punish-6) s2
+det(government-9, the-7)
+amod(government-9, Russian-8)
+dobj(punish-6, government-9)
+case(interference-11, over-10)
+nmod:over(punish-6, interference-11) t2
+case(election-16, in-12)
+det(election-16, the-13)
+nummod(election-16, 2016-14)
+amod(election-16, presidential-15)
+nmod:in(interference-11, election-16)
+nmod:over(punish-6, annexation-18) t2
+conj:and(interference-11, annexation-18)
+case(Crimea-22, of-19)
+nmod:poss(Crimea-22, Ukraine-20)
+case(Ukraine-20, 's-21)
+nmod:of(annexation-18, Crimea-22)
+cc(interference-11, and-23)
+amod(violations-26, other-24)
+amod(violations-26, perceived-25)
+nmod:over(punish-6, violations-26) t2
+conj:and(interference-11, violations-26)
+case(norms-29, of-27)
+amod(norms-29, international-28)
+nmod:of(violations-26, norms-29)
+
+9) Trump said he was concerned about the sanctions' effect on work with European allies, and on American business. 
+
+nsubj(said-2, Trump-1)
+root(ROOT-0, said-2)
+nsubjpass(concerned-5, he-3) s1
+nsubjpass(concerned-5', he-3)
+auxpass(concerned-5, was-4)
+ccomp(said-2, concerned-5)
+ccomp(said-2, concerned-5')
+conj:and(concerned-5, concerned-5')
+case(effect-10, about-6)
+det(sanctions-8, the-7)
+nmod:poss(effect-10, sanctions-8) 
+case(sanctions-8, '-9)
+nmod:about(concerned-5, effect-10) t1
+case(work-12, on-11)
+nmod:on(effect-10, work-12)
+case(allies-15, with-13)
+amod(allies-15, European-14)
+nmod:with(concerned-5, allies-15)
+cc(concerned-5, and-17)
+case(business-20, on-18)
+amod(business-20, American-19)
+nmod:on(concerned-5', business-20)

@@ -1,0 +1,286 @@
+018240.psd
+
+1) US Navy ends search for lost sailor The US Navy has ended a three-day search for a sailor who is believed to have gone overboard during operations in the South China Sea. 
+
+compound(Navy-2, US-1) t1
+nsubj(ends-3, Navy-2) t1
+dep(ended-12, ends-3) s1
+dobj(ends-3, search-4) t1
+case(sailor-7, for-5)
+amod(sailor-7, lost-6) t1 s2
+nmod:for(search-4, sailor-7) t1 t2
+det(Navy-10, The-8)
+compound(Navy-10, US-9) t3
+nsubj(ended-12, Navy-10) t3
+aux(ended-12, has-11)
+root(ROOT-0, ended-12) s3
+det(search-15, a-13)
+amod(search-15, three-day-14)
+dobj(ended-12, search-15) t3
+case(sailor-18, for-16)
+det(sailor-18, a-17)
+nmod:for(ended-12, sailor-18) t3 t4 t5
+nsubjpass(believed-21, sailor-18)
+nsubj:xsubj(gone-24, sailor-18)
+ref(sailor-18, who-19)
+auxpass(believed-21, is-20)
+acl:relcl(sailor-18, believed-21) s4 s5
+mark(gone-24, to-22)
+aux(gone-24, have-23) s5-1/2
+xcomp(believed-21, gone-24) s5-2/2
+advmod(gone-24, overboard-25)
+case(operations-27, during-26)
+nmod:during(gone-24, operations-27)
+case(Sea-32, in-28)
+det(Sea-32, the-29)
+compound(Sea-32, South-30)
+compound(Sea-32, China-31)
+nmod:in(operations-27, Sea-32)
+
+2) A statement on Friday said that US, Japanese and Chinese navy vessels and aircraft spent 79 hours combing roughly 25,900 square kilometres of the South China Sea west of the Philippines. 
+Neutral.
+det(statement-2, A-1)
+nsubj(said-5, statement-2)
+case(Friday-4, on-3)
+nmod:on(statement-2, Friday-4)
+root(ROOT-0, said-5)
+mark(spent-16, that-6)
+nsubj(spent-16, US-7)
+amod(vessels-13, Japanese-9)
+cc(Japanese-9, and-10)
+conj:and(Japanese-9, Chinese-11)
+amod(vessels-13, Chinese-11)
+compound(vessels-13, navy-12)
+conj:and(US-7, vessels-13)
+nsubj(spent-16, vessels-13)
+cc(US-7, and-14)
+conj:and(US-7, aircraft-15)
+nsubj(spent-16, aircraft-15)
+ccomp(said-5, spent-16)
+nummod(hours-18, 79-17)
+dobj(spent-16, hours-18)
+acl(hours-18, combing-19)
+advmod(25,900-21, roughly-20)
+nummod(kilometres-23, 25,900-21)
+amod(kilometres-23, square-22)
+dobj(combing-19, kilometres-23)
+case(west-29, of-24)
+det(west-29, the-25)
+compound(west-29, South-26)
+compound(west-29, China-27)
+compound(west-29, Sea-28)
+nmod:of(kilometres-23, west-29)
+case(Philippines-32, of-30)
+det(Philippines-32, the-31)
+nmod:of(west-29, Philippines-32)
+
+3) The sailor from the guided-missile destroyer USS Stethem, based in Yokosuka, Japan, was reported missing and assumed overboard August 1. 
+
+det(sailor-2, The-1)
+nsubjpass(reported-17, sailor-2) t1
+case(Stethem-8, from-3)
+det(Stethem-8, the-4)
+amod(Stethem-8, guided-missile-5)
+compound(Stethem-8, destroyer-6)
+compound(Stethem-8, USS-7)
+nmod:from(sailor-2, Stethem-8)
+acl(sailor-2, based-10)
+case(Japan-14, in-11)
+compound(Japan-14, Yokosuka-12)
+nmod:in(based-10, Japan-14)
+auxpass(reported-17, was-16)
+root(ROOT-0, reported-17) s1 t2
+xcomp(reported-17, missing-18) s2
+cc(missing-18, and-19)
+xcomp(reported-17, assumed-20)
+conj:and(missing-18, assumed-20)
+advmod(assumed-20, overboard-21)
+nmod:tmod(assumed-20, August-22)
+nummod(August-22, 1-23)
+
+4) His name is being withheld pending notification of next of kin, the Navy said. 
+
+nmod:poss(name-2, His-1) t1
+nsubjpass(withheld-5, name-2) t1
+aux(withheld-5, is-3)
+auxpass(withheld-5, being-4)
+ccomp(said-15, withheld-5) s1
+case(notification-7, pending-6)
+nmod:pending(withheld-5, notification-7)
+case(next-9, of-8)
+nmod:of(notification-7, next-9)
+case(kin-11, of-10)
+nmod:of(next-9, kin-11)
+det(Navy-14, the-13)
+nsubj(said-15, Navy-14)
+root(ROOT-0, said-15)
+
+5) Rear Admiral Charles Williams, the commander of Task Force 70, offered his prayers for the sailor's loss and thanked all those who participated in the search. 
+
+compound(Williams-4, Rear-1) t1
+compound(Williams-4, Admiral-2) t1
+compound(Williams-4, Charles-3) t1
+nsubj(offered-13, Williams-4) t1
+nsubj(thanked-22, Williams-4)
+det(commander-7, the-6)
+appos(Williams-4, commander-7)
+case(Force-10, of-8)
+compound(Force-10, Task-9)
+nmod:of(commander-7, Force-10)
+nummod(Force-10, 70-11)
+root(ROOT-0, offered-13) s1-1/3
+nmod:poss(prayers-15, his-14) s1-2/3
+dobj(offered-13, prayers-15) s1-3/3
+case(loss-20, for-16)
+det(sailor-18, the-17)
+nmod:poss(loss-20, sailor-18) t1
+case(sailor-18, 's-19) t1
+nmod:for(offered-13, loss-20) t1
+cc(offered-13, and-21)
+conj:and(offered-13, thanked-22) s2
+det:predet(those-24, all-23) t2
+dobj(thanked-22, those-24)
+nsubj(participated-26, those-24)
+ref(those-24, who-25)
+acl:relcl(those-24, participated-26)
+case(search-29, in-27)
+det(search-29, the-28)
+nmod:in(participated-26, search-29)
+
+6) China, which claims virtually all of the South China Sea, accused the US in July of trespassing in its waters when the Stethem sailed within 12 nautical miles of Triton Island in the Paracel islands, which are also claimed by Vietnam and Taiwan. 
+
+nsubj(claims-4, China-1)
+nsubj(accused-13, China-1)
+ref(China-1, which-3)
+acl:relcl(China-1, claims-4)
+advmod(all-6, virtually-5)
+dobj(claims-4, all-6)
+case(Sea-11, of-7)
+det(Sea-11, the-8)
+compound(Sea-11, South-9)
+compound(Sea-11, China-10)
+nmod:of(all-6, Sea-11)
+root(ROOT-0, accused-13) s1
+det(US-15, the-14)
+dobj(accused-13, US-15) t1 t2
+case(July-17, in-16)
+nmod:in(accused-13, July-17)
+case(trespassing-19, of-18)
+nmod:of(July-17, trespassing-19)
+case(waters-22, in-20)
+nmod:poss(waters-22, its-21)
+nmod:in(accused-13, waters-22)
+advmod(sailed-26, when-23)
+det(Stethem-25, the-24)
+nsubj(sailed-26, Stethem-25)
+advcl(accused-13, sailed-26)
+case(miles-30, within-27)
+nummod(miles-30, 12-28)
+amod(miles-30, nautical-29)
+nmod:within(sailed-26, miles-30)
+case(Island-33, of-31)
+compound(Island-33, Triton-32)
+nmod:of(miles-30, Island-33)
+case(islands-37, in-34)
+det(islands-37, the-35)
+amod(islands-37, Paracel-36)
+nmod:in(sailed-26, islands-37)
+nsubjpass(claimed-42, islands-37)
+ref(islands-37, which-39)
+auxpass(claimed-42, are-40)
+advmod(claimed-42, also-41)
+acl:relcl(islands-37, claimed-42) s2
+case(Vietnam-44, by-43)
+nmod:by(claimed-42, Vietnam-44)
+cc(Vietnam-44, and-45)
+nmod:by(claimed-42, Taiwan-46)
+conj:and(Vietnam-44, Taiwan-46)
+
+7) The operation was aimed at affirming the right to passage and challenging what the US considers China's excessive territorial claims in the area. 
+
+det(operation-2, The-1)
+nsubjpass(aimed-4, operation-2)
+auxpass(aimed-4, was-3)
+root(ROOT-0, aimed-4)
+mark(affirming-6, at-5)
+advcl(aimed-4, affirming-6)
+det(right-8, the-7)
+dobj(affirming-6, right-8)
+case(passage-10, to-9)
+nmod:to(affirming-6, passage-10)
+cc(affirming-6, and-11)
+advcl(aimed-4, challenging-12)
+conj:and(affirming-6, challenging-12) s1
+dobj(considers-16, what-13) t1
+det(US-15, the-14)
+nsubj(considers-16, US-15)
+ccomp(challenging-12, considers-16)
+nmod:poss(claims-21, China-17)
+case(China-17, 's-18)
+amod(claims-21, excessive-19)
+amod(claims-21, territorial-20)
+dobj(considers-16, claims-21)
+case(area-24, in-22)
+det(area-24, the-23)
+nmod:in(claims-21, area-24)
+
+8) China sent ships to intercept the destroyer. 
+
+nsubj(sent-2, China-1)
+root(ROOT-0, sent-2)
+dobj(sent-2, ships-3)
+mark(intercept-5, to-4)
+advcl(sent-2, intercept-5) s1
+det(destroyer-7, the-6)
+dobj(intercept-5, destroyer-7) t1
+
+9) China has strongly objected to repeated freedom of navigation missions by the US Navy in the South China Sea, where Beijing has rattled neighbours by constructing seven man-made islands in the disputed waters and fortifying them with radars and missiles. 
+
+nsubj(objected-4, China-1)
+aux(objected-4, has-2)
+advmod(objected-4, strongly-3) s1
+root(ROOT-0, objected-4) t1 s2
+case(freedom-7, to-5)
+amod(freedom-7, repeated-6) t2
+nmod:to(objected-4, freedom-7) t2
+case(missions-10, of-8)
+compound(missions-10, navigation-9)
+nmod:of(freedom-7, missions-10)
+case(Navy-14, by-11)
+det(Navy-14, the-12)
+compound(Navy-14, US-13) t2
+nmod:by(objected-4, Navy-14) t2
+case(Sea-19, in-15)
+det(Sea-19, the-16)
+compound(Sea-19, South-17)
+compound(Sea-19, China-18)
+nmod:in(objected-4, Sea-19)
+advmod(rattled-24, where-21)
+nsubj(rattled-24, Beijing-22)
+aux(rattled-24, has-23)
+acl:relcl(Sea-19, rattled-24) s3
+dobj(rattled-24, neighbours-25) t3
+mark(constructing-27, by-26)
+advcl(rattled-24, constructing-27)
+nummod(islands-30, seven-28)
+amod(islands-30, man-made-29)
+dobj(constructing-27, islands-30)
+case(waters-34, in-31)
+det(waters-34, the-32)
+amod(waters-34, disputed-33) s4
+nmod:in(islands-30, waters-34) t4
+cc(constructing-27, and-35)
+advcl(rattled-24, fortifying-36)
+conj:and(constructing-27, fortifying-36) s5
+dobj(fortifying-36, them-37) t5
+case(radars-39, with-38)
+nmod:with(fortifying-36, radars-39)
+cc(radars-39, and-40)
+nmod:with(fortifying-36, missiles-41)
+conj:and(radars-39, missiles-41)
+
+10) Originally published as 
+
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

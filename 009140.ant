@@ -1,0 +1,240 @@
+009140.psd
+
+1) Neymar Jr leaving Barcelona, club confirms Related Story: Brazilian striker Neymar Jr is leaving FC Barcelona, the Catalan football club has confirmed, as a radio report said he was moving to French team Paris Saint-Germain -LRB- PSG -RRB-. 
+
+compound(Jr-2, Neymar-1)
+nsubj(leaving-3, Jr-2)
+advcl(confirms-7, leaving-3)
+dobj(leaving-3, Barcelona-4)
+nsubj(confirms-7, club-6)
+root(ROOT-0, confirms-7)
+compound(Story-9, Related-8)
+dobj(confirms-7, Story-9)
+amod(Jr-14, Brazilian-11)
+compound(Jr-14, striker-12)
+compound(Jr-14, Neymar-13)
+nsubj(leaving-16, Jr-14)
+aux(leaving-16, is-15)
+ccomp(confirmed-25, leaving-16)
+compound(Barcelona-18, FC-17)
+dobj(leaving-16, Barcelona-18)
+det(club-23, the-20)
+compound(club-23, Catalan-21)
+compound(club-23, football-22)
+nsubj(confirmed-25, club-23)
+aux(confirmed-25, has-24)
+parataxis(Story-9, confirmed-25)
+mark(said-31, as-27)
+det(report-30, a-28)
+compound(report-30, radio-29)
+nsubj(said-31, report-30)
+advcl(confirms-7, said-31)
+nsubj(moving-34, he-32)
+aux(moving-34, was-33)
+ccomp(said-31, moving-34)
+case(Saint-Germain-39, to-35)
+amod(Saint-Germain-39, French-36)
+compound(Saint-Germain-39, team-37)
+compound(Saint-Germain-39, Paris-38)
+nmod:to(moving-34, Saint-Germain-39)
+appos(Saint-Germain-39, PSG-41)
+
+2) Neymar arrived at the team's training ground on Wednesday to tell teammates he was moving to Paris, Catalan radio RAC1 reported. 
+
+nsubj(arrived-2, Neymar-1)
+nsubj:xsubj(tell-12, Neymar-1)
+ccomp(reported-23, arrived-2)
+case(ground-8, at-3)
+det(team-5, the-4)
+nmod:poss(ground-8, team-5)
+case(team-5, 's-6)
+compound(ground-8, training-7)
+nmod:at(arrived-2, ground-8)
+case(Wednesday-10, on-9)
+nmod:on(arrived-2, Wednesday-10)
+mark(tell-12, to-11)
+xcomp(arrived-2, tell-12)
+dobj(tell-12, teammates-13)
+nsubj(moving-16, he-14)
+aux(moving-16, was-15)
+acl:relcl(teammates-13, moving-16)
+case(Paris-18, to-17)
+nmod:to(moving-16, Paris-18)
+compound(RAC1-22, Catalan-20)
+compound(RAC1-22, radio-21)
+nsubj(reported-23, RAC1-22)
+root(ROOT-0, reported-23)
+
+3) The Brazilian striker left the training area minutes later, it said. 
+
+det(striker-3, The-1)
+amod(striker-3, Brazilian-2)
+nsubj(left-4, striker-3)
+ccomp(said-12, left-4)
+det(minutes-8, the-5)
+compound(minutes-8, training-6)
+compound(minutes-8, area-7)
+dobj(left-4, minutes-8)
+advmod(left-4, later-9)
+nsubj(said-12, it-11)
+root(ROOT-0, said-12)
+
+4) Having matured into one of the finest players in the world - finishing third in the 2015 Ballon d'Or vote - Neymar signed a new Barcelona contract to 2021 in October in which his buy-out clause was raised to $333 million. 
+
+aux(matured-2, Having-1)
+root(ROOT-0, matured-2)
+case(one-4, into-3)
+nmod:into(matured-2, one-4) s2-1/4
+case(players-8, of-5) s2-2/4
+det(players-8, the-6) s2-3/4
+amod(players-8, finest-7) s2-4/4
+nmod:of(one-4, players-8) s1 t2
+case(world-11, in-9)
+det(world-11, the-10)
+nmod:in(players-8, world-11)
+amod(third-14, finishing-13) s3
+dep(matured-2, third-14)
+case(vote-20, in-15)
+det(vote-20, the-16)
+nummod(vote-20, 2015-17)
+amod(vote-20, Ballon-18)
+compound(vote-20, d'Or-19)
+nmod:in(third-14, vote-20)
+nsubj(signed-23, Neymar-22) t1 t3
+dep(third-14, signed-23)
+det(contract-27, a-24)
+amod(contract-27, new-25)
+compound(contract-27, Barcelona-26)
+dobj(signed-23, contract-27)
+case(2021-29, to-28)
+nmod:to(signed-23, 2021-29)
+case(October-31, in-30)
+nmod:in(third-14, October-31)
+nmod:in(raised-38, October-31)
+case(which-33, in-32)
+ref(October-31, which-33)
+nmod:poss(clause-36, his-34)
+compound(clause-36, buy-out-35) t4
+nsubjpass(raised-38, clause-36) t4
+auxpass(raised-38, was-37)
+acl:relcl(October-31, raised-38) s4
+case($-40, to-39)
+nmod:to(raised-38, $-40)
+compound(million-42, 333-41)
+nummod($-40, million-42)
+
+5) Barcelona tweeted shortly after the radio report that Neymar, who has been with the Spanish club since June 2013, did not train on Wednesday with the permission of the coach. 
+
+nsubj(tweeted-2, Barcelona-1)
+root(ROOT-0, tweeted-2)
+advmod(tweeted-2, shortly-3)
+case(report-7, after-4)
+det(report-7, the-5)
+compound(report-7, radio-6)
+nmod:after(tweeted-2, report-7)
+mark(train-24, that-8)
+nsubj(club-17, Neymar-9)
+nsubj(train-24, Neymar-9) t1
+ref(Neymar-9, who-11)
+aux(club-17, has-12)
+cop(club-17, been-13)
+case(club-17, with-14)
+det(club-17, the-15)
+amod(club-17, Spanish-16)
+acl:relcl(Neymar-9, club-17)
+case(June-19, since-18)
+nmod:since(club-17, June-19)
+nummod(June-19, 2013-20)
+aux(train-24, did-22) s1-1/3
+neg(train-24, not-23) s1-2/3
+ccomp(tweeted-2, train-24) s1-3/3
+case(Wednesday-26, on-25)
+nmod:on(train-24, Wednesday-26)
+case(permission-29, with-27)
+det(permission-29, the-28)
+nmod:with(train-24, permission-29)
+case(coach-32, of-30)
+det(coach-32, the-31)
+nmod:of(permission-29, coach-32)
+
+6) In another Twitter posting, restricted to the sports press, the club said he was leaving but gave no further details. 
+
+case(posting-4, In-1)
+det(posting-4, another-2)
+compound(posting-4, Twitter-3)
+nmod:in(said-14, posting-4)
+acl(posting-4, restricted-6)
+case(press-10, to-7)
+det(press-10, the-8)
+compound(press-10, sports-9)
+nmod:to(restricted-6, press-10)
+det(club-13, the-12)
+nsubj(said-14, club-13)
+nsubj(gave-19, club-13)
+root(ROOT-0, said-14)
+nsubj(leaving-17, he-15) t1
+aux(leaving-17, was-16)
+ccomp(said-14, leaving-17) s1
+cc(said-14, but-18)
+conj:but(said-14, gave-19)
+neg(details-22, no-20)
+amod(details-22, further-21)
+dobj(gave-19, details-22)
+
+7) That tweet was confirmed by a spokeswomen. 
+
+det(tweet-2, That-1)
+nsubjpass(confirmed-4, tweet-2) t1
+auxpass(confirmed-4, was-3) s1-1/2
+root(ROOT-0, confirmed-4) s1-2/2
+case(spokeswomen-7, by-5)
+det(spokeswomen-7, a-6)
+nmod:by(confirmed-4, spokeswomen-7)
+
+8) A PSG spokesman declined to comment. 
+
+det(spokesman-3, A-1)
+compound(spokesman-3, PSG-2)
+nsubj(declined-4, spokesman-3)
+nsubj:xsubj(comment-6, spokesman-3)
+root(ROOT-0, declined-4) s1
+mark(comment-6, to-5)
+xcomp(declined-4, comment-6) t1
+
+9) Neymar signed for Barcelona from Brazilian side Santos for $85 million, although it was later revealed the cost was closer to $149 million. 
+
+nsubj(signed-2, Neymar-1)
+root(ROOT-0, signed-2)
+case(Barcelona-4, for-3)
+nmod:for(signed-2, Barcelona-4)
+case(Santos-8, from-5)
+amod(Santos-8, Brazilian-6)
+compound(Santos-8, side-7)
+nmod:from(signed-2, Santos-8)
+case($-10, for-9)
+nmod:for(Santos-8, $-10)
+compound(million-12, 85-11)
+nummod($-10, million-12)
+mark(revealed-18, although-14)
+nsubjpass(revealed-18, it-15)
+auxpass(revealed-18, was-16)
+advmod(revealed-18, later-17)
+advcl(signed-2, revealed-18)
+det(cost-20, the-19)
+nsubj(closer-22, cost-20)
+cop(closer-22, was-21)
+ccomp(revealed-18, closer-22)
+case($-24, to-23)
+nmod:to(closer-22, $-24)
+compound(million-26, 149-25)
+nummod($-24, million-26)
+
+10) More to come. 
+
+root(ROOT-0, More-1)
+mark(come-3, to-2)
+dep(More-1, come-3)
+
+11) Reuters 
+
+root(ROOT-0, Reuters-1)

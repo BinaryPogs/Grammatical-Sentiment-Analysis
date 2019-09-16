@@ -1,0 +1,511 @@
+011240.psd
+
+1) Gold near seven-week high as $US falls Gold has risen, nearing seven-week highs, as the US dollar fell to a 15-month low and US data showed fewer-than-expected new jobs in July, bringing into question chances of the Federal Reserve raising interest rates in the coming months. 
+
+nsubj(falls-8, Gold-1) t1
+case(high-4, near-2) s1-1/3
+amod(high-4, seven-week-3) s1-2/3
+nmod:near(Gold-1, high-4) s1-3/3
+case(US-7, as-5)
+dep(US-7, $-6)
+nmod:as(high-4, US-7) t2
+root(ROOT-0, falls-8) s2
+nsubj(risen-11, Gold-9) t3
+aux(risen-11, has-10)
+ccomp(falls-8, risen-11) s3
+xcomp(risen-11, nearing-13) s3-1/3
+amod(highs-15, seven-week-14) s3-2/3
+dobj(nearing-13, highs-15) s3-3/3
+mark(fell-21, as-17)
+det(dollar-20, the-18)
+compound(dollar-20, US-19) t4
+nsubj(fell-21, dollar-20) t4
+advcl(risen-11, fell-21) s5
+case(low-25, to-22)
+det(low-25, a-23)
+amod(low-25, 15-month-24)
+nmod:to(fell-21, low-25)
+cc(fell-21, and-26)
+compound(data-28, US-27)
+nsubj(showed-29, data-28)
+advcl(risen-11, showed-29)
+conj:and(fell-21, showed-29)
+amod(jobs-32, fewer-than-expected-30) s6
+amod(jobs-32, new-31)
+dobj(showed-29, jobs-32) t6
+case(July-34, in-33)
+nmod:in(showed-29, July-34)
+advcl(showed-29, bringing-36)
+mark(raising-44, into-37)
+compound(chances-39, question-38) s7
+nsubj(raising-44, chances-39)
+case(Reserve-43, of-40)
+det(Reserve-43, the-41)
+compound(Reserve-43, Federal-42)
+nmod:of(chances-39, Reserve-43)
+advcl(bringing-36, raising-44)
+compound(rates-46, interest-45) t7
+dobj(raising-44, rates-46) t7
+case(months-50, in-47)
+det(months-50, the-48)
+amod(months-50, coming-49)
+nmod:in(rates-46, months-50)
+
+2) Gold is highly sensitive to rising rates because they lift bond yields, raising the opportunity cost of holding non-yielding bullion, and tend to boost the US dollar, in which gold is priced. 
+
+nsubj(sensitive-4, Gold-1) t1
+cop(sensitive-4, is-2)
+advmod(sensitive-4, highly-3) s2
+root(ROOT-0, sensitive-4) t2 s1
+case(rates-7, to-5)
+amod(rates-7, rising-6)
+nmod:to(sensitive-4, rates-7)
+mark(lift-10, because-8)
+nsubj(lift-10, they-9)
+nsubj(tend-24, they-9)
+nsubj:xsubj(boost-26, they-9) t3
+advcl(sensitive-4, lift-10) s3
+compound(yields-12, bond-11) t3
+dobj(lift-10, yields-12) t43
+advcl(lift-10, raising-14) s4
+det(cost-17, the-15)
+compound(cost-17, opportunity-16) t4
+dobj(raising-14, cost-17) t4
+case(bullion-21, of-18)
+amod(bullion-21, holding-19)
+amod(bullion-21, non-yielding-20)
+nmod:of(cost-17, bullion-21)
+cc(lift-10, and-23)
+advcl(sensitive-4, tend-24)
+conj:and(lift-10, tend-24) s5-1/2 t6
+mark(boost-26, to-25) s5-2/2 t6
+xcomp(tend-24, boost-26) s6
+det(dollar-29, the-27)
+compound(dollar-29, US-28) t5
+dobj(boost-26, dollar-29) t5
+nmod:in(priced-35, dollar-29)
+case(which-32, in-31)
+ref(dollar-29, which-32)
+nsubjpass(priced-35, gold-33)
+auxpass(priced-35, is-34)
+acl:relcl(dollar-29, priced-35)
+
+3) Spot gold was up 0.2 per cent at $US1,270.43 an ounce by 1.50 pm Wednesday EDT -LRB- 0550 Thursday AEST -RRB-. 
+
+amod(gold-2, Spot-1) t1
+nsubj($-9, gold-2) t1
+cop($-9, was-3)
+advmod($-9, up-4) s1
+nmod:npmod(up-4, 0.2-5)
+case(cent-7, per-6)
+nmod:per(up-4, cent-7)
+case($-9, at-8)
+root(ROOT-0, $-9)
+compound(,270.43-11, US1-10)
+nummod($-9, ,270.43-11)
+det(ounce-13, an-12)
+dep($-9, ounce-13)
+case(EDT-18, by-14)
+nummod(EDT-18, 1.50-15)
+compound(EDT-18, pm-16)
+compound(EDT-18, Wednesday-17)
+nmod:by($-9, EDT-18)
+compound(AEST-22, 0550-20)
+compound(AEST-22, Thursday-21)
+appos(EDT-18, AEST-22)
+
+4) But US gold futures settled down 0.08 per cent at $US1,278.40. 
+
+cc(settled-5, But-1)
+compound(futures-4, US-2) t1
+compound(futures-4, gold-3) t1
+nsubj(settled-5, futures-4) t1
+root(ROOT-0, settled-5) s1-1/2
+compound:prt(settled-5, down-6) s1-2/2
+dobj(settled-5, 0.08-7)
+case(cent-9, per-8)
+nmod:per(0.08-7, cent-9)
+case($-11, at-10)
+nmod:at(settled-5, $-11)
+compound(,278.40-13, US1-12)
+nummod($-11, ,278.40-13)
+
+5) ``This is one of the quieter sessions that I've seen in a while. 
+
+nsubj(one-4, This-2)
+cop(one-4, is-3)
+root(ROOT-0, one-4)
+case(sessions-8, of-5)
+det(sessions-8, the-6)
+compound(sessions-8, quieter-7) s1
+nmod:of(one-4, sessions-8) t1
+mark(seen-12, that-9)
+nsubj(seen-12, I-10)
+aux(seen-12, 've-11)
+ccomp(one-4, seen-12)
+case(while-15, in-13)
+det(while-15, a-14)
+nmod:in(seen-12, while-15)
+
+6) Part of it is anticipation of the employment report,'' said Bill O'Neill, co-founder of LOGIC Advisors, pointing to technical resistance in bullion around $US1,280. 
+
+nsubj(anticipation-5, Part-1)
+case(it-3, of-2)
+nmod:of(Part-1, it-3)
+cop(anticipation-5, is-4)
+ccomp(said-12, anticipation-5)
+case(report-9, of-6)
+det(report-9, the-7)
+compound(report-9, employment-8)
+nmod:of(anticipation-5, report-9)
+root(ROOT-0, said-12)
+compound(O'Neill-14, Bill-13)
+nsubj(said-12, O'Neill-14)
+appos(O'Neill-14, co-founder-16)
+case(Advisors-19, of-17)
+compound(Advisors-19, LOGIC-18)
+nmod:of(co-founder-16, Advisors-19)
+advcl(said-12, pointing-21)
+case(resistance-24, to-22)
+amod(resistance-24, technical-23)
+nmod:to(pointing-21, resistance-24) s1
+case(bullion-26, in-25)
+nmod:in(resistance-24, bullion-26) t1
+case($-28, around-27)
+nmod:around(pointing-21, $-28)
+compound(,280-30, US1-29)
+nummod($-28, ,280-30)
+
+7) The US dollar index fell to a 15-month low as traders eyed doubts about another US rate increase this year, ``That's helped perked things up off the lows,'' O'Neill said, adding that gold's uptrend remained intact. 
+
+det(index-4, The-1)
+compound(index-4, US-2) t1
+compound(index-4, dollar-3) t1
+nsubj(fell-5, index-4) t1
+root(ROOT-0, fell-5) s1
+case(low-9, to-6)
+det(low-9, a-7)
+amod(low-9, 15-month-8)
+nmod:to(fell-5, low-9)
+mark(eyed-12, as-10)
+nsubj(eyed-12, traders-11)
+advcl(fell-5, eyed-12)
+dobj(eyed-12, doubts-13) s2
+case(increase-18, about-14)
+det(increase-18, another-15) t2
+compound(increase-18, US-16) t2
+compound(increase-18, rate-17) t2
+nmod:about(eyed-12, increase-18) t2
+det(year-20, this-19)
+nmod:tmod(eyed-12, year-20)
+nsubjpass(helped-25, That-23)
+auxpass(helped-25, 's-24)
+ccomp(said-35, helped-25) s3
+nummod(things-27, perked-26) t4
+nmod:npmod(up-28, things-27) t4
+advmod(lows-31, up-28) t4
+case(lows-31, off-29) 
+det(lows-31, the-30)
+nmod:off(helped-25, lows-31)
+nsubj(said-35, O'Neill-34)
+parataxis(fell-5, said-35)
+parataxis(fell-5, adding-37)
+mark(remained-42, that-38)
+nmod:poss(uptrend-41, gold-39)
+case(gold-39, 's-40)
+nsubj(remained-42, uptrend-41)
+ccomp(adding-37, remained-42)
+xcomp(remained-42, intact-43)
+
+8) US private employers added 178,000 jobs in July, below economists' expectations, a payrolls processor report showed. 
+
+compound(employers-3, US-1)
+amod(employers-3, private-2)
+nsubj(added-4, employers-3)
+ccomp(showed-19, added-4) s1
+nummod(jobs-6, 178,000-5)
+dobj(added-4, jobs-6) t1
+case(July-8, in-7)
+nmod:in(added-4, July-8)
+case(expectations-13, below-10) s2
+nmod:poss(expectations-13, economists-11)
+case(economists-11, '-12)
+nmod:below(added-4, expectations-13) t2
+det(report-18, a-15)
+compound(report-18, payrolls-16)
+compound(report-18, processor-17)
+nsubj(showed-19, report-18)
+root(ROOT-0, showed-19)
+
+9) Investors were looking ahead to the more comprehensive US non-farm payrolls report on Friday for a clearer indication of the Fed's intentions. 
+
+nsubj(looking-3, Investors-1)
+aux(looking-3, were-2)
+root(ROOT-0, looking-3)
+advmod(looking-3, ahead-4)
+case(report-12, to-5)
+det(report-12, the-6)
+advmod(comprehensive-8, more-7)
+amod(report-12, comprehensive-8)
+compound(report-12, US-9)
+amod(report-12, non-farm-10)
+compound(report-12, payrolls-11)
+nmod:to(ahead-4, report-12)
+case(Friday-14, on-13)
+nmod:on(looking-3, Friday-14)
+case(indication-18, for-15)
+det(indication-18, a-16)
+amod(indication-18, clearer-17)
+nmod:for(Friday-14, indication-18)
+case(intentions-23, of-19)
+det(Fed-21, the-20)
+nmod:poss(intentions-23, Fed-21)
+case(Fed-21, 's-22)
+nmod:of(indication-18, intentions-23)
+
+10) While weak employment data may dissuade the Fed from aggressive interest rate increases, gold is likely to come under pressure from the bank's plans to shrink its balance sheet, said Mitsubishi analyst Jonathan Butler. 
+
+mark(dissuade-6, While-1)
+amod(data-4, weak-2) s1
+compound(data-4, employment-3) t1
+nsubj(dissuade-6, data-4) t1
+aux(dissuade-6, may-5)
+advcl(likely-17, dissuade-6) v2
+det(Fed-8, the-7)
+dobj(dissuade-6, Fed-8) t2
+case(increases-13, from-9)
+amod(increases-13, aggressive-10)
+compound(increases-13, interest-11)
+compound(increases-13, rate-12)
+nmod:from(dissuade-6, increases-13)
+nsubj(likely-17, gold-15) t3
+nsubj:xsubj(come-19, gold-15)
+cop(likely-17, is-16)
+ccomp(said-33, likely-17)
+mark(come-19, to-18)
+xcomp(likely-17, come-19) s3-1/3
+case(pressure-21, under-20) s3-2/3
+nmod:under(come-19, pressure-21) s3-3/3
+case(plans-26, from-22)
+det(bank-24, the-23)
+nmod:poss(plans-26, bank-24)
+case(bank-24, 's-25)
+nmod:from(come-19, plans-26)
+mark(shrink-28, to-27)
+acl(plans-26, shrink-28)
+nmod:poss(sheet-31, its-29)
+compound(sheet-31, balance-30)
+dobj(shrink-28, sheet-31)
+root(ROOT-0, said-33)
+compound(Butler-37, Mitsubishi-34)
+compound(Butler-37, analyst-35)
+compound(Butler-37, Jonathan-36)
+nsubj(said-33, Butler-37)
+
+11) ``If the Fed is no longer investing the proceeds of its maturing debt then we would expect the price of those securities to go down and the yield to go up, which is not good for gold,'' he said. 
+
+mark(investing-8, If-2)
+det(Fed-4, the-3)
+nsubj(investing-8, Fed-4)
+aux(investing-8, is-5)
+neg(longer-7, no-6) s1-1/2
+advmod(investing-8, longer-7) s1-2/2
+advcl(expect-18, investing-8) t1 s2
+det(proceeds-10, the-9)
+dobj(investing-8, proceeds-10) t2
+case(debt-14, of-11)
+nmod:poss(debt-14, its-12)
+amod(debt-14, maturing-13)
+nmod:of(proceeds-10, debt-14)
+advmod(expect-18, then-15)
+nsubj(expect-18, we-16)
+aux(expect-18, would-17)
+ccomp(said-43, expect-18)
+det(price-20, the-19)
+dobj(expect-18, price-20) t3
+nsubj(good-37, price-20)
+case(securities-23, of-21)
+det(securities-23, those-22)
+nmod:of(price-20, securities-23)
+mark(go-25, to-24)
+acl(securities-23, go-25) s1-1/2
+compound:prt(go-25, down-26) s1-2/2
+cc(securities-23, and-27)
+det(yield-29, the-28)
+nmod:of(price-20, yield-29)
+conj:and(securities-23, yield-29) t2
+mark(go-31, to-30)
+acl(yield-29, go-31) s2-1/2
+compound:prt(go-31, up-32) s2-2/2
+ref(price-20, which-34)
+cop(good-37, is-35)
+neg(good-37, not-36) s3-1/2
+acl:relcl(price-20, good-37) s3-2/2
+case(gold-39, for-38)
+nmod:for(good-37, gold-39) t3
+nsubj(said-43, he-42)
+root(ROOT-0, said-43)
+
+12) Demand for physical gold has been weak, with holdings in the largest gold-backed exchange-traded-fund, the SPDR Gold Trust, falling more than 7 per cent in July, the biggest monthly outflow since April 2013. 
+
+nsubj(weak-7, Demand-1) t1
+case(gold-4, for-2)
+amod(gold-4, physical-3)
+nmod:for(Demand-1, gold-4)
+aux(weak-7, has-5)
+cop(weak-7, been-6)
+root(ROOT-0, weak-7) s1
+mark(falling-22, with-9)
+nsubj(falling-22, holdings-10)
+case(exchange-traded-fund-15, in-11)
+det(exchange-traded-fund-15, the-12)
+amod(exchange-traded-fund-15, largest-13)
+amod(exchange-traded-fund-15, gold-backed-14)
+nmod:in(holdings-10, exchange-traded-fund-15)
+det(Trust-20, the-17)
+compound(Trust-20, SPDR-18)
+compound(Trust-20, Gold-19)
+appos(exchange-traded-fund-15, Trust-20)
+advcl(weak-7, falling-22)
+advmod(7-25, more-23)
+mwe(more-23, than-24)
+dobj(falling-22, 7-25)
+case(cent-27, per-26)
+nmod:per(7-25, cent-27)
+case(July-29, in-28)
+nmod:in(falling-22, July-29)
+det(outflow-34, the-31)
+amod(outflow-34, biggest-32)
+amod(outflow-34, monthly-33)
+appos(July-29, outflow-34)
+case(April-36, since-35)
+nmod:since(outflow-34, April-36)
+nummod(April-36, 2013-37)
+
+13) Among other precious metals, silver was up 0.1 per cent at $US16.69 an ounce after touching its highest since June 29. 
+
+case(metals-4, Among-1)
+amod(metals-4, other-2)
+amod(metals-4, precious-3)
+nmod:among($-13, metals-4)
+nsubj($-13, silver-6) t1 t2
+cop($-13, was-7)
+advmod($-13, up-8) s1
+nmod:npmod(up-8, 0.1-9)
+case(cent-11, per-10)
+nmod:per(up-8, cent-11)
+case($-13, at-12)
+root(ROOT-0, $-13)
+compound(.69-15, US16-14)
+nummod($-13, .69-15)
+det(ounce-17, an-16)
+dep($-13, ounce-17)
+mark(touching-19, after-18)
+advcl($-13, touching-19)
+nmod:poss(highest-21, its-20) t1
+dobj(touching-19, highest-21) s2
+case(June-23, since-22)
+nmod:since(touching-19, June-23)
+nummod(June-23, 29-24)
+
+14) Platinum was up 0.2 per cent at $US945.20 an ounce, after rising to $US951.40, the highest since June 14 and near the 200-day moving average. 
+
+nsubj($-8, Platinum-1) t1 t2
+cop($-8, was-2)
+advmod($-8, up-3) s1
+nmod:npmod(up-3, 0.2-4)
+case(cent-6, per-5)
+nmod:per(up-3, cent-6)
+case($-8, at-7)
+root(ROOT-0, $-8)
+compound(.20-10, US945-9)
+nummod($-8, .20-10)
+det(ounce-12, an-11)
+dep($-8, ounce-12)
+mark(rising-15, after-14)
+advcl($-8, rising-15)
+advcl($-8, rising-15')
+conj:and(rising-15, rising-15')
+case($-17, to-16)
+nmod:to(rising-15, $-17)
+compound(.40-19, US951-18)
+nummod($-17, .40-19)
+det(highest-22, the-21)
+appos($-17, highest-22) s2
+case(June-24, since-23)
+nmod:since(highest-22, June-24)
+nummod(June-24, 14-25)
+cc(rising-15, and-26)
+case(average-31, near-27)
+det(average-31, the-28)
+amod(average-31, 200-day-29)
+amod(average-31, moving-30)
+nmod:near(rising-15', average-31)
+
+15) Palladium, used in the automotive industry for emission-controlling catalytic converters, was 0.2 per cent higher at $US893.50 an ounce after rising to $US906, the highest since June 13. 
+
+nsubj(higher-17, Palladium-1) t1
+acl(Palladium-1, used-3)
+case(industry-7, in-4)
+det(industry-7, the-5)
+amod(industry-7, automotive-6)
+nmod:in(used-3, industry-7)
+case(converters-11, for-8)
+amod(converters-11, emission-controlling-9)
+amod(converters-11, catalytic-10)
+nmod:for(industry-7, converters-11)
+cop(higher-17, was-13)
+nmod:npmod(higher-17, 0.2-14)
+case(cent-16, per-15)
+nmod:per(0.2-14, cent-16)
+root(ROOT-0, higher-17)
+case($-19, at-18)
+nmod:at(higher-17, $-19)
+compound(.50-21, US893-20)
+nummod($-19, .50-21)
+det(ounce-23, an-22)
+dep($-19, ounce-23)
+mark(rising-25, after-24)
+advcl(higher-17, rising-25)
+case(US906-28, to-26)
+dep(US906-28, $-27)
+nmod:to(rising-25, US906-28)
+det(highest-31, the-30)
+appos(US906-28, highest-31) s1
+case(June-33, since-32)
+nmod:since(highest-31, June-33)
+nummod(June-33, 13-34)
+
+16) But US car sales data had disappointed, analysts at Commerzbank said. 
+
+cc(disappointed-7, But-1)
+compound(data-5, US-2)
+compound(data-5, car-3)
+compound(data-5, sales-4)
+nsubj(disappointed-7, data-5) t1
+aux(disappointed-7, had-6)
+ccomp(said-12, disappointed-7) s1
+nsubj(said-12, analysts-9)
+case(Commerzbank-11, at-10)
+nmod:at(analysts-9, Commerzbank-11)
+root(ROOT-0, said-12)
+
+17) ``We no longer see any justification for the high palladium price.'' 
+
+nsubj(see-5, We-2)
+neg(longer-4, no-3)
+advmod(see-5, longer-4)
+root(ROOT-0, see-5)
+det(justification-7, any-6)
+dobj(see-5, justification-7)
+case(price-12, for-8)
+det(price-12, the-9)
+amod(price-12, high-10)
+compound(price-12, palladium-11)
+nmod:for(justification-7, price-12)
+
+18) Originally published as 
+
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

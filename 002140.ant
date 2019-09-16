@@ -1,0 +1,276 @@
+002140.psd
+
+1) Australian movie poster for 1928 sci-fi classic Metropolis sets auction house record A highly sought after Australian movie poster for the 1928 science fiction classic Metropolis has pulled in a record-breaking price after it went under the hammer in the United States over the weekend. 
+
+amod(poster-3, Australian-1)
+compound(poster-3, movie-2) t1
+nsubj(sets-9, poster-3)
+case(Metropolis-8, for-4)
+nummod(Metropolis-8, 1928-5)
+amod(Metropolis-8, sci-fi-6)
+amod(Metropolis-8, classic-7)
+nmod:for(poster-3, Metropolis-8)
+root(ROOT-0, sets-9) s1-1/2
+compound(record-12, auction-10)
+compound(record-12, house-11)
+dobj(sets-9, record-12) s1-2/2
+det(Metropolis-26, A-13)
+advmod(sought-15, highly-14) s2
+amod(Metropolis-26, sought-15) t2 s3-1/2
+case(poster-19, after-16) t2 s3-2/2
+amod(poster-19, Australian-17)
+compound(poster-19, movie-18)
+nmod:after(sought-15, poster-19) t3 t5 t6
+case(fiction-24, for-20)
+det(fiction-24, the-21)
+nummod(fiction-24, 1928-22)
+compound(fiction-24, science-23)
+nmod:for(poster-19, fiction-24)
+amod(Metropolis-26, classic-25)
+nsubj(pulled-28, Metropolis-26)
+aux(pulled-28, has-27)
+acl:relcl(record-12, pulled-28) s5-1/2
+case(price-32, in-29) s5-2/2
+det(price-32, a-30)
+amod(price-32, record-breaking-31) s4 t5
+nmod:in(pulled-28, price-32) t4
+mark(went-35, after-33)
+nsubj(went-35, it-34) t6
+advcl(pulled-28, went-35) s6-1/4
+case(hammer-38, under-36) s6-2/4
+det(hammer-38, the-37) s6-3/4
+nmod:under(went-35, hammer-38) s6-4/4
+case(States-42, in-39)
+det(States-42, the-40)
+compound(States-42, United-41)
+nmod:in(hammer-38, States-42)
+case(weekend-45, over-43)
+det(weekend-45, the-44)
+nmod:over(went-35, weekend-45)
+
+2) The daybill-sized poster, featuring artwork from Australian illustrator and artist Bernie Bragg, is the only known copy in existence and doubled its reserve price at top movie art auction house Heritage Auctions to sell for $US215,100 -LRB- $269,447. -RRB- 
+
+det(poster-3, The-1)
+amod(poster-3, daybill-sized-2)
+nsubj(copy-19, poster-3)
+nsubj(doubled-23, poster-3) t1
+acl(poster-3, featuring-5)
+dobj(featuring-5, artwork-6)
+case(illustrator-9, from-7)
+amod(illustrator-9, Australian-8)
+nmod:from(featuring-5, illustrator-9)
+cc(illustrator-9, and-10)
+compound(Bragg-13, artist-11)
+compound(Bragg-13, Bernie-12)
+nmod:from(featuring-5, Bragg-13)
+conj:and(illustrator-9, Bragg-13)
+cop(copy-19, is-15)
+det(copy-19, the-16)
+advmod(known-18, only-17) s1-1/2
+amod(copy-19, known-18) s1-2/2
+root(ROOT-0, copy-19) t1 t2
+case(existence-21, in-20)
+nmod:in(copy-19, existence-21)
+cc(copy-19, and-22)
+conj:and(copy-19, doubled-23) s2-1/3
+nmod:poss(price-26, its-24) t2
+compound(price-26, reserve-25) s2-2/3
+dobj(doubled-23, price-26) s2-3/3
+case(auction-31, at-27)
+amod(auction-31, top-28) s3
+compound(auction-31, movie-29) t3
+compound(auction-31, art-30) t3
+nmod:at(doubled-23, auction-31) t3
+dep(copy-19, house-32)
+compound(Auctions-34, Heritage-33)
+dobj(house-32, Auctions-34)
+nsubj:xsubj(sell-36, Auctions-34)
+mark(sell-36, to-35)
+xcomp(house-32, sell-36)
+case($-38, for-37)
+nmod:for(sell-36, $-38)
+compound(,100-40, US215-39)
+nummod($-38, ,100-40)
+dep($-38, $-42)
+dep($-42, 269,447-43)
+
+3) The sale price smashed the previous record for an Australian movie poster at the auction house, which was previously $US28,680 for a poster for the 1927 Al Jolson musical The Jazz Singer, which is widely credited for ushering in the era of sound pictures. 
+
+det(price-3, The-1)
+compound(price-3, sale-2) t1
+nsubj(smashed-4, price-3) t1
+root(ROOT-0, smashed-4) s1-1/3
+det(record-7, the-5)
+amod(record-7, previous-6) s1-2/3
+dobj(smashed-4, record-7) s1-3/3
+case(poster-12, for-8)
+det(poster-12, an-9)
+amod(poster-12, Australian-10)
+compound(poster-12, movie-11) 
+nmod:for(smashed-4, poster-12)
+case(house-16, at-13)
+det(house-16, the-14)
+compound(house-16, auction-15)
+nmod:at(smashed-4, house-16)
+nsubj($-21, house-16)
+ref(house-16, which-18)
+cop($-21, was-19)
+advmod($-21, previously-20)
+acl:relcl(house-16, $-21)
+compound(,680-23, US28-22)
+nummod($-21, ,680-23)
+case(poster-26, for-24)
+det(poster-26, a-25)
+nmod:for($-21, poster-26) t3 t4
+case(musical-32, for-27)
+det(musical-32, the-28)
+nummod(musical-32, 1927-29)
+compound(musical-32, Al-30)
+compound(musical-32, Jolson-31)
+nmod:for(poster-26, musical-32)
+det(Singer-35, The-33)
+compound(Singer-35, Jazz-34)
+dep(musical-32, Singer-35)
+nsubjpass(credited-40, Singer-35)
+ref(Singer-35, which-37)
+auxpass(credited-40, is-38)
+advmod(credited-40, widely-39) s2
+acl:relcl(Singer-35, credited-40) t2 s3 t4
+mark(ushering-42, for-41)
+advcl(credited-40, ushering-42) s4
+case(era-45, in-43)
+det(era-45, the-44)
+nmod:in(ushering-42, era-45)
+case(pictures-48, of-46)
+amod(pictures-48, sound-47)
+nmod:of(era-45, pictures-48)
+
+4) Behind The Jazz Singer a daybill for Humphrey Bogart classic Casablanca was the next most expensive at $US21,510. 
+Neutral.
+case(Singer-4, Behind-1)
+det(Singer-4, The-2)
+compound(Singer-4, Jazz-3)
+nmod:behind(next-14, Singer-4)
+det(daybill-6, a-5)
+nsubj(next-14, daybill-6)
+case(Casablanca-11, for-7)
+compound(Casablanca-11, Humphrey-8)
+compound(Casablanca-11, Bogart-9)
+compound(Casablanca-11, classic-10)
+nmod:for(daybill-6, Casablanca-11)
+cop(next-14, was-12)
+det(next-14, the-13)
+root(ROOT-0, next-14)
+advmod(expensive-16, most-15)
+amod(next-14, expensive-16)
+case($-18, at-17)
+nmod:at(next-14, $-18)
+compound(,510-20, US21-19)
+nummod($-18, ,510-20)
+
+5) Older Australian movie posters are increasingly highly sought after for their beautiful artwork and the vibrant stone lithography print. 
+
+amod(posters-4, Older-1)
+amod(posters-4, Australian-2)
+compound(posters-4, movie-3) t3 t4 t5
+nsubjpass(sought-8, posters-4) t3 t4 t5
+auxpass(sought-8, are-5)
+advmod(sought-8, increasingly-6) s1
+advmod(sought-8, highly-7) s2
+root(ROOT-0, sought-8) t1 t2 s3-1/2
+case(artwork-13, after-9) t1 t2 s3-2/2
+case(artwork-13, for-10)
+nmod:poss(artwork-13, their-11) t4 t5
+amod(artwork-13, beautiful-12) s4
+nmod:for(sought-8, artwork-13) t4
+cc(artwork-13, and-14)
+det(print-19, the-15)
+amod(print-19, vibrant-16) s5
+compound(print-19, stone-17) t5
+compound(print-19, lithography-18) t5
+nmod:for(sought-8, print-19) t5
+conj:and(artwork-13, print-19)
+
+6) They are also rarer than posters from other countries, due to Australia's smaller population meaning fewer posters were printed at the time of a film's release. 
+Neutral.
+nsubj(rarer-4, They-1)
+cop(rarer-4, are-2)
+advmod(rarer-4, also-3)
+root(ROOT-0, rarer-4)
+case(posters-6, than-5)
+nmod:than(rarer-4, posters-6)
+case(countries-9, from-7)
+amod(countries-9, other-8)
+nmod:from(rarer-4, countries-9)
+xcomp(rarer-4, due-11)
+case(population-16, to-12)
+nmod:poss(population-16, Australia-13)
+case(Australia-13, 's-14)
+amod(population-16, smaller-15)
+nmod:to(rarer-4, population-16)
+acl(population-16, meaning-17)
+amod(posters-19, fewer-18)
+dobj(meaning-17, posters-19)
+auxpass(printed-21, were-20)
+acl:relcl(posters-19, printed-21)
+case(time-24, at-22)
+det(time-24, the-23)
+nmod:at(printed-21, time-24)
+case(release-29, of-25)
+det(film-27, a-26)
+nmod:poss(release-29, film-27)
+case(film-27, 's-28)
+nmod:of(time-24, release-29)
+
+7) Pre-war daybills, which measure approximately 330 mm by 760 mm, are very scarce as many were pulped in order to recycle the paper during war rationing years. 
+
+amod(daybills-2, Pre-war-1)
+nsubj(measure-5, daybills-2)
+nsubj(scarce-15, daybills-2) t2
+ref(daybills-2, which-4)
+acl:relcl(daybills-2, measure-5)
+advmod(330-7, approximately-6)
+nummod(mm-8, 330-7)
+dobj(measure-5, mm-8)
+case(mm-11, by-9)
+nummod(mm-11, 760-10)
+nmod:by(measure-5, mm-11)
+cop(scarce-15, are-13)
+advmod(scarce-15, very-14) s1
+root(ROOT-0, scarce-15) t1 s2
+mark(pulped-19, as-16)
+nsubjpass(pulped-19, many-17)
+nsubj:xsubj(recycle-23, many-17)
+auxpass(pulped-19, were-18)
+dep(scarce-15, pulped-19)
+advcl(pulped-19, in-20)
+mwe(in-20, order-21)
+mark(recycle-23, to-22)
+xcomp(pulped-19, recycle-23)
+det(paper-25, the-24)
+dobj(recycle-23, paper-25)
+case(years-29, during-26)
+compound(years-29, war-27)
+compound(years-29, rationing-28)
+nmod:during(recycle-23, years-29)
+
+8) A second Metropolis daybill featuring different artwork also sold at the weekend's auction for $US45,410. 
+Neutral.
+det(daybill-4, A-1)
+amod(daybill-4, second-2)
+amod(daybill-4, Metropolis-3)
+nsubj(sold-9, daybill-4)
+acl(daybill-4, featuring-5)
+amod(artwork-7, different-6)
+dobj(featuring-5, artwork-7)
+advmod(sold-9, also-8)
+root(ROOT-0, sold-9)
+case(auction-14, at-10)
+det(weekend-12, the-11)
+nmod:poss(auction-14, weekend-12)
+case(weekend-12, 's-13)
+nmod:at(sold-9, auction-14)
+case($-16, for-15)
+nmod:for(auction-14, $-16)
+compound(,410-18, US45-17)
+nummod($-16, ,410-18)

@@ -1,0 +1,582 @@
+008140.psd
+
+1) Thick fog causes travel chaos FLIGHTS have aborted landings at Melbourne Airport and forced to interstate airports as thick fog continues to blanket the city. 
+
+compound(causes-3, Thick-1) t1
+compound(causes-3, fog-2) t1
+nsubj(travel-4, causes-3) s1 t2
+root(ROOT-0, travel-4)
+compound(FLIGHTS-6, chaos-5) s2
+nsubj(aborted-8, FLIGHTS-6) t3
+nsubj(forced-14, FLIGHTS-6)
+aux(aborted-8, have-7)
+ccomp(travel-4, aborted-8) s3
+dobj(aborted-8, landings-9)
+case(Airport-12, at-10)
+compound(Airport-12, Melbourne-11)
+nmod:at(aborted-8, Airport-12)
+cc(aborted-8, and-13)
+ccomp(travel-4, forced-14) s4-1/2
+conj:and(aborted-8, forced-14)
+case(airports-17, to-15) s4-2/2
+amod(airports-17, interstate-16)
+nmod:to(forced-14, airports-17)
+mark(continues-21, as-18)
+amod(fog-20, thick-19) s7
+nsubj(continues-21, fog-20) s6 t7
+nsubj:xsubj(blanket-23, fog-20)
+advcl(forced-14, continues-21)
+mark(blanket-23, to-22)
+xcomp(continues-21, blanket-23) s5
+det(city-25, the-24)
+dobj(blanket-23, city-25) t5
+
+2) At least two flights have been forced to divert as heavy fog reduces visibility. 
+
+case(least-2, At-1)
+nmod:npmod(two-3, least-2)
+nummod(flights-4, two-3)
+nsubjpass(forced-7, flights-4) t1
+nsubj:xsubj(divert-9, flights-4)
+aux(forced-7, have-5)
+auxpass(forced-7, been-6) s1-1/2
+root(ROOT-0, forced-7) s1-2/2 t2
+mark(divert-9, to-8)
+xcomp(forced-7, divert-9) s2
+mark(reduces-13, as-10)
+amod(fog-12, heavy-11) s3 
+nsubj(reduces-13, fog-12) t3 t4
+advcl(divert-9, reduces-13) s4
+dobj(reduces-13, visibility-14) t4
+
+3) One of the planes, Virgin flight VA252 from Canberra, reportedly got down to 140m before it abandoned the landing and returned to the sky. 
+
+nsubj(got-13, One-1)
+case(planes-4, of-2)
+det(planes-4, the-3)
+nmod:of(One-1, planes-4)
+compound(VA252-8, Virgin-6)
+compound(VA252-8, flight-7)
+appos(One-1, VA252-8)
+case(Canberra-10, from-9)
+nmod:from(VA252-8, Canberra-10)
+advmod(got-13, reportedly-12)
+root(ROOT-0, got-13)
+compound:prt(got-13, down-14)
+case(140m-16, to-15)
+nmod:to(got-13, 140m-16)
+mark(abandoned-19, before-17)
+nsubj(abandoned-19, it-18) t1
+nsubj(returned-23, it-18)
+advcl(got-13, abandoned-19) s1
+det(landing-21, the-20)
+dobj(abandoned-19, landing-21)
+cc(abandoned-19, and-22)
+advcl(got-13, returned-23)
+conj:and(abandoned-19, returned-23)
+case(sky-26, to-24)
+det(sky-26, the-25)
+nmod:to(returned-23, sky-26)
+
+4) It circled near Werribee before diverting to Sydney. 
+
+nsubj(circled-2, It-1)
+root(ROOT-0, circled-2)
+case(Werribee-4, near-3)
+nmod:near(circled-2, Werribee-4)
+mark(diverting-6, before-5)
+advcl(circled-2, diverting-6)
+case(Sydney-8, to-7)
+nmod:to(diverting-6, Sydney-8)
+
+5) A Capital Airlines flight from China was also unable to land on its first approach, before touching down almost an hour late. 
+
+det(flight-4, A-1)
+compound(flight-4, Capital-2)
+compound(flight-4, Airlines-3) t1 t2
+nsubj(unable-9, flight-4) t1 t2
+nsubj:xsubj(land-11, flight-4)
+case(China-6, from-5)
+nmod:from(flight-4, China-6)
+cop(unable-9, was-7)
+advmod(unable-9, also-8)
+root(ROOT-0, unable-9) s1
+mark(land-11, to-10)
+xcomp(unable-9, land-11)
+case(approach-15, on-12)
+nmod:poss(approach-15, its-13)
+amod(approach-15, first-14)
+nmod:on(land-11, approach-15)
+mark(touching-18, before-17)
+advcl(unable-9, touching-18)
+advmod(touching-18, down-19)
+advmod(hour-22, almost-20)
+det(hour-22, an-21)
+nmod:npmod(down-19, hour-22)
+advmod(touching-18, late-23) s2
+
+6) Airservices Australia spokeswoman Sarah Fulton said three planes had been diverted from Melbourne. 
+
+compound(Fulton-5, Airservices-1)
+compound(Fulton-5, Australia-2)
+compound(Fulton-5, spokeswoman-3)
+compound(Fulton-5, Sarah-4)
+nsubj(said-6, Fulton-5)
+root(ROOT-0, said-6)
+nummod(planes-8, three-7) t1
+nsubjpass(diverted-11, planes-8) t1
+aux(diverted-11, had-9)
+auxpass(diverted-11, been-10)
+ccomp(said-6, diverted-11) s1
+case(Melbourne-13, from-12)
+nmod:from(diverted-11, Melbourne-13)
+
+7) ``Two went to Sydney and one went back to Hobart,'' she said. 
+
+nsubj(went-3, Two-2)
+ccomp(said-15, went-3)
+case(Sydney-5, to-4)
+nmod:to(went-3, Sydney-5)
+cc(went-3, and-6)
+nsubj(went-8, one-7)
+conj:and(went-3, went-8)
+ccomp(said-15, went-8)
+advmod(went-8, back-9)
+case(Hobart-11, to-10)
+nmod:to(went-8, Hobart-11)
+nsubj(said-15, she-14)
+root(ROOT-0, said-15)
+
+8) Conditions were set to improve soon, Ms Fulton said, but delays were expected. 
+
+nsubjpass(set-3, Conditions-1)
+nsubj:xsubj(improve-5, Conditions-1) t1
+auxpass(set-3, were-2) s1-1/2
+root(ROOT-0, set-3) s1-2/2 t2
+mark(improve-5, to-4)
+xcomp(set-3, improve-5) s2
+advmod(improve-5, soon-6)
+compound(Fulton-9, Ms-8)
+nsubj(said-10, Fulton-9)
+dep(set-3, said-10)
+cc(set-3, but-12)
+nsubjpass(expected-15, delays-13) t3
+auxpass(expected-15, were-14) s3-1/2
+conj:but(set-3, expected-15) s3-2/2
+
+9) Earlier reports the airport was closed were wrong, she said. 
+
+amod(reports-2, Earlier-1)
+nsubj(wrong-8, reports-2) t1
+det(airport-4, the-3)
+nsubjpass(closed-6, airport-4)
+auxpass(closed-6, was-5)
+acl:relcl(reports-2, closed-6)
+cop(wrong-8, were-7)
+ccomp(said-11, wrong-8) s1
+nsubj(said-11, she-10)
+root(ROOT-0, said-11)
+
+10) ``In particular it is the domestic and smaller regional aircrafts that are being affected,'' Ms Fulton said. 
+
+case(particular-3, In-2)
+advcl(aircrafts-11, particular-3)
+nsubj(aircrafts-11, it-4)
+cop(aircrafts-11, is-5)
+det(aircrafts-11, the-6)
+amod(aircrafts-11, domestic-7)
+cc(domestic-7, and-8)
+conj:and(domestic-7, smaller-9)
+amod(aircrafts-11, smaller-9)
+amod(aircrafts-11, regional-10)
+nsubjpass(affected-15, aircrafts-11) t2
+ccomp(said-20, aircrafts-11)
+ref(aircrafts-11, that-12)
+aux(affected-15, are-13)
+auxpass(affected-15, being-14) s1-1/2
+acl:relcl(aircrafts-11, affected-15) s1-2/2
+compound(Fulton-19, Ms-18)
+nsubj(said-20, Fulton-19)
+root(ROOT-0, said-20)
+
+11) ``Most international aircraft have been able to arrive and depart the airport because they have more advanced technology.'' 
+
+amod(aircraft-4, Most-2) t1
+amod(aircraft-4, international-3) t1
+nsubj(able-7, aircraft-4) t1
+nsubj:xsubj(arrive-9, aircraft-4)
+nsubj:xsubj(depart-11, aircraft-4)
+aux(able-7, have-5)
+cop(able-7, been-6)
+root(ROOT-0, able-7) s1
+mark(arrive-9, to-8)
+xcomp(able-7, arrive-9)
+cc(arrive-9, and-10)
+xcomp(able-7, depart-11)
+conj:and(arrive-9, depart-11)
+det(airport-13, the-12)
+dobj(arrive-9, airport-13)
+mark(have-16, because-14)
+nsubj(have-16, they-15) t2
+advcl(able-7, have-16) s2 t3
+advmod(advanced-18, more-17)
+amod(technology-19, advanced-18) s3
+dobj(have-16, technology-19) t3
+
+12) Flight tracking website FlightRadar24 showed a number of planes in holding patterns over parts of Melbourne before landing or diverting. 
+
+compound(FlightRadar24-4, Flight-1)
+compound(FlightRadar24-4, tracking-2)
+compound(FlightRadar24-4, website-3)
+nsubj(showed-5, FlightRadar24-4)
+root(ROOT-0, showed-5)
+det(number-7, a-6)
+dobj(showed-5, number-7)
+case(planes-9, of-8)
+nmod:of(number-7, planes-9)
+case(patterns-12, in-10)
+amod(patterns-12, holding-11)
+nmod:in(planes-9, patterns-12)
+case(parts-14, over-13)
+nmod:over(showed-5, parts-14)
+case(Melbourne-16, of-15)
+nmod:of(parts-14, Melbourne-16)
+mark(landing-18, before-17)
+advcl(showed-5, landing-18)
+cc(landing-18, or-19)
+advcl(showed-5, diverting-20)
+conj:or(landing-18, diverting-20)
+
+13) Ms Fulton said it was common for this to happen in foggy conditions. 
+
+compound(Fulton-2, Ms-1)
+nsubj(said-3, Fulton-2)
+root(ROOT-0, said-3)
+nsubj(common-6, it-4)
+nsubj:xsubj(happen-10, it-4)
+cop(common-6, was-5)
+ccomp(said-3, common-6)
+case(this-8, for-7)
+nmod:for(common-6, this-8)
+mark(happen-10, to-9)
+xcomp(common-6, happen-10)
+case(conditions-13, in-11)
+amod(conditions-13, foggy-12)
+nmod:in(happen-10, conditions-13)
+
+14) Passengers flying from Melbourne, or people heading to the airport to pick up arrivals, were urged to check with the airport or airlines before heading to Tullamarine. 
+
+nsubjpass(urged-18, Passengers-1)
+nsubj:xsubj(check-20, Passengers-1)
+acl(Passengers-1, flying-2)
+case(Melbourne-4, from-3)
+nmod:from(flying-2, Melbourne-4)
+cc(Passengers-1, or-6)
+conj:or(Passengers-1, people-7)
+nsubjpass(urged-18, people-7)
+nsubj:xsubj(check-20, people-7)
+acl(people-7, heading-8)
+case(airport-11, to-9)
+det(airport-11, the-10)
+nmod:to(heading-8, airport-11)
+mark(pick-13, to-12)
+xcomp(heading-8, pick-13)
+compound:prt(pick-13, up-14)
+dobj(pick-13, arrivals-15)
+auxpass(urged-18, were-17)
+root(ROOT-0, urged-18)
+mark(check-20, to-19)
+xcomp(urged-18, check-20)
+case(airport-23, with-21)
+det(airport-23, the-22)
+nmod:with(check-20, airport-23)
+cc(airport-23, or-24)
+nmod:with(check-20, airlines-25)
+conj:or(airport-23, airlines-25)
+mark(heading-27, before-26)
+advcl(check-20, heading-27)
+case(Tullamarine-29, to-28)
+nmod:to(heading-27, Tullamarine-29)
+
+15) The Bureau of Meteorology issued a road alert for the Melbourne area due to reduced visibility making conditions dangerous. 
+
+det(Bureau-2, The-1)
+nsubj(issued-5, Bureau-2)
+case(Meteorology-4, of-3)
+nmod:of(Bureau-2, Meteorology-4)
+root(ROOT-0, issued-5)
+det(alert-8, a-6)
+compound(alert-8, road-7)
+dobj(issued-5, alert-8)
+case(area-12, for-9)
+det(area-12, the-10)
+compound(area-12, Melbourne-11)
+nmod:for(issued-5, area-12)
+case(visibility-16, due-13)
+mwe(due-13, to-14)
+amod(visibility-16, reduced-15) s1
+nmod:due_to(issued-5, visibility-16) t1
+acl(visibility-16, making-17)
+nsubj(dangerous-19, conditions-18) t2
+xcomp(making-17, dangerous-19) s2
+
+16) The State Emergency Service urged people to reduce speed and maintain a greater distance between them and the vehicle in front. 
+
+det(Service-4, The-1)
+compound(Service-4, State-2)
+compound(Service-4, Emergency-3)
+nsubj(urged-5, Service-4)
+root(ROOT-0, urged-5)
+dobj(urged-5, people-6)
+nsubj:xsubj(reduce-8, people-6)
+nsubj:xsubj(maintain-11, people-6)
+mark(reduce-8, to-7)
+xcomp(urged-5, reduce-8)
+dobj(reduce-8, speed-9)
+cc(reduce-8, and-10)
+xcomp(urged-5, maintain-11)
+conj:and(reduce-8, maintain-11)
+det(distance-14, a-12)
+amod(distance-14, greater-13)
+dobj(maintain-11, distance-14)
+case(them-16, between-15)
+nmod:between(distance-14, them-16)
+cc(distance-14, and-17)
+det(vehicle-19, the-18)
+dobj(maintain-11, vehicle-19)
+conj:and(distance-14, vehicle-19)
+case(front-21, in-20)
+nmod:in(vehicle-19, front-21)
+
+17) Motorists are also urged to turn on their headlights. 
+
+nsubjpass(urged-4, Motorists-1)
+nsubj:xsubj(turn-6, Motorists-1)
+auxpass(urged-4, are-2)
+advmod(urged-4, also-3)
+root(ROOT-0, urged-4)
+mark(turn-6, to-5)
+xcomp(urged-4, turn-6)
+case(headlights-9, on-7)
+nmod:poss(headlights-9, their-8)
+nmod:on(turn-6, headlights-9)
+
+18) Bureau of Meteorology forecaster Dean Stewart said light winds and clear skies overnight had contributed to the thick fog. 
+
+nsubj(said-7, Bureau-1)
+case(Stewart-6, of-2)
+compound(Stewart-6, Meteorology-3)
+compound(Stewart-6, forecaster-4)
+compound(Stewart-6, Dean-5)
+nmod:of(Bureau-1, Stewart-6)
+root(ROOT-0, said-7)
+amod(winds-9, light-8)
+nsubj(contributed-15, winds-9)
+cc(winds-9, and-10)
+amod(skies-12, clear-11)
+conj:and(winds-9, skies-12)
+nsubj(contributed-15, skies-12)
+advmod(contributed-15, overnight-13)
+aux(contributed-15, had-14)
+ccomp(said-7, contributed-15)
+case(fog-19, to-16)
+det(fog-19, the-17)
+amod(fog-19, thick-18)
+nmod:to(contributed-15, fog-19)
+
+19) ``It's quite extensive across the Melbourne metro area,'' he said. 
+
+nsubj(extensive-5, It-2)
+cop(extensive-5, 's-3)
+advmod(extensive-5, quite-4)
+ccomp(said-14, extensive-5)
+case(area-10, across-6)
+det(area-10, the-7)
+compound(area-10, Melbourne-8)
+compound(area-10, metro-9)
+nmod:across(extensive-5, area-10)
+nsubj(said-14, he-13)
+root(ROOT-0, said-14)
+
+20) The thickness of the fog varied across the city with Melbourne Airport experiencing visibility as low as 200m, Mr Stewart said. 
+
+det(thickness-2, The-1)
+nsubj(varied-6, thickness-2)
+case(fog-5, of-3)
+det(fog-5, the-4)
+nmod:of(thickness-2, fog-5)
+ccomp(said-22, varied-6)
+case(city-9, across-7)
+det(city-9, the-8)
+nmod:across(varied-6, city-9)
+case(Airport-12, with-10)
+compound(Airport-12, Melbourne-11)
+nmod:with(varied-6, Airport-12)
+acl(Airport-12, experiencing-13)
+dobj(experiencing-13, visibility-14) t1
+advmod(low-16, as-15) s1-1/3
+advmod(experiencing-13, low-16) s1-2/3
+case(200m-18, as-17) s1-3/3
+nmod:as(experiencing-13, 200m-18)
+compound(Stewart-21, Mr-20)
+nsubj(said-22, Stewart-21)
+root(ROOT-0, said-22)
+
+21) ``It looks like the fog will last quite a while this morning before it turns into low cloud later in the day,'' he said. 
+
+nsubj(looks-3, It-2)
+ccomp(said-27, looks-3)
+mark(last-8, like-4)
+det(fog-6, the-5)
+nsubj(last-8, fog-6)
+aux(last-8, will-7)
+advcl(looks-3, last-8)
+det:predet(while-11, quite-9)
+det(while-11, a-10)
+dobj(last-8, while-11)
+det(morning-13, this-12)
+nmod:tmod(last-8, morning-13)
+mark(turns-16, before-14)
+nsubj(turns-16, it-15)
+advcl(last-8, turns-16)
+case(cloud-19, into-17)
+amod(cloud-19, low-18)
+nmod:into(turns-16, cloud-19)
+advmod(turns-16, later-20)
+case(day-23, in-21)
+det(day-23, the-22)
+nmod:in(later-20, day-23)
+nsubj(said-27, he-26)
+root(ROOT-0, said-27)
+
+22) There is also a frost warning for most areas of Victoria. 
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+advmod(is-2, also-3)
+det(warning-6, a-4)
+amod(warning-6, frost-5)
+nsubj(is-2, warning-6) s1
+case(areas-9, for-7)
+amod(areas-9, most-8) t1
+nmod:for(warning-6, areas-9) t1
+case(Victoria-11, of-10)
+nmod:of(areas-9, Victoria-11)
+
+23) Once the fog lifts the sun will return with a top of 15C expected today. 
+
+mark(lifts-4, Once-1)
+det(fog-3, the-2)
+nsubj(lifts-4, fog-3)
+advcl(return-8, lifts-4)
+det(sun-6, the-5)
+nsubj(return-8, sun-6)
+aux(return-8, will-7)
+root(ROOT-0, return-8)
+case(top-11, with-9)
+det(top-11, a-10)
+nmod:with(return-8, top-11)
+case(15C-13, of-12)
+nmod:of(top-11, 15C-13)
+amod(today-15, expected-14)
+nmod:tmod(return-8, today-15)
+
+24) Melbourne experienced glorious sunshine yesterday as it welcomed August. 
+
+nsubj(experienced-2, Melbourne-1) t1
+root(ROOT-0, experienced-2)
+amod(sunshine-4, glorious-3) s1
+dobj(experienced-2, sunshine-4) t1
+nmod:tmod(experienced-2, yesterday-5)
+mark(welcomed-8, as-6)
+nsubj(welcomed-8, it-7)
+advcl(experienced-2, welcomed-8)
+nmod:tmod(welcomed-8, August-9)
+
+25) The mostly sunny day reached a top of 15C and had Melburnians out and about catching warm rays. 
+
+det(day-4, The-1)
+advmod(day-4, mostly-2)
+amod(day-4, sunny-3)
+nsubj(reached-5, day-4)
+nsubj(had-11, day-4)
+root(ROOT-0, reached-5)
+det(top-7, a-6)
+dobj(reached-5, top-7)
+case(15C-9, of-8)
+nmod:of(top-7, 15C-9)
+cc(reached-5, and-10)
+conj:and(reached-5, had-11)
+dobj(had-11, Melburnians-12)
+case(and-14, out-13)
+advmod(catching-16, and-14)
+case(and-14, about-15)
+acl(Melburnians-12, catching-16)
+amod(rays-18, warm-17) s1
+dobj(catching-16, rays-18) t1
+
+26) The remainder of the week is also looking brighter with average temperatures of about 15C but showers forecast for the weekend. 
+
+det(remainder-2, The-1)
+nsubj(looking-8, remainder-2) t1
+case(week-5, of-3)
+det(week-5, the-4)
+nmod:of(remainder-2, week-5)
+aux(looking-8, is-6)
+advmod(looking-8, also-7)
+root(ROOT-0, looking-8)
+dobj(looking-8, brighter-9) s1
+case(temperatures-12, with-10)
+amod(temperatures-12, average-11)
+nmod:with(looking-8, temperatures-12)
+case(15C-15, of-13)
+advmod(15C-15, about-14)
+nmod:of(temperatures-12, 15C-15)
+cc(looking-8, but-16)
+nsubj(forecast-18, showers-17)
+conj:but(looking-8, forecast-18)
+case(weekend-21, for-19)
+det(weekend-21, the-20)
+nmod:for(forecast-18, weekend-21)
+
+27) Mr Stewart said August was expected to be a drier month than usual. 
+
+compound(Stewart-2, Mr-1)
+nsubj(said-3, Stewart-2)
+root(ROOT-0, said-3)
+nsubjpass(expected-6, August-4)
+nsubj:xsubj(month-11, August-4) t1
+auxpass(expected-6, was-5)
+ccomp(said-3, expected-6)
+mark(month-11, to-7)
+cop(month-11, be-8)
+det(month-11, a-9)
+compound(month-11, drier-10) s1
+xcomp(expected-6, month-11) t1
+case(usual-13, than-12)
+advcl(month-11, usual-13)
+
+28) ``There is an increased chance of below average rainfall across the state for August,'' he said. 
+
+expl(is-3, There-2)
+ccomp(said-19, is-3)
+det(chance-6, an-4)
+amod(chance-6, increased-5)
+nsubj(is-3, chance-6)
+case(rainfall-10, of-7)
+advmod(rainfall-10, below-8)
+amod(rainfall-10, average-9)
+nmod:of(chance-6, rainfall-10)
+case(state-13, across-11)
+det(state-13, the-12)
+nmod:across(rainfall-10, state-13)
+case(August-15, for-14)
+nmod:for(state-13, August-15)
+nsubj(said-19, he-18)
+root(ROOT-0, said-19)
+
+29) Originally published as 
+
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

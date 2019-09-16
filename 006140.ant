@@ -1,0 +1,851 @@
+006140.psd
+
+1) HILDA. 
+
+root(ROOT-0, HILDA-1)
+
+2) Household finances go backwards as full-time job prospects worsen The typical Australian family takes home less today than it did in 2009, when Kevin Rudd was prime minister. 
+
+compound(finances-2, Household-1) t1
+nsubj(go-3, finances-2) t1
+root(ROOT-0, go-3) s1-1/2
+advmod(go-3, backwards-4) s1-2/2
+case(prospects-8, as-5)
+amod(prospects-8, full-time-6)
+compound(prospects-8, job-7)
+nmod:as(backwards-4, prospects-8) t2
+dep(go-3, worsen-9) s2
+det(family-13, The-10)
+amod(family-13, typical-11)
+amod(family-13, Australian-12)
+dobj(worsen-9, family-13)
+acl:relcl(family-13, takes-14)
+dep(less-16, home-15)
+dobj(takes-14, less-16)
+nmod:tmod(takes-14, today-17)
+mark(did-20, than-18)
+nsubj(did-20, it-19)
+advcl(takes-14, did-20)
+case(2009-22, in-21)
+nmod:in(did-20, 2009-22)
+advmod(minister-29, when-24)
+compound(Rudd-26, Kevin-25)
+nsubj(minister-29, Rudd-26)
+cop(minister-29, was-27)
+amod(minister-29, prime-28)
+advcl(did-20, minister-29)
+
+3) The shocking finding, in the latest latest wave of the Household Income and Labour Dynamics survey, helps explain a growing political divide about inequality, even though the survey itself provides mixed evidence on whether things are getting worse. 
+
+det(finding-3, The-1)
+amod(finding-3, shocking-2)
+nsubj(helps-19, finding-3)
+case(wave-9, in-5)
+det(wave-9, the-6)
+amod(wave-9, latest-7)
+amod(wave-9, latest-8)
+nmod:in(finding-3, wave-9)
+case(Income-13, of-10)
+det(Income-13, the-11)
+compound(Income-13, Household-12)
+nmod:of(wave-9, Income-13)
+cc(Income-13, and-14)
+compound(survey-17, Labour-15)
+compound(survey-17, Dynamics-16)
+nmod:of(wave-9, survey-17) t1
+conj:and(Income-13, survey-17)
+root(ROOT-0, helps-19) s1
+ccomp(helps-19, explain-20) t1
+det(divide-24, a-21)
+amod(divide-24, growing-22) s2
+amod(divide-24, political-23)
+dobj(explain-20, divide-24) t2 t3
+case(inequality-26, about-25)
+nmod:about(divide-24, inequality-26) s3
+advmod(provides-33, even-28)
+mark(provides-33, though-29)
+det(survey-31, the-30)
+nsubj(provides-33, survey-31)
+advmod(provides-33, itself-32)
+advcl(helps-19, provides-33)
+amod(evidence-35, mixed-34)
+dobj(provides-33, evidence-35)
+compound:prt(provides-33, on-36)
+mark(getting-40, whether-37)
+nsubj(getting-40, things-38)
+aux(getting-40, are-39)
+ccomp(provides-33, getting-40)
+xcomp(getting-40, worse-41)
+
+4) Unique among Australian surveys, HILDA has been conducted every year since 2001 by returning to the same households and tracking changes in their lives. 
+
+advmod(surveys-4, Unique-1)
+case(surveys-4, among-2)
+amod(surveys-4, Australian-3)
+nmod:among(conducted-9, surveys-4)
+nsubjpass(conducted-9, HILDA-6)
+aux(conducted-9, has-7)
+auxpass(conducted-9, been-8)
+root(ROOT-0, conducted-9)
+det(year-11, every-10)
+nmod:tmod(conducted-9, year-11)
+case(2001-13, since-12)
+nmod:since(conducted-9, 2001-13)
+mark(returning-15, by-14)
+advcl(conducted-9, returning-15)
+case(households-19, to-16)
+det(households-19, the-17)
+amod(households-19, same-18)
+nmod:to(returning-15, households-19)
+cc(returning-15, and-20)
+advcl(conducted-9, tracking-21)
+conj:and(returning-15, tracking-21)
+dobj(tracking-21, changes-22)
+case(lives-25, in-23)
+nmod:poss(lives-25, their-24)
+nmod:in(changes-22, lives-25)
+
+5) Funded by the Department of Social Services and managed by the Melbourne Institute, it is able to reveal what the census and other mass surveys can not: how the life circumstances of individuals change over time. 
+
+advcl(able-17, Funded-1) s1
+case(Department-4, by-2)
+det(Department-4, the-3)
+nmod:by(Funded-1, Department-4) t1
+case(Services-7, of-5)
+compound(Services-7, Social-6)
+nmod:of(Department-4, Services-7)
+cc(Funded-1, and-8)
+conj:and(Funded-1, managed-9)
+advcl(able-17, managed-9)
+case(Institute-13, by-10)
+det(Institute-13, the-11)
+compound(Institute-13, Melbourne-12)
+nmod:by(managed-9, Institute-13)
+nsubj(able-17, it-15)
+nsubj:xsubj(reveal-19, it-15)
+cop(able-17, is-16)
+root(ROOT-0, able-17)
+mark(reveal-19, to-18)
+xcomp(able-17, reveal-19)
+dobj(can-27, what-20)
+det(census-22, the-21)
+nsubj(can-27, census-22)
+cc(census-22, and-23)
+amod(surveys-26, other-24)
+amod(surveys-26, mass-25)
+conj:and(census-22, surveys-26)
+nsubj(can-27, surveys-26)
+ccomp(reveal-19, can-27)
+neg(can-27, not-28)
+advmod(change-36, how-30)
+det(circumstances-33, the-31)
+compound(circumstances-33, life-32)
+nsubj(change-36, circumstances-33)
+case(individuals-35, of-34)
+nmod:of(circumstances-33, individuals-35)
+ccomp(reveal-19, change-36)
+case(time-38, over-37)
+nmod:over(change-36, time-38)
+
+6) More than 7000 households have been surveyed each year. 
+
+advmod(7000-3, More-1)
+mwe(More-1, than-2)
+nummod(households-4, 7000-3)
+nsubjpass(surveyed-7, households-4)
+aux(surveyed-7, have-5)
+auxpass(surveyed-7, been-6)
+root(ROOT-0, surveyed-7)
+det(year-9, each-8)
+nmod:tmod(surveyed-7, year-9)
+
+7) Another 2000 have been added in recent years, bringing the total number of people surveyed up to 17,300, including 5000 children. 
+
+det(2000-2, Another-1)
+nsubjpass(added-5, 2000-2)
+aux(added-5, have-3)
+auxpass(added-5, been-4)
+root(ROOT-0, added-5)
+case(years-8, in-6)
+amod(years-8, recent-7)
+nmod:in(added-5, years-8)
+xcomp(added-5, bringing-10)
+det(number-13, the-11)
+amod(number-13, total-12)
+dobj(bringing-10, number-13)
+case(people-15, of-14)
+nmod:of(number-13, people-15)
+acl(people-15, surveyed-16)
+compound:prt(surveyed-16, up-17)
+case(17,300-19, to-18)
+nmod:to(surveyed-16, 17,300-19)
+case(children-23, including-21)
+amod(children-23, 5000-22)
+nmod:including(added-5, children-23)
+
+8) The survey finds that real household disposable income -LRB- net of tax -RRB- peaked just before the global financial crisis at $77,411. 
+
+det(survey-2, The-1)
+nsubj(finds-3, survey-2)
+root(ROOT-0, finds-3)
+mark(peaked-14, that-4)
+amod(income-8, real-5)
+compound(income-8, household-6)
+amod(income-8, disposable-7)
+nsubj(peaked-14, income-8)
+dep(income-8, net-10)
+case(tax-12, of-11)
+nmod:of(net-10, tax-12)
+ccomp(finds-3, peaked-14)
+advmod(peaked-14, just-15)
+case(crisis-20, before-16)
+det(crisis-20, the-17)
+amod(crisis-20, global-18) t1
+amod(crisis-20, financial-19) t1
+nmod:before(peaked-14, crisis-20) s1
+case(77,411-23, at-21)
+dep(77,411-23, $-22)
+nmod:at(crisis-20, 77,411-23)
+
+9) It fell sharply in 2010 and 2011 to $73,531 and then climbed back to $77,143 before sliding in 2014 and 2015 to $76,225. 
+
+nsubj(fell-2, It-1) t1 t3 t4
+nsubj(climbed-13, It-1)
+root(ROOT-0, fell-2) s1 t2
+advmod(fell-2, sharply-3) s2
+case(2010-5, in-4)
+nmod:in(fell-2, 2010-5)
+cc(2010-5, and-6)
+nmod:in(fell-2, 2011-7)
+conj:and(2010-5, 2011-7)
+case(73,531-10, to-8)
+dep(73,531-10, $-9)
+nmod:to(fell-2, 73,531-10)
+cc(fell-2, and-11)
+advmod(climbed-13, then-12)
+conj:and(fell-2, climbed-13) s3-1/2
+compound:prt(climbed-13, back-14) s3-2/2
+case(77,143-17, to-15)
+dep(77,143-17, $-16)
+nmod:to(climbed-13, 77,143-17)
+mark(sliding-19, before-18)
+acl(77,143-17, sliding-19) s4
+case(2014-21, in-20)
+nmod:in(sliding-19, 2014-21)
+cc(2014-21, and-22)
+nmod:in(sliding-19, 2015-23)
+conj:and(2014-21, 2015-23)
+case(76,225-26, to-24)
+dep(76,225-26, $-25)
+nmod:to(sliding-19, 76,225-26)
+
+10) You will now receive updates from Breaking News Alert Breaking News Alert Get the latest news and updates emailed straight to your inbox. 
+
+nsubj(receive-4, You-1)
+aux(receive-4, will-2)
+advmod(receive-4, now-3)
+root(ROOT-0, receive-4)
+dobj(receive-4, updates-5)
+mark(Breaking-7, from-6)
+advcl(receive-4, Breaking-7)
+compound(Alert-12, News-8)
+compound(Alert-12, Alert-9)
+compound(Alert-12, Breaking-10)
+compound(Alert-12, News-11)
+nsubj(Get-13, Alert-12)
+ccomp(Breaking-7, Get-13)
+det(news-16, the-14)
+amod(news-16, latest-15)
+dobj(Get-13, news-16)
+cc(news-16, and-17)
+dobj(Get-13, updates-18)
+conj:and(news-16, updates-18)
+acl(updates-18, emailed-19)
+advmod(inbox-23, straight-20)
+case(inbox-23, to-21)
+nmod:poss(inbox-23, your-22)
+advcl(emailed-19, inbox-23)
+
+11) The figures are medians, meaning half of Australia's households would have earned more than $76,225 and half less. 
+
+det(figures-2, The-1)
+nsubj(medians-4, figures-2)
+cop(medians-4, are-3)
+ccomp(earned-14, medians-4)
+compound(half-7, meaning-6)
+nsubj(earned-14, half-7)
+case(households-11, of-8)
+nmod:poss(households-11, Australia-9)
+case(Australia-9, 's-10)
+nmod:of(half-7, households-11)
+aux(earned-14, would-12)
+aux(earned-14, have-13)
+root(ROOT-0, earned-14)
+advmod($-17, more-15)
+mwe(more-15, than-16)
+nmod:npmod(less-21, $-17)
+compound($-17, 76,225-18)
+cc($-17, and-19)
+advmod($-17, half-20)
+xcomp(earned-14, less-21)
+
+12) A measure of inequality, the Gini coefficient, shows little change in household inequality over the entire 15 years of the survey. 
+
+det(measure-2, A-1)
+nsubj(shows-10, measure-2)
+case(inequality-4, of-3)
+nmod:of(measure-2, inequality-4)
+det(coefficient-8, the-6)
+compound(coefficient-8, Gini-7)
+appos(measure-2, coefficient-8)
+root(ROOT-0, shows-10)
+amod(change-12, little-11)
+dobj(shows-10, change-12)
+case(inequality-15, in-13)
+compound(inequality-15, household-14)
+nmod:in(change-12, inequality-15)
+case(years-20, over-16)
+det(years-20, the-17)
+amod(years-20, entire-18)
+nummod(years-20, 15-19)
+nmod:over(inequality-15, years-20)
+case(survey-23, of-21)
+det(survey-23, the-22)
+nmod:of(change-12, survey-23)
+
+13) But when only earnings from paid work are examined on an individual basis, the survey finds inequality has worsened since 2008, by about 7 per cent for men and 9 per cent for women. 
+
+cc(finds-17, But-1)
+advmod(examined-9, when-2)
+amod(earnings-4, only-3)
+nsubjpass(examined-9, earnings-4)
+case(work-7, from-5)
+amod(work-7, paid-6)
+nmod:from(earnings-4, work-7)
+auxpass(examined-9, are-8)
+advcl(finds-17, examined-9)
+case(basis-13, on-10)
+det(basis-13, an-11)
+amod(basis-13, individual-12)
+nmod:on(examined-9, basis-13)
+det(survey-16, the-15)
+nsubj(finds-17, survey-16)
+root(ROOT-0, finds-17)
+nsubj(worsened-20, inequality-18) t1
+aux(worsened-20, has-19)
+ccomp(finds-17, worsened-20) s1
+case(2008-22, since-21)
+nmod:since(worsened-20, 2008-22)
+case(7-26, by-24)
+advmod(7-26, about-25)
+nmod:by(worsened-20, 7-26)
+case(cent-28, per-27)
+nmod:per(7-26, cent-28)
+case(men-30, for-29)
+nmod:for(cent-28, men-30)
+cc(7-26, and-31)
+nmod:by(worsened-20, 9-32)
+conj:and(7-26, 9-32)
+case(cent-34, per-33)
+nmod:per(9-32, cent-34)
+case(women-36, for-35)
+nmod:for(cent-34, women-36)
+
+14) Over 15 years the typical inflation-adjusted household income has climbed from $58,956 to $76,225. 
+
+case(years-3, Over-1)
+nummod(years-3, 15-2)
+nmod:over(climbed-10, years-3)
+det(income-8, the-4)
+amod(income-8, typical-5)
+amod(income-8, inflation-adjusted-6)
+compound(income-8, household-7)
+nsubj(climbed-10, income-8) t1
+aux(climbed-10, has-9)
+root(ROOT-0, climbed-10) s1
+case($-15, from-11)
+dep($-15, $-12)
+compound($-15, 58,956-13)
+dep($-15, to-14)
+nmod:from(climbed-10, $-15)
+nummod($-15, 76,225-16)
+
+15) Sydney experienced the weakest growth of any region, with the typical household income adjusted for size climbing just $5182. 
+
+nsubj(experienced-2, Sydney-1) t1
+root(ROOT-0, experienced-2) s1 t2
+det(growth-5, the-3)
+amod(growth-5, weakest-4) s2
+dobj(experienced-2, growth-5) t2
+case(region-8, of-6)
+det(region-8, any-7)
+nmod:of(growth-5, region-8)
+case(income-14, with-10)
+det(income-14, the-11)
+amod(income-14, typical-12)
+compound(income-14, household-13) t3
+nmod:with(experienced-2, income-14) t3
+acl(income-14, adjusted-15)
+case(size-17, for-16)
+nmod:for(adjusted-15, size-17)
+acl(size-17, climbing-18) s3
+advmod($-20, just-19) s4
+dobj(climbing-18, $-20)
+nummod($-20, 5182-21)
+
+16) The typical Melbourne income climbed $9785. 
+
+det(income-4, The-1)
+amod(income-4, typical-2)
+compound(income-4, Melbourne-3) t1
+nsubj(climbed-5, income-4) t1
+root(ROOT-0, climbed-5) s1
+dep(9785-7, $-6)
+dobj(climbed-5, 9785-7)
+
+17) Perth household incomes grew $19,276. 
+
+compound(incomes-3, Perth-1) t1
+compound(incomes-3, household-2) t1
+nsubj(grew-4, incomes-3) t1
+root(ROOT-0, grew-4) s1
+dep(19,276-6, $-5)
+dobj(grew-4, 19,276-6)
+
+18) The relatively weak performance of Sydney has changed the league table, with Perth now the highest-earning Australian state capital, with a typical real household income of $56,073, up 52 per cent after adjusting for inflation. 
+
+det(performance-4, The-1)
+advmod(weak-3, relatively-2)
+amod(performance-4, weak-3)
+nsubj(changed-8, performance-4)
+case(Sydney-6, of-5)
+nmod:of(performance-4, Sydney-6)
+aux(changed-8, has-7)
+root(ROOT-0, changed-8)
+det(table-11, the-9)
+compound(table-11, league-10)
+dobj(changed-8, table-11)
+case(capital-20, with-13)
+compound(capital-20, Perth-14) t1
+advmod(capital-20, now-15)
+det(capital-20, the-16)
+amod(capital-20, highest-earning-17) s1
+amod(capital-20, Australian-18) t1
+compound(capital-20, state-19) t1
+nmod:with(changed-8, capital-20)
+case(income-27, with-22)
+det(income-27, a-23)
+amod(income-27, typical-24)
+amod(income-27, real-25) t2
+compound(income-27, household-26) t2
+nmod:with(capital-20, income-27) t2
+case(56,073-30, of-28)
+dep(56,073-30, $-29)
+nmod:of(income-27, 56,073-30)
+advmod(52-33, up-32) s2 t3
+appos(56,073-30, 52-33)
+case(cent-35, per-34)
+nmod:per(52-33, cent-35)
+mark(adjusting-37, after-36)
+acl(cent-35, adjusting-37) s3
+case(inflation-39, for-38)
+nmod:for(adjusting-37, inflation-39)
+
+19) Brisbane is in second place on $49,210, followed by Melbourne on $48,494. 
+
+nsubj(place-5, Brisbane-1)
+cop(place-5, is-2)
+case(place-5, in-3)
+amod(place-5, second-4)
+root(ROOT-0, place-5)
+case(49,210-8, on-6)
+dep(49,210-8, $-7)
+nmod:on(place-5, 49,210-8)
+case(Melbourne-12, followed-10)
+mwe(followed-10, by-11)
+advcl(place-5, Melbourne-12)
+case(48,494-15, on-13)
+dep(48,494-15, $-14)
+nmod:on(Melbourne-12, 48,494-15)
+
+20) Sydney, which had the highest household income of any state capital back in 2001, is in fourth place just ahead of Adelaide at $44,779. 
+
+nsubj(had-4, Sydney-1) t1
+nsubj(place-20, Sydney-1)
+ref(Sydney-1, which-3)
+acl:relcl(Sydney-1, had-4)
+det(income-8, the-5)
+amod(income-8, highest-6) s1
+compound(income-8, household-7) t1
+dobj(had-4, income-8) t1
+case(capital-12, of-9)
+det(capital-12, any-10)
+compound(capital-12, state-11)
+nmod:of(income-8, capital-12)
+advmod(2001-15, back-13)
+case(2001-15, in-14)
+nmod:in(had-4, 2001-15)
+cop(place-20, is-17)
+case(place-20, in-18)
+amod(place-20, fourth-19)
+root(ROOT-0, place-20)
+advmod(Adelaide-24, just-21)
+advmod(Adelaide-24, ahead-22)
+case(Adelaide-24, of-23)
+nmod:of(place-20, Adelaide-24)
+case(44,779-27, at-25)
+dep(44,779-27, $-26)
+nmod:at(Adelaide-24, 44,779-27)
+
+21) The percentage of Australians in poverty has fallen since 2001, whether measured as the proportion of households earning less than 50 per cent of the typical household adjusted for size, or whether measured as the proportion of households able to afford a limited basket of goods. 
+
+det(percentage-2, The-1)
+nsubj(fallen-8, percentage-2) t1
+case(Australians-4, of-3)
+nmod:of(percentage-2, Australians-4) t1
+case(poverty-6, in-5)
+nmod:in(Australians-4, poverty-6) t1
+aux(fallen-8, has-7)
+root(ROOT-0, fallen-8) s1
+case(2001-10, since-9)
+nmod:since(fallen-8, 2001-10)
+mark(measured-13, whether-12)
+ccomp(fallen-8, measured-13)
+case(proportion-16, as-14)
+det(proportion-16, the-15)
+nmod:as(measured-13, proportion-16)
+case(households-18, of-17)
+nmod:of(proportion-16, households-18)
+acl(households-18, earning-19)
+advmod(50-22, less-20)
+mwe(less-20, than-21)
+dobj(earning-19, 50-22)
+case(cent-24, per-23)
+nmod:per(50-22, cent-24)
+case(household-28, of-25)
+det(household-28, the-26)
+amod(household-28, typical-27)
+nmod:of(cent-24, household-28)
+acl(household-28, adjusted-29)
+case(size-31, for-30)
+nmod:for(adjusted-29, size-31)
+cc(measured-13, or-33)
+mark(measured-35, whether-34)
+ccomp(fallen-8, measured-35)
+conj:or(measured-13, measured-35)
+case(proportion-38, as-36)
+det(proportion-38, the-37)
+nmod:as(measured-35, proportion-38)
+case(households-40, of-39)
+nmod:of(proportion-38, households-40)
+amod(households-40, able-41)
+mark(afford-43, to-42)
+xcomp(able-41, afford-43)
+det(basket-46, a-44)
+amod(basket-46, limited-45)
+dobj(afford-43, basket-46)
+case(goods-48, of-47)
+nmod:of(basket-46, goods-48)
+
+22) Poverty is highest among older Australians, especially women, although the report says the measure will overstate poverty where elderly Australians own their own homes and don't have to pay rent as many do. 
+
+nsubj(highest-3, Poverty-1) t1 s2
+cop(highest-3, is-2)
+root(ROOT-0, highest-3) s1
+case(Australians-6, among-4)
+amod(Australians-6, older-5) t2
+nmod:among(highest-3, Australians-6) t2
+advmod(Australians-6, especially-8)
+dep(Australians-6, women-9) t2
+mark(says-14, although-11)
+det(report-13, the-12)
+nsubj(says-14, report-13)
+advcl(highest-3, says-14)
+det(measure-16, the-15)
+nsubj(overstate-18, measure-16) t3
+aux(overstate-18, will-17)
+ccomp(says-14, overstate-18) s3
+dobj(overstate-18, poverty-19) t3
+advmod(own-23, where-20)
+amod(Australians-22, elderly-21)
+nsubj(own-23, Australians-22)
+nsubj(have-30, Australians-22)
+nsubj:xsubj(pay-32, Australians-22)
+advcl(overstate-18, own-23)
+nmod:poss(homes-26, their-24)
+amod(homes-26, own-25)
+dobj(own-23, homes-26)
+cc(own-23, and-27)
+aux(have-30, do-28)
+neg(have-30, n't-29)
+advcl(overstate-18, have-30)
+conj:and(own-23, have-30)
+mark(pay-32, to-31)
+xcomp(have-30, pay-32)
+dobj(pay-32, rent-33)
+mark(do-36, as-34)
+nsubj(do-36, many-35)
+advcl(pay-32, do-36)
+
+23) Poverty is lowest among couples with dependant children. 
+
+nsubj(lowest-3, Poverty-1) t1
+cop(lowest-3, is-2)
+root(ROOT-0, lowest-3) s1
+case(couples-5, among-4)
+nmod:among(lowest-3, couples-5) t1
+case(children-8, with-6)
+amod(children-8, dependant-7)
+nmod:with(couples-5, children-8)
+
+24) Victoria has the most extreme geographical divide, with Melbourne having one of Australia's lowest poverty rates at 7.6 per cent while other Victorian towns and cities have 16.5 per cent. 
+
+nsubj(has-2, Victoria-1) t1
+root(ROOT-0, has-2)
+det(divide-7, the-3)
+advmod(extreme-5, most-4) s2
+amod(divide-7, extreme-5) s1 t2
+amod(divide-7, geographical-6) t1
+dobj(has-2, divide-7)
+case(Melbourne-10, with-9)
+nmod:with(has-2, Melbourne-10) t3
+acl(Melbourne-10, having-11)
+dobj(having-11, one-12)
+case(rates-18, of-13)
+nmod:poss(rates-18, Australia-14)
+case(Australia-14, 's-15)
+amod(rates-18, lowest-16) s4
+compound(rates-18, poverty-17) s3 t4
+nmod:of(one-12, rates-18) t4
+case(7.6-20, at-19)
+nmod:at(one-12, 7.6-20)
+case(cent-22, per-21)
+nmod:per(7.6-20, cent-22)
+mark(have-29, while-23)
+amod(towns-26, other-24)
+amod(towns-26, Victorian-25)
+nsubj(have-29, towns-26)
+cc(towns-26, and-27)
+conj:and(towns-26, cities-28)
+nsubj(have-29, cities-28)
+dep(7.6-20, have-29)
+dobj(have-29, 16.5-30)
+case(cent-32, per-31)
+nmod:per(16.5-30, cent-32)
+
+25) In NSW the rates in Sydney and other towns and cities are much the same at 10.5 and 11.6 per cent. 
+
+case(NSW-2, In-1)
+nmod:in(10.5-17, NSW-2)
+det(rates-4, the-3)
+nsubj(10.5-17, rates-4)
+case(Sydney-6, in-5)
+nmod:in(rates-4, Sydney-6)
+cc(Sydney-6, and-7)
+amod(towns-9, other-8)
+nmod:in(rates-4, towns-9)
+conj:and(Sydney-6, towns-9)
+cc(towns-9, and-10)
+conj:and(Sydney-6, cities-11)
+conj:and(towns-9, cities-11)
+cop(10.5-17, are-12)
+advmod(10.5-17, much-13)
+det(10.5-17, the-14)
+amod(10.5-17, same-15)
+amod(10.5-17, at-16)
+root(ROOT-0, 10.5-17)
+cc(10.5-17, and-18)
+conj:and(10.5-17, 11.6-19)
+case(cent-21, per-20)
+nmod:per(10.5-17, cent-21)
+
+26) South Australian regional towns and cities are the most disadvantaged in Australia with a poverty rate of 21.1 per cent, compared with 10.1 per cent in Adelaide. 
+
+amod(Australian-2, South-1) t1
+amod(towns-4, Australian-2) t1
+amod(towns-4, regional-3) t1
+nsubj(disadvantaged-10, towns-4) t1
+cc(towns-4, and-5)
+conj:and(towns-4, cities-6) t1
+nsubj(disadvantaged-10, cities-6)
+cop(disadvantaged-10, are-7)
+det(disadvantaged-10, the-8)
+advmod(disadvantaged-10, most-9) 
+root(ROOT-0, disadvantaged-10) s1
+case(Australia-12, in-11)
+nmod:in(disadvantaged-10, Australia-12)
+case(rate-16, with-13)
+det(rate-16, a-14)
+compound(rate-16, poverty-15)
+nmod:with(disadvantaged-10, rate-16)
+case(21.1-18, of-17)
+nmod:of(rate-16, 21.1-18)
+case(cent-20, per-19)
+nmod:per(21.1-18, cent-20)
+case(10.1-24, compared-22)
+mwe(compared-22, with-23)
+advcl(disadvantaged-10, 10.1-24)
+case(cent-26, per-25)
+nmod:per(10.1-24, cent-26)
+case(Adelaide-28, in-27)
+nmod:in(cent-26, Adelaide-28)
+
+27) Most people in poverty improve their situation in one to two years. 
+
+amod(people-2, Most-1)
+nsubj(improve-5, people-2) t1 t2
+case(poverty-4, in-3) s1-1/2
+nmod:in(people-2, poverty-4) s1-2/2
+root(ROOT-0, improve-5) s2
+nmod:poss(situation-7, their-6) t2
+dobj(improve-5, situation-7) t2
+case(years-12, in-8)
+compound(two-11, one-9)
+dep(two-11, to-10)
+nummod(years-12, two-11)
+nmod:in(improve-5, years-12)
+
+28) Far fewer Australians live in households that receive welfare payments than in 2001: 32.2 per cent of workforce-aged Australians, down from 38.1 per cent, and most get off it fairly quickly. 
+
+advmod(live-4, Far-1)
+amod(Australians-3, fewer-2)
+nsubj(live-4, Australians-3)
+root(ROOT-0, live-4)
+case(households-6, in-5)
+nmod:in(live-4, households-6)
+nsubj(receive-8, households-6)
+nsubj(get-30, households-6)
+ref(households-6, that-7)
+acl:relcl(households-6, receive-8)
+compound(payments-10, welfare-9)
+dobj(receive-8, payments-10)
+advmod(receive-8, than-11)
+case(32.2-15, in-12)
+nummod(32.2-15, 2001-13)
+nmod:in(than-11, 32.2-15)
+case(cent-17, per-16)
+nmod:per(32.2-15, cent-17)
+case(Australians-20, of-18)
+amod(Australians-20, workforce-aged-19)
+nmod:of(cent-17, Australians-20)
+advmod(32.2-15, down-22)
+case(38.1-24, from-23)
+nmod:from(receive-8, 38.1-24)
+case(cent-26, per-25)
+nmod:per(38.1-24, cent-26)
+cc(receive-8, and-28)
+advmod(get-30, most-29) t1
+acl:relcl(households-6, get-30) s1-1/2
+conj:and(receive-8, get-30)
+compound:prt(get-30, off-31) s1-2/2
+dobj(get-30, it-32)
+advmod(quickly-34, fairly-33)
+advmod(get-30, quickly-34)
+
+29) The experience of those surveyed suggests that university education is not the ticket to full-time employment it used to be. 
+
+det(experience-2, The-1)
+nsubj(suggests-6, experience-2)
+case(those-4, of-3)
+nmod:of(experience-2, those-4)
+acl(those-4, surveyed-5)
+root(ROOT-0, suggests-6)
+mark(ticket-13, that-7)
+compound(education-9, university-8)
+nsubj(ticket-13, education-9)
+cop(ticket-13, is-10)
+neg(ticket-13, not-11)
+det(ticket-13, the-12)
+ccomp(suggests-6, ticket-13)
+case(employment-16, to-14)
+amod(employment-16, full-time-15)
+nmod:to(ticket-13, employment-16)
+nsubj(used-18, it-17)
+nsubj:xsubj(be-20, it-17)
+acl:relcl(ticket-13, used-18)
+mark(be-20, to-19)
+xcomp(used-18, be-20)
+
+30) Around 86 per cent of those who graduated between 2001 and 2005 were in full-time jobs five years later, compared with just 75 per cent of those who graduated between 2010 and 2011. 
+
+compound(86-2, Around-1)
+nsubj(jobs-16, 86-2)
+case(cent-4, per-3)
+nmod:per(86-2, cent-4)
+case(those-6, of-5)
+nmod:of(cent-4, those-6)
+nsubj(graduated-8, those-6)
+ref(those-6, who-7)
+acl:relcl(those-6, graduated-8)
+case(2001-10, between-9)
+nmod:between(graduated-8, 2001-10)
+cc(2001-10, and-11)
+nmod:between(graduated-8, 2005-12)
+conj:and(2001-10, 2005-12)
+cop(jobs-16, were-13)
+case(jobs-16, in-14)
+amod(jobs-16, full-time-15)
+root(ROOT-0, jobs-16)
+nummod(years-18, five-17)
+nmod:npmod(later-19, years-18)
+advmod(jobs-16, later-19)
+case(75-24, compared-21)
+mwe(compared-21, with-22)
+advmod(75-24, just-23)
+advcl(jobs-16, 75-24)
+case(cent-26, per-25)
+nmod:per(75-24, cent-26)
+case(those-28, of-27)
+nmod:of(cent-26, those-28)
+nsubj(graduated-30, those-28)
+ref(those-28, who-29)
+acl:relcl(those-28, graduated-30)
+case(2010-32, between-31)
+nmod:between(graduated-30, 2010-32)
+cc(2010-32, and-33)
+nmod:between(graduated-30, 2011-34)
+conj:and(2010-32, 2011-34)
+
+31) They were more likely to be employed part-time or doing further study. 
+
+nsubj(likely-4, They-1)
+nsubjpass:xsubj(employed-7, They-1)
+cop(likely-4, were-2)
+advmod(likely-4, more-3)
+root(ROOT-0, likely-4)
+mark(employed-7, to-5)
+auxpass(employed-7, be-6)
+xcomp(likely-4, employed-7)
+advmod(or-9, part-time-8)
+advmod(employed-7, or-9)
+conj(or-9, doing-10)
+amod(study-12, further-11)
+dobj(doing-10, study-12)
+
+32) The decline in full-time employment for men who had only completed high school was even worse, from 81 per cent to 32.6 per cent. 
+
+det(decline-2, The-1)
+nsubj(worse-16, decline-2) t1
+case(employment-5, in-3)
+amod(employment-5, full-time-4)
+nmod:in(decline-2, employment-5)
+case(men-7, for-6)
+nmod:for(employment-5, men-7)
+nsubj(completed-11, men-7)
+ref(men-7, who-8)
+aux(completed-11, had-9)
+advmod(completed-11, only-10)
+acl:relcl(men-7, completed-11)
+amod(school-13, high-12)
+dobj(completed-11, school-13)
+cop(worse-16, was-14)
+advmod(worse-16, even-15)
+root(ROOT-0, worse-16) s1
+case(81-19, from-18)
+nmod:from(worse-16, 81-19)
+case(32.6-23, per-20)
+compound(32.6-23, cent-21)
+dep(32.6-23, to-22)
+nmod:per(81-19, 32.6-23)
+case(cent-25, per-24)
+nmod:per(32.6-23, cent-25)

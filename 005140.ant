@@ -1,0 +1,118 @@
+005140.psd
+
+1) Teen dies after herding bulls on WA farm A 19-year-old West Australian woman has died after being crushed by a bull while she was working at a farm. 
+
+nsubj(dies-2, Teen-1) t1
+dep(died-15, dies-2) s1
+mark(herding-4, after-3)
+advcl(dies-2, herding-4)
+dobj(herding-4, bulls-5)
+case(farm-8, on-6)
+compound(farm-8, WA-7)
+nmod:on(herding-4, farm-8)
+det(woman-13, A-9)
+amod(woman-13, 19-year-old-10)
+compound(woman-13, West-11)
+amod(woman-13, Australian-12)
+nsubj(died-15, woman-13) t2 t3
+aux(died-15, has-14)
+root(ROOT-0, died-15) s2
+mark(crushed-18, after-16)
+auxpass(crushed-18, being-17)
+advcl(died-15, crushed-18) s3
+case(bull-21, by-19)
+det(bull-21, a-20)
+nmod:by(crushed-18, bull-21)
+mark(working-25, while-22)
+nsubj(working-25, she-23)
+aux(working-25, was-24)
+advcl(crushed-18, working-25)
+case(farm-28, at-26)
+det(farm-28, a-27)
+nmod:at(working-25, farm-28)
+
+2) The woman was found unconscious on Monday morning and rushed by ambulance to Esperance Hospital in WA's south where she died from her injuries a short time later. 
+
+det(woman-2, The-1)
+nsubjpass(found-4, woman-2) t1 t2 t3
+nsubjpass(rushed-10, woman-2)
+auxpass(found-4, was-3)
+root(ROOT-0, found-4)
+xcomp(found-4, unconscious-5) s1
+case(Monday-7, on-6)
+nmod:on(found-4, Monday-7)
+nmod:tmod(found-4, morning-8)
+cc(found-4, and-9)
+conj:and(found-4, rushed-10)
+case(ambulance-12, by-11)
+nmod:by(rushed-10, ambulance-12)
+case(Hospital-15, to-13)
+compound(Hospital-15, Esperance-14)
+nmod:to(rushed-10, Hospital-15)
+case(south-19, in-16)
+nmod:poss(south-19, WA-17)
+case(WA-17, 's-18)
+nmod:in(Hospital-15, south-19)
+advmod(died-22, where-20)
+nsubj(died-22, she-21) t2 t3
+advcl(rushed-10, died-22) s3
+case(injuries-25, from-23)
+nmod:poss(injuries-25, her-24) t2
+nmod:from(died-22, injuries-25) s2
+det(time-28, a-26)
+amod(time-28, short-27)
+dobj(died-22, time-28)
+advmod(time-28, later-29)
+
+3) The woman was understood to have been herding the large bull when she was hit into a fence in a paddock at Dalyup, 35 km north-west of Esperance. 
+
+det(woman-2, The-1)
+nsubjpass(understood-4, woman-2)
+nsubj:xsubj(herding-8, woman-2) t1
+auxpass(understood-4, was-3)
+root(ROOT-0, understood-4)
+mark(herding-8, to-5)
+aux(herding-8, have-6)
+aux(herding-8, been-7)
+xcomp(understood-4, herding-8)
+det(bull-11, the-9)
+amod(bull-11, large-10)
+dobj(herding-8, bull-11)
+advmod(hit-15, when-12)
+nsubjpass(hit-15, she-13) t1
+auxpass(hit-15, was-14)
+advcl(herding-8, hit-15) s1
+case(fence-18, into-16)
+det(fence-18, a-17)
+nmod:into(hit-15, fence-18)
+case(paddock-21, in-19)
+det(paddock-21, a-20)
+nmod:in(fence-18, paddock-21)
+case(Dalyup-23, at-22)
+nmod:at(hit-15, Dalyup-23)
+nummod(north-west-27, 35-25)
+compound(north-west-27, km-26)
+appos(Dalyup-23, north-west-27)
+case(Esperance-29, of-28)
+nmod:of(north-west-27, Esperance-29)
+
+4) Worksafe are investigating and a report is being prepared for the coroner. 
+Neutral.
+nsubj(investigating-3, Worksafe-1)
+aux(investigating-3, are-2)
+root(ROOT-0, investigating-3)
+cc(investigating-3, and-4)
+det(report-6, a-5)
+nsubjpass(prepared-9, report-6)
+aux(prepared-9, is-7)
+auxpass(prepared-9, being-8)
+conj:and(investigating-3, prepared-9)
+case(coroner-12, for-10)
+det(coroner-12, the-11)
+nmod:for(prepared-9, coroner-12)
+
+5) Originally published as 
+Neutral.
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

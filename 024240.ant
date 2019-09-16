@@ -1,0 +1,58 @@
+024240.psd
+
+1) Tesla selling $US1.5 b in junk bonds to fund Model 3 production Tesla said it would raise about $US1.5 billion through its first-ever high-yield junk bond offering, as the US luxury electric car maker seeks fresh sources of cash to ramp up production of its new Model 3 sedan. 
+
+nsubj(said-16, Tesla-1)
+acl(Tesla-1, selling-2)
+dobj(selling-2, $-3)
+compound(.5-5, US1-4)
+nummod($-3, .5-5)
+dep(bonds-9, b-6)
+case(bonds-9, in-7)
+compound(bonds-9, junk-8)
+nmod:in(selling-2, bonds-9)
+case(Tesla-15, to-10)
+compound(Tesla-15, fund-11) s1
+compound(Tesla-15, Model-12) t1
+nummod(Tesla-15, 3-13) t1
+compound(Tesla-15, production-14) t1
+nmod:to(bonds-9, Tesla-15)
+root(ROOT-0, said-16)
+nsubj(raise-19, it-17)
+aux(raise-19, would-18)
+ccomp(said-16, raise-19)
+advmod($-21, about-20)
+nummod(billion-24, $-21)
+compound(.5-23, US1-22)
+nummod($-21, .5-23)
+dobj(raise-19, billion-24)
+case(offering-31, through-25)
+nmod:poss(offering-31, its-26)
+amod(offering-31, first-ever-27)
+amod(offering-31, high-yield-28) s2 
+compound(offering-31, junk-29) t2
+compound(offering-31, bond-30) t2
+nmod:through(raise-19, offering-31)
+mark(seeks-40, as-33)
+det(luxury-36, the-34)
+compound(luxury-36, US-35)
+nsubj(seeks-40, luxury-36)
+amod(maker-39, electric-37)
+compound(maker-39, car-38)
+dep(luxury-36, maker-39)
+advcl(raise-19, seeks-40)
+amod(sources-42, fresh-41)
+dobj(seeks-40, sources-42)
+nsubj:xsubj(ramp-46, sources-42)
+case(cash-44, of-43)
+nmod:of(sources-42, cash-44)
+mark(ramp-46, to-45)
+xcomp(seeks-40, ramp-46)
+compound:prt(ramp-46, up-47)
+dobj(ramp-46, production-48)
+case(sedan-54, of-49)
+nmod:poss(sedan-54, its-50)
+amod(sedan-54, new-51)
+compound(sedan-54, Model-52)
+compound(sedan-54, 3-53)
+nmod:of(production-48, sedan-54)

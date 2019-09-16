@@ -1,0 +1,261 @@
+014240.psd
+
+1) Scott in the mix after WGC round one ADAM Scott has battled to keep his place among the leaderboard after the first round of the World Golf Championships-Bridgestone Invitational in Ohio. 
+
+nsubj(battled-12, Scott-1)
+nsubj:xsubj(keep-14, Scott-1)
+case(mix-4, in-2)
+det(mix-4, the-3)
+nmod:in(Scott-1, mix-4)
+case(Scott-10, after-5)
+compound(Scott-10, WGC-6)
+compound(Scott-10, round-7)
+compound(Scott-10, one-8)
+compound(Scott-10, ADAM-9) t1
+nmod:after(mix-4, Scott-10) t1
+aux(battled-12, has-11)
+root(ROOT-0, battled-12) s1
+mark(keep-14, to-13)
+xcomp(battled-12, keep-14)
+nmod:poss(place-16, his-15)
+dobj(keep-14, place-16)
+case(leaderboard-19, among-17)
+det(leaderboard-19, the-18)
+nmod:among(place-16, leaderboard-19)
+case(round-23, after-20)
+det(round-23, the-21)
+amod(round-23, first-22)
+nmod:after(keep-14, round-23)
+case(Invitational-29, of-24)
+det(Invitational-29, the-25)
+compound(Invitational-29, World-26)
+compound(Invitational-29, Golf-27)
+compound(Invitational-29, Championships-Bridgestone-28)
+nmod:of(round-23, Invitational-29)
+case(Ohio-31, in-30)
+nmod:in(keep-14, Ohio-31)
+
+2) The Australian world No. 17 dropped four shots on the back nine but managed to bag six birdies to extract a two-under-par 68 at Firestone Country Club. 
+
+det(world-3, The-1)
+amod(world-3, Australian-2)
+nsubj(dropped-6, world-3)
+nsubj(managed-14, world-3)
+nsubj:xsubj(bag-16, world-3)
+amod(world-3, No.-4)
+compound(No.-4, 17-5)
+root(ROOT-0, dropped-6)
+nummod(shots-8, four-7)
+dobj(dropped-6, shots-8)
+case(nine-12, on-9)
+det(nine-12, the-10)
+amod(nine-12, back-11)
+nmod:on(dropped-6, nine-12)
+cc(dropped-6, but-13)
+conj:but(dropped-6, managed-14)
+mark(bag-16, to-15)
+xcomp(managed-14, bag-16)
+nummod(birdies-18, six-17)
+dobj(bag-16, birdies-18)
+mark(extract-20, to-19)
+advcl(bag-16, extract-20)
+det(68-23, a-21)
+amod(68-23, two-under-par-22)
+dobj(extract-20, 68-23)
+case(Club-27, at-24)
+compound(Club-27, Firestone-25)
+compound(Club-27, Country-26)
+nmod:at(extract-20, Club-27)
+
+3) It left Scott, the 2011 WGC-Bridgestone champion, just three shots back of the lead. 
+
+nsubj(left-2, It-1)
+root(ROOT-0, left-2)
+dobj(left-2, Scott-3)
+det(champion-8, the-5)
+nummod(champion-8, 2011-6)
+amod(champion-8, WGC-Bridgestone-7)
+appos(Scott-3, champion-8)
+advmod(shots-12, just-10)
+nummod(shots-12, three-11)
+nmod:npmod(back-13, shots-12)
+advmod(Scott-3, back-13)
+case(lead-16, of-14)
+det(lead-16, the-15)
+nmod:of(Scott-3, lead-16)
+
+4) Belgian young gun Thomas Pieters set the pace with a 65 to climb to five-under and he will take a one-shot lead into day two over Scotland's Russell Knox -LRB- 66 -RRB-. 
+
+amod(Pieters-5, Belgian-1)
+amod(Pieters-5, young-2)
+compound(Pieters-5, gun-3)
+compound(Pieters-5, Thomas-4)
+nsubj(set-6, Pieters-5)
+root(ROOT-0, set-6)
+det(pace-8, the-7)
+dobj(set-6, pace-8)
+case(65-11, with-9)
+det(65-11, a-10)
+nmod:with(set-6, 65-11)
+mark(climb-13, to-12)
+advcl(set-6, climb-13)
+case(five-under-15, to-14)
+nmod:to(climb-13, five-under-15)
+cc(set-6, and-16)
+nsubj(take-19, he-17) t1
+aux(take-19, will-18)
+conj:and(set-6, take-19) s1 t2
+det(lead-22, a-20)
+amod(lead-22, one-shot-21) s3
+dobj(take-19, lead-22) s2 t3
+case(day-24, into-23)
+nmod:into(take-19, day-24)
+nummod(day-24, two-25)
+case(Knox-30, over-26)
+nmod:poss(Knox-30, Scotland-27)
+case(Scotland-27, 's-28)
+compound(Knox-30, Russell-29)
+nmod:over(day-24, Knox-30)
+appos(Knox-30, 66-32)
+
+5) Sharing third place at three-under are big guns Jordan Spieth, Rory McIlroy, Jon Rahm and Bubba Watson as well as Kevin Kisner and Ross Fisher -LRB- all 67 -RRB-. 
+
+csubj(guns-8, Sharing-1)
+amod(place-3, third-2) s1-1/2
+dobj(Sharing-1, place-3) s1-2/2
+case(three-under-5, at-4)
+nmod:at(Sharing-1, three-under-5)
+cop(guns-8, are-6)
+amod(guns-8, big-7) t1
+root(ROOT-0, guns-8) t1
+compound(Spieth-10, Jordan-9)
+dep(guns-8, Spieth-10)
+compound(McIlroy-13, Rory-12)
+dep(guns-8, McIlroy-13)
+conj:and(Spieth-10, McIlroy-13)
+compound(Rahm-16, Jon-15)
+dep(guns-8, Rahm-16)
+conj:and(Spieth-10, Rahm-16)
+cc(Spieth-10, and-17)
+compound(Watson-19, Bubba-18)
+dep(guns-8, Watson-19)
+conj:and(Spieth-10, Watson-19)
+cc(guns-8, as-20)
+mwe(as-20, well-21)
+mwe(as-20, as-22)
+compound(Kisner-24, Kevin-23)
+conj:and(guns-8, Kisner-24)
+cc(Kisner-24, and-25)
+compound(Fisher-27, Ross-26)
+conj:and(guns-8, Fisher-27)
+conj:and(Kisner-24, Fisher-27)
+advmod(67-30, all-29)
+dep(Fisher-27, 67-30)
+
+6) The 37-year-old Scott shares ninth place and is the leading Australian, with countryman Scott Hend -LRB- 70 -RRB- next best at even-par in a tie for 22nd. 
+
+det(Scott-3, The-1)
+amod(Scott-3, 37-year-old-2)
+nsubj(shares-4, Scott-3) t1 t2
+root(ROOT-0, shares-4)
+amod(place-6, ninth-5) s1-1/2
+dobj(shares-4, place-6) s1-2/2
+cc(shares-4, and-7)
+cop(Australian-11, is-8)
+det(Australian-11, the-9)
+amod(Australian-11, leading-10) s2
+conj:and(shares-4, Australian-11)
+case(Hend-16, with-13)
+compound(Hend-16, countryman-14)
+compound(Hend-16, Scott-15) t3
+nmod:with(Australian-11, Hend-16) t3
+appos(Hend-16, 70-18)
+case(best-21, next-20) s3-1/2 
+advmod(even-par-23, best-21) s3-2/2
+case(even-par-23, at-22)
+nmod:at(Australian-11, even-par-23)
+case(tie-26, in-24)
+det(tie-26, a-25)
+nmod:in(even-par-23, tie-26)
+case(22nd-28, for-27)
+nmod:for(tie-26, 22nd-28)
+
+7) World No. 7 Jason Day limped to a 71 to shared 33rd, while fellow Australians Rod Pampling and Marc Leishman are tied for 53rd after the pair signed for 73. 
+
+compound(Jason-4, World-1)
+compound(Jason-4, No.-2) s1-1/2
+nummod(Jason-4, 7-3) s1-2/2
+nsubj(limped-6, Jason-4) t1 t2
+nsubj(limped-6, Day-5) t1 t2
+root(ROOT-0, limped-6) s2
+case(71-9, to-7)
+advmod(71-9, a-8)
+nmod:to(limped-6, 71-9)
+case(33rd-12, to-10)
+amod(33rd-12, shared-11)
+nmod:to(limped-6, 33rd-12)
+mark(tied-23, while-14)
+amod(Pampling-18, fellow-15)
+compound(Pampling-18, Australians-16)
+compound(Pampling-18, Rod-17)
+nsubjpass(tied-23, Pampling-18)
+cc(Pampling-18, and-19)
+compound(Leishman-21, Marc-20)
+conj:and(Pampling-18, Leishman-21)
+nsubjpass(tied-23, Leishman-21)
+auxpass(tied-23, are-22)
+advcl(limped-6, tied-23)
+case(53rd-25, for-24)
+nmod:for(tied-23, 53rd-25)
+case(pair-28, after-26)
+det(pair-28, the-27)
+nmod:after(tied-23, pair-28)
+acl(pair-28, signed-29)
+case(73-31, for-30)
+nmod:for(signed-29, 73-31)
+
+8) Sam Brazel rounded out the Australian contingent with a 74 dropping him to 62nd. 
+
+compound(Brazel-2, Sam-1) t1 t2
+nsubj(rounded-3, Brazel-2) t1 t2
+root(ROOT-0, rounded-3) s1-1/2
+compound:prt(rounded-3, out-4) s1-2/2
+det(contingent-7, the-5)
+amod(contingent-7, Australian-6)
+dobj(rounded-3, contingent-7)
+case(74-10, with-8)
+det(74-10, a-9)
+nmod:with(contingent-7, 74-10)
+xcomp(rounded-3, dropping-11) s2
+dobj(dropping-11, him-12)
+case(62nd-14, to-13)
+nmod:to(dropping-11, 62nd-14)
+
+9) The WGC-Bridgestone is a 76-man event with no 36-hole cut featuring the world's top 50 golfers and US PGA Tour winners from this season. 
+
+det(WGC-Bridgestone-2, The-1)
+nsubj(event-6, WGC-Bridgestone-2)
+cop(event-6, is-3)
+det(event-6, a-4)
+amod(event-6, 76-man-5)
+root(ROOT-0, event-6)
+case(cut-10, with-7)
+neg(cut-10, no-8)
+amod(cut-10, 36-hole-9)
+nmod:with(event-6, cut-10)
+acl(cut-10, featuring-11)
+det(world-13, the-12)
+nmod:poss(golfers-17, world-13)
+case(world-13, 's-14)
+amod(golfers-17, top-15)
+nummod(golfers-17, 50-16)
+dobj(featuring-11, golfers-17)
+cc(golfers-17, and-18)
+compound(winners-22, US-19)
+compound(winners-22, PGA-20)
+compound(winners-22, Tour-21)
+dobj(featuring-11, winners-22)
+conj:and(golfers-17, winners-22)
+case(season-25, from-23)
+det(season-25, this-24)
+nmod:from(winners-22, season-25)

@@ -1,0 +1,123 @@
+022140.psd
+
+1) Marriage vote delay `failure of leader' Opposition Leader Bill Shorten has blamed a failure of leadership by Malcolm Turnbull for the dragged-out same-sex marriage debate. 
+
+amod(delay-3, Marriage-1)
+compound(delay-3, vote-2) t1
+nsubj(blamed-14, delay-3) s1
+dep(delay-3, failure-5) s2
+case(Shorten-12, of-6)
+nmod:poss(Shorten-12, leader-7) t2
+case(leader-7, '-8)
+compound(Shorten-12, Opposition-9)
+compound(Shorten-12, Leader-10)
+compound(Shorten-12, Bill-11)
+nmod:of(delay-3, Shorten-12)
+aux(blamed-14, has-13)
+root(ROOT-0, blamed-14) s3
+det(failure-16, a-15)
+dobj(blamed-14, failure-16) t3 s4
+case(leadership-18, of-17)
+nmod:of(failure-16, leadership-18) t4
+case(Turnbull-21, by-19)
+compound(Turnbull-21, Malcolm-20)
+nmod:by(blamed-14, Turnbull-21)
+case(debate-27, for-22)
+det(debate-27, the-23)
+amod(debate-27, dragged-out-24)
+amod(debate-27, same-sex-25)
+compound(debate-27, marriage-26)
+nmod:for(Turnbull-21, debate-27)
+
+2) Mr Shorten told the first Labor caucus meeting since the winter break on Monday coalition members were doing all they could to delay a decision on marriage equality. 
+
+compound(Shorten-2, Mr-1)
+nsubj(told-3, Shorten-2)
+root(ROOT-0, told-3)
+det(meeting-8, the-4)
+amod(meeting-8, first-5)
+compound(meeting-8, Labor-6)
+compound(meeting-8, caucus-7)
+dobj(told-3, meeting-8)
+mark(doing-18, since-9)
+det(break-12, the-10)
+compound(break-12, winter-11)
+nsubj(doing-18, break-12)
+case(members-16, on-13)
+compound(members-16, Monday-14)
+compound(members-16, coalition-15) t1
+nmod:on(break-12, members-16) t1
+aux(doing-18, were-17)
+advcl(told-3, doing-18)
+dobj(doing-18, all-19)
+nsubj(could-21, they-20)
+nsubj:xsubj(delay-23, they-20)
+acl:relcl(all-19, could-21)
+mark(delay-23, to-22)
+xcomp(could-21, delay-23) s1
+det(decision-25, a-24)
+dobj(delay-23, decision-25) t1
+case(equality-28, on-26)
+compound(equality-28, marriage-27)
+nmod:on(delay-23, equality-28)
+
+3) ``There is only one reason why this failure to deal with marriage equality has dragged on as long as it has - it is because of the complete failure of leadership and weakness of the prime minister of Australia to deal with this issue,'' Mr Shorten told the meeting in Canberra. 
+
+expl(is-3, There-2)
+ccomp(told-50, is-3)
+advmod(reason-6, only-4)
+nummod(reason-6, one-5)
+nsubj(is-3, reason-6)
+advmod(dragged-16, why-7)
+det(failure-9, this-8)
+nsubj(dragged-16, failure-9) t1
+mark(deal-11, to-10)
+acl(failure-9, deal-11)
+case(equality-14, with-12)
+compound(equality-14, marriage-13)
+nmod:with(deal-11, equality-14)
+aux(dragged-16, has-15)
+acl:relcl(reason-6, dragged-16) s1-1/2 t2
+compound:prt(dragged-16, on-17) s1-2/2 t2
+advmod(long-19, as-18) s2-1/5
+advmod(dragged-16, long-19) s2-2/5
+mark(has-22, as-20) s2-3/5
+nsubj(has-22, it-21) s2-4/5
+advcl(long-19, has-22) s2-5/5
+nsubj(failure-30, it-24)
+nsubj:xsubj(deal-42, it-24)
+cop(failure-30, is-25)
+case(failure-30, because-26)
+mwe(because-26, of-27)
+det(failure-30, the-28)
+amod(failure-30, complete-29)
+parataxis(is-3, failure-30) s3
+case(leadership-32, of-31)
+nmod:of(failure-30, leadership-32) t3
+cc(leadership-32, and-33)
+nmod:of(failure-30, weakness-34) s4
+conj:and(leadership-32, weakness-34)
+case(minister-38, of-35)
+det(minister-38, the-36)
+amod(minister-38, prime-37) t3 t4
+nmod:of(leadership-32, minister-38) t3 t4
+case(Australia-40, of-39)
+nmod:of(minister-38, Australia-40)
+mark(deal-42, to-41)
+xcomp(failure-30, deal-42)
+case(issue-45, with-43)
+det(issue-45, this-44)
+nmod:with(deal-42, issue-45)
+compound(Shorten-49, Mr-48)
+nsubj(told-50, Shorten-49)
+root(ROOT-0, told-50)
+det(meeting-52, the-51)
+dobj(told-50, meeting-52)
+case(Canberra-54, in-53)
+nmod:in(told-50, Canberra-54)
+
+4) Originally published as 
+Neutral.
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

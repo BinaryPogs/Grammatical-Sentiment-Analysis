@@ -1,0 +1,157 @@
+021240.psd
+
+1) Four die as heavy storms sweep Italy Heavy storms in northern Italy have led to at least four deaths and multiple emergency rescues in some of the country's most mountainous regions, local media are reporting. 
+
+nsubj(die-2, Four-1) t1
+ccomp(reporting-37, die-2) s1
+mark(led-14, as-3)
+amod(storms-9, heavy-4) s2
+compound(storms-9, storms-5) t2 t3
+compound(storms-9, sweep-6) s3
+compound(storms-9, Italy-7) t3
+compound(storms-9, Heavy-8) t4
+nsubj(led-14, storms-9) t4
+case(Italy-12, in-10)
+amod(Italy-12, northern-11)
+nmod:in(storms-9, Italy-12)
+aux(led-14, have-13)
+advcl(die-2, led-14) s4-1/2
+case(deaths-19, to-15) s4-2/2
+case(least-17, at-16)
+nmod:npmod(four-18, least-17)
+nummod(deaths-19, four-18) t4
+nmod:to(led-14, deaths-19) t4
+cc(led-14, and-20)
+amod(emergency-22, multiple-21) s5
+nsubj(rescues-23, emergency-22) t5 
+advcl(die-2, rescues-23) t5
+conj:and(led-14, rescues-23)
+case(some-25, in-24)
+nmod:in(rescues-23, some-25)
+case(regions-32, of-26)
+det(country-28, the-27)
+nmod:poss(regions-32, country-28)
+case(country-28, 's-29)
+amod(regions-32, most-30)
+amod(regions-32, mountainous-31)
+nmod:of(some-25, regions-32)
+amod(media-35, local-34)
+nsubj(reporting-37, media-35)
+aux(reporting-37, are-36)
+root(ROOT-0, reporting-37)
+
+2) One man was killed after being struck by lightning on Marmolada, the highest mountain of the Dolomites, Italian news agency Ansa reported on Sunday. 
+
+nummod(man-2, One-1)
+nsubjpass(killed-4, man-2) t1 t1
+auxpass(killed-4, was-3)
+ccomp(reported-24, killed-4) s1
+mark(struck-7, after-5)
+auxpass(struck-7, being-6)
+advcl(killed-4, struck-7) s2
+case(lightning-9, by-8)
+nmod:by(struck-7, lightning-9)
+case(Marmolada-11, on-10)
+nmod:on(struck-7, Marmolada-11)
+det(mountain-15, the-13)
+amod(mountain-15, highest-14)
+appos(Marmolada-11, mountain-15)
+case(Dolomites-18, of-16)
+det(Dolomites-18, the-17)
+nmod:of(mountain-15, Dolomites-18)
+amod(Ansa-23, Italian-20)
+compound(Ansa-23, news-21)
+compound(Ansa-23, agency-22)
+nsubj(reported-24, Ansa-23)
+root(ROOT-0, reported-24)
+case(Sunday-26, on-25)
+nmod:on(reported-24, Sunday-26)
+
+3) A Belgian tourist is believed to have died after a tree fell on his tent in the Friuli region, while a woman died in the Lombardy region after slipping on a wet hiking trial. 
+
+det(tourist-3, A-1)
+amod(tourist-3, Belgian-2) t1
+nsubjpass(believed-5, tourist-3) t1
+nsubj:xsubj(died-8, tourist-3)
+auxpass(believed-5, is-4)
+root(ROOT-0, believed-5)
+mark(died-8, to-6)
+aux(died-8, have-7)
+xcomp(believed-5, died-8) s1
+mark(fell-12, after-9)
+det(tree-11, a-10)
+nsubj(fell-12, tree-11)
+advcl(died-8, fell-12)
+case(tent-15, on-13)
+nmod:poss(tent-15, his-14)
+nmod:on(fell-12, tent-15)
+case(region-19, in-16)
+det(region-19, the-17)
+compound(region-19, Friuli-18)
+nmod:in(fell-12, region-19)
+mark(died-24, while-21)
+det(woman-23, a-22)
+nsubj(died-24, woman-23) t2
+advcl(fell-12, died-24) s2
+case(region-28, in-25)
+det(region-28, the-26)
+compound(region-28, Lombardy-27)
+nmod:in(died-24, region-28)
+mark(slipping-30, after-29)
+advcl(died-24, slipping-30)
+case(trial-35, on-31)
+det(trial-35, a-32)
+amod(trial-35, wet-33)
+compound(trial-35, hiking-34)
+nmod:on(slipping-30, trial-35)
+
+4) Another woman also died in Cortina d'Ampezzo after a landslide buried her car, fire officials said on Saturday. 
+
+det(woman-2, Another-1)
+nsubj(died-4, woman-2) t1
+advmod(died-4, also-3)
+ccomp(said-17, died-4) s1
+case(d'Ampezzo-7, in-5)
+compound(d'Ampezzo-7, Cortina-6)
+nmod:in(died-4, d'Ampezzo-7)
+mark(buried-11, after-8)
+det(landslide-10, a-9)
+nsubj(buried-11, landslide-10) t2
+advcl(died-4, buried-11) s2
+nmod:poss(car-13, her-12) t2
+dobj(buried-11, car-13) t2
+compound(officials-16, fire-15)
+nsubj(said-17, officials-16)
+root(ROOT-0, said-17)
+case(Saturday-19, on-18)
+nmod:on(said-17, Saturday-19)
+
+5) Local rescue authorities have reported ``many victims'' over the weekend and hikers are being warned to take weather alerts seriously. 
+
+amod(authorities-3, Local-1)
+compound(authorities-3, rescue-2)
+nsubj(reported-5, authorities-3)
+aux(reported-5, have-4)
+root(ROOT-0, reported-5)
+amod(victims-8, many-7)
+dobj(reported-5, victims-8) t1
+case(weekend-12, over-10)
+det(weekend-12, the-11)
+nmod:over(reported-5, weekend-12)
+cc(reported-5, and-13)
+nsubjpass(warned-17, hikers-14)
+nsubj:xsubj(take-19, hikers-14)
+aux(warned-17, are-15)
+auxpass(warned-17, being-16)
+conj:and(reported-5, warned-17) s1
+mark(take-19, to-18)
+xcomp(warned-17, take-19)
+compound(alerts-21, weather-20)
+dobj(take-19, alerts-21)
+advmod(take-19, seriously-22)
+
+6) Originally published as 
+Neutral.
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

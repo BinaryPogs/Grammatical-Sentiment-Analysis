@@ -1,0 +1,1055 @@
+018140.psd
+
+1) P.E Nation co-founder Pip Edwards on creating an Aussie activewear brand women are obsessed with Pip Edwards and Claire Tregoning are the co-founders of cult Aussie activewear brand P.E Nation. 
+
+compound(Edwards-5, P.E-1)
+compound(Edwards-5, Nation-2)
+compound(Edwards-5, co-founder-3)
+compound(Edwards-5, Pip-4)
+nsubjpass(obsessed-14, Edwards-5)
+mark(creating-7, on-6)
+acl(Edwards-5, creating-7)
+det(women-12, an-8)
+compound(women-12, Aussie-9)
+compound(women-12, activewear-10)
+compound(women-12, brand-11)
+dobj(creating-7, women-12)
+auxpass(obsessed-14, are-13)
+root(ROOT-0, obsessed-14)
+case(Edwards-17, with-15)
+compound(Edwards-17, Pip-16)
+nmod:with(obsessed-14, Edwards-17)
+cc(obsessed-14, and-18)
+compound(Tregoning-20, Claire-19)
+nsubj(co-founders-23, Tregoning-20)
+cop(co-founders-23, are-21)
+det(co-founders-23, the-22)
+conj:and(obsessed-14, co-founders-23)
+case(Nation-30, of-24)
+compound(Nation-30, cult-25)
+compound(Nation-30, Aussie-26)
+compound(Nation-30, activewear-27)
+compound(Nation-30, brand-28)
+compound(Nation-30, P.E-29)
+nmod:of(co-founders-23, Nation-30)
+
+2) Share YOU can spot a pair of P.E Nation leggings from a mile away. 
+
+nsubj(leggings-10, Share-1)
+nsubj(spot-4, YOU-2)
+aux(spot-4, can-3)
+acl:relcl(Share-1, spot-4)
+det(pair-6, a-5)
+dobj(spot-4, pair-6)
+case(Nation-9, of-7)
+compound(Nation-9, P.E-8)
+nmod:of(pair-6, Nation-9)
+root(ROOT-0, leggings-10)
+case(mile-13, from-11)
+det(mile-13, a-12)
+nmod:from(leggings-10, mile-13)
+advmod(leggings-10, away-14)
+
+3) They're usually black with splashes of bright blue, yellow or red stripes. 
+
+nsubj(black-4, They-1)
+cop(black-4, 're-2)
+advmod(black-4, usually-3)
+root(ROOT-0, black-4)
+case(splashes-6, with-5)
+nmod:with(black-4, splashes-6)
+case(stripes-14, of-7)
+amod(stripes-14, bright-8)
+amod(stripes-14, blue-9)
+conj:or(blue-9, yellow-11)
+amod(stripes-14, yellow-11)
+cc(blue-9, or-12)
+conj:or(blue-9, red-13)
+amod(stripes-14, red-13)
+nmod:of(splashes-6, stripes-14)
+
+4) This season, they might have stars or checks on them. 
+
+det(season-2, This-1)
+nsubj(have-6, season-2)
+nsubj(have-6, they-4)
+aux(have-6, might-5)
+root(ROOT-0, have-6)
+dobj(have-6, stars-7)
+cc(stars-7, or-8)
+dobj(have-6, checks-9)
+conj:or(stars-7, checks-9)
+case(them-11, on-10)
+nmod:on(stars-7, them-11)
+
+5) The P.E logo - bearing the initials of the cult activewear brand's co-founder Pip Edwards - peeks out from the waistband, clearly visible when the wearer is pushing through reps at the gym. 
+
+det(logo-3, The-1) t1
+compound(logo-3, P.E-2)
+nsubj(peeks-18, logo-3)
+dep(logo-3, bearing-5)
+det(initials-7, the-6)
+dobj(bearing-5, initials-7)
+case(Edwards-16, of-8)
+det(brand-12, the-9)
+compound(brand-12, cult-10)
+compound(brand-12, activewear-11)
+nmod:poss(Edwards-16, brand-12)
+case(brand-12, 's-13)
+compound(Edwards-16, co-founder-14)
+compound(Edwards-16, Pip-15)
+nmod:of(initials-7, Edwards-16)
+root(ROOT-0, peeks-18)
+compound:prt(peeks-18, out-19)
+case(waistband-22, from-20)
+det(waistband-22, the-21)
+nmod:from(peeks-18, waistband-22)
+advmod(visible-25, clearly-24) s2
+dep(pushing-30, visible-25) s1 t2
+advmod(pushing-30, when-26)
+det(wearer-28, the-27)
+nsubj(pushing-30, wearer-28)
+aux(pushing-30, is-29)
+xcomp(peeks-18, pushing-30)
+case(reps-32, through-31)
+nmod:through(pushing-30, reps-32)
+case(gym-35, at-33)
+det(gym-35, the-34)
+nmod:at(reps-32, gym-35)
+
+6) Edwards and her co-founder Claire Tregoning have done this on purpose. 
+
+nsubj(done-8, Edwards-1) t1
+cc(Edwards-1, and-2)
+nmod:poss(Tregoning-6, her-3)
+compound(Tregoning-6, co-founder-4)
+compound(Tregoning-6, Claire-5) t1
+conj:and(Edwards-1, Tregoning-6) t1
+nsubj(done-8, Tregoning-6)
+aux(done-8, have-7)
+root(ROOT-0, done-8) t1
+dobj(done-8, this-9)
+case(purpose-11, on-10) s1-1/2
+nmod:on(this-9, purpose-11) s1-2/2
+
+7) The $179 P.E Nation Playball leggings.Source: Supplied ``When we're designing a product, we make sure any which way the body turns or a photo is taken, there is some level of branding. 
+
+det(leggings.Source-7, The-1)
+amod(leggings.Source-7, $-2)
+compound(P.E-4, 179-3)
+nummod($-2, P.E-4)
+compound(leggings.Source-7, Nation-5)
+compound(leggings.Source-7, Playball-6)
+root(ROOT-0, leggings.Source-7)
+acl(leggings.Source-7, Supplied-9)
+advmod(designing-14, When-11)
+nsubj(designing-14, we-12)
+aux(designing-14, 're-13)
+advcl(make-19, designing-14)
+det(product-16, a-15)
+dobj(designing-14, product-16)
+nsubj(make-19, we-18)
+xcomp(Supplied-9, make-19)
+advmod(any-21, sure-20)
+advmod(make-19, any-21)
+dep(way-23, which-22)
+advmod(turns-26, way-23)
+det(body-25, the-24)
+nsubj(turns-26, body-25)
+advcl(any-21, turns-26)
+cc(turns-26, or-27)
+det(photo-29, a-28)
+nsubjpass(taken-31, photo-29)
+auxpass(taken-31, is-30)
+advcl(any-21, taken-31)
+conj:or(turns-26, taken-31)
+expl(is-34, there-33)
+parataxis(make-19, is-34)
+det(level-36, some-35)
+nsubj(is-34, level-36)
+case(branding-38, of-37)
+nmod:of(level-36, branding-38)
+
+8) On the front or the back or the side, you can see the logo,'' Edwards, 37, told news.com.au, who just signed on as an ambassador for Jeep Australia. 
+
+case(front-3, On-1)
+det(front-3, the-2)
+nmod:on(see-13, front-3)
+cc(front-3, or-4)
+det(back-6, the-5)
+conj:or(front-3, back-6)
+nmod:on(see-13, back-6)
+cc(back-6, or-7)
+det(side-9, the-8)
+conj:or(front-3, side-9)
+conj:or(back-6, side-9)
+nsubj(see-13, you-11)
+aux(see-13, can-12)
+ccomp(told-22, see-13)
+det(logo-15, the-14)
+dobj(see-13, logo-15)
+nsubj(told-22, Edwards-18)
+amod(Edwards-18, 37-20)
+root(ROOT-0, told-22)
+dobj(told-22, news.com.au-23)
+nsubj(signed-27, news.com.au-23)
+ref(news.com.au-23, who-25)
+advmod(signed-27, just-26)
+acl:relcl(news.com.au-23, signed-27)
+case(ambassador-31, on-28)
+case(ambassador-31, as-29)
+det(ambassador-31, an-30)
+nmod:as(signed-27, ambassador-31)
+case(Australia-34, for-32)
+compound(Australia-34, Jeep-33)
+nmod:for(ambassador-31, Australia-34)
+
+9) ``If there's something I have learned from my experiences back in my Ksubi days -LSB- she worked at the denim label from 2004-2009 -RSB-, it was that branding is key,'' Edwards said. 
+
+mark('s-4, If-2)
+expl('s-4, there-3)
+advcl(was-29, 's-4)
+nsubj('s-4, something-5)
+nsubj(learned-8, I-6) t1
+aux(learned-8, have-7)
+acl:relcl(something-5, learned-8) s1
+case(experiences-11, from-9)
+nmod:poss(experiences-11, my-10)
+nmod:from(learned-8, experiences-11)
+advmod(days-16, back-12)
+case(days-16, in-13)
+nmod:poss(days-16, my-14)
+compound(days-16, Ksubi-15)
+nmod:in(learned-8, days-16)
+xcomp(learned-8, -LSB--17)
+nsubj(worked-19, she-18)
+ccomp(-LSB--17, worked-19)
+case(label-23, at-20)
+det(label-23, the-21)
+compound(label-23, denim-22)
+nmod:at(worked-19, label-23)
+case(-RSB--26, from-24)
+nummod(-RSB--26, 2004-2009-25)
+nmod:from(worked-19, -RSB--26)
+nsubj(was-29, it-28)
+ccomp(said-37, was-29)
+mark(key-33, that-30)
+nsubj(key-33, branding-31)
+cop(key-33, is-32)
+ccomp(was-29, key-33)
+nsubj(said-37, Edwards-36)
+root(ROOT-0, said-37)
+
+10) All Ksubi jeans are stamped with two white squares behind the left knee and that tiny little logo has become a subtle status symbol. 
+
+det(jeans-3, All-1)
+compound(jeans-3, Ksubi-2)
+nsubjpass(stamped-5, jeans-3)
+auxpass(stamped-5, are-4)
+root(ROOT-0, stamped-5)
+case(squares-9, with-6)
+nummod(squares-9, two-7)
+amod(squares-9, white-8)
+nmod:with(stamped-5, squares-9)
+case(knee-13, behind-10)
+det(knee-13, the-11)
+amod(knee-13, left-12)
+nmod:behind(squares-9, knee-13)
+cc(stamped-5, and-14)
+det(logo-18, that-15)
+amod(logo-18, tiny-16)
+amod(logo-18, little-17)
+nsubj(become-20, logo-18)
+aux(become-20, has-19)
+conj:and(stamped-5, become-20)
+det(symbol-24, a-21)
+amod(symbol-24, subtle-22)
+compound(symbol-24, status-23)
+xcomp(become-20, symbol-24)
+
+11) ``We learned that if the product is branded correctly and you can spot it from a mile away, in person and in photos, it's a win-win,'' Edwards said. 
+
+nsubj(learned-3, We-2)
+ccomp(said-34, learned-3)
+mark(win-win-30, that-4)
+mark(branded-9, if-5)
+det(product-7, the-6)
+nsubjpass(branded-9, product-7) t1
+auxpass(branded-9, is-8)
+advcl(win-win-30, branded-9) t1
+advmod(branded-9, correctly-10) s1
+cc(branded-9, and-11)
+nsubj(spot-14, you-12)
+aux(spot-14, can-13)
+conj:and(branded-9, spot-14)
+advcl(win-win-30, spot-14)
+dobj(spot-14, it-15)
+case(mile-18, from-16)
+det(mile-18, a-17)
+nmod:from(away-19, mile-18)
+nmod(spot-14, away-19)
+case(person-22, in-21)
+nmod(spot-14, person-22)
+conj:and(away-19, person-22)
+cc(away-19, and-23)
+case(photos-25, in-24)
+nmod(spot-14, photos-25)
+conj:and(away-19, photos-25)
+nsubj(win-win-30, it-27) t2
+cop(win-win-30, 's-28)
+det(win-win-30, a-29)
+ccomp(learned-3, win-win-30) s2
+nsubj(said-34, Edwards-33)
+root(ROOT-0, said-34)
+
+12) ``When I'm down at Bondi and I see some girls walk past wearing P.E, they smile at me or I'll give them a wave. 
+
+advmod(Bondi-7, When-2)
+nsubj(Bondi-7, I-3)
+cop(Bondi-7, 'm-4)
+advmod(Bondi-7, down-5)
+case(Bondi-7, at-6)
+advcl(smile-19, Bondi-7)
+cc(Bondi-7, and-8)
+nsubj(see-10, I-9)
+conj:and(Bondi-7, see-10)
+advcl(smile-19, see-10)
+det(girls-12, some-11)
+nsubj(walk-13, girls-12)
+ccomp(see-10, walk-13)
+mark(wearing-15, past-14)
+advcl(walk-13, wearing-15)
+dobj(wearing-15, P.E-16)
+nsubj(smile-19, they-18)
+root(ROOT-0, smile-19)
+case(me-21, at-20)
+nmod:at(smile-19, me-21)
+cc(smile-19, or-22)
+nsubj(give-25, I-23)
+aux(give-25, 'll-24)
+conj:or(smile-19, give-25)
+iobj(give-25, them-26)
+det(wave-28, a-27)
+dobj(give-25, wave-28)
+
+13) Sometimes I get embarrassed, but it's nice.'' 
+
+advmod(get-3, Sometimes-1)
+nsubj(get-3, I-2) t1
+root(ROOT-0, get-3)
+xcomp(get-3, embarrassed-4) s1
+cc(get-3, but-6)
+nsubj(nice-9, it-7) t2
+cop(nice-9, 's-8)
+conj:but(get-3, nice-9) s2
+
+14) Pip Edwards is the new face of Jeep Australia.Source: Supplied Buying a pair of $179 P.E Nation leggings, a $299 jacket or $129 crop top, is akin to flashing your member's card at the entrance to the Cool Girl's Club. 
+
+compound(Edwards-2, Pip-1)
+nsubj(face-6, Edwards-2)
+cop(face-6, is-3)
+det(face-6, the-4)
+amod(face-6, new-5)
+root(ROOT-0, face-6)
+case(Australia.Source-9, of-7)
+compound(Australia.Source-9, Jeep-8)
+nmod:of(face-6, Australia.Source-9)
+nsubj(akin-33, Supplied-11)
+acl(Supplied-11, Buying-12)
+det(pair-14, a-13)
+dobj(Buying-12, pair-14)
+case(leggings-20, of-15)
+nummod(leggings-20, $-16)
+compound(P.E-18, 179-17)
+nummod($-16, P.E-18)
+compound(leggings-20, Nation-19)
+nmod:of(pair-14, leggings-20)
+det(top-30, a-22)
+nummod(top-30, $-23)
+compound(jacket-25, 299-24)
+nummod($-23, jacket-25)
+cc($-23, or-26)
+conj:or($-23, $-27)
+nummod(top-30, $-27)
+compound(crop-29, 129-28)
+nummod($-27, crop-29)
+appos(leggings-20, top-30)
+cop(akin-33, is-32)
+parataxis(face-6, akin-33)
+mark(flashing-35, to-34)
+advcl(akin-33, flashing-35)
+nmod:poss(member-37, your-36)
+nmod:poss(card-39, member-37)
+case(member-37, 's-38)
+dobj(flashing-35, card-39)
+case(entrance-42, at-40)
+det(entrance-42, the-41)
+nmod:at(card-39, entrance-42)
+case(Club-48, to-43)
+det(Girl-46, the-44)
+compound(Girl-46, Cool-45)
+nmod:poss(Club-48, Girl-46)
+case(Girl-46, 's-47)
+nmod:to(flashing-35, Club-48)
+
+15) The brand launched in March 2016 with 25 pieces, just as the global activewear industry took flight. 
+
+det(brand-2, The-1)
+nsubj(launched-3, brand-2)
+root(ROOT-0, launched-3)
+case(March-5, in-4)
+nmod:in(launched-3, March-5)
+nummod(March-5, 2016-6)
+case(pieces-9, with-7)
+nummod(pieces-9, 25-8)
+nmod:with(launched-3, pieces-9)
+advmod(took-17, just-11)
+mark(took-17, as-12)
+det(industry-16, the-13)
+amod(industry-16, global-14) t1
+compound(industry-16, activewear-15) t1
+nsubj(took-17, industry-16) t1
+advcl(launched-3, took-17) s1-1/2
+dobj(took-17, flight-18) s1-2/2
+
+16) International activewear sales are expected to generate $US83 billion in sales by 2020, according to Morgan Stanley. 
+
+compound(sales-3, International-1)
+compound(sales-3, activewear-2)
+nsubjpass(expected-5, sales-3)
+nsubj:xsubj(generate-7, sales-3)
+auxpass(expected-5, are-4)
+root(ROOT-0, expected-5)
+mark(generate-7, to-6)
+xcomp(expected-5, generate-7)
+dobj(generate-7, $-8)
+compound(billion-10, US83-9)
+nummod($-8, billion-10)
+case(sales-12, in-11)
+nmod:in($-8, sales-12)
+case(2020-14, by-13)
+nmod:by(generate-7, 2020-14)
+case(Stanley-19, according-16)
+mwe(according-16, to-17)
+compound(Stanley-19, Morgan-18)
+nmod:according_to(generate-7, Stanley-19)
+
+17) P.E Nation's first collection sold out within hours of launching. 
+
+compound(Nation-2, P.E-1)
+nmod:poss(collection-5, Nation-2)
+case(Nation-2, 's-3)
+amod(collection-5, first-4) t1
+nsubj(sold-6, collection-5) t1
+root(ROOT-0, sold-6) s1-1/2
+compound:prt(sold-6, out-7) s1-2/2
+case(hours-9, within-8)
+nmod:within(sold-6, hours-9)
+case(launching-11, of-10)
+nmod:of(hours-9, launching-11)
+
+18) Now Edwards and Tregoning release four 80-piece collections a year and have introduced new categories - accessories, swimwear, denim and menswear. 
+
+advmod(release-5, Now-1)
+nsubj(release-5, Edwards-2)
+nsubj(introduced-13, Edwards-2)
+cc(Edwards-2, and-3)
+conj:and(Edwards-2, Tregoning-4)
+nsubj(release-5, Tregoning-4)
+root(ROOT-0, release-5)
+nummod(collections-8, four-6)
+amod(collections-8, 80-piece-7)
+dobj(release-5, collections-8)
+det(year-10, a-9)
+dep(collections-8, year-10)
+cc(release-5, and-11)
+aux(introduced-13, have-12)
+conj:and(release-5, introduced-13)
+amod(categories-15, new-14)
+dobj(introduced-13, categories-15)
+parataxis(introduced-13, accessories-17)
+parataxis(introduced-13, swimwear-19)
+conj:and(accessories-17, swimwear-19)
+parataxis(introduced-13, denim-21)
+conj:and(accessories-17, denim-21)
+cc(accessories-17, and-22)
+parataxis(introduced-13, menswear-23)
+conj:and(accessories-17, menswear-23)
+
+19) ``I think a lot of people think -LSB- the timing -RSB- was quite strategic and it really wasn't at all. 
+
+nsubj(think-3, I-2)
+root(ROOT-0, think-3)
+det(lot-5, a-4)
+nsubj(think-8, lot-5)
+case(people-7, of-6)
+nmod:of(lot-5, people-7)
+ccomp(think-3, think-8)
+xcomp(think-8, -LSB--9) t1
+det(-RSB--12, the-10)
+compound(-RSB--12, timing-11)
+nsubj(strategic-15, -RSB--12)
+cop(strategic-15, was-13)
+advmod(strategic-15, quite-14) s2
+ccomp(-LSB--9, strategic-15) s1 t2
+cc(think-3, and-16)
+nsubj(all-22, it-17) 
+advmod(all-22, really-18)
+cop(all-22, was-19)
+neg(all-22, n't-20)
+case(all-22, at-21)
+conj:and(think-3, all-22)
+
+20) We couldn't find anything that we wanted to wear that fit our own aesthetic, so we designed it,'' Edwards said. 
+
+nsubj(find-4, We-1)
+aux(find-4, could-2)
+neg(find-4, n't-3)
+ccomp(said-24, find-4)
+dobj(find-4, anything-5)
+mark(wanted-8, that-6)
+nsubj(wanted-8, we-7)
+nsubj:xsubj(wear-10, we-7)
+ccomp(find-4, wanted-8)
+mark(wear-10, to-9)
+xcomp(wanted-8, wear-10)
+det(fit-12, that-11)
+iobj(wear-10, fit-12)
+nmod:poss(aesthetic-15, our-13)
+amod(aesthetic-15, own-14)
+dobj(wear-10, aesthetic-15)
+dep(find-4, so-17)
+nsubj(designed-19, we-18)
+parataxis(find-4, designed-19)
+dobj(designed-19, it-20)
+nsubj(said-24, Edwards-23)
+root(ROOT-0, said-24)
+
+21) ``This is aligned perfectly with the global trend and yes, we will ride this wave. 
+
+nsubjpass(aligned-4, This-2)
+auxpass(aligned-4, is-3)
+root(ROOT-0, aligned-4)
+advmod(aligned-4, perfectly-5)
+case(trend-9, with-6)
+det(trend-9, the-7)
+amod(trend-9, global-8)
+nmod:with(aligned-4, trend-9)
+cc(aligned-4, and-10)
+discourse(ride-15, yes-11)
+nsubj(ride-15, we-13) t1
+aux(ride-15, will-14)
+conj:and(aligned-4, ride-15) s1-1/3
+det(wave-17, this-16) s1-2/3
+dobj(ride-15, wave-17) s1-3/3
+
+22) But this is authentic and that's why it's resonated so well. 
+
+cc(authentic-4, But-1)
+nsubj(authentic-4, this-2)
+cop(authentic-4, is-3)
+root(ROOT-0, authentic-4)
+cc(authentic-4, and-5)
+nsubj('s-7, that-6)
+conj:and(authentic-4, 's-7)
+advmod(resonated-11, why-8)
+nsubj(resonated-11, it-9) t1
+aux(resonated-11, 's-10)
+advcl('s-7, resonated-11) s1 t2
+advmod(well-13, so-12) s2-1/2
+advmod(resonated-11, well-13) s2-2/2
+
+23) It wasn't as strategic as it appeared to be.'' 
+
+nsubj(strategic-5, It-1) t1
+cop(strategic-5, was-2)
+neg(strategic-5, n't-3) s1-1/2
+advmod(strategic-5, as-4)
+root(ROOT-0, strategic-5) s1-2/2
+mark(appeared-8, as-6)
+nsubj(appeared-8, it-7)
+nsubj:xsubj(be-10, it-7)
+advcl(strategic-5, appeared-8)
+mark(be-10, to-9)
+xcomp(appeared-8, be-10)
+
+24) A post shared by Khloe -LRB- @khloekardashian -RRB- on A post shared by P.E NATION -LRB- @p. 
+
+det(post-2, A-1)
+nsubj(shared-3, post-2)
+root(ROOT-0, shared-3)
+case(Khloe-5, by-4)
+nmod:by(shared-3, Khloe-5)
+appos(Khloe-5, @khloekardashian-7)
+case(post-11, on-9)
+det(post-11, A-10)
+nmod:on(shared-3, post-11)
+acl(post-11, shared-12)
+case(P.E-14, by-13)
+nmod:by(shared-12, P.E-14)
+compound(@p-17, NATION-15)
+dep(P.E-14, @p-17)
+
+25) e.nation -RRB- on What Edwards has been strategic with is harnessing the power of the celebrity endorsement. 
+
+csubj(strategic-8, e.nation-1)
+dobj(e.nation-1, on-3)
+acl:relcl(on-3, What-4)
+advmod(e.nation-1, Edwards-5)
+aux(strategic-8, has-6)
+cop(strategic-8, been-7)
+root(ROOT-0, strategic-8)
+mark(harnessing-11, with-9)
+aux(harnessing-11, is-10)
+ccomp(strategic-8, harnessing-11)
+det(power-13, the-12)
+dobj(harnessing-11, power-13)
+case(endorsement-17, of-14)
+det(endorsement-17, the-15)
+compound(endorsement-17, celebrity-16)
+nmod:of(power-13, endorsement-17)
+
+26) Most of Khloe Kardashian's highly publicised ``revenge body'' transformation occurred while working out in P.E Nation clothes. 
+
+nsubj(occurred-13, Most-1)
+case(body-10, of-2)
+compound(Kardashian-4, Khloe-3)
+nmod:poss(body-10, Kardashian-4)
+case(Kardashian-4, 's-5)
+advmod(publicised-7, highly-6)
+amod(body-10, publicised-7)
+compound(body-10, revenge-9)
+nmod:of(Most-1, body-10)
+dep(body-10, transformation-12)
+root(ROOT-0, occurred-13)
+mark(working-15, while-14)
+advcl(occurred-13, working-15)
+compound:prt(working-15, out-16)
+case(clothes-20, in-17)
+compound(clothes-20, P.E-18)
+compound(clothes-20, Nation-19)
+nmod:in(working-15, clothes-20)
+
+27) She regularly posts videos and photos of herself on social media wearing the brand, as do her sisters Kourtney Kardashian and Kylie Jenner. 
+
+nsubj(posts-3, She-1)
+advmod(posts-3, regularly-2)
+root(ROOT-0, posts-3)
+dobj(posts-3, videos-4)
+cc(videos-4, and-5)
+dobj(posts-3, photos-6)
+conj:and(videos-4, photos-6)
+case(herself-8, of-7)
+nmod:of(videos-4, herself-8)
+case(media-11, on-9)
+amod(media-11, social-10)
+nmod:on(posts-3, media-11)
+acl(media-11, wearing-12)
+det(brand-14, the-13)
+dobj(wearing-12, brand-14)
+mark(do-17, as-16)
+advcl(posts-3, do-17)
+nmod:poss(sisters-19, her-18)
+nsubj(Kardashian-21, sisters-19)
+compound(Kardashian-21, Kourtney-20)
+xcomp(do-17, Kardashian-21)
+cc(Kardashian-21, and-22)
+compound(Jenner-24, Kylie-23)
+xcomp(do-17, Jenner-24)
+conj:and(Kardashian-21, Jenner-24)
+
+28) ``We employ a PR agency in the states and they have a good connection with Khloe,'' Edwards said. 
+
+nsubj(employ-3, We-2)
+ccomp(said-21, employ-3)
+det(agency-6, a-4)
+compound(agency-6, PR-5)
+dobj(employ-3, agency-6)
+case(states-9, in-7)
+det(states-9, the-8)
+nmod:in(employ-3, states-9)
+cc(employ-3, and-10)
+nsubj(have-12, they-11) t1
+conj:and(employ-3, have-12)
+ccomp(said-21, have-12)
+det(connection-15, a-13)
+amod(connection-15, good-14) s1
+dobj(have-12, connection-15) t1
+case(Khloe-17, with-16)
+nmod:with(connection-15, Khloe-17) t1
+nsubj(said-21, Edwards-20)
+root(ROOT-0, said-21)
+
+29) ``So we sent a little gift pack saying `Here's the brand, take it or leave it' and she legitimately absolutely loves the brand. 
+
+dep(sent-4, So-2)
+nsubj(sent-4, we-3)
+root(ROOT-0, sent-4)
+det(pack-8, a-5)
+amod(pack-8, little-6)
+compound(pack-8, gift-7)
+dobj(sent-4, pack-8)
+acl(pack-8, saying-9)
+advmod(brand-14, Here-11)
+cop(brand-14, 's-12)
+det(brand-14, the-13)
+dep(saying-9, brand-14)
+dep(saying-9, take-16)
+conj:or(brand-14, take-16)
+dobj(take-16, it-17)
+cc(brand-14, or-18)
+dep(saying-9, leave-19)
+conj:or(brand-14, leave-19)
+nsubj(brand-14, it-20)
+nsubj(take-16, it-20)
+nsubj(leave-19, it-20)
+cc(sent-4, and-22)
+nsubj(loves-26, she-23) 
+advmod(loves-26, legitimately-24) s1
+advmod(loves-26, absolutely-25) s2
+conj:and(sent-4, loves-26) v1 v2 s3
+det(brand-28, the-27)
+dobj(loves-26, brand-28) t3
+
+30) ``She now puts in personal orders. 
+
+nsubj(puts-4, She-2)
+advmod(puts-4, now-3)
+root(ROOT-0, puts-4)
+case(orders-7, in-5)
+amod(orders-7, personal-6)
+nmod:in(puts-4, orders-7)
+
+31) She is such a supporter and you can't ask for better global exposure. 
+
+nsubj(supporter-5, She-1) t1
+cop(supporter-5, is-2)
+det:predet(supporter-5, such-3)
+det(supporter-5, a-4)
+root(ROOT-0, supporter-5) t1
+cc(supporter-5, and-6)
+nsubj(ask-10, you-7) t2
+aux(ask-10, ca-8)
+neg(ask-10, n't-9) s2-1/2
+conj:and(supporter-5, ask-10) s2-2/2
+case(exposure-14, for-11)
+amod(exposure-14, better-12) s3
+amod(exposure-14, global-13)
+nmod:for(ask-10, exposure-14) t2 t3
+
+32) She legit trains in it. 
+
+nsubj(legit-2, She-1)
+root(ROOT-0, legit-2) s1
+dobj(legit-2, trains-3) t1
+case(it-5, in-4)
+nmod:in(trains-3, it-5)
+
+33) It's a testament to the product.'' 
+
+nsubj(testament-4, It-1)
+cop(testament-4, 's-2)
+det(testament-4, a-3)
+root(ROOT-0, testament-4)
+case(product-7, to-5)
+det(product-7, the-6)
+nmod:to(testament-4, product-7)
+
+34) A post shared by P.E NATION -LRB- @p. 
+
+det(post-2, A-1)
+nsubj(shared-3, post-2)
+root(ROOT-0, shared-3)
+case(P.E-5, by-4)
+nmod:by(shared-3, P.E-5)
+compound(@p-8, NATION-6)
+dep(P.E-5, @p-8)
+
+35) e.nation -RRB- on A post shared by Khloe -LRB- @khloekardashian -RRB- on A post shared by P.E NATION -LRB- @p. 
+
+root(ROOT-0, e.nation-1)
+advmod(shared-6, on-3)
+det(shared-6, A-4)
+compound(shared-6, post-5)
+dobj(e.nation-1, shared-6)
+case(Khloe-8, by-7)
+nmod:by(e.nation-1, Khloe-8)
+appos(Khloe-8, @khloekardashian-10)
+case(post-14, on-12)
+det(post-14, A-13)
+nmod:on(e.nation-1, post-14)
+acl(e.nation-1, shared-15)
+case(P.E-17, by-16)
+nmod:by(shared-15, P.E-17)
+compound(@p-20, NATION-18)
+dep(P.E-17, @p-20)
+
+36) e.nation -RRB- on It's only been 16 months since the brand launched but it's already turning a profit - unusual for a new business. 
+
+dep(launched-13, e.nation-1)
+case(It-4, on-3)
+nmod:on('s-5, It-4)
+dobj(e.nation-1, 's-5)
+advmod('s-5, only-6)
+advmod(e.nation-1, been-7)
+nummod(months-9, 16-8)
+nsubj(launched-13, months-9)
+case(brand-12, since-10)
+det(brand-12, the-11)
+nmod:since(launched-13, brand-12)
+root(ROOT-0, launched-13)
+cc(turning-18, but-14)
+nsubj(turning-18, it-15) t1
+aux(turning-18, 's-16)
+advmod(turning-18, already-17)
+ccomp(launched-13, turning-18) s1-1/3
+det(profit-20, a-19) s1-2/3
+dobj(turning-18, profit-20) s1-3/3
+amod(profit-20, unusual-22)
+case(business-26, for-23)
+det(business-26, a-24)
+amod(business-26, new-25)
+nmod:for(turning-18, business-26)
+
+37) Edwards has a strong corporate background. 
+
+nsubj(has-2, Edwards-1) t1
+root(ROOT-0, has-2)
+det(background-6, a-3)
+amod(background-6, strong-4) s1
+amod(background-6, corporate-5)
+dobj(has-2, background-6) t1
+
+38) She studied commerce and worked in risk management at Price Waterhouse Coopers in her 20s before she worked at Ksubi. 
+
+nsubj(studied-2, She-1)
+nsubj(worked-5, She-1)
+root(ROOT-0, studied-2)
+dobj(studied-2, commerce/law-3)
+cc(studied-2, and-4)
+conj:and(studied-2, worked-5)
+case(management-8, in-6)
+compound(management-8, risk-7)
+nmod:in(worked-5, management-8)
+case(Coopers-12, at-9)
+compound(Coopers-12, Price-10)
+compound(Coopers-12, Waterhouse-11)
+nmod:at(worked-5, Coopers-12)
+case(20s-15, in-13)
+nmod:poss(20s-15, her-14)
+nmod:in(Coopers-12, 20s-15)
+mark(worked-18, before-16)
+nsubj(worked-18, she-17)
+advcl(studied-2, worked-18)
+case(Ksubi-20, at-19)
+nmod:at(worked-18, Ksubi-20)
+
+39) She's since held creative director roles at Sass and Bide and General Pants. 
+
+nsubjpass(held-4, She-1)
+auxpass(held-4, 's-2)
+advmod(held-4, since-3)
+root(ROOT-0, held-4)
+amod(roles-7, creative-5)
+compound(roles-7, director-6)
+dobj(held-4, roles-7)
+case(Sass-9, at-8)
+nmod:at(held-4, Sass-9)
+cc(Sass-9, and-10)
+nmod:at(held-4, Bide-11)
+conj:and(Sass-9, Bide-11)
+cc(Sass-9, and-12)
+compound(Pants-14, General-13)
+nmod:at(held-4, Pants-14)
+conj:and(Sass-9, Pants-14)
+
+40) ``We just closed our books for FY17 and it's looking healthy,'' Edwards said. 
+
+nsubj(closed-4, We-2)
+advmod(closed-4, just-3)
+ccomp(said-17, closed-4)
+nmod:poss(books-6, our-5)
+dobj(closed-4, books-6)
+case(FY17-8, for-7)
+nmod:for(closed-4, FY17-8)
+cc(closed-4, and-9)
+nsubj(looking-12, it-10) t1
+aux(looking-12, 's-11)
+conj:and(closed-4, looking-12)
+ccomp(said-17, looking-12)
+xcomp(looking-12, healthy-13) s1
+nsubj(said-17, Edwards-16)
+root(ROOT-0, said-17)
+
+41) ``I've been involved with business that have defaulted and businesses that have succeeded and I knew that we needed to build the brand like we were operating a $30 million business. 
+
+nsubjpass(involved-5, I-2)
+aux(involved-5, 've-3)
+auxpass(involved-5, been-4)
+root(ROOT-0, involved-5)
+case(business-7, with-6)
+nmod:with(involved-5, business-7) 
+nsubj(defaulted-10, business-7) t1
+ref(business-7, that-8)
+aux(defaulted-10, have-9)
+acl:relcl(business-7, defaulted-10) s1
+cc(business-7, and-11)
+nmod:with(involved-5, businesses-12) t2
+conj:and(business-7, businesses-12)
+nsubj(succeeded-15, businesses-12)
+ref(businesses-12, that-13)
+aux(succeeded-15, have-14)
+acl:relcl(businesses-12, succeeded-15) s2
+cc(involved-5, and-16)
+nsubj(knew-18, I-17)
+conj:and(involved-5, knew-18)
+mark(needed-21, that-19)
+nsubj(needed-21, we-20)
+nsubj:xsubj(build-23, we-20)
+ccomp(knew-18, needed-21)
+mark(build-23, to-22)
+xcomp(needed-21, build-23)
+det(brand-25, the-24)
+dobj(build-23, brand-25)
+mark(operating-29, like-26)
+nsubj(operating-29, we-27)
+aux(operating-29, were-28)
+advcl(build-23, operating-29)
+det(business-34, a-30)
+amod(business-34, $-31)
+compound(million-33, 30-32)
+nummod($-31, million-33)
+dobj(operating-29, business-34)
+
+42) ``There are all these checks in place and we're constantly budgeting and going through all the costs so at any given point in time we know very precisely what is happening.'' 
+
+expl(are-3, There-2)
+root(ROOT-0, are-3)
+det:predet(checks-6, all-4)
+det(checks-6, these-5)
+nsubj(are-3, checks-6) t1
+case(place-8, in-7) s1-1/2
+nmod:in(checks-6, place-8) s1-2/2
+cc(are-3, and-9)
+nsubj(budgeting-13, we-10)
+nsubj(going-15, we-10)
+aux(budgeting-13, 're-11)
+advmod(budgeting-13, constantly-12)
+conj:and(are-3, budgeting-13)
+cc(budgeting-13, and-14)
+conj:and(are-3, going-15)
+conj:and(budgeting-13, going-15)
+case(costs-19, through-16)
+det:predet(costs-19, all-17)
+det(costs-19, the-18)
+nmod:through(budgeting-13, costs-19)
+advmod(point-24, so-20)
+case(point-24, at-21)
+det(point-24, any-22)
+amod(point-24, given-23)
+nmod:at(budgeting-13, point-24)
+nsubj(happening-33, point-24)
+case(time-26, in-25)
+nmod:in(point-24, time-26)
+nsubj(know-28, we-27)
+acl:relcl(point-24, know-28)
+advmod(precisely-30, very-29)
+dobj(know-28, precisely-30)
+nsubj(happening-33, precisely-30)
+ref(point-24, what-31)
+ref(precisely-30, what-31)
+aux(happening-33, is-32)
+acl:relcl(precisely-30, happening-33)
+
+43) But while a healthy balance sheet and endorsements from brands such as Jeep are great, it's those bashful smiles from other cool girls in Bondi that really make Edwards happy. 
+
+cc(smiles-21, But-1)
+mark(great-15, while-2)
+det(sheet-6, a-3)
+amod(sheet-6, healthy-4) s1
+compound(sheet-6, balance-5)
+nsubj(great-15, sheet-6) t1 t2
+cc(sheet-6, and-7)
+conj:and(sheet-6, endorsements-8)
+nsubj(great-15, endorsements-8) t2
+case(brands-10, from-9)
+nmod:from(endorsements-8, brands-10)
+case(Jeep-13, such-11)
+mwe(such-11, as-12)
+nmod:such_as(brands-10, Jeep-13)
+cop(great-15, are-14)
+advcl(smiles-21, great-15) s2
+nsubj(smiles-21, it-17)
+cop(smiles-21, 's-18)
+det(smiles-21, those-19)
+amod(smiles-21, bashful-20)
+root(ROOT-0, smiles-21)
+nsubj(make-30, smiles-21)
+case(girls-25, from-22)
+amod(girls-25, other-23)
+amod(girls-25, cool-24)
+nmod:from(smiles-21, girls-25)
+case(Bondi-27, in-26)
+nmod:in(girls-25, Bondi-27)
+ref(smiles-21, that-28)
+advmod(make-30, really-29)
+acl:relcl(smiles-21, make-30)
+nsubj(happy-32, Edwards-31) t3
+xcomp(make-30, happy-32) s3
+
+44) ``The response has just been overwhelming and it's super rewarding,'' she said. 
+
+det(response-3, The-2)
+nsubj(overwhelming-7, response-3) t1
+aux(overwhelming-7, has-4)
+advmod(overwhelming-7, just-5)
+cop(overwhelming-7, been-6)
+ccomp(said-16, overwhelming-7) s1
+cc(overwhelming-7, and-8)
+nsubj(rewarding-12, it-9) t2
+cop(rewarding-12, 's-10)
+advmod(rewarding-12, super-11) s3
+conj:and(overwhelming-7, rewarding-12) s2 t3
+ccomp(said-16, rewarding-12)
+nsubj(said-16, she-15)
+root(ROOT-0, said-16)
+
+45) ``It appeals to everyone from 13-year-old girls to my mother. 
+
+nsubj(appeals-3, It-2) t1
+root(ROOT-0, appeals-3) s1-1/2
+case(everyone-5, to-4) s1-2/2
+nmod:to(appeals-3, everyone-5) t1
+case(girls-8, from-6)
+amod(girls-8, 13-year-old-7)
+nmod:from(everyone-5, girls-8)
+case(mother-11, to-9)
+nmod:poss(mother-11, my-10)
+nmod:to(appeals-3, mother-11)
+
+46) At the end of the day, we just want all women to feel good and look good.'' 
+
+case(end-3, At-1)
+det(end-3, the-2)
+nmod:at(want-10, end-3)
+case(day-6, of-4)
+det(day-6, the-5)
+nmod:of(end-3, day-6)
+nsubj(want-10, we-8)
+advmod(want-10, just-9)
+root(ROOT-0, want-10)
+det(women-12, all-11)
+dobj(want-10, women-12)
+nsubj:xsubj(feel-14, women-12) t1 t3
+nsubj:xsubj(look-17, women-12)
+mark(feel-14, to-13)
+xcomp(want-10, feel-14) s1 t2
+xcomp(feel-14, good-15) s2
+cc(feel-14, and-16)
+xcomp(want-10, look-17) s3 t4
+conj:and(feel-14, look-17)
+xcomp(look-17, good-18) s4
+
+47) rebecca.sullivan@news.com.au 
+
+root(ROOT-0, rebecca.sullivan@news.com.au-1)

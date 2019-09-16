@@ -1,0 +1,151 @@
+011140.psd
+
+1) Suspected arson at Sydney school POLICE are investigating a suspected arson attack in Sydney that has caused serious damage to a high school. 
+
+amod(arson-2, Suspected-1)
+nsubj(investigating-8, arson-2)
+case(POLICE-6, at-3)
+compound(POLICE-6, Sydney-4)
+compound(POLICE-6, school-5)
+nmod:at(arson-2, POLICE-6)
+aux(investigating-8, are-7)
+root(ROOT-0, investigating-8)
+det(attack-12, a-9)
+amod(attack-12, suspected-10) s1
+compound(attack-12, arson-11) s2
+dobj(investigating-8, attack-12) t1 t2 t3
+nsubj(caused-17, attack-12)
+case(Sydney-14, in-13)
+nmod:in(attack-12, Sydney-14)
+ref(attack-12, that-15)
+aux(caused-17, has-16)
+acl:relcl(attack-12, caused-17) s3 t4
+amod(damage-19, serious-18) s5
+dobj(caused-17, damage-19) s4 t5
+case(school-23, to-20)
+det(school-23, a-21)
+amod(school-23, high-22)
+nmod:to(caused-17, school-23)
+
+2) Emergency services extinguished the blaze after being called to Marsden High School on Winbourne Street at West Ryde just after 1 am this morning, but not before it caused significant damage to a building. 
+
+compound(services-2, Emergency-1)
+nsubj(extinguished-3, services-2)
+root(ROOT-0, extinguished-3) s1
+det(blaze-5, the-4)
+dobj(extinguished-3, blaze-5) t1
+mark(called-8, after-6)
+auxpass(called-8, being-7)
+advcl(extinguished-3, called-8)
+case(School-12, to-9)
+compound(School-12, Marsden-10)
+compound(School-12, High-11)
+nmod:to(called-8, School-12)
+case(Street-15, on-13)
+compound(Street-15, Winbourne-14)
+nmod:on(School-12, Street-15)
+case(Ryde-18, at-16)
+compound(Ryde-18, West-17)
+nmod:at(Street-15, Ryde-18)
+advmod(1-21, just-19)
+case(1-21, after-20)
+nmod:after(called-8, 1-21)
+advmod(morning-24, am-22)
+det(morning-24, this-23)
+nmod:tmod(called-8, morning-24)
+cc(called-8, but-26)
+dep(caused-30, not-27)
+mark(caused-30, before-28)
+nsubj(caused-30, it-29) t2
+advcl(called-8, caused-30) s2 t3
+amod(damage-32, significant-31) s4
+dobj(caused-30, damage-32) s3 t4
+case(building-35, to-33)
+det(building-35, a-34)
+nmod:to(caused-30, building-35) t3
+
+3) The fire began in the science block and quickly spread to several other classrooms, Channel 7 reported. 
+
+det(fire-2, The-1)
+nsubj(began-3, fire-2) s1
+nsubj(spread-10, fire-2)
+ccomp(reported-18, began-3)
+case(block-7, in-4)
+det(block-7, the-5)
+compound(block-7, science-6) t1
+nmod:in(began-3, block-7) t1
+cc(began-3, and-8)
+advmod(spread-10, quickly-9)
+conj:and(began-3, spread-10)
+ccomp(reported-18, spread-10)
+case(classrooms-14, to-11)
+amod(classrooms-14, several-12)
+amod(classrooms-14, other-13)
+nmod:to(spread-10, classrooms-14) t1
+nsubj(reported-18, Channel-16)
+nummod(Channel-16, 7-17)
+root(ROOT-0, reported-18)
+
+4) Fire crews rushed to the scene after receiving dozens of triple-0 calls from nearby residents who could see thick smoke pouring out the windows. 
+
+compound(crews-2, Fire-1)
+nsubj(rushed-3, crews-2)
+root(ROOT-0, rushed-3)
+case(scene-6, to-4)
+det(scene-6, the-5)
+nmod:to(rushed-3, scene-6)
+mark(receiving-8, after-7)
+advcl(rushed-3, receiving-8)
+dobj(receiving-8, dozens-9)
+case(calls-12, of-10)
+amod(calls-12, triple-0-11)
+nmod:of(dozens-9, calls-12)
+case(residents-15, from-13)
+amod(residents-15, nearby-14)
+nmod:from(receiving-8, residents-15)
+nsubj(see-18, residents-15)
+ref(residents-15, who-16)
+aux(see-18, could-17)
+acl:relcl(residents-15, see-18)
+amod(smoke-20, thick-19) s2
+dobj(see-18, smoke-20) s1 t2
+xcomp(see-18, pouring-21)
+compound:prt(pouring-21, out-22)
+det(windows-24, the-23)
+dobj(pouring-21, windows-24) t1
+
+5) A crime scene has been established and forensic crews will examine the site later today. 
+
+det(scene-3, A-1)
+compound(scene-3, crime-2) s1
+nsubjpass(established-6, scene-3) t1 t2
+aux(established-6, has-4)
+auxpass(established-6, been-5) s2-1/2
+root(ROOT-0, established-6) s2-2/2
+cc(established-6, and-7)
+amod(crews-9, forensic-8)
+nsubj(examine-11, crews-9)
+aux(examine-11, will-10)
+conj:and(established-6, examine-11)
+det(site-13, the-12)
+dobj(examine-11, site-13)
+advmod(examine-11, later-14)
+nmod:tmod(examine-11, today-15)
+
+6) Police are appealing for witnesses to come forward. 
+
+nsubj(appealing-3, Police-1)
+nsubj:xsubj(come-7, Police-1)
+aux(appealing-3, are-2)
+root(ROOT-0, appealing-3)
+case(witnesses-5, for-4)
+nmod:for(appealing-3, witnesses-5)
+mark(come-7, to-6)
+xcomp(appealing-3, come-7)
+advmod(come-7, forward-8)
+
+7) Originally published as 
+
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

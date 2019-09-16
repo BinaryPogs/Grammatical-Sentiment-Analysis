@@ -1,0 +1,183 @@
+017140.psd
+
+1) `Pharma Bro' Martin Shkreli convicted in US fraud trial Martin Shkreli arrives at federal court in New York on Friday. 
+
+compound(Bro-3, Pharma-2)
+nmod:poss(Shkreli-6, Bro-3)
+case(Bro-3, '-4)
+compound(Shkreli-6, Martin-5) t1 t2
+nsubj(arrives-14, Shkreli-6) t1 t2
+acl(Shkreli-6, convicted-7) s1
+case(Shkreli-13, in-8)
+compound(Shkreli-13, US-9)
+compound(Shkreli-13, fraud-10) s2
+compound(Shkreli-13, trial-11) t2
+compound(Shkreli-13, Martin-12)
+nmod:in(convicted-7, Shkreli-13)
+root(ROOT-0, arrives-14)
+case(court-17, at-15)
+amod(court-17, federal-16)
+nmod:at(arrives-14, court-17)
+case(York-20, in-18)
+compound(York-20, New-19)
+nmod:in(court-17, York-20)
+case(Friday-22, on-21)
+nmod:on(York-20, Friday-22)
+
+2) Picture: Seth Wenig Staff writers and wiresNews Corp Australia Network Share MARTIN Shkreli, the eccentric former pharmaceutical CEO notorious for a price-gouging scandal and for his snide ``Pharma Bro'' persona on social media, was convicted on Friday on federal charges he deceived investors in a pair of failed hedge funds. 
+
+
+3)         (NP (NNP Seth) (NNP Wenig (NNP Staff) (NNP writers)
+
+root(ROOT-0, Picture-1)
+compound(writers-6, Seth-3)
+
+4) compound(writers-6, Wenig 
+
+compound(writers-6, Staff-5)
+nsubjpass(convicted-40, writers-6)
+cc(writers-6, and-7)
+compound(Shkreli-14, wiresNews-8)
+compound(Shkreli-14, Corp-9)
+compound(Shkreli-14, Australia-10)
+compound(Shkreli-14, Network-11)
+compound(Shkreli-14, Share-12)
+compound(Shkreli-14, MARTIN-13)
+conj:and(writers-6, Shkreli-14)
+nsubjpass(convicted-40, Shkreli-14)
+det(notorious-21, the-16)
+amod(notorious-21, eccentric-17)
+amod(notorious-21, former-18)
+amod(notorious-21, pharmaceutical-19)
+compound(notorious-21, CEO-20)
+appos(writers-6, notorious-21)
+appos(writers-6, notorious-21')
+conj:and(notorious-21, notorious-21')
+case(scandal-25, for-22)
+det(scandal-25, a-23)
+amod(scandal-25, price-gouging-24)
+nmod:for(notorious-21, scandal-25)
+cc(notorious-21, and-26)
+case(persona-34, for-27)
+nmod:poss(persona-34, his-28)
+amod(persona-34, snide-29)
+compound(persona-34, Pharma-31)
+compound(persona-34, Bro-32)
+nmod:for(notorious-21', persona-34)
+case(media-37, on-35)
+amod(media-37, social-36)
+nmod:on(persona-34, media-37)
+auxpass(convicted-40, was-39)
+parataxis(Picture-1, convicted-40)
+case(Friday-42, on-41)
+nmod:on(convicted-40, Friday-42)
+case(charges-45, on-43)
+amod(charges-45, federal-44)
+nmod:on(convicted-40, charges-45)
+nsubj(deceived-47, he-46)
+acl:relcl(charges-45, deceived-47)
+dobj(deceived-47, investors-48)
+case(pair-51, in-49)
+det(pair-51, a-50)
+nmod:in(investors-48, pair-51)
+case(funds-55, of-52)
+amod(funds-55, failed-53)
+compound(funds-55, hedge-54)
+nmod:of(pair-51, funds-55)
+
+5) A jury in Brooklyn, New York, deliberated five days before finding Shkreli guilty on three of eight counts. 
+
+det(jury-2, A-1)
+nsubj(deliberated-9, jury-2)
+case(Brooklyn-4, in-3)
+nmod:in(jury-2, Brooklyn-4)
+compound(York-7, New-6)
+appos(jury-2, York-7)
+root(ROOT-0, deliberated-9)
+nummod(days-11, five-10)
+nmod:tmod(deliberated-9, days-11)
+mark(finding-13, before-12)
+advcl(deliberated-9, finding-13)
+nsubj(guilty-15, Shkreli-14) s1
+xcomp(finding-13, guilty-15) t1
+case(three-17, on-16)
+nmod:on(guilty-15, three-17)
+case(counts-20, of-18)
+nummod(counts-20, eight-19)
+nmod:of(three-17, counts-20)
+
+6) He had been charged with securities fraud, conspiracy to commit securities fraud and conspiracy to commit wire fraud. 
+
+nsubjpass(charged-4, He-1) t1
+nsubj:xsubj(commit-11, He-1)
+aux(charged-4, had-2)
+auxpass(charged-4, been-3)
+root(ROOT-0, charged-4) s1 t2 t3 t6
+case(fraud-7, with-5)
+compound(fraud-7, securities-6) s2-1/2
+nmod:with(charged-4, fraud-7) s2-2/2
+appos(fraud-7, conspiracy-9) s3 t4
+mark(commit-11, to-10)
+xcomp(charged-4, commit-11) s4 t5
+compound(fraud-13, securities-12) s5-1/2
+dobj(commit-11, fraud-13) s5-2/2
+cc(fraud-13, and-14)
+dobj(commit-11, conspiracy-15) s6 t7
+conj:and(fraud-13, conspiracy-15)
+mark(commit-17, to-16)
+acl(fraud-13, commit-17) s7 t9
+compound(fraud-19, wire-18) s9-1/2
+dobj(commit-17, fraud-19) s9-2/2
+
+7) Prosecutors had accused Shkreli of about what he was doing with their money. 
+
+nsubj(accused-3, Prosecutors-1)
+aux(accused-3, had-2)
+root(ROOT-0, accused-3) s1
+dobj(accused-3, Shkreli-4) t1
+case(doing-10, of-5)
+mark(doing-10, about-6)
+dobj(doing-10, what-7)
+nsubj(doing-10, he-8)
+aux(doing-10, was-9)
+acl(Shkreli-4, doing-10)
+case(money-13, with-11)
+nmod:poss(money-13, their-12)
+nmod:with(doing-10, money-13)
+
+8) Mostly, he was blowing it with horrible stock picks, forcing him to cook up a scheme to recover millions in losses, they said. 
+
+advmod(said-26, Mostly-1)
+nsubj(blowing-5, he-3) t1
+aux(blowing-5, was-4)
+parataxis(said-26, blowing-5) s1 t2
+dobj(blowing-5, it-6) t1
+case(picks-10, with-7)
+amod(picks-10, horrible-8) s2
+compound(picks-10, stock-9)
+nmod:with(blowing-5, picks-10)
+advcl(blowing-5, forcing-12) s3
+dobj(forcing-12, him-13) t3
+nsubj:xsubj(cook-15, him-13)
+mark(cook-15, to-14)
+xcomp(forcing-12, cook-15)
+compound:prt(cook-15, up-16)
+det(scheme-18, a-17)
+dobj(cook-15, scheme-18)
+mark(recover-20, to-19)
+acl(scheme-18, recover-20) s4
+dobj(recover-20, millions-21)
+case(losses-23, in-22)
+nmod:in(recover-20, losses-23) t4
+nsubj(said-26, they-25)
+root(ROOT-0, said-26)
+
+9) Shkreli with his lawyer Benjamin Brafman, right. 
+Neutral.
+root(ROOT-0, Shkreli-1)
+case(lawyer-4, with-2)
+nmod:poss(lawyer-4, his-3)
+nmod:with(Shkreli-1, lawyer-4)
+compound(Brafman-6, Benjamin-5)
+dep(Shkreli-1, Brafman-6)
+advmod(Brafman-6, right-8)

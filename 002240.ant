@@ -1,0 +1,168 @@
+002240.psd
+
+1) 'Em ergency routes' opened to Qatari planes The four Arab states that have cut diplomatic and transport ties with Qatar say they have opened up ``emergency routes'' for Qatari planes to use. 
+
+compound(routes-3, 'Em-1)
+compound(routes-3, ergency-2)
+nsubj(opened-5, routes-3)
+root(ROOT-0, opened-5)
+case(planes-8, to-6)
+compound(planes-8, Qatari-7)
+nmod:to(opened-5, planes-8)
+det(states-12, The-9)
+nummod(states-12, four-10)
+amod(states-12, Arab-11) t1
+dobj(opened-5, states-12) 
+nsubj(cut-15, states-12) t1
+ref(states-12, that-13)
+aux(cut-15, have-14)
+acl:relcl(states-12, cut-15) s1-1/2
+amod(ties-19, diplomatic-16) s1-2/2
+cc(diplomatic-16, and-17)
+conj:and(diplomatic-16, transport-18)
+amod(ties-19, transport-18)
+dobj(cut-15, ties-19)
+mark(say-22, with-20)
+nsubj(say-22, Qatar-21)
+advcl(cut-15, say-22)
+nsubj(opened-25, they-23)
+aux(opened-25, have-24)
+ccomp(say-22, opened-25) s2-1/2
+compound:prt(opened-25, up-26) s2-2/2
+compound(routes-29, emergency-28) t2 s3-1/2
+dobj(opened-25, routes-29) t2 s3-2/2
+case(planes-33, for-31)
+compound(planes-33, Qatari-32) t3
+nmod:for(routes-29, planes-33) t3
+mark(use-35, to-34)
+advcl(opened-25, use-35)
+
+2) The United Arab Emirates' foreign ministry said on Monday that the nine corridors were being opened in co-ordination with the International Civil Aviation Organisation, which did not immediately respond to a request for comment. 
+Neutral.
+det(Emirates-4, The-1)
+compound(Emirates-4, United-2)
+compound(Emirates-4, Arab-3)
+nmod:poss(ministry-7, Emirates-4)
+case(Emirates-4, '-5)
+amod(ministry-7, foreign-6)
+nsubj(said-8, ministry-7)
+root(ROOT-0, said-8)
+case(Monday-10, on-9)
+nmod:on(said-8, Monday-10)
+mark(opened-17, that-11)
+det(corridors-14, the-12)
+nummod(corridors-14, nine-13)
+nsubjpass(opened-17, corridors-14)
+aux(opened-17, were-15)
+auxpass(opened-17, being-16)
+ccomp(said-8, opened-17)
+case(co-ordination-19, in-18)
+nmod:in(opened-17, co-ordination-19)
+case(Organisation-25, with-20)
+det(Organisation-25, the-21)
+compound(Organisation-25, International-22)
+compound(Organisation-25, Civil-23)
+compound(Organisation-25, Aviation-24)
+nmod:with(opened-17, Organisation-25)
+nsubj(respond-31, Organisation-25)
+ref(Organisation-25, which-27)
+aux(respond-31, did-28)
+neg(respond-31, not-29)
+advmod(respond-31, immediately-30)
+acl:relcl(Organisation-25, respond-31)
+case(request-34, to-32)
+det(request-34, a-33)
+nmod:to(respond-31, request-34)
+case(comment-36, for-35)
+nmod:for(request-34, comment-36)
+
+3) It says the routes include overseas areas managed by the UAE and one over the Mediterranean, managed by Egypt. 
+Neutral.
+nsubj(says-2, It-1)
+root(ROOT-0, says-2)
+det(routes-4, the-3)
+nsubj(include-5, routes-4)
+ccomp(says-2, include-5)
+amod(areas-7, overseas-6)
+dobj(include-5, areas-7)
+dep(areas-7, managed-8)
+case(UAE-11, by-9)
+det(UAE-11, the-10)
+nmod:by(managed-8, UAE-11)
+cc(managed-8, and-12)
+dep(areas-7, one-13)
+conj:and(managed-8, one-13)
+case(Mediterranean-16, over-14)
+det(Mediterranean-16, the-15)
+nmod:over(one-13, Mediterranean-16)
+dep(managed-8, managed-18)
+case(Egypt-20, by-19)
+nmod:by(managed-18, Egypt-20)
+
+4) The UAE, Egypt, Saudi Arabia and Bahrain cut links with Qatar in early June over allegations it supports extremists. 
+
+det(UAE-2, The-1)
+nsubj(cut-10, UAE-2)
+conj:and(UAE-2, Egypt-4)
+nsubj(cut-10, Egypt-4)
+compound(Arabia-7, Saudi-6)
+conj:and(UAE-2, Arabia-7)
+nsubj(cut-10, Arabia-7)
+cc(UAE-2, and-8)
+conj:and(UAE-2, Bahrain-9)
+nsubj(cut-10, Bahrain-9)
+root(ROOT-0, cut-10) s1-1/2
+dobj(cut-10, links-11) s1-2/2
+case(Qatar-13, with-12)
+nmod:with(cut-10, Qatar-13) t1 t2 t3
+case(June-16, in-14)
+advmod(June-16, early-15)
+nmod:in(cut-10, June-16)
+case(allegations-18, over-17)
+nmod:over(cut-10, allegations-18) s2
+nsubj(supports-20, it-19) t3
+acl:relcl(allegations-18, supports-20) t3 t4
+dobj(supports-20, extremists-21) s4
+
+5) Qatar denies the charge. 
+
+nsubj(denies-2, Qatar-1) t1
+root(ROOT-0, denies-2) s1
+det(charge-4, the-3)
+dobj(denies-2, charge-4) t1
+
+6) The move forced state-backed Qatar Airways, one of the region's biggest airlines, to reroute many of its flights and scrap frequent routes to major regional destinations such as Dubai. 
+
+det(move-2, The-1)
+nsubj(forced-3, move-2) t1
+root(ROOT-0, forced-3) s1
+amod(Airways-6, state-backed-4) 
+compound(Airways-6, Qatar-5) t1 t2 t3
+dobj(forced-3, Airways-6) t1 t2 t3
+nsubj:xsubj(reroute-17, Airways-6)
+nsubj:xsubj(scrap-23, Airways-6)
+appos(Airways-6, one-8)
+case(airlines-14, of-9)
+det(region-11, the-10)
+nmod:poss(airlines-14, region-11)
+case(region-11, 's-12)
+amod(airlines-14, biggest-13)
+nmod:of(one-8, airlines-14)
+mark(reroute-17, to-16)
+xcomp(forced-3, reroute-17) s2
+dobj(reroute-17, many-18) 
+case(flights-21, of-19)
+nmod:poss(flights-21, its-20) t2
+nmod:of(many-18, flights-21) t2
+cc(reroute-17, and-22)
+xcomp(forced-3, scrap-23)
+conj:and(reroute-17, scrap-23) s3
+amod(routes-25, frequent-24) t3
+dobj(scrap-23, routes-25) t3
+case(destinations-29, to-26)
+amod(destinations-29, major-27)
+amod(destinations-29, regional-28)
+nmod:to(scrap-23, destinations-29)
+case(Dubai-32, such-30)
+mwe(such-30, as-31)
+nmod:such_as(destinations-29, Dubai-32)

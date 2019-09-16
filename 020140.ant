@@ -1,0 +1,499 @@
+020140.psd
+
+1) Two little girls behind one big message LARA Corbett does not need to use her imagination to walk a mile in Elise Anderson's shoes - she has experienced first-hand what her new friend is going through. 
+
+nummod(girls-3, Two-1)
+amod(girls-3, little-2)
+nsubj(need-12, girls-3)
+nsubj:xsubj(use-14, girls-3)
+case(message-7, behind-4)
+nummod(message-7, one-5)
+amod(message-7, big-6)
+nmod:behind(girls-3, message-7)
+compound(Corbett-9, LARA-8)
+dep(message-7, Corbett-9)
+aux(need-12, does-10)
+neg(need-12, not-11)
+root(ROOT-0, need-12)
+mark(use-14, to-13)
+xcomp(need-12, use-14)
+nmod:poss(imagination-16, her-15)
+dobj(use-14, imagination-16)
+mark(walk-18, to-17)
+acl(imagination-16, walk-18)
+det(mile-20, a-19)
+dobj(walk-18, mile-20)
+case(shoes-25, in-21)
+compound(Anderson-23, Elise-22)
+nmod:poss(shoes-25, Anderson-23)
+case(Anderson-23, 's-24)
+nmod:in(mile-20, shoes-25)
+nsubj(experienced-29, she-27)
+aux(experienced-29, has-28)
+parataxis(need-12, experienced-29)
+dobj(experienced-29, first-hand-30)
+dobj(going-36, first-hand-30)
+ref(first-hand-30, what-31)
+nmod:poss(friend-34, her-32)
+amod(friend-34, new-33)
+nsubj(going-36, friend-34)
+aux(going-36, is-35)
+acl:relcl(first-hand-30, going-36)
+compound:prt(going-36, through-37)
+
+2) Likewise, her parents Holly Foster and Jake Corbett know exactly how Elise's family feels. 
+
+advmod(know-10, Likewise-1)
+nmod:poss(parents-4, her-3)
+nsubj(know-10, parents-4)
+compound(Foster-6, Holly-5)
+dep(parents-4, Foster-6)
+cc(Foster-6, and-7)
+compound(Corbett-9, Jake-8)
+dep(parents-4, Corbett-9)
+conj:and(Foster-6, Corbett-9)
+root(ROOT-0, know-10)
+advmod(how-12, exactly-11)
+advmod(feels-16, how-12)
+nmod:poss(family-15, Elise-13)
+case(Elise-13, 's-14)
+nsubj(feels-16, family-15)
+ccomp(know-10, feels-16)
+
+3) The similarities are striking: both two years old with light-coloured eyes and fair hair, both from the Sunshine Coast and both born with faulty livers. 
+
+det(similarities-2, The-1)
+nsubj(striking-4, similarities-2)
+cop(striking-4, are-3)
+root(ROOT-0, striking-4)
+cc:preconj(old-9, both-6) t1
+nummod(years-8, two-7)
+nmod:npmod(old-9, years-8)
+dep(striking-4, old-9)
+case(eyes-12, with-10)
+amod(eyes-12, light-coloured-11)
+nmod:with(old-9, eyes-12)
+cc(old-9, and-13)
+amod(hair-15, fair-14)
+dep(striking-4, hair-15)
+conj:and(old-9, hair-15)
+advmod(Coast-21, both-17)
+case(Coast-21, from-18)
+det(Coast-21, the-19)
+compound(Coast-21, Sunshine-20)
+dep(striking-4, Coast-21)
+conj:and(old-9, Coast-21)
+cc(old-9, and-22)
+nsubj(born-24, both-23)
+dep(striking-4, born-24)
+conj:and(old-9, born-24)
+case(livers-27, with-25)
+amod(livers-27, faulty-26) s1
+nmod:with(born-24, livers-27) t1
+
+4) But it is the difference between the pair that is most affecting. 
+
+cc(difference-5, But-1)
+nsubj(difference-5, it-2)
+cop(difference-5, is-3)
+det(difference-5, the-4)
+root(ROOT-0, difference-5)
+case(pair-8, between-6)
+det(pair-8, the-7)
+nmod:between(difference-5, pair-8)
+nsubj(affecting-12, pair-8)
+ref(pair-8, that-9)
+aux(affecting-12, is-10)
+advmod(affecting-12, most-11)
+acl:relcl(pair-8, affecting-12)
+
+5) Lara is now well after receiving a lifesaving liver transplant last year, while Elise and her parents Anthea and Glenn Anderson are patiently waiting. 
+
+nsubj(is-2, Lara-1) t1 t3
+root(ROOT-0, is-2)
+advmod(well-4, now-3)
+advmod(is-2, well-4) s3
+mark(receiving-6, after-5)
+advcl(well-4, receiving-6) s1 v2
+det(transplant-10, a-7)
+amod(transplant-10, lifesaving-8) s2
+compound(transplant-10, liver-9) t2
+dobj(receiving-6, transplant-10) t2
+amod(year-12, last-11)
+nmod:tmod(receiving-6, year-12)
+mark(waiting-25, while-14)
+nsubj(waiting-25, Elise-15) t4
+cc(Elise-15, and-16)
+nmod:poss(parents-18, her-17) t4
+conj:and(Elise-15, parents-18) t4
+nsubj(waiting-25, parents-18)
+compound(Anderson-22, Anthea-19) t4
+cc(Anthea-19, and-20)
+conj:and(Anthea-19, Glenn-21) t4
+compound(Anderson-22, Glenn-21)
+dep(parents-18, Anderson-22) t4
+aux(waiting-25, are-23)
+advmod(waiting-25, patiently-24) s4
+advcl(is-2, waiting-25)
+
+6) ``She is okay at the moment,'' Ms Anderson said. 
+
+nsubj(okay-4, She-2) t1
+cop(okay-4, is-3)
+ccomp(said-12, okay-4) s1
+case(moment-7, at-5)
+det(moment-7, the-6)
+nmod:at(okay-4, moment-7)
+compound(Anderson-11, Ms-10)
+nsubj(said-12, Anderson-11)
+root(ROOT-0, said-12)
+
+7) ``She doesn't need the first available liver which is good, but she does need a liver when the right one becomes available and hopefully, her condition does not deteriorate.'' 
+
+nsubj(need-5, She-2) t2
+aux(need-5, does-3) t2
+neg(need-5, n't-4) t2
+root(ROOT-0, need-5) t2
+det(liver-9, the-6) t2
+amod(liver-9, first-7) t2
+amod(liver-9, available-8) s1
+dobj(need-5, liver-9) t1 
+nsubj(good-12, liver-9)
+ref(liver-9, which-10)
+cop(good-12, is-11)
+acl:relcl(liver-9, good-12) s2
+cc(need-5, but-14)
+nsubj(need-17, she-15)
+aux(need-17, does-16)
+conj:but(need-5, need-17)
+det(liver-19, a-18)
+dobj(need-17, liver-19)
+advmod(becomes-24, when-20)
+det(one-23, the-21)
+amod(one-23, right-22)
+nsubj(becomes-24, one-23) t3 t4
+advcl(need-17, becomes-24)
+xcomp(becomes-24, available-25) s3
+cc(becomes-24, and-26)
+advmod(deteriorate-33, hopefully-27) s4
+nmod:poss(condition-30, her-29)
+nsubj(deteriorate-33, condition-30) t5
+aux(deteriorate-33, does-31)
+neg(deteriorate-33, not-32) s5-1/2
+advcl(need-17, deteriorate-33) s5-2/2
+conj:and(becomes-24, deteriorate-33)
+
+8) Elise was born tiny - just 1.83 kg - had a cleft palette and was unable to thrive. 
+
+nsubj(had-10, Elise-1) t1 t2
+nsubj(unable-16, Elise-1)
+nsubj:xsubj(thrive-18, Elise-1)
+auxpass(born-3, was-2)
+acl:relcl(Elise-1, born-3)
+xcomp(born-3, tiny-4) s1
+advmod(kg-8, just-6)
+compound(kg-8, 1.83-7)
+dep(Elise-1, kg-8)
+root(ROOT-0, had-10)
+det(palette-13, a-11)
+amod(palette-13, cleft-12)
+dobj(had-10, palette-13)
+cc(had-10, and-14)
+cop(unable-16, was-15)
+conj:and(had-10, unable-16) s2 t3
+mark(thrive-18, to-17)
+xcomp(unable-16, thrive-18) s3
+
+9) During an operation to remove a cyst, found when she was just six months old, doctors discovered Elise's liver was full of cirrhosis and she would need a transplant. 
+
+case(operation-3, During-1)
+det(operation-3, an-2)
+nmod:during(discovered-19, operation-3)
+mark(remove-5, to-4)
+acl(operation-3, remove-5)
+det(cyst-7, a-6)
+dobj(remove-5, cyst-7)
+acl(cyst-7, found-9)
+advmod(old-16, when-10)
+nsubj(old-16, she-11)
+cop(old-16, was-12)
+advmod(months-15, just-13)
+nummod(months-15, six-14)
+nmod:npmod(old-16, months-15)
+advcl(found-9, old-16)
+nsubj(discovered-19, doctors-18)
+root(ROOT-0, discovered-19)
+nmod:poss(liver-22, Elise-20) t1
+case(Elise-20, 's-21)
+nsubj(full-24, liver-22) t1
+cop(full-24, was-23)
+dep(discovered-19, full-24)
+case(cirrhosis-26, of-25)
+nmod:of(full-24, cirrhosis-26) s1
+cc(full-24, and-27)
+nsubj(need-30, she-28) t2
+aux(need-30, would-29)
+dep(discovered-19, need-30)
+conj:and(full-24, need-30) s2-1/2
+det(transplant-32, a-31)
+dobj(need-30, transplant-32) s2-2/2
+
+10) The news came as a shock to the Maroochydore family who had hoped the operation would put an end to their daughter's poor health. 
+
+det(news-2, The-1)
+nsubj(came-3, news-2)
+root(ROOT-0, came-3)
+mark(put-17, as-4)
+det(shock-6, a-5)
+nsubj(put-17, shock-6) s1
+case(family-10, to-7)
+det(family-10, the-8)
+amod(family-10, Maroochydore-9) t1
+nmod:to(shock-6, family-10) t1
+nsubj(hoped-13, family-10)
+ref(family-10, who-11)
+aux(hoped-13, had-12)
+acl:relcl(family-10, hoped-13)
+det(operation-15, the-14)
+dobj(hoped-13, operation-15) t2
+aux(put-17, would-16)
+advcl(came-3, put-17) s2-1/4
+det(end-19, an-18) s2-2/4
+dobj(put-17, end-19) s2-3/4
+case(health-25, to-20) s2-4/4
+nmod:poss(daughter-22, their-21)
+nmod:poss(health-25, daughter-22)
+case(daughter-22, 's-23)
+amod(health-25, poor-24) s3
+nmod:to(put-17, health-25) t2 t3
+
+11) ``It was terrible. 
+
+nsubj(terrible-4, It-2) t1
+cop(terrible-4, was-3)
+root(ROOT-0, terrible-4) s1
+
+12) My poor husband, he just about fainted at the time,'' Ms Anderson said. 
+
+nmod:poss(husband-3, My-1) t1
+amod(husband-3, poor-2) s1
+nsubj(said-16, husband-3) t1
+nsubj(fainted-8, he-5) t2
+advmod(about-7, just-6)
+advmod(fainted-8, about-7)
+ccomp(said-16, fainted-8) s2
+case(time-11, at-9)
+det(time-11, the-10)
+nmod:at(fainted-8, time-11)
+compound(Anderson-15, Ms-14)
+nsubj(said-16, Anderson-15)
+root(ROOT-0, said-16)
+
+13) ``We had to sit down when the surgeon was telling us.'' 
+
+nsubj(had-3, We-2) t1
+nsubj:xsubj(sit-5, We-2)
+root(ROOT-0, had-3)
+mark(sit-5, to-4)
+xcomp(had-3, sit-5) t1-1/2
+compound:prt(sit-5, down-6) t1-2/2
+advmod(telling-11, when-7)
+det(surgeon-9, the-8)
+nsubj(telling-11, surgeon-9)
+aux(telling-11, was-10)
+advcl(sit-5, telling-11)
+dobj(telling-11, us-12)
+
+14) But she said meeting Lara was a ``really reassuring'' ray of hope for the couple. 
+
+cc(said-3, But-1)
+nsubj(said-3, she-2)
+root(ROOT-0, said-3)
+compound(Lara-5, meeting-4) t1
+nsubj(ray-12, Lara-5) t1
+cop(ray-12, was-6)
+det(ray-12, a-7)
+advmod(reassuring-10, really-9) s4
+amod(ray-12, reassuring-10) s3 t4
+ccomp(said-3, ray-12) s1 t2 t3
+case(hope-14, of-13)
+nmod:of(ray-12, hope-14) s2
+case(couple-17, for-15)
+det(couple-17, the-16)
+nmod:for(hope-14, couple-17) t1
+
+15) Lara was diagnosed with biliary atresia - a disease affecting the liver and bile ducts - when she was six weeks old. 
+
+nsubjpass(diagnosed-3, Lara-1) t1
+auxpass(diagnosed-3, was-2)
+root(ROOT-0, diagnosed-3) s1 t2
+case(atresia-6, with-4)
+amod(atresia-6, biliary-5) s2-1/2 t3
+nmod:with(diagnosed-3, atresia-6) s2-2/2 t3
+det(disease-9, a-8)
+nsubj(affecting-10, disease-9) s3 t4
+parataxis(diagnosed-3, affecting-10) s4
+det(ducts-15, the-11)
+compound(ducts-15, liver-12) t4
+cc(liver-12, and-13)
+conj:and(liver-12, bile-14) t4
+compound(ducts-15, bile-14)
+dobj(affecting-10, ducts-15) t4
+advmod(old-22, when-17)
+nsubj(old-22, she-18)
+cop(old-22, was-19)
+nummod(weeks-21, six-20)
+nmod:npmod(old-22, weeks-21)
+parataxis(diagnosed-3, old-22)
+
+16) Ms Foster said before her transplant that her family would travel from Caboolture to Lady Cilento Children's Hospital in Brisbane at least every six weeks for treatment. 
+
+compound(Foster-2, Ms-1)
+nsubj(said-3, Foster-2)
+root(ROOT-0, said-3)
+case(transplant-6, before-4)
+nmod:poss(transplant-6, her-5)
+nmod:before(said-3, transplant-6)
+mark(travel-11, that-7)
+nmod:poss(family-9, her-8) t1
+nsubj(travel-11, family-9) t1
+aux(travel-11, would-10)
+ccomp(said-3, travel-11)
+case(Caboolture-13, from-12)
+nmod:from(travel-11, Caboolture-13)
+case(Hospital-19, to-14)
+compound(Children-17, Lady-15)
+compound(Children-17, Cilento-16)
+nmod:poss(Hospital-19, Children-17)
+case(Children-17, 's-18)
+nmod:to(travel-11, Hospital-19)
+case(Brisbane-21, in-20)
+nmod:in(Hospital-19, Brisbane-21)
+case(least-23, at-22)
+advmod(Brisbane-21, least-23)
+det(weeks-26, every-24)
+nummod(weeks-26, six-25)
+nmod:tmod(travel-11, weeks-26)
+case(treatment-28, for-27)
+nmod:for(travel-11, treatment-28) s1
+
+17) She said the transplant was life-changing for her daughter whose belly, at the height of her illness, was so swollen with fluid that she ``looked pregnant''. 
+
+nsubj(said-2, She-1)
+root(ROOT-0, said-2)
+det(transplant-4, the-3)
+nsubj(life-changing-6, transplant-4) t1
+cop(life-changing-6, was-5)
+ccomp(said-2, life-changing-6) s1
+case(daughter-9, for-7)
+nmod:poss(daughter-9, her-8)
+nmod:for(life-changing-6, daughter-9) t1
+nmod:poss(belly-11, daughter-9)
+ref(daughter-9, whose-10)
+nsubj(swollen-22, belly-11) t2
+case(height-15, at-13)
+det(height-15, the-14)
+dep(belly-11, height-15)
+case(illness-18, of-16)
+nmod:poss(illness-18, her-17) t3
+nmod:of(height-15, illness-18) s3
+cop(swollen-22, was-20)
+advmod(swollen-22, so-21)
+acl:relcl(daughter-9, swollen-22) s2-1/3
+case(fluid-24, with-23) s2-2/3
+advcl(swollen-22, fluid-24) s2-3/3
+mark(looked-28, that-25)
+nsubj(looked-28, she-26) t4
+ccomp(swollen-22, looked-28) s4-1/2
+xcomp(looked-28, pregnant-29) s4-2/2
+
+18) Her advice to the Anderson family - ``stay strong''. 
+
+nmod:poss(advice-2, Her-1)
+nmod(stay-9, advice-2) s1 t2
+case(family-6, to-3)
+det(family-6, the-4)
+compound(family-6, Anderson-5) t1
+nmod:to(advice-2, family-6) t1
+root(ROOT-0, stay-9) 
+xcomp(stay-9, strong-10) s2
+
+19) ``This time last year we were in the exact same boat as them,'' Ms Foster said. 
+
+det(time-3, This-2)
+nsubj(boat-12, time-3)
+amod(year-5, last-4)
+nmod:tmod(boat-12, year-5)
+nsubj(boat-12, we-6)
+cop(boat-12, were-7)
+case(boat-12, in-8)
+det(boat-12, the-9)
+amod(boat-12, exact-10)
+amod(boat-12, same-11)
+ccomp(said-19, boat-12)
+case(them-14, as-13)
+nmod:as(boat-12, them-14)
+compound(Foster-18, Ms-17)
+nsubj(said-19, Foster-18)
+root(ROOT-0, said-19)
+
+20) The two families are speaking out to encourage Queenslanders to sign up to be organ donors, using a new process where would-be donors need only their Medicare cards to register. 
+
+det(families-3, The-1)
+nummod(families-3, two-2)
+nsubj(speaking-5, families-3)
+nsubj:xsubj(encourage-8, families-3)
+aux(speaking-5, are-4)
+root(ROOT-0, speaking-5)
+compound:prt(speaking-5, out-6)
+mark(encourage-8, to-7)
+xcomp(speaking-5, encourage-8) s1 t2
+dobj(encourage-8, Queenslanders-9) t1 
+nsubj:xsubj(sign-11, Queenslanders-9)
+mark(sign-11, to-10)
+xcomp(encourage-8, sign-11) 
+compound:prt(sign-11, up-12)
+mark(donors-16, to-13)
+cop(donors-16, be-14)
+compound(donors-16, organ-15) s2-1/2
+xcomp(sign-11, donors-16) s2-2/2
+advcl(speaking-5, using-18)
+det(process-21, a-19)
+amod(process-21, new-20)
+dobj(using-18, process-21)
+advmod(need-25, where-22)
+amod(donors-24, would-be-23)
+nsubj(need-25, donors-24)
+acl:relcl(process-21, need-25)
+advmod(cards-29, only-26)
+nmod:poss(cards-29, their-27)
+amod(cards-29, Medicare-28)
+dobj(need-25, cards-29)
+mark(register-31, to-30)
+advcl(need-25, register-31)
+
+21) ``We are so grateful to our donor, We think about them every day,'' Ms Foster said. 
+
+nsubj(grateful-5, We-2)
+cop(grateful-5, are-3)
+advmod(grateful-5, so-4) s2
+ccomp(think-11, grateful-5) s1 t2
+case(donor-8, to-6)
+nmod:poss(donor-8, our-7)
+nmod:to(grateful-5, donor-8) t1
+nsubj(think-11, We-10)
+ccomp(said-20, think-11)
+case(them-13, about-12)
+nmod:about(think-11, them-13)
+det(day-15, every-14)
+dep(them-13, day-15)
+compound(Foster-19, Ms-18)
+nsubj(said-20, Foster-19)
+root(ROOT-0, said-20)
+
+22) To register, visit: donatelife.gov.au 
+
+case(register-2, To-1)
+nmod:to(visit-4, register-2)
+root(ROOT-0, visit-4)
+advmod(visit-4, donatelife.gov.au-6)

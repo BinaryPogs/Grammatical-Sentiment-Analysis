@@ -1,0 +1,147 @@
+003140.psd
+
+1) UnionPay losing ground to non-bank payments, US credit card losses up, HSBC big buy back This content requires an active Banking Day subscription. 
+
+advmod(losing-2, UnionPay-1) t1
+advcl(requires-20, losing-2) s1-1/2
+xcomp(losing-2, ground-3) s1-2/2
+case(payments-6, to-4)
+amod(payments-6, non-bank-5)
+nmod:to(ground-3, payments-6)
+compound(losses-11, US-8) t2
+compound(losses-11, credit-9) t2
+compound(losses-11, card-10) t2
+appos(payments-6, losses-11) s2-1/2
+advmod(losing-2, up-12) s2-2/2
+compound(buy-16, HSBC-14) t4
+amod(buy-16, big-15) s3
+nsubj(requires-20, buy-16) t3 s4-1/2
+advmod(requires-20, back-17) t3 s4-2/2
+det(content-19, This-18)
+nmod:npmod(back-17, content-19) t5
+root(ROOT-0, requires-20) t5
+det(subscription-25, an-21)
+amod(subscription-25, active-22) s5
+compound(subscription-25, Banking-23)
+compound(subscription-25, Day-24)
+dobj(requires-20, subscription-25) t5
+
+2) Login below or.
+Neutral.
+root(ROOT-0, Login-1)
+advmod(Login-1, below-2)
+advmod(Login-1, or-3)
+
+3) I'm a returning subscriber Request a free trial Emailing you the news at 7 am. 
+Neutral.
+nsubj(subscriber-5, I-1)
+cop(subscriber-5, 'm-2)
+det(subscriber-5, a-3)
+amod(subscriber-5, returning-4)
+root(ROOT-0, subscriber-5)
+acl(subscriber-5, Request-6)
+det(trial-9, a-7)
+amod(trial-9, free-8)
+dobj(Request-6, trial-9)
+advcl(Request-6, Emailing-10)
+nsubj(news-13, you-11)
+det(news-13, the-12)
+xcomp(Emailing-10, news-13)
+case(7-15, at-14)
+nmod:at(news-13, 7-15)
+advmod(7-15, am-16)
+
+4) Covering core lending and funding issues, strategy, payments, regulation, risk management, IT, marketing and more. 
+Neutral.
+root(ROOT-0, Covering-1)
+amod(lending-3, core-2)
+dep(Covering-1, lending-3)
+cc(lending-3, and-4)
+compound(issues-6, funding-5)
+dep(Covering-1, issues-6)
+conj:and(lending-3, issues-6)
+dep(Covering-1, strategy-8)
+conj:and(lending-3, strategy-8)
+dep(Covering-1, payments-10)
+conj:and(lending-3, payments-10)
+dep(Covering-1, regulation-12)
+conj:and(lending-3, regulation-12)
+compound(management-15, risk-14)
+dep(Covering-1, management-15)
+conj:and(lending-3, management-15)
+dep(Covering-1, IT-17)
+conj:and(lending-3, IT-17)
+dep(Covering-1, marketing-19)
+conj:and(lending-3, marketing-19)
+cc(lending-3, and-20)
+dep(Covering-1, more-21)
+conj:and(lending-3, more-21)
+
+5) Original news and summaries of major stories from other media - ditch your newspaper subscriptions. 
+
+amod(news-2, Original-1)
+root(ROOT-0, news-2)
+cc(news-2, and-3)
+conj:and(news-2, summaries-4)
+case(stories-7, of-5)
+amod(stories-7, major-6)
+nmod:of(news-2, stories-7)
+case(media-10, from-8)
+amod(media-10, other-9)
+nmod:from(stories-7, media-10)
+dep(news-2, ditch-12) s1
+nmod:poss(subscriptions-15, your-13) t1
+compound(subscriptions-15, newspaper-14) t1
+dep(ditch-12, subscriptions-15) t1
+
+6) Focused on banking and finance, saving you the time spent wading through newspapers and other services. 
+
+dep(spent-11, Focused-1) s1
+case(banking-3, on-2)
+nmod:on(Focused-1, banking-3) t1
+cc(banking-3, and-4)
+nmod:on(Focused-1, finance-5) t1
+conj:and(banking-3, finance-5)
+csubj(spent-11, saving-7) s2
+iobj(saving-7, you-8) t1 t2
+det(time-10, the-9)
+dobj(saving-7, time-10) t2
+root(ROOT-0, spent-11)
+xcomp(spent-11, wading-12)
+case(newspapers-14, through-13)
+nmod:through(wading-12, newspapers-14)
+cc(newspapers-14, and-15)
+amod(services-17, other-16)
+nmod:through(wading-12, services-17)
+conj:and(newspapers-14, services-17)
+
+7) With reporting from former editors and senior writers from the AFR and The Australian. 
+Neutral.
+mark(reporting-2, With-1)
+root(ROOT-0, reporting-2)
+case(editors-5, from-3)
+amod(editors-5, former-4)
+nmod:from(reporting-2, editors-5)
+cc(editors-5, and-6)
+amod(writers-8, senior-7)
+nmod:from(reporting-2, writers-8)
+conj:and(editors-5, writers-8)
+case(AFR-11, from-9)
+det(AFR-11, the-10)
+nmod:from(reporting-2, AFR-11)
+cc(AFR-11, and-12)
+det(Australian-14, The-13)
+nmod:from(reporting-2, Australian-14)
+conj:and(AFR-11, Australian-14)
+
+8) Configured for your phone, laptop and PC. 
+Neutral.
+root(ROOT-0, Configured-1)
+case(phone-4, for-2)
+nmod:poss(phone-4, your-3)
+nmod:for(Configured-1, phone-4)
+nmod:for(Configured-1, laptop-6)
+conj:and(phone-4, laptop-6)
+cc(phone-4, and-7)
+nmod:for(Configured-1, PC-8)
+conj:and(phone-4, PC-8)

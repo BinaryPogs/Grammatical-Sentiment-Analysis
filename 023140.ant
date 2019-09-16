@@ -1,0 +1,943 @@
+023140.psd
+
+1) Turnbull government kills same-sex marriage conscience vote, agrees to postal plebiscite Turnbull government kills same-sex marriage conscience vote, agrees to postal plebiscite Senator Mathias Cormann at Parliament House in Canberra on Monday 7 August 2017. 
+The content is repetitive.
+compound(government-2, Turnbull-1) t1
+nsubj(kills-3, government-2) t1
+root(ROOT-0, kills-3) s1
+amod(vote-7, same-sex-4) t1
+compound(vote-7, marriage-5) t1
+compound(vote-7, conscience-6) t1
+nsubj(agrees-21, vote-7) t1
+dep(vote-7, agrees-9) s2
+case(government-14, to-10)
+amod(government-14, postal-11) t2
+compound(government-14, plebiscite-12) t2
+compound(government-14, Turnbull-13)
+nmod:to(agrees-9, government-14)
+dep(vote-19, kills-15)
+amod(vote-19, same-sex-16)
+compound(vote-19, marriage-17)
+compound(vote-19, conscience-18)
+dobj(agrees-9, vote-19)
+ccomp(kills-3, agrees-21)
+case(Cormann-27, to-22)
+amod(Cormann-27, postal-23)
+compound(Cormann-27, plebiscite-24)
+compound(Cormann-27, Senator-25)
+compound(Cormann-27, Mathias-26)
+nmod:to(agrees-21, Cormann-27)
+case(House-30, at-28)
+compound(House-30, Parliament-29)
+nmod:at(agrees-21, House-30)
+case(Canberra-32, in-31)
+nmod:in(House-30, Canberra-32)
+case(Monday-34, on-33)
+nmod:on(Canberra-32, Monday-34)
+nummod(Monday-34, 7-35)
+dep(Canberra-32, August-36)
+nummod(August-36, 2017-37)
+
+2) Fedpol. 
+
+root(ROOT-0, Fedpol-1)
+
+3) Photo: Andrew Meares exit The Turnbull government will make a doomed second attempt to enact a plebiscite on same-sex marriage after Liberal MPs rejected an internal push to ditch the policy and allow a free vote. 
+
+root(ROOT-0, Photo-1)
+compound(Meares-4, Andrew-3)
+nsubj(exit-5, Meares-4)
+parataxis(Photo-1, exit-5)
+det(government-8, The-6)
+compound(government-8, Turnbull-7)
+nsubj(make-10, government-8)
+aux(make-10, will-9)
+ccomp(exit-5, make-10)
+det(attempt-14, a-11)
+amod(attempt-14, doomed-12)
+amod(attempt-14, second-13)
+dobj(make-10, attempt-14)
+mark(enact-16, to-15)
+advcl(make-10, enact-16)
+det(plebiscite-18, a-17)
+dobj(enact-16, plebiscite-18)
+case(marriage-21, on-19)
+amod(marriage-21, same-sex-20)
+nmod:on(enact-16, marriage-21)
+mark(rejected-25, after-22)
+compound(MPs-24, Liberal-23)
+nsubj(rejected-25, MPs-24)
+advcl(enact-16, rejected-25) s1
+det(push-28, an-26)
+amod(push-28, internal-27) t1
+dobj(rejected-25, push-28) t1
+mark(ditch-30, to-29)
+advcl(rejected-25, ditch-30)
+det(policy-32, the-31)
+dobj(ditch-30, policy-32)
+cc(ditch-30, and-33)
+advcl(rejected-25, allow-34)
+conj:and(ditch-30, allow-34)
+det(vote-37, a-35)
+amod(vote-37, free-36)
+dobj(allow-34, vote-37)
+
+4) If that fails to pass the Senate, as expected, the government is satisfied it can legally conduct a voluntary postal ballot without legislation - a threat it is now imposing on the Senate crossbench. 
+
+mark(fails-3, If-1)
+nsubj(fails-3, that-2) t1
+nsubj:xsubj(pass-5, that-2)
+advcl(satisfied-15, fails-3) s1
+mark(pass-5, to-4)
+xcomp(fails-3, pass-5) t1
+det(Senate-7, the-6)
+dobj(pass-5, Senate-7)
+advmod(expected-10, as-9)
+amod(Senate-7, expected-10)
+det(government-13, the-12)
+nsubjpass(satisfied-15, government-13)
+auxpass(satisfied-15, is-14)
+root(ROOT-0, satisfied-15) s2
+nsubj(conduct-19, it-16) t2 t3 t4
+aux(conduct-19, can-17)
+advmod(conduct-19, legally-18) s3
+ccomp(satisfied-15, conduct-19)
+det(ballot-23, a-20)
+amod(ballot-23, voluntary-21) s4
+amod(ballot-23, postal-22)
+dobj(conduct-19, ballot-23)
+case(legislation-25, without-24)
+nmod:without(conduct-19, legislation-25)
+det(threat-28, a-27)
+dep(legislation-25, threat-28) s5
+nsubj(imposing-32, it-29)
+aux(imposing-32, is-30)
+advmod(imposing-32, now-31)
+acl:relcl(threat-28, imposing-32) t5
+case(crossbench-36, on-33)
+det(crossbench-36, the-34)
+compound(crossbench-36, Senate-35) t5
+nmod:on(imposing-32, crossbench-36) t5
+
+5) The political spotlight will now turn to the ``rebel'' Liberal MPs and whether they will cross the floor to join with Labor and the crossbench to force a vote on a private member's bill drafted by Liberal senator Dean Smith. 
+
+det(spotlight-3, The-1)
+amod(spotlight-3, political-2)
+nsubj(turn-6, spotlight-3)
+aux(turn-6, will-4)
+advmod(turn-6, now-5)
+root(ROOT-0, turn-6)
+case(rebel-10, to-7)
+det(rebel-10, the-8)
+nmod:to(turn-6, rebel-10) s1
+compound(MPs-13, Liberal-12) t1
+dep(rebel-10, MPs-13) t1
+cc(rebel-10, and-14)
+mark(cross-18, whether-15)
+nsubj(cross-18, they-16)
+aux(cross-18, will-17)
+nmod:to(turn-6, cross-18)
+conj:and(rebel-10, cross-18)
+det(floor-20, the-19)
+dobj(cross-18, floor-20)
+mark(join-22, to-21)
+acl(floor-20, join-22)
+case(Labor-24, with-23)
+nmod:with(join-22, Labor-24)
+cc(Labor-24, and-25)
+det(crossbench-27, the-26)
+nmod:with(join-22, crossbench-27)
+conj:and(Labor-24, crossbench-27)
+mark(force-29, to-28)
+xcomp(join-22, force-29)
+det(vote-31, a-30)
+dobj(force-29, vote-31)
+case(bill-37, on-32)
+det(member-35, a-33)
+amod(member-35, private-34)
+nmod:poss(bill-37, member-35)
+case(member-35, 's-36)
+nmod:on(force-29, bill-37)
+acl(bill-37, drafted-38)
+case(Smith-43, by-39)
+amod(Smith-43, Liberal-40)
+compound(Smith-43, senator-41)
+compound(Smith-43, Dean-42)
+nmod:by(drafted-38, Smith-43)
+
+6) At the meeting, most MPs argued the government should heap pressure back on Labor and the Senate crossbench, who together with the Greens blocked the plebiscite late last year. 
+
+case(meeting-3, At-1)
+det(meeting-3, the-2)
+nmod:at(argued-7, meeting-3)
+amod(MPs-6, most-5)
+nsubj(argued-7, MPs-6)
+root(ROOT-0, argued-7)
+det(government-9, the-8)
+nsubj(heap-11, government-9)
+aux(heap-11, should-10)
+ccomp(argued-7, heap-11) s1-1/2
+dobj(heap-11, pressure-12) s2-2/2
+advmod(heap-11, back-13)
+case(Labor-15, on-14)
+nmod:on(heap-11, Labor-15) t1
+cc(Labor-15, and-16)
+det(crossbench-19, the-17)
+compound(crossbench-19, Senate-18) t1
+nmod:on(heap-11, crossbench-19) t1
+conj:and(Labor-15, crossbench-19)
+nsubj(blocked-26, crossbench-19)
+ref(crossbench-19, who-21)
+case(Greens-25, together-22)
+mwe(together-22, with-23)
+det(Greens-25, the-24)
+nmod:together_with(blocked-26, Greens-25)
+acl:relcl(crossbench-19, blocked-26) s2
+det(plebiscite-28, the-27)
+dobj(blocked-26, plebiscite-28) t2
+advmod(year-31, late-29)
+amod(year-31, last-30)
+nmod:tmod(blocked-26, year-31)
+
+7) However, Senate powerbrokers Nick Xenophon and Derryn Hinch, whose votes are crucial to any vote succeeding in the Senate, have already insisted they will not change their minds. 
+
+advmod(insisted-25, However-1)
+compound(Xenophon-6, Senate-3)
+compound(Xenophon-6, powerbrokers-4)
+compound(Xenophon-6, Nick-5)
+nmod:poss(votes-12, Xenophon-6)
+nsubj(insisted-25, Xenophon-6)
+cc(Xenophon-6, and-7)
+compound(Hinch-9, Derryn-8)
+conj:and(Xenophon-6, Hinch-9)
+nmod:poss(votes-12, Hinch-9)
+nsubj(insisted-25, Hinch-9)
+ref(Xenophon-6, whose-11)
+nsubj(crucial-14, votes-12) t1
+cop(crucial-14, are-13)
+acl:relcl(Xenophon-6, crucial-14) s1
+case(vote-17, to-15)
+det(vote-17, any-16)
+nmod:to(crucial-14, vote-17)
+acl(vote-17, succeeding-18)
+case(Senate-21, in-19)
+det(Senate-21, the-20)
+nmod:in(succeeding-18, Senate-21)
+aux(insisted-25, have-23)
+advmod(insisted-25, already-24)
+root(ROOT-0, insisted-25)
+nsubj(change-29, they-26)
+aux(change-29, will-27)
+neg(change-29, not-28)
+ccomp(insisted-25, change-29)
+nmod:poss(minds-31, their-30)
+dobj(change-29, minds-31)
+
+8) Finance Minister Mathias Cormann confirmed the government would ``ask the Senate to reconsider'' the compulsory plebiscite, which was ``clearly our preference''. 
+
+compound(Cormann-4, Finance-1)
+compound(Cormann-4, Minister-2)
+compound(Cormann-4, Mathias-3)
+nsubj(confirmed-5, Cormann-4)
+root(ROOT-0, confirmed-5)
+det(government-7, the-6)
+nsubj(ask-10, government-7)
+aux(ask-10, would-8)
+ccomp(confirmed-5, ask-10)
+det(Senate-12, the-11)
+dobj(ask-10, Senate-12)
+nsubj:xsubj(reconsider-14, Senate-12)
+mark(reconsider-14, to-13)
+xcomp(ask-10, reconsider-14)
+det(plebiscite-18, the-16)
+amod(plebiscite-18, compulsory-17) s1
+dobj(reconsider-14, plebiscite-18) t1
+nsubj(clearly-23, plebiscite-18)
+ref(plebiscite-18, which-20)
+aux(clearly-23, was-21)
+acl:relcl(plebiscite-18, clearly-23)
+nmod:poss(preference-25, our-24)
+dobj(clearly-23, preference-25)
+
+9) But ``if that were to fail, the government believes we have a legal and constitutional way forward'' to commission a non-legislated, voluntary postal vote, he said. 
+
+cc(said-31, But-1)
+mark(were-5, if-3)
+nsubj(were-5, that-4) t1
+nsubj:xsubj(fail-7, that-4)
+advcl(said-31, were-5)
+mark(fail-7, to-6)
+xcomp(were-5, fail-7) s1
+det(government-10, the-9)
+nsubj(believes-11, government-10)
+dep(were-5, believes-11)
+nsubj(have-13, we-12)
+ccomp(believes-11, have-13)
+det(legal-15, a-14)
+dobj(have-13, legal-15) s2
+cc(legal-15, and-16)
+amod(forward-19, constitutional-17)
+compound(forward-19, way-18) t2
+dobj(have-13, forward-19)
+conj:and(legal-15, forward-19)
+mark(commission-22, to-21)
+acl(legal-15, commission-22)
+det(vote-28, a-23)
+amod(vote-28, non-legislated-24)
+amod(vote-28, voluntary-26)
+amod(vote-28, postal-27)
+dobj(commission-22, vote-28)
+nsubj(said-31, he-30)
+root(ROOT-0, said-31)
+
+10) Senator Cormann said any senators who were concerned about a postal vote should reconsider their opposition to the full, legislated plebiscite. 
+
+compound(Cormann-2, Senator-1)
+nsubj(said-3, Cormann-2)
+root(ROOT-0, said-3)
+det(senators-5, any-4)
+nsubjpass(concerned-8, senators-5) t1
+nsubj(reconsider-14, senators-5)
+ref(senators-5, who-6)
+auxpass(concerned-8, were-7)
+acl:relcl(senators-5, concerned-8) s1
+case(vote-12, about-9)
+det(vote-12, a-10)
+amod(vote-12, postal-11) t1
+nmod:about(concerned-8, vote-12) t1
+aux(reconsider-14, should-13)
+ccomp(said-3, reconsider-14)
+nmod:poss(opposition-16, their-15)
+dobj(reconsider-14, opposition-16) s2
+case(plebiscite-22, to-17)
+det(plebiscite-22, the-18)
+amod(plebiscite-22, full-19) 
+amod(plebiscite-22, legislated-21) t2
+nmod:to(reconsider-14, plebiscite-22) t2
+
+11) It is understood just seven MPs spoke in favour of ditching the plebiscite policy, with four times as many speaking against, in the course of a two-hour emergency meeting to deal with the issue. 
+
+nsubjpass(understood-3, It-1)
+auxpass(understood-3, is-2)
+root(ROOT-0, understood-3)
+advmod(MPs-6, just-4)
+nummod(MPs-6, seven-5) t1
+nsubj(spoke-7, MPs-6) t1
+ccomp(understood-3, spoke-7)s1-1/4
+case(favour-9, in-8) s1-2/4
+nmod:in(spoke-7, favour-9) s1-3/4
+mark(ditching-11, of-10) s1-4/4
+acl(favour-9, ditching-11) t1 s2
+det(policy-14, the-12)
+amod(policy-14, plebiscite-13) t2
+dobj(ditching-11, policy-14) t2
+case(times-18, with-16)
+compound(times-18, four-17)
+nmod:with(spoke-7, times-18)
+advmod(times-18, as-19)
+advmod(times-18, many-20)
+acl(times-18, speaking-21)
+nmod(speaking-21, against-22)
+case(course-26, in-24)
+det(course-26, the-25)
+nmod:in(speaking-21, course-26)
+case(emergency-30, of-27)
+det(emergency-30, a-28)
+amod(emergency-30, two-hour-29)
+nmod:of(course-26, emergency-30)
+acl(emergency-30, meeting-31)
+mark(deal-33, to-32)
+xcomp(meeting-31, deal-33)
+case(issue-36, with-34)
+det(issue-36, the-35)
+nmod:with(deal-33, issue-36)
+
+12) Those who argued for ditching the plebiscite were gay MPs Trent Zimmerman, Trevor Evans, Tim Wilson and Senator Smith, as well as supporters Warren Entsch, John Alexander and Jason Wood. 
+
+nsubj(argued-3, Those-1) t1
+nsubj(Zimmerman-12, Those-1)
+ref(Those-1, who-2)
+acl:relcl(Those-1, argued-3) s1-1/2
+mark(ditching-5, for-4) s1-2/2
+advcl(argued-3, ditching-5) s2 t1
+det(plebiscite-7, the-6)
+dobj(ditching-5, plebiscite-7) t2
+cop(Zimmerman-12, were-8)
+amod(Zimmerman-12, gay-9)
+compound(Zimmerman-12, MPs-10)
+compound(Zimmerman-12, Trent-11) t1
+root(ROOT-0, Zimmerman-12) t1
+compound(Evans-15, Trevor-14) t1
+conj:and(Zimmerman-12, Evans-15) t1
+compound(Wilson-18, Tim-17) t1
+conj:and(Zimmerman-12, Wilson-18) t1
+cc(Zimmerman-12, and-19)
+compound(Smith-21, Senator-20) t1
+conj:and(Zimmerman-12, Smith-21) t1
+cc(Zimmerman-12, as-23)
+mwe(as-23, well-24)
+mwe(as-23, as-25)
+compound(Entsch-28, supporters-26)
+compound(Entsch-28, Warren-27) t1
+conj:and(Zimmerman-12, Entsch-28) t1
+compound(Alexander-31, John-30) t1
+conj:and(Zimmerman-12, Alexander-31) t1
+conj:and(Entsch-28, Alexander-31)
+cc(Entsch-28, and-32)
+compound(Wood-34, Jason-33) t1
+conj:and(Zimmerman-12, Wood-34) t1
+conj:and(Entsch-28, Wood-34)
+
+13) However, the dominant feeling among MPs was that the government should stick with the plebiscite, because it had gone to the election promising Australians a vote on same-sex marriage. 
+
+advmod(was-8, However-1)
+det(feeling-5, the-3)
+amod(feeling-5, dominant-4) s1
+nsubj(was-8, feeling-5) t1
+case(MPs-7, among-6)
+nmod:among(feeling-5, MPs-7)
+root(ROOT-0, was-8)
+mark(stick-13, that-9)
+det(government-11, the-10)
+nsubj(stick-13, government-11)
+aux(stick-13, should-12)
+ccomp(was-8, stick-13) s2-1/2
+case(plebiscite-16, with-14) s2-2/2
+nmod:with(stick-13, plebiscite-16) t2
+mark(gone-21, because-18)
+nsubj(gone-21, it-19)
+aux(gone-21, had-20)
+advcl(stick-13, gone-21)
+case(election-24, to-22)
+det(election-24, the-23)
+nmod:to(gone-21, election-24)
+acl(election-24, promising-25)
+advcl(promising-25, Australians-26)
+det(vote-28, a-27)
+dobj(Australians-26, vote-28)
+case(marriage-31, on-29)
+amod(marriage-31, same-sex-30)
+nmod:on(Australians-26, marriage-31)
+
+14) Opposition Leader Bill Shorten labelled the Liberals' decision ``ridiculous'' and said he was ``disappointed for so many Australians that their prime minister has yet again let them down''. 
+
+compound(Shorten-4, Opposition-1)
+compound(Shorten-4, Leader-2)
+compound(Shorten-4, Bill-3)
+nsubj(labelled-5, Shorten-4)
+nsubj(said-14, Shorten-4)
+root(ROOT-0, labelled-5)
+det(Liberals-7, the-6)
+nmod:poss(decision-9, Liberals-7) t1
+case(Liberals-7, '-8) t1
+nsubj(ridiculous-11, decision-9) t1
+xcomp(labelled-5, ridiculous-11) s1
+cc(labelled-5, and-13)
+conj:and(labelled-5, said-14)
+nsubj(disappointed-18, he-15)
+cop(disappointed-18, was-16)
+ccomp(said-14, disappointed-18) s2
+case(Australians-22, for-19)
+advmod(many-21, so-20)
+amod(Australians-22, many-21)
+nmod:for(disappointed-18, Australians-22) t2
+mark(let-30, that-23)
+nmod:poss(minister-26, their-24)
+amod(minister-26, prime-25) t3
+nsubj(let-30, minister-26) t3
+aux(let-30, has-27)
+advmod(let-30, yet-28)
+advmod(let-30, again-29)
+ccomp(disappointed-18, let-30) s3-1/2
+nsubj(down-32, them-31) t3
+xcomp(let-30, down-32) s3-2/2
+
+15) So prevalent was that view within the party room that no formal ballot was required. 
+neutral.
+dep(view-5, So-1)
+nsubj(view-5, prevalent-2)
+cop(view-5, was-3)
+det(view-5, that-4)
+root(ROOT-0, view-5)
+case(room-9, within-6)
+det(room-9, the-7)
+compound(room-9, party-8)
+nmod:within(view-5, room-9)
+mark(required-15, that-10)
+neg(ballot-13, no-11)
+amod(ballot-13, formal-12)
+nsubjpass(required-15, ballot-13)
+auxpass(required-15, was-14)
+ccomp(view-5, required-15)
+
+16) MPs described the mood of the meeting as ``very calm'' and ``very civil'', and Senator Cormann said it was ``respectful''. 
+
+nsubj(described-2, MPs-1)
+root(ROOT-0, described-2)
+det(mood-4, the-3)
+dobj(described-2, mood-4) t1
+case(meeting-7, of-5)
+det(meeting-7, the-6)
+nmod:of(mood-4, meeting-7)
+case(calm-11, as-8)
+amod(calm-11, very-10)
+nmod:as(described-2, calm-11) s1 t2
+cc(calm-11, and-13)
+advmod(civil-16, very-15)
+nmod:as(described-2, civil-16) s2
+conj:and(calm-11, civil-16)
+cc(described-2, and-19)
+compound(Cormann-21, Senator-20)
+nsubj(said-22, Cormann-21)
+conj:and(described-2, said-22)
+nsubj(respectful-26, it-23) t3
+cop(respectful-26, was-24)
+ccomp(said-22, respectful-26) s3
+
+17) The party endorsed the position advocated by the plebiscite's architect, former prime minister Tony Abbott, who told 2 GB on Monday: ``We've put the plebiscite up once, that's all. 
+
+det(party-2, The-1)
+nsubj(endorsed-3, party-2)
+root(ROOT-0, endorsed-3) s1
+det(position-5, the-4)
+dobj(endorsed-3, position-5) t1
+acl(position-5, advocated-6)
+case(architect-11, by-7)
+det(plebiscite-9, the-8)
+nmod:poss(architect-11, plebiscite-9)
+case(plebiscite-9, 's-10)
+nmod:by(advocated-6, architect-11)
+nsubj(told-20, architect-11)
+amod(Abbott-17, former-13)
+amod(Abbott-17, prime-14)
+compound(Abbott-17, minister-15)
+compound(Abbott-17, Tony-16)
+appos(architect-11, Abbott-17)
+ref(architect-11, who-19)
+acl:relcl(architect-11, told-20)
+nummod(GB-22, 2-21)
+dobj(told-20, GB-22)
+case(Monday-24, on-23)
+nmod:on(GB-22, Monday-24)
+nsubj(put-29, We-27)
+aux(put-29, 've-28)
+parataxis(endorsed-3, put-29)
+det(plebiscite-31, the-30)
+dobj(put-29, plebiscite-31)
+advmod(once-33, up-32)
+advmod(put-29, once-33)
+mark(all-37, that-35)
+cop(all-37, 's-36)
+ccomp(put-29, all-37)
+
+18) We should have another go. 
+Neutral.
+nsubj(have-3, We-1)
+aux(have-3, should-2)
+root(ROOT-0, have-3)
+nsubj(go-5, another-4)
+ccomp(have-3, go-5)
+
+19) If that fails, let's have another go.'' 
+
+mark(fails-3, If-1)
+nsubj(fails-3, that-2) t1
+advcl(let-5, fails-3) s1
+root(ROOT-0, let-5)
+nsubj(have-7, 's-6)
+ccomp(let-5, have-7)
+nsubj(go-9, another-8)
+ccomp(have-7, go-9)
+
+20) Mr Abbott spoke against ditching the plebiscite during the meeting, but also against the postal vote option, which he said would lack authority. 
+
+compound(Abbott-2, Mr-1) t1 t3
+nsubj(spoke-3, Abbott-2) t1 t3
+root(ROOT-0, spoke-3) s1-1/2
+mark(ditching-5, against-4) s1-2/2
+nmod(spoke-3, ditching-5) t1 s2
+det(plebiscite-7, the-6)
+dobj(ditching-5, plebiscite-7) t2
+case(meeting-10, during-8)
+det(meeting-10, the-9)
+nmod:during(ditching-5, meeting-10)
+cc(ditching-5, but-12)
+advmod(option-18, also-13)
+case(option-18, against-14) s3
+det(option-18, the-15)
+amod(option-18, postal-16) t3 t4
+compound(option-18, vote-17) t3 t4
+nmod(spoke-3, option-18) t3 t4
+conj:and(ditching-5, option-18)
+dobj(said-22, option-18)
+ref(option-18, which-20)
+nsubj(said-22, he-21)
+acl:relcl(option-18, said-22)
+aux(lack-24, would-23)
+ccomp(said-22, lack-24) s4
+dobj(lack-24, authority-25) t4
+
+21) However, it is understood most MPs who supported the plebiscite also backed the postal option. 
+
+advmod(understood-5, However-1)
+nsubjpass(understood-5, it-3)
+auxpass(understood-5, is-4)
+root(ROOT-0, understood-5)
+advmod(MPs-7, most-6) t1 t2
+xcomp(understood-5, MPs-7) t1 t2
+nsubj(supported-9, who-8)
+ccomp(MPs-7, supported-9) s1
+det(plebiscite-11, the-10)
+nsubj(backed-13, plebiscite-11) t1
+advmod(backed-13, also-12)
+ccomp(supported-9, backed-13) s2
+det(option-16, the-14)
+amod(option-16, postal-15) t2
+dobj(backed-13, option-16) t2
+
+22) The specifics of the reborn plebiscite, such as when it would be held, would be a matter for the joint Liberal joint party room on Tuesday, Senator Cormann said. 
+Neutral.
+det(specifics-2, The-1)
+nsubj(matter-19, specifics-2)
+case(plebiscite-6, of-3)
+det(plebiscite-6, the-4)
+amod(plebiscite-6, reborn-5)
+nmod:of(specifics-2, plebiscite-6)
+mark(held-14, such-8)
+mwe(such-8, as-9)
+advmod(held-14, when-10)
+nsubjpass(held-14, it-11)
+aux(held-14, would-12)
+auxpass(held-14, be-13)
+acl(specifics-2, held-14)
+aux(matter-19, would-16)
+cop(matter-19, be-17)
+det(matter-19, a-18)
+ccomp(said-32, matter-19)
+case(room-26, for-20)
+det(room-26, the-21)
+amod(room-26, joint-22)
+compound(room-26, Liberal/Nationals-23)
+amod(room-26, joint-24)
+compound(room-26, party-25)
+nmod:for(matter-19, room-26)
+case(Tuesday-28, on-27)
+nmod:on(matter-19, Tuesday-28)
+compound(Cormann-31, Senator-30)
+nsubj(said-32, Cormann-31)
+root(ROOT-0, said-32)
+
+23) The bill would return to the Senate this week, he indicated. 
+Neutral.
+det(bill-2, The-1)
+nsubj(return-4, bill-2)
+aux(return-4, would-3)
+ccomp(indicated-12, return-4)
+case(Senate-7, to-5)
+det(Senate-7, the-6)
+nmod:to(return-4, Senate-7)
+det(week-9, this-8)
+nmod:tmod(return-4, week-9)
+nsubj(indicated-12, he-11)
+root(ROOT-0, indicated-12)
+
+24) If either form of plebiscite were to return a ``yes'' vote, the government would facilitate a free vote on a same-sex marriage bill, he said. 
+
+mark(were-6, If-1)
+det(form-3, either-2) t1
+nsubj(were-6, form-3) t1
+nsubj:xsubj(return-8, form-3)
+case(plebiscite-5, of-4)
+nmod:of(form-3, plebiscite-5) t1
+advcl(facilitate-18, were-6)
+mark(return-8, to-7)
+xcomp(were-6, return-8)
+dep(vote-13, a-9)
+discourse(vote-13, yes-11) s1
+dep(return-8, vote-13) t1
+det(government-16, the-15)
+nsubj(facilitate-18, government-16) t2
+aux(facilitate-18, would-17)
+ccomp(said-29, facilitate-18) s2
+det(vote-21, a-19)
+amod(vote-21, free-20) t2 s3-1/2
+dobj(facilitate-18, vote-21) t2 s3-2/2
+case(bill-26, on-22)
+det(bill-26, a-23)
+amod(bill-26, same-sex-24) t3
+compound(bill-26, marriage-25) t3
+nmod:on(facilitate-18, bill-26) t3
+nsubj(said-29, he-28)
+root(ROOT-0, said-29)
+
+25) But if marriage equality were rejected by the people, there would not be any vote in Parliament. 
+
+cc(vote-16, But-1)
+mark(rejected-6, if-2)
+compound(equality-4, marriage-3) t1
+nsubjpass(rejected-6, equality-4) t1
+auxpass(rejected-6, were-5)
+advcl(vote-16, rejected-6) s1
+case(people-9, by-7)
+det(people-9, the-8)
+nmod:by(rejected-6, people-9)
+expl(vote-16, there-11)
+aux(vote-16, would-12)
+neg(vote-16, not-13) s2
+cop(vote-16, be-14)
+det(vote-16, any-15)
+root(ROOT-0, vote-16) t2
+case(Parliament-18, in-17)
+nmod:in(vote-16, Parliament-18)
+
+26) One MP who supports change told Fairfax Media: ``We have a situation where if people vote `yes', MPs will have a free vote to vote `no'. 
+
+nummod(MP-2, One-1)
+nsubj(supports-4, MP-2)
+nsubj(told-6, MP-2)
+ref(MP-2, who-3)
+acl:relcl(MP-2, supports-4) s1
+dobj(supports-4, change-5) t1
+root(ROOT-0, told-6)
+compound(Media-8, Fairfax-7)
+dobj(told-6, Media-8)
+nsubj(have-12, We-11)
+dep(told-6, have-12)
+det(situation-14, a-13)
+dobj(have-12, situation-14)
+advmod(have-25, where-15)
+mark(vote-18, if-16)
+nsubj(vote-18, people-17)
+advcl(have-25, vote-18)
+dobj(vote-18, yes-20)
+nsubj(have-25, MPs-23)
+aux(have-25, will-24)
+acl:relcl(situation-14, have-25)
+det(vote-28, a-26)
+amod(vote-28, free-27)
+dobj(have-25, vote-28)
+mark(vote-30, to-29)
+acl(vote-28, vote-30)
+dobj(vote-30, no-32)
+
+27) If people vote `no', no free vote to vote `yes'.'' 
+Neutral.
+mark(vote-3, If-1)
+nsubj(vote-3, people-2)
+advcl(vote-10, vote-3)
+dobj(vote-3, no-5)
+neg(free-9, no-8)
+advmod(vote-10, free-9)
+root(ROOT-0, vote-10)
+mark(vote-12, to-11)
+xcomp(vote-10, vote-12)
+dobj(vote-12, yes-14)
+
+28) Australian Marriage Equality chairman Alex Greenwich said the government had opted to retry ``a failed policy''. 
+
+amod(Greenwich-6, Australian-1)
+compound(Greenwich-6, Marriage-2)
+compound(Greenwich-6, Equality-3)
+compound(Greenwich-6, chairman-4)
+compound(Greenwich-6, Alex-5)
+nsubj(said-7, Greenwich-6)
+root(ROOT-0, said-7)
+det(government-9, the-8)
+nsubj(opted-11, government-9)
+nsubj:xsubj(retry-13, government-9) t1
+aux(opted-11, had-10)
+ccomp(said-7, opted-11) s1 t2
+mark(retry-13, to-12)
+xcomp(opted-11, retry-13) s2
+det(policy-17, a-15)
+amod(policy-17, failed-16) t2 s3
+dobj(retry-13, policy-17) t2 t3
+
+29) ``The government does not want to do their job which is to vote through laws,'' he said. 
+
+det(government-3, The-2)
+nsubj(want-6, government-3)
+nsubj:xsubj(do-8, government-3) s1
+aux(want-6, does-4)
+neg(want-6, not-5) s1-1/2
+ccomp(said-20, want-6) s1-2/2
+mark(do-8, to-7)
+xcomp(want-6, do-8)
+nmod:poss(job-10, their-9) t1
+dobj(do-8, job-10) t1
+nsubj(is-12, job-10)
+nsubj:xsubj(vote-14, job-10)
+ref(job-10, which-11)
+acl:relcl(job-10, is-12)
+mark(vote-14, to-13)
+xcomp(is-12, vote-14)
+case(laws-16, through-15)
+nmod:through(vote-14, laws-16)
+nsubj(said-20, he-19)
+root(ROOT-0, said-20)
+
+30) Any move to a postal vote would trigger an immediate challenge in the High Court by same-sex marriage advocates, who fear a postal vote would be stacked against success and may be legally invalid. 
+
+det(move-2, Any-1)
+nsubj(trigger-8, move-2) t1
+case(vote-6, to-3)
+det(vote-6, a-4)
+amod(vote-6, postal-5)
+nmod:to(move-2, vote-6)
+aux(trigger-8, would-7)
+root(ROOT-0, trigger-8) s1 t2
+det(challenge-11, an-9)
+amod(challenge-11, immediate-10)
+dobj(trigger-8, challenge-11) s2
+case(Court-15, in-12)
+det(Court-15, the-13)
+compound(Court-15, High-14)
+nmod:in(challenge-11, Court-15)
+case(advocates-19, by-16)
+amod(advocates-19, same-sex-17) t3
+compound(advocates-19, marriage-18) t3
+nmod:by(trigger-8, advocates-19) t3
+nsubj(fear-22, advocates-19)
+ref(advocates-19, who-21) t3
+acl:relcl(advocates-19, fear-22) s3
+det(vote-25, a-23)
+amod(vote-25, postal-24) t4
+nsubjpass(stacked-28, vote-25) t4
+nsubj(invalid-35, vote-25)
+aux(stacked-28, would-26)
+auxpass(stacked-28, be-27)
+ccomp(fear-22, stacked-28) s4-1/2 
+case(success-30, against-29) s4-2/2
+nmod:against(stacked-28, success-30) t4
+cc(stacked-28, and-31)
+aux(invalid-35, may-32)
+cop(invalid-35, be-33)
+advmod(invalid-35, legally-34)
+ccomp(fear-22, invalid-35)
+conj:and(stacked-28, invalid-35)
+
+31) Anna Brown, director of legal advocacy at the Human Rights Law Centre and co-chair of the Equality Campaign, has obtained an independent legal opinion arguing the government could not fund a postal ballot without legislation. 
+
+compound(Brown-2, Anna-1)
+nsubj(obtained-22, Brown-2)
+appos(Brown-2, director-4)
+case(advocacy-7, of-5)
+amod(advocacy-7, legal-6)
+nmod:of(director-4, advocacy-7)
+case(Centre-13, at-8)
+det(Centre-13, the-9)
+compound(Centre-13, Human-10)
+compound(Centre-13, Rights-11)
+compound(Centre-13, Law-12)
+nmod:at(advocacy-7, Centre-13)
+cc(advocacy-7, and-14)
+nmod:of(director-4, co-chair-15)
+conj:and(advocacy-7, co-chair-15)
+case(Campaign-19, of-16)
+det(Campaign-19, the-17)
+compound(Campaign-19, Equality-18)
+nmod:of(co-chair-15, Campaign-19)
+aux(obtained-22, has-21)
+root(ROOT-0, obtained-22)
+det(opinion-26, an-23)
+amod(opinion-26, independent-24)
+amod(opinion-26, legal-25)
+dobj(obtained-22, opinion-26)
+xcomp(obtained-22, arguing-27)
+det(government-29, the-28)
+nsubj(fund-32, government-29) t1
+aux(fund-32, could-30)
+neg(fund-32, not-31) s1
+ccomp(arguing-27, fund-32) t1
+det(ballot-35, a-33)
+amod(ballot-35, postal-34)
+dobj(fund-32, ballot-35)
+case(legislation-37, without-36)
+nmod:without(fund-32, legislation-37)
+
+32) ``The legal advice we have is that such a step, conducting an AEC-administired plebiscite, would be invalid,'' she said on Monday. 
+
+det(advice-4, The-2)
+amod(advice-4, legal-3)
+nsubj(is-7, advice-4)
+nsubj(have-6, we-5)
+acl:relcl(advice-4, have-6)
+ccomp(said-24, is-7)
+mark(invalid-20, that-8)
+det:predet(step-11, such-9)
+det(step-11, a-10)
+nsubj(invalid-20, step-11) t1
+acl(step-11, conducting-13)
+det(plebiscite-16, an-14)
+amod(plebiscite-16, AEC-administired-15)
+dobj(conducting-13, plebiscite-16)
+aux(invalid-20, would-18)
+cop(invalid-20, be-19)
+ccomp(is-7, invalid-20) s1
+nsubj(said-24, she-23)
+root(ROOT-0, said-24)
+case(Monday-26, on-25)
+nmod:on(said-24, Monday-26)
+
+33) ``And that's why we'd go straight to the High Court and launch the challenge.'' 
+
+cc('s-4, And-2)
+nsubj('s-4, that-3)
+root(ROOT-0, 's-4)
+advmod(go-8, why-5)
+nsubj(go-8, we-6)
+nsubj(launch-15, we-6)
+aux(go-8, 'd-7)
+advcl('s-4, go-8)
+advmod(go-8, straight-9)
+case(Court-13, to-10)
+det(Court-13, the-11)
+compound(Court-13, High-12) t1
+nmod:to(go-8, Court-13) t1
+cc(go-8, and-14)
+advcl('s-4, launch-15)
+conj:and(go-8, launch-15)
+det(challenge-17, the-16)
+dobj(launch-15, challenge-17) s1
+
+34) Asked to reveal the government's own legal advice, Senator Cormann said it would be dealt with in the usual way, which is not to comment on legal advice. 
+
+advcl(said-13, Asked-1)
+mark(reveal-3, to-2)
+xcomp(Asked-1, reveal-3)
+det(government-5, the-4)
+nmod:poss(advice-9, government-5)
+case(government-5, 's-6)
+amod(advice-9, own-7)
+amod(advice-9, legal-8)
+dobj(reveal-3, advice-9)
+compound(Cormann-12, Senator-11)
+nsubj(said-13, Cormann-12)
+root(ROOT-0, said-13)
+nsubjpass(dealt-17, it-14)
+aux(dealt-17, would-15)
+auxpass(dealt-17, be-16)
+ccomp(said-13, dealt-17)
+case(way-22, with-18)
+case(way-22, in-19)
+det(way-22, the-20)
+amod(way-22, usual-21)
+nmod:in(dealt-17, way-22)
+nsubj(is-25, way-22)
+nsubj:xsubj(comment-28, way-22)
+ref(way-22, which-24)
+acl:relcl(way-22, is-25)
+neg(is-25, not-26) s1
+mark(comment-28, to-27)
+xcomp(is-25, comment-28) t1
+case(advice-31, on-29)
+amod(advice-31, legal-30)
+nmod:on(comment-28, advice-31)
+
+35) The story first appeared on. 
+Neutral.
+det(story-2, The-1)
+nsubj(appeared-4, story-2)
+advmod(appeared-4, first-3)
+root(ROOT-0, appeared-4)
+compound:prt(appeared-4, on-5)

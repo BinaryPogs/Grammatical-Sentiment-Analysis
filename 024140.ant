@@ -1,0 +1,271 @@
+024140.psd
+
+1) Amazon buys Blanchett's Lucille Ball film Amazon Studios has acquired the Lucille Ball biopic Lucy and Desi, in which Oscar-winner Cate Blanchett is slated to star. 
+
+nsubj(buys-2, Amazon-1)
+root(ROOT-0, buys-2)
+nmod:poss(Studios-9, Blanchett-3)
+case(Blanchett-3, 's-4)
+compound(Studios-9, Lucille-5)
+compound(Studios-9, Ball-6)
+compound(Studios-9, film-7)
+compound(Studios-9, Amazon-8)
+nsubj(acquired-11, Studios-9)
+aux(acquired-11, has-10)
+ccomp(buys-2, acquired-11)
+det(Lucy-16, the-12)
+compound(Lucy-16, Lucille-13)
+compound(Lucy-16, Ball-14)
+compound(Lucy-16, biopic-15)
+dobj(acquired-11, Lucy-16)
+nmod:in(slated-26, Lucy-16)
+cc(Lucy-16, and-17)
+dobj(acquired-11, Desi-18)
+conj:and(Lucy-16, Desi-18)
+nmod:in(slated-26, Desi-18)
+case(which-21, in-20)
+ref(Lucy-16, which-21)
+compound(Blanchett-24, Oscar-winner-22) s1
+compound(Blanchett-24, Cate-23) t1
+nsubjpass(slated-26, Blanchett-24)
+nsubj:xsubj(star-28, Blanchett-24) t1
+auxpass(slated-26, is-25)
+acl:relcl(Lucy-16, slated-26)
+mark(star-28, to-27)
+xcomp(slated-26, star-28)
+
+2) Aaron Sorkin has written the script. 
+Neutral.
+compound(Sorkin-2, Aaron-1)
+nsubj(written-4, Sorkin-2)
+aux(written-4, has-3)
+root(ROOT-0, written-4)
+det(script-6, the-5)
+dobj(written-4, script-6)
+
+3) The producers are seeking a star to play Ball's husband Desi Arnaz as well as Vivian Vance and William Frawley, who played Fred and Ethel Mertz in the landmark sitcom I Love Lucy. 
+
+det(producers-2, The-1)
+nsubj(seeking-4, producers-2)
+aux(seeking-4, are-3)
+root(ROOT-0, seeking-4)
+det(star-6, a-5)
+dobj(seeking-4, star-6)
+mark(play-8, to-7)
+acl(star-6, play-8)
+nmod:poss(husband-11, Ball-9)
+case(Ball-9, 's-10)
+dobj(play-8, husband-11)
+compound(Arnaz-13, Desi-12)
+dep(husband-11, Arnaz-13)
+cc(husband-11, as-14)
+mwe(as-14, well-15)
+mwe(as-14, as-16)
+compound(Vance-18, Vivian-17)
+dobj(play-8, Vance-18)
+conj:and(husband-11, Vance-18)
+nsubj(played-24, Vance-18)
+cc(Vance-18, and-19)
+compound(Frawley-21, William-20)
+conj:and(husband-11, Frawley-21)
+conj:and(Vance-18, Frawley-21)
+nsubj(played-24, Frawley-21)
+ref(Vance-18, who-23)
+acl:relcl(Vance-18, played-24)
+dep(Lucy-35, Fred-25)
+cc(Lucy-35, and-26)
+compound(Mertz-28, Ethel-27)
+dobj(played-24, Mertz-28)
+conj:and(Lucy-35, Mertz-28)
+case(sitcom-32, in-29)
+det(sitcom-32, the-30)
+amod(sitcom-32, landmark-31) s1
+nmod:in(Mertz-28, sitcom-32) t1
+dep(sitcom-32, I-33)
+compound(Lucy-35, Love-34)
+dobj(played-24, Lucy-35)
+
+4) The project attracted Blanchett and Sorkin two years ago. 
+
+det(project-2, The-1)
+nsubj(attracted-3, project-2) t1
+root(ROOT-0, attracted-3) s1
+dobj(attracted-3, Blanchett-4)
+cc(Blanchett-4, and-5)
+dobj(attracted-3, Sorkin-6)
+conj:and(Blanchett-4, Sorkin-6)
+nummod(years-8, two-7)
+nmod:npmod(ago-9, years-8)
+advmod(attracted-3, ago-9)
+
+5) Lucy and Desi will centre on Ball's 20-year marriage to Desi Arnaz. 
+Neutral.
+nsubj(centre-5, Lucy-1)
+cc(Lucy-1, and-2)
+conj:and(Lucy-1, Desi-3)
+nsubj(centre-5, Desi-3)
+aux(centre-5, will-4)
+root(ROOT-0, centre-5)
+case(marriage-10, on-6)
+nmod:poss(marriage-10, Ball-7)
+case(Ball-7, 's-8)
+amod(marriage-10, 20-year-9)
+nmod:on(centre-5, marriage-10)
+case(Arnaz-13, to-11)
+compound(Arnaz-13, Desi-12)
+nmod:to(centre-5, Arnaz-13)
+
+6) She eloped with the Cuban bandleader in 1940, and the two created the massively successful sitcom I Love Lucy in 1951 through their Desilu Productions. 
+
+nsubj(eloped-2, She-1) t1 t3
+root(ROOT-0, eloped-2) s1
+case(bandleader-6, with-3)
+det(bandleader-6, the-4)
+amod(bandleader-6, Cuban-5) t1 t3
+nmod:with(eloped-2, bandleader-6) t1 t3
+case(1940-8, in-7)
+nmod:in(eloped-2, 1940-8)
+cc(eloped-2, and-10)
+det(two-12, the-11)
+nsubj(created-13, two-12) t3
+conj:and(eloped-2, created-13)
+det(sitcom-17, the-14)
+advmod(successful-16, massively-15) s2
+amod(sitcom-17, successful-16) t2 s3
+dobj(created-13, sitcom-17) t3
+nsubj(Love-19, I-18)
+acl:relcl(sitcom-17, Love-19)
+dobj(Love-19, Lucy-20)
+case(1951-22, in-21)
+nmod:in(Love-19, 1951-22)
+case(Productions-26, through-23)
+nmod:poss(Productions-26, their-24)
+compound(Productions-26, Desilu-25)
+nmod:through(Love-19, Productions-26)
+
+7) She won four Emmys for the role. 
+
+nsubj(won-2, She-1) t1 t2 t3
+root(ROOT-0, won-2) s1
+nummod(Emmys-4, four-3) s2
+dobj(won-2, Emmys-4) s3
+case(role-7, for-5)
+det(role-7, the-6)
+nmod:for(won-2, role-7)
+
+8) Ball also gave birth to her daughter in 1951 and to her son in 1953. 
+Neutral.
+nsubj(gave-3, Ball-1)
+nsubj(gave-3', Ball-1)
+advmod(gave-3, also-2)
+root(ROOT-0, gave-3)
+conj:and(gave-3, gave-3')
+dobj(gave-3, birth-4)
+case(daughter-7, to-5)
+nmod:poss(daughter-7, her-6)
+nmod:to(gave-3, daughter-7)
+case(1951-9, in-8)
+nmod:in(daughter-7, 1951-9)
+cc(gave-3, and-10)
+case(son-13, to-11)
+nmod:poss(son-13, her-12)
+nmod:to(gave-3', son-13)
+case(1953-15, in-14)
+nmod:in(gave-3, 1953-15)
+
+9) Ball and Arnaz divorced in 1960, and Ball began running Desilu Productions in 1962. 
+
+nsubj(divorced-4, Ball-1) t1
+cc(Ball-1, and-2)
+conj:and(Ball-1, Arnaz-3) 
+nsubj(divorced-4, Arnaz-3) t1
+root(ROOT-0, divorced-4) s1
+case(1960-6, in-5)
+nmod:in(divorced-4, 1960-6)
+cc(divorced-4, and-8)
+nsubj(began-10, Ball-9)
+conj:and(divorced-4, began-10)
+xcomp(began-10, running-11)
+compound(Productions-13, Desilu-12)
+dobj(running-11, Productions-13)
+case(1962-15, in-14)
+nmod:in(Productions-13, 1962-15)
+
+10) She died in 1989. 
+
+nsubj(died-2, She-1) t1
+root(ROOT-0, died-2) s1
+case(1989-4, in-3)
+nmod:in(died-2, 1989-4)
+
+11) Blanchett has won Academy Awards for The Aviator and Blue Jasmine. 
+
+nsubj(won-3, Blanchett-1) t1 t2 t3
+aux(won-3, has-2)
+root(ROOT-0, won-3) s1
+compound(Awards-5, Academy-4) s2
+dobj(won-3, Awards-5) s3
+case(Jasmine-11, for-6)
+det(Jasmine-11, The-7)
+compound(Jasmine-11, Aviator-8)
+cc(Aviator-8, and-9)
+conj:and(Aviator-8, Blue-10)
+compound(Jasmine-11, Blue-10)
+nmod:for(Awards-5, Jasmine-11)
+
+12) The Lucy and Desi project also involves the two children from the marriage -- Lucie Luckinbill and Desi Arnaz Jr -- and includes rights to the use of memoirs written by both Ball and Arnaz. 
+Neutral.
+det(project-5, The-1)
+compound(project-5, Lucy-2)
+cc(Lucy-2, and-3)
+conj:and(Lucy-2, Desi-4)
+compound(project-5, Desi-4)
+nsubj(involves-7, project-5)
+nsubj(includes-23, project-5)
+advmod(involves-7, also-6)
+root(ROOT-0, involves-7)
+det(children-10, the-8)
+nummod(children-10, two-9)
+dobj(involves-7, children-10)
+case(marriage-13, from-11)
+det(marriage-13, the-12)
+nmod:from(children-10, marriage-13)
+compound(Luckinbill-16, Lucie-15)
+dep(marriage-13, Luckinbill-16)
+cc(Luckinbill-16, and-17)
+compound(Jr-20, Desi-18)
+compound(Jr-20, Arnaz-19)
+dep(marriage-13, Jr-20)
+conj:and(Luckinbill-16, Jr-20)
+cc(involves-7, and-22)
+conj:and(involves-7, includes-23)
+dobj(includes-23, rights-24)
+case(use-27, to-25)
+det(use-27, the-26)
+nmod:to(includes-23, use-27)
+case(memoirs-29, of-28)
+nmod:of(use-27, memoirs-29)
+acl(memoirs-29, written-30)
+case(Ball-33, by-31)
+cc:preconj(Ball-33, both-32)
+nmod:by(written-30, Ball-33)
+cc(Ball-33, and-34)
+nmod:by(written-30, Arnaz-35)
+conj:and(Ball-33, Arnaz-35)
+
+13) The news was first reported by Deadline Hollywood. 
+Neutral.
+det(news-2, The-1)
+nsubjpass(reported-5, news-2)
+auxpass(reported-5, was-3)
+advmod(reported-5, first-4)
+root(ROOT-0, reported-5)
+case(Hollywood-8, by-6)
+compound(Hollywood-8, Deadline-7)
+nmod:by(reported-5, Hollywood-8)
+
+14) Originally published as 
+Neutral.
+advmod(published-2, Originally-1)
+root(ROOT-0, published-2)
+nmod(published-2, as-3)

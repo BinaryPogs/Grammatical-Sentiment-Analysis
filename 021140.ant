@@ -1,0 +1,115 @@
+021140.psd
+
+1) Flood watch for Adelaide Hills Severe weather warnings for South Australia have been downgraded as winds and rains that battered the state over the weekend subside, however, parts of the Adelaide Hills are on flood watch. 
+
+nsubj(watch-2, Flood-1) t1
+ccomp(watch-38, watch-2) t1
+case(warnings-8, for-3)
+compound(warnings-8, Adelaide-4)
+compound(warnings-8, Hills-5)
+compound(warnings-8, Severe-6)
+compound(warnings-8, weather-7)
+nmod:for(watch-2, warnings-8)
+mark(downgraded-14, for-9)
+compound(Australia-11, South-10)
+nsubjpass(downgraded-14, Australia-11)
+aux(downgraded-14, have-12)
+auxpass(downgraded-14, been-13)
+advcl(watch-2, downgraded-14) s1
+case(winds-16, as-15)
+nmod:as(downgraded-14, winds-16)
+nsubj(battered-20, winds-16)
+cc(winds-16, and-17)
+nmod:as(downgraded-14, rains-18)
+conj:and(winds-16, rains-18)
+nsubj(battered-20, rains-18)
+ref(winds-16, that-19)
+acl:relcl(winds-16, battered-20)
+det(state-22, the-21)
+dobj(battered-20, state-22)
+case(subside-26, over-23)
+det(subside-26, the-24)
+compound(subside-26, weekend-25)
+nmod:over(battered-20, subside-26)
+advmod(battered-20, however-28)
+nsubj(watch-38, parts-30) t2
+case(Hills-34, of-31) t2
+det(Hills-34, the-32) t2
+compound(Hills-34, Adelaide-33) t2
+nmod:of(parts-30, Hills-34) t2
+cop(watch-38, are-35)
+case(watch-38, on-36) s2-1/2
+compound(watch-38, flood-37) s2-2/2
+root(ROOT-0, watch-38)
+
+2) The SES is warning of localised flooding in the Mount Lofty Ranges District and Onkaparinga River which may pose a threat to properties upstream from Verdun as creeks and rivers quickly rise. 
+
+det(SES-2, The-1)
+nsubj(warning-4, SES-2) t1
+aux(warning-4, is-3)
+root(ROOT-0, warning-4) s1
+case(flooding-7, of-5)
+amod(flooding-7, localised-6) t2
+nmod:of(warning-4, flooding-7) t2
+case(District-13, in-8)
+det(District-13, the-9)
+compound(District-13, Mount-10)
+compound(District-13, Lofty-11)
+compound(District-13, Ranges-12)
+nmod:in(flooding-7, District-13)
+cc(flooding-7, and-14)
+compound(River-16, Onkaparinga-15)
+nmod:of(warning-4, River-16)
+conj:and(flooding-7, River-16)
+nsubj(pose-19, River-16)
+ref(River-16, which-17)
+aux(pose-19, may-18)
+acl:relcl(River-16, pose-19) s2-1/3
+det(threat-21, a-20) s2-2/3
+dobj(pose-19, threat-21) s2-3/3
+case(properties-23, to-22)
+nmod:to(pose-19, properties-23) t2
+advmod(properties-23, upstream-24) t2
+case(Verdun-26, from-25)
+nmod:from(upstream-24, Verdun-26)
+mark(rise-32, as-27)
+nsubj(rise-32, creeks-28) t3
+cc(creeks-28, and-29)
+conj:and(creeks-28, rivers-30) t3
+nsubj(rise-32, rivers-30)
+advmod(rise-32, quickly-31)
+advcl(pose-19, rise-32) s3
+
+3) Heavy winds and rain battered the state over the weekend, causing damage to roofs and roads to be closed due to fallen trees. 
+
+amod(winds-2, Heavy-1) s2 t1 
+nsubj(battered-5, winds-2) t2 t1 t3
+cc(winds-2, and-3)
+conj:and(winds-2, rain-4) t2 t1 t3
+nsubj(battered-5, rain-4)
+root(ROOT-0, battered-5) s1
+det(state-7, the-6)
+dobj(battered-5, state-7)
+case(weekend-10, over-8)
+det(weekend-10, the-9)
+nmod:over(state-7, weekend-10)
+advcl(battered-5, causing-12) s3
+dobj(causing-12, damage-13) t3 s4
+case(roofs-15, to-14)
+nmod:to(causing-12, roofs-15) t4
+cc(roofs-15, and-16)
+nmod:to(causing-12, roads-17) t4 t5
+conj:and(roofs-15, roads-17)
+mark(closed-20, to-18)
+auxpass(closed-20, be-19)
+advcl(causing-12, closed-20) s5
+advmod(trees-24, due-21)
+case(trees-24, to-22)
+amod(trees-24, fallen-23)
+nmod:to(closed-20, trees-24)
+
+4) -LRB- C -RRB- AAP 2017 
+
+root(ROOT-0, C-2)
+dep(C-2, AAP-4)
+nummod(AAP-4, 2017-5)

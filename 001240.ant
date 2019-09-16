@@ -1,0 +1,217 @@
+001240.psd
+
+1) FMG to benefit from new WA power station - Australian Mining Latest News The South Hedland power station in Western Australia, which will provide energy to Horizon Power and Fortescue Metals Group -LRB- FMG -RRB-, has been commissioned. 
+?
+advmod(benefit-3, FMG-1) t1
+mark(benefit-3, to-2)
+dep(News-13, benefit-3) s1-1\2
+case(station-8, from-4) s1-2\2
+amod(station-8, new-5)
+compound(station-8, WA-6)
+compound(station-8, power-7)
+nmod:from(benefit-3, station-8)
+compound(News-13, Australian-10)
+compound(News-13, Mining-11)
+compound(News-13, Latest-12)
+root(ROOT-0, News-13)
+nsubj(provide-25, News-13)
+det(station-18, The-14)
+compound(station-18, South-15)
+compound(station-18, Hedland-16)
+compound(station-18, power-17)
+nsubj(provide-25, station-18)
+nsubjpass(commissioned-40, station-18)
+case(Australia-21, in-19)
+compound(Australia-21, Western-20)
+nmod:in(station-18, Australia-21)
+ref(News-13, which-23)
+ref(station-18, which-23)
+aux(provide-25, will-24)
+acl:relcl(station-18, provide-25) s2-1\2
+dobj(provide-25, energy-26) s2-2\2
+case(Power-29, to-27)
+compound(Power-29, Horizon-28) t2
+nmod:to(provide-25, Power-29) t2
+cc(Power-29, and-30)
+compound(Group-33, Fortescue-31) t2
+compound(Group-33, Metals-32) t2
+nmod:to(provide-25, Group-33) t2
+conj:and(Power-29, Group-33)
+appos(Group-33, FMG-35)
+aux(commissioned-40, has-38)
+auxpass(commissioned-40, been-39)
+acl:relcl(News-13, commissioned-40)
+
+2) TransAlta Energy was awarded the contract to build, maintain and operate the power station, which will deliver 150 megawatts of power to the Pilbara. 
+
+compound(Energy-2, TransAlta-1) t1
+nsubjpass(awarded-4, Energy-2) t1
+auxpass(awarded-4, was-3)
+root(ROOT-0, awarded-4) s1
+det(contract-6, the-5)
+dobj(awarded-4, contract-6)
+mark(build-8, to-7)
+acl(contract-6, build-8)
+acl(contract-6, maintain-10)
+conj:and(build-8, maintain-10)
+cc(build-8, and-11)
+acl(contract-6, operate-12)
+conj:and(build-8, operate-12)
+det(station-15, the-13)
+compound(station-15, power-14)
+dobj(build-8, station-15)
+nsubj(deliver-19, station-15)
+ref(station-15, which-17)
+aux(deliver-19, will-18)
+acl:relcl(station-15, deliver-19)
+nummod(megawatts-21, 150-20)
+dobj(deliver-19, megawatts-21)
+case(power-23, of-22)
+nmod:of(megawatts-21, power-23)
+case(Pilbara-26, to-24)
+det(Pilbara-26, the-25)
+nmod:to(deliver-19, Pilbara-26)
+
+3) The power plant features both natural gas and steam turbines, and includes the construction of a new transmission line to deliver power to FMG's port operations. 
+Neutral.
+det(plant-3, The-1)
+compound(plant-3, power-2)
+nsubj(features-4, plant-3)
+nsubj(includes-13, plant-3)
+root(ROOT-0, features-4)
+det(gas-7, both-5)
+amod(gas-7, natural-6)
+dobj(features-4, gas-7)
+cc(gas-7, and-8)
+compound(turbines-10, steam-9)
+dobj(features-4, turbines-10)
+conj:and(gas-7, turbines-10)
+cc(features-4, and-12)
+conj:and(features-4, includes-13)
+det(construction-15, the-14)
+dobj(includes-13, construction-15)
+case(line-20, of-16)
+det(line-20, a-17)
+amod(line-20, new-18)
+compound(line-20, transmission-19)
+nmod:of(construction-15, line-20)
+mark(deliver-22, to-21)
+advcl(includes-13, deliver-22)
+dobj(deliver-22, power-23)
+case(operations-28, to-24)
+nmod:poss(operations-28, FMG-25)
+case(FMG-25, 's-26)
+amod(operations-28, port-27)
+nmod:to(deliver-22, operations-28)
+
+4) The station can also be expanded to supply power to other commercial users. 
+Neutral.
+det(station-2, The-1)
+nsubjpass(expanded-6, station-2)
+nsubj:xsubj(supply-8, station-2)
+aux(expanded-6, can-3)
+advmod(expanded-6, also-4)
+auxpass(expanded-6, be-5)
+root(ROOT-0, expanded-6)
+mark(supply-8, to-7)
+xcomp(expanded-6, supply-8)
+dobj(supply-8, power-9)
+case(users-13, to-10)
+amod(users-13, other-11)
+amod(users-13, commercial-12)
+nmod:to(supply-8, users-13)
+
+5) During construction, the plant provided around 214 jobs for the local area, and after completion, will have 24 staff supporting 24 operations in South Hedland. 
+
+case(construction-2, During-1)
+nmod:during(have-20, construction-2)
+det(plant-5, the-4)
+nsubj(have-20, plant-5)
+acl(plant-5, provided-6) s1-1\2
+acl(plant-5, provided-6')
+conj:and(provided-6, provided-6')
+case(jobs-9, around-7)
+nummod(jobs-9, 214-8)
+nmod:around(provided-6, jobs-9)
+case(area-13, for-10) s1-2\2
+det(area-13, the-11)
+amod(area-13, local-12) t1
+nmod:for(jobs-9, area-13) t1
+cc(provided-6, and-15)
+case(completion-17, after-16)
+nmod:after(provided-6', completion-17)
+aux(have-20, will-19)
+root(ROOT-0, have-20)
+nummod(staff-22, 24-21)
+dobj(have-20, staff-22)
+acl(staff-22, supporting-23) s2
+nummod(operations-25, 24/7-24)
+dobj(supporting-23, operations-25) t2
+case(Hedland-28, in-26)
+compound(Hedland-28, South-27)
+nmod:in(operations-25, Hedland-28)
+
+6) WA energy minister Ben Wyatt said the new power station provides a fuel-efficient energy supply to the region. 
+
+compound(Wyatt-5, WA-1)
+compound(Wyatt-5, energy-2)
+compound(Wyatt-5, minister-3)
+compound(Wyatt-5, Ben-4)
+nsubj(said-6, Wyatt-5)
+root(ROOT-0, said-6)
+det(station-10, the-7)
+amod(station-10, new-8)
+compound(station-10, power-9)
+nsubj(provides-11, station-10)
+ccomp(said-6, provides-11) s1
+det(supply-15, a-12)
+amod(supply-15, fuel-efficient-13)
+compound(supply-15, energy-14)
+dobj(provides-11, supply-15)
+case(region-18, to-16)
+det(region-18, the-17)
+nmod:to(provides-11, region-18) t1
+
+7) ``This combined-cycle gas power station will provide essential energy supply for the rapidly growing Pilbara region under an innovative privately funded delivery model constructed under an agreement between the State Government, Horizon Power and Fortescue Metals Group,'' he said. 
+
+det(station-6, This-2)
+amod(station-6, combined-cycle-3)
+compound(station-6, gas-4)
+compound(station-6, power-5)
+nsubj(provide-8, station-6)
+aux(provide-8, will-7)
+ccomp(said-43, provide-8) s1
+amod(supply-11, essential-9)
+compound(supply-11, energy-10)
+dobj(provide-8, supply-11)
+case(region-17, for-12)
+det(region-17, the-13)
+advmod(growing-15, rapidly-14) 
+amod(region-17, growing-15)
+compound(region-17, Pilbara-16) t1
+nmod:for(supply-11, region-17) t1
+case(model-24, under-18)
+det(model-24, an-19)
+amod(model-24, innovative-20)
+advmod(funded-22, privately-21)
+amod(model-24, funded-22)
+compound(model-24, delivery-23)
+nmod:under(provide-8, model-24)
+acl(model-24, constructed-25)
+case(agreement-28, under-26)
+det(agreement-28, an-27)
+nmod:under(constructed-25, agreement-28)
+case(Government-32, between-29)
+det(Government-32, the-30)
+compound(Government-32, State-31)
+nmod:between(agreement-28, Government-32)
+compound(Power-35, Horizon-34)
+nmod:between(agreement-28, Power-35)
+conj:and(Government-32, Power-35)
+cc(Government-32, and-36)
+compound(Group-39, Fortescue-37)
+compound(Group-39, Metals-38)
+nmod:between(agreement-28, Group-39)
+conj:and(Government-32, Group-39)
+nsubj(said-43, he-42)
+root(ROOT-0, said-43)

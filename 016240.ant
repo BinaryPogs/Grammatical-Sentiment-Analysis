@@ -1,0 +1,520 @@
+016240.psd
+
+1) Game of Thrones star on Game of Thrones Season 7: Weeks Ahead Comic Con Preview SOPHIE Turner might be starring in the world ™ s biggest TV show right now but clearly that hasn ™ t stopped plenty of executives from still trying to dictate what she looks like. 
+
+nsubj(starring-21, Game-1)
+case(star-4, of-2)
+compound(star-4, Thrones-3)
+nmod:of(Game-1, star-4)
+case(Game-6, on-5)
+nmod:on(star-4, Game-6)
+case(Season-9, of-7)
+dep(Season-9, Thrones-8)
+nmod:of(Game-6, Season-9)
+nummod(Season-9, 7-10)
+compound(Comic-14, Weeks-12)
+compound(Comic-14, Ahead-13)
+dep(Season-9, Comic-14)
+compound(Turner-18, Con-15)
+compound(Turner-18, Preview-16)
+compound(Turner-18, SOPHIE-17)
+dep(Comic-14, Turner-18)
+aux(starring-21, might-19)
+aux(starring-21, be-20)
+root(ROOT-0, starring-21)
+case(™-25, in-22)
+det(™-25, the-23)
+compound(™-25, world-24)
+nmod:in(starring-21, ™-25)
+nmod:poss(TV-28, s-26)
+amod(TV-28, biggest-27)
+nsubj(show-29, TV-28)
+acl:relcl(™-25, show-29)
+advmod(now-31, right-30)
+advmod(show-29, now-31)
+cc(clearly-33, but-32)
+dep(now-31, clearly-33)
+mark(stopped-38, that-34)
+amod(t-37, hasn-35)
+amod(t-37, ™-36)
+nsubj(stopped-38, t-37)
+advcl(now-31, stopped-38)
+dobj(stopped-38, plenty-39)
+case(executives-41, of-40)
+nmod:of(plenty-39, executives-41)
+mark(trying-44, from-42)
+advmod(trying-44, still-43)
+advcl(stopped-38, trying-44)
+mark(dictate-46, to-45)
+xcomp(trying-44, dictate-46)
+nmod:like(looks-49, what-47)
+nsubj(looks-49, she-48)
+ccomp(dictate-46, looks-49)
+case(what-47, like-50)
+
+2) The 21-year-old actress recently sat down where she spoke about going for jobs since scoring the role as Sansa Stark on Game of Thrones. 
+
+det(actress-3, The-1)
+amod(actress-3, 21-year-old-2)
+nsubj(sat-5, actress-3)
+advmod(sat-5, recently-4)
+root(ROOT-0, sat-5)
+compound:prt(sat-5, down-6)
+advmod(spoke-9, where-7)
+nsubj(spoke-9, she-8)
+advcl(sat-5, spoke-9)
+mark(going-11, about-10)
+advcl(spoke-9, going-11)
+case(jobs-13, for-12)
+nmod:for(going-11, jobs-13)
+mark(scoring-15, since-14)
+advcl(going-11, scoring-15)
+det(role-17, the-16)
+dobj(scoring-15, role-17)
+case(Stark-20, as-18)
+compound(Stark-20, Sansa-19)
+nmod:as(scoring-15, Stark-20)
+case(Game-22, on-21)
+nmod:on(Stark-20, Game-22)
+case(Thrones-24, of-23)
+nmod:of(Game-22, Thrones-24)
+
+3) ``I was consumed with thoughts on weight and the idea that you has to be skinny to be an actress, and that I wasn't skinny enough to get jobs,'' she said. 
+
+nsubjpass(consumed-4, I-2)
+auxpass(consumed-4, was-3)
+ccomp(said-36, consumed-4)
+case(thoughts-6, with-5)
+nmod:with(consumed-4, thoughts-6)
+case(weight-8, on-7)
+nmod:on(thoughts-6, weight-8)
+cc(weight-8, and-9)
+det(idea-11, the-10)
+nmod:on(thoughts-6, idea-11)
+conj:and(weight-8, idea-11)
+mark(has-14, that-12)
+nsubj(has-14, you-13)
+nsubj:xsubj(skinny-17, you-13)
+ccomp(consumed-4, has-14)
+mark(skinny-17, to-15)
+cop(skinny-17, be-16)
+xcomp(has-14, skinny-17)
+mark(actress-21, to-18)
+cop(actress-21, be-19)
+det(actress-21, an-20)
+xcomp(skinny-17, actress-21)
+cc(has-14, and-23)
+mark(enough-29, that-24)
+nsubj(enough-29, I-25)
+nsubj:xsubj(get-31, I-25)
+cop(enough-29, was-26)
+neg(enough-29, n't-27)
+advmod(enough-29, skinny-28)
+ccomp(consumed-4, enough-29)
+conj:and(has-14, enough-29)
+mark(get-31, to-30)
+xcomp(enough-29, get-31)
+dobj(get-31, jobs-32)
+nsubj(said-36, she-35)
+root(ROOT-0, said-36)
+
+4) `There are often times when I have done jobs and they've told me that I have to lose weight, even when it has nothing to do with the character. 
+
+expl(are-3, There-2)
+root(ROOT-0, are-3)
+advmod(are-3, often-4)
+nsubj(are-3, times-5)
+advmod(done-9, when-6)
+nsubj(done-9, I-7)
+aux(done-9, have-8)
+acl:relcl(times-5, done-9)
+dobj(done-9, jobs-10)
+cc(are-3, and-11)
+nsubj(told-14, they-12)
+aux(told-14, 've-13)
+conj:and(are-3, told-14)
+dobj(told-14, me-15)
+mark(have-18, that-16)
+nsubj(have-18, I-17)
+nsubj:xsubj(lose-20, I-17)
+dep(told-14, have-18)
+mark(lose-20, to-19)
+xcomp(have-18, lose-20)
+dobj(lose-20, weight-21)
+advmod(have-18, even-23)
+advmod(has-26, when-24)
+nsubj(has-26, it-25)
+dep(have-18, has-26)
+dobj(has-26, nothing-27)
+mark(do-29, to-28)
+acl(nothing-27, do-29)
+case(character-32, with-30)
+det(character-32, the-31)
+nmod:with(do-29, character-32)
+
+5) It is so f *** ed up,'' she added. 
+
+nsubj(is-2, It-1)
+ccomp(added-11, is-2)
+mark(ed-6, so-3)
+compound(***-5, f-4)
+nsubj(ed-6, ***-5)
+advcl(is-2, ed-6)
+compound:prt(ed-6, up-7)
+nsubj(added-11, she-10)
+root(ROOT-0, added-11)
+
+6) Turner, who boasts 5.4 million followers on Instagram and 1.3 million on Twitter, also revealed her huge social media presence has even gone as far as earning her roles. 
+
+nsubj(boasts-4, Turner-1)
+nsubj(revealed-17, Turner-1)
+ref(Turner-1, who-3)
+acl:relcl(Turner-1, boasts-4)
+compound(million-6, 5.4-5)
+nummod(followers-7, million-6)
+dobj(boasts-4, followers-7)
+case(Instagram-9, on-8)
+nmod:on(followers-7, Instagram-9)
+cc(followers-7, and-10)
+compound(million-12, 1.3-11)
+dobj(boasts-4, million-12)
+conj:and(followers-7, million-12)
+case(Twitter-14, on-13)
+nmod:on(million-12, Twitter-14)
+advmod(revealed-17, also-16)
+root(ROOT-0, revealed-17)
+nmod:poss(presence-22, her-18)
+amod(presence-22, huge-19)
+amod(presence-22, social-20) t1
+compound(presence-22, media-21) t1
+nsubj(gone-25, presence-22) t1
+aux(gone-25, has-23)
+advmod(gone-25, even-24)
+ccomp(revealed-17, gone-25) s1-1/4 t2
+advmod(far-27, as-26) s1-2/4 t2
+advmod(gone-25, far-27) s1-3/4 t2
+mark(earning-29, as-28) s1-4/4 t2
+advcl(gone-25, earning-29) s2-1/3
+nmod:poss(roles-31, her-30) s2-2/3
+dobj(earning-29, roles-31) s2-3/3
+
+7) ``A lot of what I have achieved is about timing and luck, but it is also, and I hate to say it, about a big social-media following,'' she said. 
+
+det(lot-3, A-2)
+nsubj(timing-11, lot-3)
+mark(achieved-8, of-4)
+dobj(achieved-8, what-5)
+nsubj(achieved-8, I-6) t1
+aux(achieved-8, have-7)
+acl(lot-3, achieved-8) s1 t2 t3
+cop(timing-11, is-9)
+case(timing-11, about-10)
+ccomp(said-35, timing-11) s2
+cc(timing-11, and-12)
+conj:and(timing-11, luck-13) s3
+ccomp(said-35, luck-13)
+cc(timing-11, but-15)
+nsubj(is-17, it-16)
+conj:but(timing-11, is-17)
+ccomp(said-35, is-17)
+advmod(is-17, also-18)
+cc(is-17, and-20)
+nsubj(hate-22, I-21)
+nsubj:xsubj(say-24, I-21)
+conj:but(timing-11, hate-22)
+conj:and(is-17, hate-22)
+mark(say-24, to-23)
+xcomp(hate-22, say-24)
+dobj(say-24, it-25)
+case(following-31, about-27)
+det(following-31, a-28)
+amod(following-31, big-29)
+amod(following-31, social-media-30)
+nmod:about(say-24, following-31)
+nsubj(said-35, she-34)
+root(ROOT-0, said-35)
+
+8) ``I auditioned for a project and it was between me and another girl who is a far better actress than I am, far better, but I had the followers, so I got the job. 
+
+nsubj(auditioned-3, I-2)
+root(ROOT-0, auditioned-3)
+case(project-6, for-4)
+det(project-6, a-5)
+nmod:for(auditioned-3, project-6)
+cc(auditioned-3, and-7)
+nsubj(me-11, it-8)
+cop(me-11, was-9)
+case(me-11, between-10)
+conj:and(auditioned-3, me-11)
+cc(me-11, and-12)
+det(girl-14, another-13)
+conj:and(auditioned-3, girl-14) t1
+conj:and(me-11, girl-14)
+nsubj(actress-20, girl-14)
+ref(girl-14, who-15)
+cop(actress-20, is-16)
+det(actress-20, a-17)
+advmod(better-19, far-18) s2
+amod(actress-20, better-19) s1-1/2 t2
+acl:relcl(girl-14, actress-20) s1-2/2 t2
+mark(am-23, than-21)
+nsubj(am-23, I-22)
+advcl(actress-20, am-23)
+advmod(better-26, far-25)
+advmod(am-23, better-26)
+cc(had-30, but-28)
+nsubj(had-30, I-29)
+ccomp(am-23, had-30)
+det(followers-32, the-31)
+dobj(had-30, followers-32)
+mark(got-36, so-34)
+nsubj(got-36, I-35) t3
+advcl(actress-20, got-36) s3
+det(job-38, the-37)
+dobj(got-36, job-38) t3
+
+9) It's not right, but it is part of the movie industry now.'' 
+
+nsubj(right-4, It-1) t1
+cop(right-4, 's-2)
+neg(right-4, not-3) s1-1/2
+root(ROOT-0, right-4) s1-2/2
+cc(right-4, but-6)
+nsubj(part-9, it-7)
+cop(part-9, is-8)
+conj:but(right-4, part-9)
+case(industry-13, of-10)
+det(industry-13, the-11)
+compound(industry-13, movie-12)
+nmod:of(part-9, industry-13)
+advmod(part-9, now-14)
+
+10) The young Brit has starred as the fierce Stark daughter for six seasons now with the seventh season of Game of Thrones currently halfway through and it's the hit fantasy show that Turner can owe her now illustrious career to. 
+
+det(Brit-3, The-1)
+amod(Brit-3, young-2)
+nsubj(starred-5, Brit-3)
+aux(starred-5, has-4)
+root(ROOT-0, starred-5)
+case(daughter-10, as-6)
+det(daughter-10, the-7)
+amod(daughter-10, fierce-8)
+compound(daughter-10, Stark-9)
+nmod:as(starred-5, daughter-10)
+case(seasons-13, for-11)
+nummod(seasons-13, six-12)
+nmod:for(daughter-10, seasons-13)
+advmod(season-18, now-14)
+case(season-18, with-15)
+det(season-18, the-16)
+amod(season-18, seventh-17)
+nmod:with(starred-5, season-18)
+case(Game-20, of-19)
+nmod:of(season-18, Game-20)
+case(Thrones-22, of-21)
+nmod:of(Game-20, Thrones-22)
+dep(halfway-24, currently-23)
+dep(starred-5, halfway-24)
+case(halfway-24, through-25)
+cc(starred-5, and-26)
+nsubj(show-32, it-27) t1
+cop(show-32, 's-28)
+det(show-32, the-29)
+compound(show-32, hit-30) s1
+compound(show-32, fantasy-31)
+conj:and(starred-5, show-32) t1
+mark(owe-36, that-33)
+nsubj(owe-36, Turner-34) t2
+aux(owe-36, can-35)
+ccomp(show-32, owe-36)
+nmod:poss(career-40, her-37) t2
+advmod(illustrious-39, now-38)
+amod(career-40, illustrious-39) s2
+dobj(owe-36, career-40) t2
+nmod(owe-36, to-41)
+
+11) Since Game of Thrones, the actress starred in Barely Lethal and X-Men: Apocalypse and is due to star in another X-Men film slated for release in 2018. 
+
+case(Game-2, Since-1)
+nmod:since(starred-8, Game-2)
+case(Thrones-4, of-3)
+nmod:of(Game-2, Thrones-4)
+det(actress-7, the-6)
+nsubj(starred-8, actress-7)
+nsubj(due-18, actress-7)
+nsubj:xsubj(star-20, actress-7)
+root(ROOT-0, starred-8)
+compound:prt(starred-8, in-9)
+advmod(Lethal-11, Barely-10)
+dobj(starred-8, Lethal-11)
+cc(Lethal-11, and-12)
+dobj(starred-8, X-Men-13)
+conj:and(Lethal-11, X-Men-13)
+dep(Lethal-11, Apocalypse-15)
+cc(starred-8, and-16)
+cop(due-18, is-17)
+conj:and(starred-8, due-18)
+mark(star-20, to-19)
+xcomp(due-18, star-20)
+case(film-24, in-21)
+det(film-24, another-22)
+amod(film-24, X-Men-23)
+nmod:in(star-20, film-24)
+acl(film-24, slated-25)
+case(release-27, for-26)
+nmod:for(slated-25, release-27)
+case(2018-29, in-28)
+nmod:in(release-27, 2018-29)
+
+12) Turner was just 13 when she was cast in the hugely popular fantasy show, and it was her young casting that, she says, has allowed her to grow into her fame. 
+
+nsubj(13-4, Turner-1)
+cop(13-4, was-2)
+advmod(13-4, just-3)
+root(ROOT-0, 13-4)
+advmod(cast-8, when-5)
+nsubjpass(cast-8, she-6) t1
+auxpass(cast-8, was-7) s1-1/2
+acl:relcl(13-4, cast-8) s1-2/2
+case(show-14, in-9)
+det(show-14, the-10)
+advmod(popular-12, hugely-11) s3
+amod(show-14, popular-12) s2 t3
+compound(show-14, fantasy-13)
+nmod:in(cast-8, show-14) t1 t2
+cc(13-4, and-16)
+nsubj(casting-21, it-17)
+cop(casting-21, was-18)
+nmod:poss(casting-21, her-19)
+amod(casting-21, young-20)
+conj:and(13-4, casting-21)
+nsubj(allowed-28, casting-21)
+ref(casting-21, that-22)
+nsubj(says-25, she-24) t4
+parataxis(allowed-28, says-25)
+aux(allowed-28, has-27)
+acl:relcl(casting-21, allowed-28) s4 t5
+dobj(allowed-28, her-29) t4
+nsubj:xsubj(grow-31, her-29)
+mark(grow-31, to-30)
+xcomp(allowed-28, grow-31) s5 t6
+case(fame-34, into-32)
+nmod:poss(fame-34, her-33)
+nmod:into(grow-31, fame-34) s6
+
+13) ``I was sort of eased into the whole fame thing,'' she said. 
+
+nsubjpass(eased-6, I-2) t1
+auxpass(eased-6, was-3)
+advmod(eased-6, sort-4) s2-1/2
+case(sort-4, of-5) s2-2/2
+ccomp(said-15, eased-6) s1 t2
+case(thing-11, into-7)
+det(thing-11, the-8)
+amod(thing-11, whole-9)
+compound(thing-11, fame-10)
+nmod:into(eased-6, thing-11)
+nsubj(said-15, she-14)
+root(ROOT-0, said-15)
+
+14) ``It didn't go from zero to everything like it did for someone like Jennifer Lawrence; it's quietly built up over the years.'' 
+
+nsubj(go-5, It-2)
+aux(go-5, did-3)
+neg(go-5, n't-4)
+root(ROOT-0, go-5)
+case(zero-7, from-6) s1-1/4
+nmod:from(go-5, zero-7) s1-2/4
+case(everything-9, to-8) s1-3/4
+nmod:to(go-5, everything-9) s1-4/4
+mark(did-12, like-10)
+nsubj(did-12, it-11)
+advcl(go-5, did-12)
+case(someone-14, for-13)
+nmod:for(did-12, someone-14) t1
+case(Lawrence-17, like-15)
+compound(Lawrence-17, Jennifer-16) t1
+nmod:like(did-12, Lawrence-17) t1
+nsubjpass(built-22, it-19)
+auxpass(built-22, 's-20)
+advmod(built-22, quietly-21)
+parataxis(go-5, built-22)
+compound:prt(built-22, up-23)
+case(years-26, over-24)
+det(years-26, the-25)
+nmod:over(built-22, years-26)
+
+15) And it's that exact fame that has forced her to censor what she posts on social media. 
+
+cc(fame-6, And-1)
+nsubj(fame-6, it-2)
+cop(fame-6, 's-3)
+det(fame-6, that-4)
+amod(fame-6, exact-5)
+root(ROOT-0, fame-6)
+nsubj(forced-9, fame-6)
+ref(fame-6, that-7)
+aux(forced-9, has-8)
+acl:relcl(fame-6, forced-9)
+dobj(forced-9, her-10)
+nsubj:xsubj(censor-12, her-10)
+mark(censor-12, to-11)
+xcomp(forced-9, censor-12)
+dobj(posts-15, what-13)
+nsubj(posts-15, she-14)
+ccomp(censor-12, posts-15)
+case(media-18, on-16)
+amod(media-18, social-17)
+nmod:on(posts-15, media-18)
+
+16) ``I was a 15-year-old girl writing rash political stuff that would get a negative reaction and my team would tell me to take it down. 
+
+nsubj(girl-6, I-2)
+cop(girl-6, was-3)
+det(girl-6, a-4)
+amod(girl-6, 15-year-old-5)
+root(ROOT-0, girl-6)
+acl(girl-6, writing-7)
+compound(stuff-10, rash-8) s1
+amod(stuff-10, political-9)
+dobj(writing-7, stuff-10) t1 s2
+nsubj(get-13, stuff-10)
+ref(stuff-10, that-11)
+aux(get-13, would-12)
+acl:relcl(stuff-10, get-13)
+det(reaction-16, a-14)
+amod(reaction-16, negative-15)s3 
+dobj(get-13, reaction-16) s2 t3
+cc(girl-6, and-17)
+nmod:poss(team-19, my-18)
+nsubj(tell-21, team-19)
+aux(tell-21, would-20)
+conj:and(girl-6, tell-21)
+dobj(tell-21, me-22)
+nsubj:xsubj(take-24, me-22)
+mark(take-24, to-23)
+xcomp(tell-21, take-24)
+dobj(take-24, it-25)
+compound:prt(take-24, down-26)
+
+17) Now I am learning to keep my mouth shut,'' she said. 
+
+advmod(learning-4, Now-1)
+nsubj(learning-4, I-2)
+nsubj:xsubj(keep-6, I-2)
+aux(learning-4, am-3)
+ccomp(said-13, learning-4)
+mark(keep-6, to-5)
+xcomp(learning-4, keep-6)
+nmod:poss(mouth-8, my-7)
+dobj(keep-6, mouth-8)
+acl(mouth-8, shut-9)
+nsubj(said-13, she-12)
+root(ROOT-0, said-13)
+
+18) Like this: Like Loading... 
+
+case(this-2, Like-1)
+root(ROOT-0, this-2)
+case(Loading-5, Like-4)
+nmod:like(this-2, Loading-5)
