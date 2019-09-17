@@ -6,6 +6,10 @@ target = []
 para_map = {}
 s = {}
 amod_nmod_map = {}
+amod_root_map = {}
+amod_dobj_map = {}
+advmod_nmod_map = {}
+advmod_nmod_map = {}
 
 filename = input('Enter Filename:')
 lexxe = open(filename).read()
@@ -48,9 +52,9 @@ s = createSourceMap(p)
 # The code below checks for the amod rule, if the first and second word of
 #  the same paragraph are the same, then the word is the target.
 for k, v in s.items():
-    if re.search('^amod', v.lstrip("['")):
-        first_word = re.findall('\((.*?)\-', v)
-        #print('this is the first word(s)', first_word, 'in paragraph', k)
+    if re.search('amod', v):
+        first_word = re.findall(r'amod\(([^-]*)-', v)
+        # print('this is the first word(s)', first_word, 'in paragraph', k)
         for k1, v1 in p.items():
             for word in v1:
                 if re.search("^nmod:of", word):
@@ -63,5 +67,72 @@ for k, v in s.items():
                             if second_word == [i]:
                                 amod_nmod_map[k+1] = second_word
 
+for k, v in s.items():
+    if re.search('amod', v):
+        first_word = re.findall(r'amod\(([^-]*)-', v)
+        # print('this is the first word(s)', first_word, 'in paragraph', k)
+        for k1, v1 in p.items():
+            for word in v1:
+                if re.search("^root", word):
+                    second_word = re.findall(
+                        '\, (.*?)\-', word.lstrip(' '))
+                    # print('this is the second word in nmod:',
+                    # second_word, 'in paragraph', k1)
+                    if k == k1:
+                        for i in first_word:
+                            if second_word == [i]:
+                                amod_root_map[k+1] = second_word
 
-print(amod_nmod_map)
+for k, v in s.items():
+    if re.search('amod', v):
+        first_word = re.findall(r'amod\(([^-]*)-', v)
+        # print('this is the first word(s)', first_word, 'in paragraph', k)
+        for k1, v1 in p.items():
+            for word in v1:
+                if re.search("^dobj", word):
+                    second_word = re.findall(
+                        '\, (.*?)\-', word.lstrip(' '))
+                    # print('this is the second word in nmod:',
+                    # second_word, 'in paragraph', k1)
+                    if k == k1:
+                        for i in first_word:
+                            if second_word == [i]:
+                                amod_dobj_map[k+1] = second_word
+
+for k, v in s.items():
+    if re.search('advmod', v):
+        v = str(re.findall("(?<=advmod\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v)
+        #print('this is the first word(s)', first_word, 'in paragraph', k)
+        for k1, v1 in p.items():
+            for word in v1:
+                if re.search("^nmod:to", word):
+                    second_word = re.findall(r'nmod:to\(([^-]*)-',
+                                             word.lstrip(' '))
+                    # print('this is the second word in nmod:',
+                    # second_word, 'in paragraph', k1)
+                    if k == k1:
+                        for i in first_word:
+                            if second_word == [i]:
+                                advmod_nmod_map[k+1] = second_word
+
+print('='*100)
+for k, v in amod_nmod_map.items():
+    print('The target', v, 'was found in paragraph',
+          k, 'using the amod-nmod:of relationship')
+print('='*100)  # separator for tidiness
+
+for k, v in amod_root_map.items():
+    print('The target', v, 'was found in paragraph',
+          k, 'using the amod-root relationship')
+print('='*100)
+
+for k, v in amod_dobj_map.items():
+    print('The target', v, 'was found in paragraph',
+          k, 'using the amod-dobj relationship')
+print('='*100)
+
+for k, v in advmod_nmod_map.items():
+    print('The target', v, 'was found in paragraph',
+          k, 'using the advmod-nmod:to relationship')
+print('='*100)
