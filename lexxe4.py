@@ -5,6 +5,7 @@ para = []
 target = []
 para_map = {}
 s = {}
+amod_nmod_map = {}
 
 filename = input('Enter Filename:')
 lexxe = open(filename).read()
@@ -49,14 +50,18 @@ s = createSourceMap(p)
 for k, v in s.items():
     if re.search('^amod', v.lstrip("['")):
         first_word = re.findall('\((.*?)\-', v)
-        print('this is the first word(s)', first_word, 'in paragraph', k)
+        #print('this is the first word(s)', first_word, 'in paragraph', k)
         for k1, v1 in p.items():
             for word in v1:
-                if re.search("^nmod", word):
+                if re.search("^nmod:of", word):
+                    second_word = re.findall(
+                        '\, (.*?)\-', word.lstrip(' '))
+                    # print('this is the second word in nmod:',
+                    # second_word, 'in paragraph', k1)
                     if k == k1:
-                        second_word = re.findall(
-                            '\, (.*?)\-', word.lstrip(' '))
-                        print('this is the second word in nmod:',
-                              second_word, 'in paragraph', k1)
-                        # if first_word == second_word:
-                        # target.append(first_word)
+                        for i in first_word:
+                            if second_word == [i]:
+                                amod_nmod_map[k+1] = second_word
+
+
+print(amod_nmod_map)
