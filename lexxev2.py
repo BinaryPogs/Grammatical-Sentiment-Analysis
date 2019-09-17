@@ -57,7 +57,7 @@ for i in range(len(s_map)):
             count += 1
             s_map[i] = s_map.pop(k)
 
-# print(s_map)
+print(s_map)
 # print(s_map)
 # print(amodlist)
 for k, v in s.items():
@@ -81,3 +81,4 @@ for k, v in s.items():
 # target.append(first_word)
 
 # print(s.items())
+print(s_map)
