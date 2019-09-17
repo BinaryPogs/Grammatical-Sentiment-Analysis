@@ -9,7 +9,8 @@ amodlist = []
 para = []
 target = []
 
-lexxe = open('000140.ant').read()
+filename = input('Enter Filename:')
+lexxe = open(filename).read()
 
 
 paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
