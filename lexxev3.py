@@ -16,7 +16,7 @@ lexxe = open(filename).read()
 paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
 
 
-def createPara(path_or_file):
+def createParaMap(path_or_file):
     paragraph_lines = [p.split('\n') for p in paragraphs]
     paragraph_lines = paragraph_lines[1:]
     for lines in paragraph_lines:
@@ -42,7 +42,7 @@ def createSourceMap(list):
     return s
 
 
-p = createPara(lexxe)
+p = createParaMap(lexxe)
 s = createSourceMap(p)
 
 # The code below checks for the amod rule, if the first and second word of
