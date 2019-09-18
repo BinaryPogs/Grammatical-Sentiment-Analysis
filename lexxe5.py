@@ -12,8 +12,10 @@ amod_nmodin_map = {}
 amod_aclrel_map = {}
 neg_nmodas_map = {}
 root_dobj_map = {}
+
+path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
 filename = input('Enter Filename:')
-lexxe = open(filename).read()
+lexxe = open(path + filename).read()
 
 
 paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
