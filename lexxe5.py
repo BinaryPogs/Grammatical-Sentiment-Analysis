@@ -1,7 +1,7 @@
 import re
 import csv
 import os
-
+total_targets_found = 0
 para = []
 target = []
 para_map = {}
@@ -39,7 +39,7 @@ def createParaMap(path_or_file):
         para_map[lines[1]] = lines[2:]
     count = 0
     for i in range(len(para_map)):
-        for k, v in para_map.items():
+        for k in para_map.keys():
             if i == count:
                 count += 1  # changes the key values to 0-len(para_map)
                 para_map[i] = para_map.pop(k)
@@ -55,8 +55,18 @@ def createSourceMap(list):
     return s
 
 
+def count_targets(p):
+    count = 0
+    for v in p.values():
+        for i in v:
+            if re.search(r"t\d[-/\d]*", i):
+                count += 1
+    return count
+
+
 p = createParaMap(lexxe)
 s = createSourceMap(p)
+target_count = count_targets(p)
 
 
 # The code below checks for the amod rule, if the first and second word of
@@ -71,8 +81,8 @@ for k, v in s.items():
                 if re.search("nmod:of", word):
                     second_word = re.findall(
                         '\, (.*?)\-', word.lstrip(' '))
-                    #print('this is the second word in nmod:',
-                          #second_word, 'in paragraph', k1)
+                    # print('this is the second word in nmod:',
+                        # second_word, 'in paragraph', k1)
                     if k == k1:
                         for i in first_word:
                             if second_word == [i]:
@@ -87,12 +97,13 @@ for k, v in s.items():
                 if re.search("nmod:of", word):
                     second_word = re.findall(
                         r'nmod:of\(([^-]*)-', word.lstrip(' '))
-                    #print('this is the second word in nmod:',
-                          #second_word, 'in paragraph', k1)
+                    # print('this is the second word in nmod:',
+                        # second_word, 'in paragraph', k1)
                     if k == k1:
                         for i in first_word:
                             if second_word == [i]:
-                                second_word = re.findall('\, (.*?)\-', word.lstrip(' '))
+                                second_word = re.findall(
+                                    '\, (.*?)\-', word.lstrip(' '))
                                 amod_nmod1_map[k+1] = second_word
 
 for k, v in s.items():
@@ -104,12 +115,13 @@ for k, v in s.items():
                 if re.search("nmod:of", word):
                     second_word = re.findall(
                         r'nmod:of\(([^-]*)-', word.lstrip(' '))
-                    #print('this is the second word in nmod:',
-                          #second_word, 'in paragraph', k1)
+                    # print('this is the second word in nmod:',
+                        # second_word, 'in paragraph', k1)
                     if k == k1:
                         for i in first_word:
                             if second_word == [i]:
-                                second_word = re.findall('\, (.*?)\-', word.lstrip(' '))
+                                second_word = re.findall(
+                                    '\, (.*?)\-', word.lstrip(' '))
                                 amod_nmod1_map[k+1] = second_word
 
 for k, v in s.items():
@@ -121,8 +133,8 @@ for k, v in s.items():
                 if re.search("conj:but", word):
                     second_word = re.findall(
                         '\, (.*?)\-', word.lstrip(' '))
-                    #print('this is the second word in nmod:',
-                          #second_word, 'in paragraph', k1)
+                    # print('this is the second word in nmod:',
+                        # second_word, 'in paragraph', k1)
                     if k == k1:
                         for i in first_word:
                             if second_word == [i]:
@@ -275,7 +287,7 @@ for k, v in s.items():
                                              word.lstrip(' '))  # first word in bracket
                    # print('this is the second word in nmod:as',
                     # second_word, 'in paragraph', k1)
-                    #print(first_word,second_word)
+                    # print(first_word,second_word)
                     if k == k1:
                         for i in first_word:
                             if second_word == [i]:
@@ -310,7 +322,7 @@ for k, v in s.items():
                 if re.search("dobj", word):
                     second_word = re.findall(
                         r'dobj\(([^-]*)-', word.lstrip(' '))
-                    #print(first_word,second_word)
+                    # print(first_word,second_word)
                     # print('this is the second word in acl:relcl',
                     # second_word, 'in paragraph', k1)
                     if k == k1:
@@ -321,56 +333,73 @@ for k, v in s.items():
 
 
 try:
-    os.remove("targets.csv") ##removes old targets.csv file if it exists
+    os.remove("targets.csv")  # removes old targets.csv file if it exists
 except OSError:
     pass
 
-with open('targets.csv', 'w', newline='') as csvfile: ##creates new csv file
+with open('targets.csv', 'w', newline='') as csvfile:  # creates new csv file
     filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     filewriter.writerow(['Paragraph', 'Targets', 'Rule'])
 
+    
     for k, v in amod_nmod_map.items():
         filewriter.writerow([k, v[0], 'amod-nmod'])
- 
+        total_targets_found += 1
+
     for k, v in amod_nmod1_map.items():
         filewriter.writerow([k, v[0], 'amod-nmod1'])
+        total_targets_found += 1
 
     for k, v in amod_root_map.items():
         filewriter.writerow([k, v[0], 'amod-root'])
-  
+        total_targets_found += 1
+
     for k, v in amod_dobj_map.items():
         filewriter.writerow([k, v[0], 'amod-dobj'])
+        total_targets_found += 1
 
     for k, v in advmod_nmod_map.items():
         filewriter.writerow([k, v[0], 'advmod-nmod'])
-    
+        total_targets_found += 1
+
     for k, v in amod_nmodin_map.items():
         filewriter.writerow([k, v[0], 'amod-nmod:in'])
-  
+        total_targets_found += 1
+
     for k, v in amod_aclrel_map.items():
         filewriter.writerow([k, v[0], 'amod-aclrel'])
+        total_targets_found += 1
 
     for k, v in neg_nmodas_map.items():
         filewriter.writerow([k, v[0], 'neg-nmod:as'])
+        total_targets_found += 1
 
     for k, v in root_dobj_map.items():
         filewriter.writerow([k, v[0], 'root-dobj'])
+        total_targets_found += 1
 
     for k, v in cop_nmodas_map.items():
         filewriter.writerow([k, v[0], 'cop-nmodas'])
-    
+        total_targets_found += 1
+
     for k, v in advmod_conjb_map.items():
         filewriter.writerow([k, v[0], 'advmod-conjb'])
+        total_targets_found += 1
 
     for k, v in conjb_nmodas_map.items():
         filewriter.writerow([k, v[0], 'conjb-nmodw'])
+        total_targets_found += 1
 
     for k, v in root_xcomp_map.items():
         filewriter.writerow([k, v[0], 'root-xcomp'])
+        total_targets_found += 1
 
     for k, v in advcl_dobj_map .items():
         filewriter.writerow([k, v[0], 'advcl-dobj'])
+        total_targets_found += 1
 
+    filewriter.writerow(['', 'Total targets found:', total_targets_found])
+    filewriter.writerow(['', 'Accuracy:', total_targets_found/target_count])
 
 print('Targets acquired onto target.csv')
