@@ -21,3 +21,7 @@ Paragraph,Targets,Rule
 21,riverbed,root-dobj
 25,consumers,root-dobj
 4,mortal,cop-nmodas
+7,survive,advmod-conjb
+7,three,conjb-nmodas
+8,share,root-xcomp
+25,embrace,root-xcomp
