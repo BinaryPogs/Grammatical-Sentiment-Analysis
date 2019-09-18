@@ -8,5 +8,3 @@ def fib(n):    # write Fibonacci series up to n
 
 
 fib(2000)
-
-l = [1, 2, 3, 4, 3]
