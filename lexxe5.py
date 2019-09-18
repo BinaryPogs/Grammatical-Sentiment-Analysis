@@ -319,47 +319,6 @@ for k, v in s.items():
                                 second_word = re.findall('\, (.*?)\-', word)
                                 advcl_dobj_map[k+1] = second_word
 
-# print('='*100)
-# for k, v in amod_nmod_map.items():
-   # print('The target', v, 'was found in paragraph',
-          # k, 'using the amod-nmod:of relationship')
-# print('='*100)  # separator for tidiness
-
-# for k, v in amod_root_map.items():
-   # print('The target', v, 'was found in paragraph',
-          # k, 'using the amod-root relationship')
-# print('='*100)
-
-# for k, v in amod_dobj_map.items():
-    # print('The target', v, 'was found in paragraph',
-         # k, 'using the amod-dobj relationship')
-# print('='*100)
-
-# for k, v in advmod_nmod_map.items():
-    # print('The target', v, 'was found in paragraph',
-         # k, 'using the advmod-nmod:to relationship')
-# print('='*100)
-
-# for k, v in amod_nmodin_map.items():
-    # print('The target', v, 'was found in paragraph',
-          # k, 'using the advmod-nmod:in relationship')
-# print('='*100)
-
-# for k, v in amod_aclrel_map.items():
-    # print('The target', v, 'was found in paragraph',
-          # k, 'using the amod-acl:relcl relationship')
-# print('='*100)
-
-# for k, v in neg_nmodas_map.items():
-    # print('The target', v, 'was found in paragraph',
-          # k, 'using the neg-nmodas relationship')
-# print('='*100)
-
-# for k, v in root_dobj_map.items():
-    # print('The target', v, 'was found in paragraph',
-          # k, 'using the root-dobj relationship')
-# print('='*100)
-
 
 try:
     os.remove("targets.csv")
@@ -409,7 +368,7 @@ with open('targets.csv', 'w', newline='') as csvfile:
 
     for k, v in root_xcomp_map.items():
         filewriter.writerow([k, v[0], 'root-xcomp'])
-        
+
     for k, v in advcl_dobj_map .items():
         filewriter.writerow([k, v[0], 'advcl-dobj'])
 
