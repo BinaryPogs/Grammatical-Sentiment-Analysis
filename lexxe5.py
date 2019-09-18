@@ -321,11 +321,11 @@ for k, v in s.items():
 
 
 try:
-    os.remove("targets.csv")
+    os.remove("targets.csv") ##removes old targets.csv file if it exists
 except OSError:
     pass
 
-with open('targets.csv', 'w', newline='') as csvfile:
+with open('targets.csv', 'w', newline='') as csvfile: ##creates new csv file
     filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     filewriter.writerow(['Paragraph', 'Targets', 'Rule'])
