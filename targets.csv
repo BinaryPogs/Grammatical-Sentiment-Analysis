@@ -22,6 +22,8 @@ Paragraph,Targets,Rule
 25,consumers,root-dobj
 4,mortal,cop-nmodas
 7,survive,advmod-conjb
-7,three,conjb-nmodas
+7,three,conjb-nmodw
 8,share,root-xcomp
 25,embrace,root-xcomp
+8,techniques,advcl-dobj
+15,brand,advcl-dobj

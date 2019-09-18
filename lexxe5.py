@@ -19,6 +19,7 @@ cop_nmodas_map = {}
 advmod_conjb_map = {}
 conjb_nmodas_map = {}
 root_xcomp_map = {}
+advcl_dobj_map = {}
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
 filename = input('Enter Filename:')
 lexxe = open(path + filename).read()
@@ -149,7 +150,7 @@ for k, v in s.items():
         #print('this is the first word(s)', first_word, 'in paragraph', k)
         for k1, v1 in p.items():
             for word in v1:
-                if re.search("^root", word):
+                if re.search("root", word):
                     second_word = re.findall(
                         '\, (.*?)\-', word.lstrip(' '))
                     # print('this is the second word in nmod:',
@@ -165,7 +166,7 @@ for k, v in s.items():
         # print('this is the first word(s)', first_word, 'in paragraph', k)
         for k1, v1 in p.items():
             for word in v1:
-                if re.search("^dobj", word):
+                if re.search("dobj", word):
                     second_word = re.findall(
                         '\, (.*?)\-', word.lstrip(' '))
                     # print('this is the second word in nmod:',
@@ -181,7 +182,7 @@ for k, v in s.items():
         # print('this is the first word(s)', first_word, 'in paragraph', k)
         for k1, v1 in p.items():
             for word in v1:
-                if re.search("^acl:relcl", word):
+                if re.search("acl:relcl", word):
                     second_word = re.findall(
                         r'acl:relcl\(([^-]*)-', word.lstrip(' '))
                     # print('this is the second word in acl:relcl',
@@ -198,7 +199,7 @@ for k, v in s.items():
         # print('this is the first word(s)', first_word, 'in paragraph', k)
         for k1, v1 in p.items():
             for word in v1:
-                if re.search("^nmod:to", word):
+                if re.search("nmod:to", word):
                     second_word = re.findall(r'nmod:to\(([^-]*)-',
                                              word.lstrip(' '))
                     # print('this is the second word in nmod:',
@@ -299,6 +300,25 @@ for k, v in s.items():
                                 second_word = re.findall('\, (.*?)\-', word)
                                 root_xcomp_map[k+1] = second_word
 
+for k, v in s.items():
+    if re.search("advcl", v):
+        v = str(re.findall("(?<=advcl\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v)
+        # print('this is the first word(s)', first_word, 'in paragraph', k)
+        for k1, v1 in p.items():
+            for word in v1:
+                if re.search("dobj", word):
+                    second_word = re.findall(
+                        r'dobj\(([^-]*)-', word.lstrip(' '))
+                    #print(first_word,second_word)
+                    # print('this is the second word in acl:relcl',
+                    # second_word, 'in paragraph', k1)
+                    if k == k1:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', word)
+                                advcl_dobj_map[k+1] = second_word
+
 # print('='*100)
 # for k, v in amod_nmod_map.items():
    # print('The target', v, 'was found in paragraph',
@@ -385,10 +405,13 @@ with open('targets.csv', 'w', newline='') as csvfile:
         filewriter.writerow([k, v[0], 'advmod-conjb'])
 
     for k, v in conjb_nmodas_map.items():
-        filewriter.writerow([k, v[0], 'conjb-nmodas'])
+        filewriter.writerow([k, v[0], 'conjb-nmodw'])
 
     for k, v in root_xcomp_map.items():
         filewriter.writerow([k, v[0], 'root-xcomp'])
+        
+    for k, v in advcl_dobj_map .items():
+        filewriter.writerow([k, v[0], 'advcl-dobj'])
 
 
 print('Targets acquired onto target.csv')
