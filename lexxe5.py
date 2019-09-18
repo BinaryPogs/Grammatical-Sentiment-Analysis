@@ -11,7 +11,7 @@ advmod_nmod_map = {}
 amod_nmodin_map = {}
 amod_aclrel_map = {}
 neg_nmodas_map = {}
-
+root_dobj_map = {}
 filename = input('Enter Filename:')
 lexxe = open(filename).read()
 
@@ -38,8 +38,7 @@ def createParaMap(path_or_file):
 
 
 def createSourceMap(list):
-    source = [[l.rstrip() for l in p.split('\n') if (re.search(r"s\d+[-/\d]+$",  # this takes care of the case where source is marked as s1-1/3, etc
-                                                               l.rstrip()) or re.search(r's\d$', l.rstrip()))]
+    source = [[l.rstrip() for l in p.split('\n') if re.search(r"s\d[-/\d]*", l.rstrip())]
               for p in paragraphs]  # creates a list that holds each inidividual list of the lines with s# in each distinct paragraph.
     source = [x for x in source if x != []]  # Remove empty lists
     for i, item in enumerate(source):
@@ -121,7 +120,7 @@ for k, v in s.items():
 for k, v in s.items():
     if re.search('amod', v):
         first_word = re.findall(r'amod\(([^-]*)-', v)
-        #print('this is the first word(s)', first_word, 'in paragraph', k)
+        # print('this is the first word(s)', first_word, 'in paragraph', k)
         for k1, v1 in p.items():
             for word in v1:
                 if re.search("^acl:relcl", word):
@@ -151,22 +150,6 @@ for k, v in s.items():
                             if second_word == [i]:
                                 advmod_nmod_map[k+1] = second_word
 
-for k, v in s.items():
-    if re.search('advmod', v):
-        v = str(re.findall("(?<=advmod\().+?(?=\))", v))
-        first_word = re.findall('\, (.*?)\-', v)
-        # print('this is the first word(s)', first_word, 'in paragraph', k)
-        for k1, v1 in p.items():
-            for word in v1:
-                if re.search("^nmod:to", word):
-                    second_word = re.findall(r'nmod:to\(([^-]*)-',
-                                             word.lstrip(' '))
-                    # print('this is the second word in nmod:',
-                    # second_word, 'in paragraph', k1)
-                    if k == k1:
-                        for i in first_word:
-                            if second_word == [i]:
-                                advmod_nmod_map[k+1] = second_word
 
 for k, v in s.items():
     if re.search("neg", v):
@@ -183,6 +166,23 @@ for k, v in s.items():
                         for i in first_word:
                             if second_word == [i]:
                                 neg_nmodas_map[k+1] = second_word
+
+for k, v in s.items():
+    if re.search("root", v):
+        v = str(re.findall("(?<=root\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v)
+        #print('this is the first word(s)', first_word, 'in paragraph', k)
+        for k1, v1 in p.items():
+            for word in v1:
+                if re.search("dobj", word):
+                    second_word = re.findall(r'dobj\(([^-]*)-',
+                                             word.lstrip(' '))
+                    # print('this is the second word in nmod:',
+                    # second_word, 'in paragraph', k1)
+                    if k == k1:
+                        for i in first_word:
+                            if second_word == [i]:
+                                root_dobj_map[k+1] = second_word
 
 print('='*100)
 for k, v in amod_nmod_map.items():
@@ -218,4 +218,9 @@ print('='*100)
 for k, v in neg_nmodas_map.items():
     print('The target', v, 'was found in paragraph',
           k, 'using the neg-nmodas relationship')
+print('='*100)
+
+for k, v in root_dobj_map.items():
+    print('The target', v, 'was found in paragraph',
+          k, 'using the root-dobj relationship')
 print('='*100)
