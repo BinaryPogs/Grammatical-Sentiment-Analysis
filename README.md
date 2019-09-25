@@ -1,7 +1,7 @@
 ## Introduction
 
-[1](Stanford Parser) is a natural language parser program that is used to output typed dependency parses. 
-The purpose of this project is to create a program that can read text-file input from Stanford parser and return an output that defines what the target words of each paragraph are. This is a project given to me by a search engine startup called [2](Lexxe), which uses sentiment analysis in their search engines. The goal is to utilise Stanford parser to create a system that can attribute sentiment meaning to keywords via grammatical analysis. 
+(Stanford Parser)[1] is a natural language parser program that is used to output typed dependency parses. 
+The purpose of this project is to create a program that can read text-file input from Stanford parser and return an output that defines what the target words of each paragraph are. This is a project given to me by a search engine startup called (Lexxe)[2], which uses sentiment analysis in their search engines. The goal is to utilise Stanford parser to create a system that can attribute sentiment meaning to keywords via grammatical analysis. 
 
 ## How it works
 
