@@ -30,7 +30,7 @@ paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
 
 def createParaMap(path_or_file):
     paragraph_lines = [p.split('\n') for p in paragraphs]
-    paragraph_lines = paragraph_lines[1:] 
+    paragraph_lines = paragraph_lines[1:]
     for lines in paragraph_lines:
         if not 'Neutral.' in lines:  # gets rid of the paragraphs with Neutral. marked
             para.append(lines)
@@ -43,7 +43,7 @@ def createParaMap(path_or_file):
             if i == count:
                 count += 1  # changes the key values to 0-len(para_map)
                 para_map[i] = para_map.pop(k)
-    return para_map 
+    return para_map
 
 
 def createSourceMap(list):
@@ -68,7 +68,8 @@ p = createParaMap(lexxe)
 s = createSourceMap(p)
 target_count = count_targets(p)
 
-
+print(len(p))
+print(len(s))
 # The code below checks for the amod rule, if the first and second word of
 #  the same paragraph are the same, then the word is the target.
 

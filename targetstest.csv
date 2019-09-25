@@ -1,0 +1,21 @@
+Paragraph,Targets,Rule
+1,food,amod-nmod
+5,overalls,amod-nmod
+6,techniques,amod-nmod
+4,jeans,amod-nmod1
+2,denim,amod-root
+3,perve,amod-dobj
+8,techniques,amod-dobj
+13,jacket,amod-dobj
+3,mags,advmod-nmod
+4,Market,amod-aclrel
+4,mortal,neg-nmod:as
+3,perve,root-dobj
+9,idea,root-dobj
+4,mortal,cop-nmodas
+7,survive,advmod-conjb
+7,three,conjb-nmodw
+8,share,root-xcomp
+8,techniques,advcl-dobj
+,Total targets found:,18
+,Accuracy:,0.18
