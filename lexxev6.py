@@ -25,7 +25,7 @@ advcl_dobj_map = {}
 line_map = {}
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
 #filename = input('Enter Filename:')
-lexxe = open('C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\000140.ant').read()
+lexxe = open('C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\anttest.ant').read()
 
 
 paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
@@ -182,8 +182,8 @@ map_list.append('amod_aclrel_map')
 
 for k, v in sourcemap.items():
     if re.search('advmod', v):
-        v = str(re.findall("(?<=advmod\().+?(?=\))", v))
-        first_word = re.findall('\, (.*?)\-', v)
+        v2 = str(re.findall("(?<=advmod\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
         for k1, v1 in pline_map.items():
                 if re.search("nmod:to", v1):
                     second_word = re.findall(r'nmod:to\(([^-]*)-',
@@ -201,9 +201,10 @@ for i in map_list:
 targets_marked = open('targetsmarked.txt', 'w+')
 for idx,pline in pline_map.items():
     targets_marked.write(pline)
-    if amod_nmod_map.get(idx) != None and ('t{}'.format(amod_nmod_map[idx][1]) not in pline):
+    if amod_nmod_map.get(idx) != None and not re.search('t[0-9]$',pline):
         targets_marked.write('t{} \n'.format(amod_nmod_map[idx][1])) ##appends the t# based on s#
     else:
         targets_marked.write('\n') ## if it's just a normal line, new line and continue printing text
         
+ #re.search('t[0-9]$',l)[0]       
 
