@@ -201,7 +201,7 @@ mark(producing-25, by-24)
 advcl(slowing-21, producing-25) s3 t4
 amod(pieces-27, one-of-a-kind-26) s5
 dobj(producing-25, pieces-27) t3 t5
-advcl(producing-25, using-28) s4 
+advcl(producing-25, using-28) s4
 advmod(different-30, very-29) s7
 amod(techniques-31, different-30) s6 t7
 dobj(using-28, techniques-31) t4 t6

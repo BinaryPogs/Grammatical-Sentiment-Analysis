@@ -24,8 +24,8 @@ root_xcomp_map = {}
 advcl_dobj_map = {}
 line_map = {}
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
-#filename = input('Enter Filename:')
-lexxe = open('C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\anttest.ant').read()
+filename = input('Enter Filename:')
+lexxe = open(path + filename).read()
 
 
 paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
@@ -77,6 +77,8 @@ def count_targets(p):
 p_map = p_map(paragraphs)
 sourcemap = createSourceMap(p_map)
 pline_map = createParaLineMap(p_map)
+target_count = count_targets(p_map)
+
 
 for k,v in sourcemap.items():
     if re.search('amod', v):
@@ -91,7 +93,7 @@ for k,v in sourcemap.items():
                         second_word = re.findall(
                                     '\, (.*?)\-', v1.lstrip(' '))
                         if second_word == [i]:
-                            amod_nmod1_map[k1] = second_word, v[-1]
+                            amod_nmod1_map[k1] = second_word, v.rstrip()[-1]
 
 map_list.append('amod_nmod_map')
 
@@ -107,7 +109,7 @@ for k,v in sourcemap.items():
                     if second_word == [i]:
                         second_word = re.findall(
                             '\, (.*?)\-', v1.lstrip(' '))
-                        amod_nmod1_map[k1] = second_word, v[-1] #this creates a dict with para+line as keys
+                        amod_nmod1_map[k1] = second_word, v.rstrip()[-1] #this creates a dict with para+line as keys
                                                                 # and target word, target number as values
 map_list.append('amod_nmod1_map')
 
@@ -121,7 +123,7 @@ for k, v in sourcemap.items():
                 if k[:4] == k1[:4]:
                         for i in first_word:
                             if second_word == [i]:
-                                advmod_conjb_map[k1] = second_word, v[-1] #this creates a dict with para+line as keys
+                                advmod_conjb_map[k1] = second_word, v.rstrip()[-1] #this creates a dict with para+line as keys
                                                                           # and target word, target number as values
 map_list.append('advmod_conjb_map')
 
@@ -136,35 +138,35 @@ for k, v in sourcemap.items():
                     if k[:4] == k1[:4]:
                         for i in first_word:
                             if second_word == [i]:
-                                amod_nmodin_map[k1] = second_word, v[-1]
+                                amod_nmodin_map[k1] = second_word, v.rstrip()[-1]
 
 map_list.append('amod_nmodin_map')
 
 for k, v in sourcemap.items():
     if re.search('amod',v):
-        first_word = re.findall(r'amod\(([^-]*)-',v)
-        for k1,v1 in pline_map.items():
-            if re.search('root',v1):
-                second_word = re.findall(
-                        '\, (.*?)\-', v1.lstrip(' '))
-            if k[:4] == k1[:4]:
-                for i in first_word:
-                    if second_word == [i]:
-                        amod_root_map[k1] = second_word, v[-1]
-map_list.append('amod_root_map')
-            
-for k, v in sourcemap.items():
-    if re.search('amod', v):
         first_word = re.findall(r'amod\(([^-]*)-', v)
-        # print('this is the first word(s)', first_word, 'in paragraph', k)
-        for k1, v1 in pline_map.items():
-                if re.search("dobj", v1):
+        for k1,v1 in pline_map.items():
+            if re.search("root", v1):
                     second_word = re.findall(
                         '\, (.*?)\-', v1.lstrip(' '))
                     if k[:4] == k1[:4]:
                         for i in first_word:
                             if second_word == [i]:
-                                amod_dobj_map[k1] = second_word, v[-1]
+                                amod_root_map[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('amod_root_map')
+            
+for k, v in sourcemap.items():
+    if re.search('amod',v):
+        first_word = re.findall(r'amod\(([^-]*)-', v)
+        for k1,v1 in pline_map.items():
+            if re.search("dobj", v1):
+                    second_word = re.findall(
+                        '\, (.*?)\-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                amod_dobj_map[k1] = second_word, v.rstrip()[-1]
 map_list.append('amod_dobj_map')
 
 for k, v in sourcemap.items():
@@ -177,7 +179,7 @@ for k, v in sourcemap.items():
                     if k[:4] == k1[:4]:
                         for i in first_word:
                             if second_word == [i]:
-                                amod_aclrel_map[k1] = second_word, v[-1]
+                                amod_aclrel_map[k1] = second_word, v.rstrip()[-1]
 map_list.append('amod_aclrel_map')
 
 for k, v in sourcemap.items():
@@ -192,19 +194,112 @@ for k, v in sourcemap.items():
                         for i in first_word:
                             if second_word == [i]:
                                 second_word = re.findall('\, (.*?)\-',v1)
-                                advmod_nmod_map[k1] = second_word, v[-1]
+                                advmod_nmod_map[k1] = second_word, v.rstrip()[-1]
 map_list.append('advmod_nmod_map')
-for i in map_list:
-    amod_nmod_map.update(eval(i)) #feeds and combines the list of rule dictionaries into a larger combined one
 
+for k, v in sourcemap.items():
+    if re.search("neg", v):
+        first_word = re.findall(r'neg\(([^-]*)-', v)
+        for k1, v1 in pline_map.items():
+                if re.search('nmod:as',v1):
+                    second_word = re.findall(
+                        r'nmod:as\(([^-]*)-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                neg_nmodas_map[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('neg_nmodas_map')
+
+for k, v in sourcemap.items():
+    if re.search("root", v):
+        v2 = str(re.findall("(?<=root\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("dobj", v1):
+                    second_word = re.findall(r'dobj\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4]== k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                root_dobj_map[k1] = second_word, v.rstrip()[-1]
+map_list.append('root_dobj_map')
+
+for k, v in sourcemap.items():
+    if re.search("cop", v):
+        first_word = re.findall(r'cop\(([^-]*)-', v)
+        for k1, v1 in pline_map.items():
+                if re.search('nmod:as', v1):
+                    second_word = re.findall(
+                        r'nmod:as\(([^-]*)-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                cop_nmodas_map[k1] = second_word, v.rstrip()[-1]
+map_list.append('cop_nmodas_map')
+
+for k, v in sourcemap.items():
+    if re.search("conj:but", v):
+        v2 = str(re.findall("(?<=conj:but\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2) 
+        for k1, v1 in pline_map.items():
+                if re.search('nmod:with', v1):
+                    second_word = re.findall(r'nmod:with\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                conjb_nmodas_map[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('conjb_nmodas_map')
+
+for k, v in sourcemap.items():
+    if re.search("root", v):
+        v2 = str(re.findall("(?<=root\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2) 
+        for k1, v1 in pline_map.items():
+                if re.search('xcomp', v1):
+                    second_word = re.findall(r'xcomp\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                root_xcomp_map[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('root_xcomp_map')
+
+for k, v in sourcemap.items():
+    if re.search("advcl", v):
+        v2 = str(re.findall("(?<=advcl\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("dobj", v1):
+                    second_word = re.findall(
+                        r'dobj\(([^-]*)-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                advcl_dobj_map[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('advcl_dobj_map')
+
+print(amod_dobj_map)
+for i in map_list:
+    #print(eval(i))
+    amod_nmod_map.update(eval(i)) #feeds and combines the list of rule dictionaries into a larger combined one
 
 targets_marked = open('targetsmarked.txt', 'w+')
 for idx,pline in pline_map.items():
     targets_marked.write(pline)
-    if amod_nmod_map.get(idx) != None and not re.search('t[0-9]$',pline):
+    if amod_nmod_map.get(idx) != None: #and not re.search('t[0-9]$',pline
         targets_marked.write('t{} \n'.format(amod_nmod_map[idx][1])) ##appends the t# based on s#
     else:
         targets_marked.write('\n') ## if it's just a normal line, new line and continue printing text
-        
- #re.search('t[0-9]$',l)[0]       
+
 
