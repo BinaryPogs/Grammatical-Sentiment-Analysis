@@ -1,20 +1,28 @@
+000140.psd
+
+1) You've heard of slow food. 
+
 nsubj(heard-3, You-1)
 aux(heard-3, 've-2)
 root(ROOT-0, heard-3)
 case(food-6, of-4)
 amod(food-6, slow-5) s1
-nmod:of(heard-3, food-6) t1 
+nmod:of(heard-3, food-6) 
+
+2) This is slow denim. 
 
 nsubj(denim-4, This-1)
 cop(denim-4, is-2)
 amod(denim-4, slow-3) s1
-root(ROOT-0, denim-4) t1 
-t1 
+root(ROOT-0, denim-4) 
+
+3) I love a good perve inside a celebrity's wardrobe, thanks to the glossy mags. 
+
 nsubj(love-2, I-1)
 root(ROOT-0, love-2) s1
 det(perve-5, a-3)
 amod(perve-5, good-4) s2
-dobj(love-2, perve-5) t2 
+dobj(love-2, perve-5) 
 case(wardrobe-10, inside-6)
 det(celebrity-8, a-7)
 nmod:poss(wardrobe-10, celebrity-8)
@@ -24,7 +32,9 @@ advmod(love-2, thanks-12) s3
 case(mags-16, to-13)
 det(mags-16, the-14)
 amod(mags-16, glossy-15) s4
-nmod:to(thanks-12, mags-16) t  
+nmod:to(thanks-12, mags-16) 
+
+4) There's always some magical Portobello Road Market find - those that you, as a mere mortal, will never be able to nab, plus, quite often, a staggering number of jeans; it's not unheard of for some fashionistas to have. 
 
 expl('s-2, There-1)
 root(ROOT-0, 's-2)
@@ -34,7 +44,7 @@ amod(Market-8, magical-5) s1
 compound(Market-8, Portobello-6)
 compound(Market-8, Road-7)
 nsubj('s-2, Market-8)
-acl:relcl(Market-8, find-9) t1t1 
+acl:relcl(Market-8, find-9) t1
 dobj(find-9, those-11)
 mark(able-23, that-12)
 nsubj(able-23, you-13) t2
@@ -56,7 +66,7 @@ det(number-34, a-32)
 amod(number-34, staggering-33) s3
 nsubj('s-2, number-34) t3
 case(jeans-36, of-35)
-nmod:of(number-34, jeans-36) t3t3 
+nmod:of(number-34, jeans-36) t3
 nsubj(unheard-41, it-38)
 nsubj:xsubj(have-47, it-38)
 cop(unheard-41, 's-39)
@@ -69,6 +79,8 @@ nmod:for(unheard-41, fashionistas-45)
 mark(have-47, to-46)
 xcomp(unheard-41, have-47)
 
+5) Over the rainbow... Kesha wearing a pair of colourful, customised overalls at LAX. 
+
 case(rainbow-3, Over-1)
 det(rainbow-3, the-2)
 nmod:over(wearing-6, rainbow-3)
@@ -79,9 +91,11 @@ dobj(wearing-6, pair-8)
 case(overalls-13, of-9)
 amod(overalls-13, colourful-10) s1
 amod(overalls-13, customised-12) s2
-nmod:of(pair-8, overalls-13) t1 t2t2 
+nmod:of(pair-8, overalls-13) t1 t2
 case(LAX-15, at-14)
 nmod:at(wearing-6, LAX-15)
+
+6) Photo: Getty Images But since learning about the can have on the planet - the toxic chemicals and water usage in the dyeing process, the impact of so-called ``distressing'' techniques, and so on - I've had a massive rethink about how many pairs of jeans I ``need''. 
 
 root(ROOT-0, Photo-1)
 compound(Images-4, Getty-3)
@@ -112,7 +126,7 @@ appos(process-25, impact-28) t2
 case(techniques-34, of-29)
 amod(techniques-34, so-called-30)
 amod(techniques-34, distressing-32) s2
-nmod:of(impact-28, techniques-34) t2t2 
+nmod:of(impact-28, techniques-34) t2
 cc(planet-14, and-36)
 mark(on-38, so-37)
 dep(have-11, on-38)
@@ -132,6 +146,8 @@ nmod:of(pairs-49, jeans-51) t3
 nsubj(need-54, I-52)
 acl:relcl(rethink-45, need-54)
 
+7) I probably own about seven pairs but could easily survive with three: a light, a dark and a black. 
+
 nsubj(own-3, I-1)
 nsubj(survive-10, I-1) t2
 advmod(own-3, probably-2)
@@ -142,7 +158,7 @@ dobj(own-3, pairs-6)
 cc(own-3, but-7)
 aux(survive-10, could-8)
 advmod(survive-10, easily-9) s1
-conj:but(own-3, survive-10) t1 s2t1 
+conj:but(own-3, survive-10) t1 s2
 case(three-12, with-11)
 nmod:with(survive-10, three-12) t2
 det(light-15, a-14)
@@ -154,6 +170,8 @@ cc(light-15, and-19)
 det(black-21, a-20)
 dep(three-12, black-21) t2
 conj:and(light-15, black-21)
+
+8) Given Friday is, it is timely to share the stories of two people in the fashion industry who are slowing denim consumption by producing one-of-a-kind pieces using very different techniques. 
 
 case(Friday-2, Given-1)
 nmod:given(timely-7, Friday-2)
@@ -182,11 +200,13 @@ dobj(slowing-21, consumption-23) t2
 mark(producing-25, by-24)
 advcl(slowing-21, producing-25) s3 t4
 amod(pieces-27, one-of-a-kind-26) s5
-dobj(producing-25, pieces-27) t3 t5t5 
+dobj(producing-25, pieces-27) t3 t5
 advcl(producing-25, using-28) s4 
 advmod(different-30, very-29) s7
 amod(techniques-31, different-30) s6 t7
-dobj(using-28, techniques-31) t4 t6t7 
+dobj(using-28, techniques-31) t4 t6
+
+9) Sydney native Kai Brown got the idea for after his grandmother, a ``master seamstress'', made him a jacket with a Native American Indian blanket he found while on tour -LRB- he was a guitarist and surfer before he started the brand -RRB-. 
 
 compound(Brown-4, Sydney-1)
 compound(Brown-4, native-2)
@@ -230,6 +250,8 @@ advcl(guitarist-38, started-43)
 det(brand-45, the-44)
 dobj(started-43, brand-45)
 
+10) Subtle statement... Bella Hadid wearing an embroidered denim jacket on the streets of New York. 
+Neutral.
 amod(statement-2, Subtle-1)
 root(ROOT-0, statement-2)
 compound(Hadid-5, Bella-4)
@@ -245,6 +267,8 @@ nmod:on(wearing-6, streets-13)
 case(York-16, of-14)
 compound(York-16, New-15)
 nmod:of(streets-13, York-16)
+
+11) Photo: Josiah Kamau ``I kept getting stopped all the time -LSB- and asked about the jacket -RSB-. 
 
 root(ROOT-0, Photo-1)
 compound(Kamau-4, Josiah-3)
@@ -265,6 +289,8 @@ det(-RSB--19, the-17)
 compound(-RSB--19, jacket-18)
 nmod:about(asked-15, -RSB--19)
 
+12) It's still in the office, hanging on the wall. 
+Neutral.
 nsubj(hanging-8, It-1)
 cop(hanging-8, 's-2)
 advmod(hanging-8, still-3)
@@ -276,6 +302,8 @@ case(wall-11, on-9)
 det(wall-11, the-10)
 nmod:on(hanging-8, wall-11)
 
+13) People who know me... see that jacket and say, `you've come so far','' Brown says. 
+Neutral.
 nsubj(know-3, People-1)
 nsubj(come-15, People-1)
 ref(People-1, who-2)
@@ -296,6 +324,8 @@ advmod(come-15, far-17)
 nsubj(says-22, Brown-21)
 root(ROOT-0, says-22)
 
+14) All My Relations takes vintage denim pieces and, using decades-old chain-stitch embroidery techniques, creates one-off pieces. 
+
 det(Relations-3, All-1)
 compound(Relations-3, My-2)
 nsubj(takes-4, Relations-3)
@@ -303,7 +333,7 @@ nsubj(creates-16, Relations-3) t1
 root(ROOT-0, takes-4)
 amod(pieces-7, vintage-5)
 compound(pieces-7, denim-6)
-dobj(takes-4, pieces-7) t2 
+dobj(takes-4, pieces-7) 
 cc(takes-4, and-8)
 parataxis(takes-4, using-10)
 amod(techniques-14, decades-old-11)
@@ -312,8 +342,10 @@ compound(techniques-14, embroidery-13)
 dobj(using-10, techniques-14)
 conj:and(takes-4, creates-16) s1
 amod(pieces-18, one-off-17) s2
-dobj(creates-16, pieces-18) t1 t2t2 
+dobj(creates-16, pieces-18) t1 t2
 
+15) You will now receive updates from Daily Life Newsletter Daily Life Newsletter Get the latest news and updates emailed straight to your inbox. 
+Neutral.
 nsubj(receive-4, You-1)
 aux(receive-4, will-2)
 advmod(receive-4, now-3)
@@ -339,6 +371,8 @@ case(inbox-23, to-21)
 nmod:poss(inbox-23, your-22)
 advcl(emailed-19, inbox-23)
 
+16) Brown aims to create clothes that inspire an ``emotional reaction'', as a counterpoint to the homogenous nature of fast fashion. 
+
 nsubj(aims-2, Brown-1)
 nsubj:xsubj(create-4, Brown-1) t1
 root(ROOT-0, aims-2)
@@ -360,7 +394,9 @@ amod(nature-20, homogenous-19)
 nmod:to(counterpoint-16, nature-20)
 case(fashion-23, of-21)
 amod(fashion-23, fast-22) s2
-nmod:of(nature-20, fashion-23) t2t2 
+nmod:of(nature-20, fashion-23) t2
+
+17) ``People will bring me a -LSB- new -RSB- jacket but I will educate them... if you're going to get some work done it's worth getting a quality vintage piece,'' he says. 
 
 nsubj(bring-4, People-2)
 aux(bring-4, will-3)
@@ -370,7 +406,7 @@ det(jacket-10, a-6)
 amod(jacket-10, -LSB--7)
 amod(jacket-10, new-8) s2
 amod(jacket-10, -RSB--9)
-dobj(bring-4, jacket-10) t2t2 
+dobj(bring-4, jacket-10) t2
 cc(bring-4, but-11)
 nsubj(educate-14, I-12)
 aux(educate-14, will-13)
@@ -394,25 +430,29 @@ xcomp(worth-28, getting-29) t5
 det(piece-33, a-30)
 amod(piece-33, quality-31) s4
 amod(piece-33, vintage-32)
-dobj(getting-29, piece-33) t4t4 
+dobj(getting-29, piece-33) t4
 nsubj(says-37, he-36)
 root(ROOT-0, says-37)
+
+18) The best denim is vintage denim, especially when you wear it like Gigi Hadid. 
 
 det(denim-3, The-1)
 amod(denim-3, best-2) s1
 nsubj(denim-6, denim-3)
 cop(denim-6, is-4)
 amod(denim-6, vintage-5) t1
-root(ROOT-0, denim-6) t1t1 
-advmod(when-9, especially-8)t1 
-advmod(wear-11, when-9)t1 
-nsubj(wear-11, you-10)t1 
-acl:relcl(denim-6, wear-11)t1 
-dobj(wear-11, it-12)t1 
-case(Hadid-15, like-13)t1 
-compound(Hadid-15, Gigi-14)t1 
-nmod:like(wear-11, Hadid-15)t1 
-t1 
+root(ROOT-0, denim-6) t1
+advmod(when-9, especially-8)
+advmod(wear-11, when-9)
+nsubj(wear-11, you-10)
+acl:relcl(denim-6, wear-11)
+dobj(wear-11, it-12)
+case(Hadid-15, like-13)
+compound(Hadid-15, Gigi-14)
+nmod:like(wear-11, Hadid-15)
+
+19) Photo: Christian Vierig Both Brown and Sarah Darby, of, agree choosing a design for a custom-made jacket is a little like getting a tattoo, albeit one you can take off. 
+Neutral.
 nsubj(agree-13, Photo-1)
 compound(Vierig-4, Christian-3)
 dep(Photo-1, Vierig-4)
@@ -445,6 +485,8 @@ nsubj(take-33, you-31)
 aux(take-33, can-32)
 ccomp(little-23, take-33)
 compound:prt(take-33, off-34)
+
+20) In fact, it was Darby's desire for ink but her inability to commit that led the fashion illustrator to create her brand, which produces painted designs on vintage denim and leather. 
 
 case(fact-2, In-1)
 nmod:in(desire-8, fact-2)
@@ -481,6 +523,8 @@ cc(denim-32, and-33)
 nmod:on(designs-29, leather-34) t3
 conj:and(denim-32, leather-34)
 
+21) Her celebrity clients include model Stephanie Claire Smith and The Bachelorette's Georgia Love. 
+Neutral.
 nmod:poss(clients-3, Her-1)
 compound(clients-3, celebrity-2)
 nsubj(include-4, clients-3)
@@ -496,6 +540,8 @@ case(Bachelorette-11, 's-12)
 compound(Love-14, Georgia-13)
 dobj(include-4, Love-14)
 conj:and(Smith-8, Love-14)
+
+22) Darby recalls one client, who had struggled with body image her whole life, having ``sparkling as I am'' embroidered on the cuffs of her jacket. 
 
 nsubj(recalls-2, Darby-1)
 root(ROOT-0, recalls-2)
@@ -524,6 +570,8 @@ case(jacket-29, of-27)
 nmod:poss(jacket-29, her-28)
 nmod:of(cuffs-26, jacket-29)
 
+23) ``I get to know someone so that when I hand -LSB- the jacket -RSB- over, it's with love,'' she says. 
+
 nsubj(get-3, I-2)
 nsubj:xsubj(know-5, I-2)
 ccomp(says-25, get-3)
@@ -546,6 +594,8 @@ case(love-21, with-20)
 advcl(know-5, love-21) s1
 nsubj(says-25, she-24)
 root(ROOT-0, says-25)
+
+24) Darby uses about 90 per cent salvaged denim for her designs, including Levi's jackets that need soaking for two days to rid them of 30 years' worth of grime. 
 
 nsubj(uses-2, Darby-1)
 root(ROOT-0, uses-2)
@@ -577,6 +627,8 @@ nmod:of(rid-24, years-28)
 case(grime-32, worth-30)
 case(grime-32, of-31)
 nmod:of(years-28, grime-32) t1
+
+25) Clare Press,, author and host of the Wardrobe Crisis podcast, says jeans have become ``our unofficial global uniform'' and we need to be more mindful of the impact they have on the planet and the people who make them. 
 
 compound(Press-2, Clare-1)
 nsubj(says-14, Press-2)
@@ -623,6 +675,8 @@ ref(people-41, who-42)
 acl:relcl(people-41, make-43)
 dobj(make-43, them-44)
 
+26) She says more than 260 million pairs of jeans are made for export in Xintang, aka China's ``Jeans Town'', where the toxic run-off from production turns the waterways blue and affects the health of the workers. 
+
 nsubj(says-2, She-1)
 root(ROOT-0, says-2)
 advmod(million-6, more-3)
@@ -663,19 +717,23 @@ case(workers-41, of-39)
 det(workers-41, the-40)
 nmod:of(health-38, workers-41) t1
 
+27) ``According to Greenpeace, high levels of lead and copper pollute the riverbed. 
+
 case(Greenpeace-4, According-2)
 mwe(According-2, to-3)
 nmod:according_to(pollute-12, Greenpeace-4)
 amod(levels-7, high-6) s1
 nsubj(pollute-12, levels-7) t1 s2
 case(lead-9, of-8)
-nmod:of(levels-7, lead-9) t2 t3t1 
+nmod:of(levels-7, lead-9) t2 t3
 cc(lead-9, and-10)
-nmod:of(levels-7, copper-11) t2 t3t1 
+nmod:of(levels-7, copper-11) t2 t3
 conj:and(lead-9, copper-11)
 root(ROOT-0, pollute-12) s3
 det(riverbed-14, the-13)
 dobj(pollute-12, riverbed-14) t3
+
+28) The dust in the streets is blue. 
 
 det(dust-2, The-1)
 nsubj(blue-7, dust-2) t1
@@ -684,6 +742,8 @@ det(streets-5, the-4)
 nmod:in(dust-2, streets-5)
 cop(blue-7, is-6)
 root(ROOT-0, blue-7) s1
+
+29) When it rains, the puddles are blue too. 
 
 advmod(rains-3, When-1)
 nsubj(rains-3, it-2)
@@ -694,11 +754,15 @@ cop(blue-8, are-7)
 root(ROOT-0, blue-8) s1
 advmod(blue-8, too-9)
 
+30) The air stinks,'' she says. 
+
 det(air-2, The-1)
 nsubj(stinks-3, air-2) t1
 ccomp(says-7, stinks-3) s1
 nsubj(says-7, she-6)
 root(ROOT-0, says-7)
+
+31) She encourages consumers to avoid paying top dollar for artificially aged and distressed denim and instead embrace the natural ageing process. 
 
 nsubj(encourages-2, She-1)
 root(ROOT-0, encourages-2) s1
@@ -726,6 +790,8 @@ amod(process-21, natural-19) t6
 compound(process-21, ageing-20) t6
 dobj(embrace-17, process-21) t6
 
+32) ``The whole idea behind that sort of look as a badge of honour was that your favourite pair of jeans had earned those makers of age. 
+
 det(idea-4, The-2)
 amod(idea-4, whole-3)
 nsubj(was-15, idea-4)
@@ -745,7 +811,7 @@ nmod:poss(pair-19, your-17)
 amod(pair-19, favourite-18) s1
 nsubj(earned-23, pair-19) t1 t2
 case(jeans-21, of-20)
-nmod:of(pair-19, jeans-21) t1 t2t1 
+nmod:of(pair-19, jeans-21) t1 t2
 aux(earned-23, had-22)
 ccomp(was-15, earned-23) s2
 det(makers-25, those-24)
@@ -753,6 +819,8 @@ dobj(earned-23, makers-25)
 case(age-27, of-26)
 nmod:of(makers-25, age-27)
 
+33) That they had a story to tell. 
+Neutral.
 nsubj(had-3, That-1)
 nsubj(had-3, they-2)
 root(ROOT-0, had-3)
@@ -760,6 +828,8 @@ det(story-5, a-4)
 dobj(had-3, story-5)
 mark(tell-7, to-6)
 acl(story-5, tell-7)
+
+34) Today, that story is less than authentic.'' 
 
 nmod:tmod(authentic-8, Today-1)
 det(story-4, that-3)
@@ -769,6 +839,8 @@ advmod(authentic-8, less-6) s1-1/2
 mwe(less-6, than-7) s1-2/2
 root(ROOT-0, authentic-8) t1 s2
 
+35) Genes for Jeans Day is on Friday, August 4. 
+Neutral.
 nsubj(Friday-7, Genes-1)
 case(Day-4, for-2)
 compound(Day-4, Jeans-3)
@@ -779,12 +851,16 @@ root(ROOT-0, Friday-7)
 appos(Friday-7, August-9)
 nummod(August-9, 4-10)
 
+36) Find out more at jeansforgenes.org.au. 
+Neutral.
 root(ROOT-0, Find-1)
 case(jeansforgenes.org.au-5, out-2)
 advmod(jeansforgenes.org.au-5, more-3)
 advmod(jeansforgenes.org.au-5, at-4)
 nmod:out(Find-1, jeansforgenes.org.au-5)
 
+37) Get the look Alexander McQueen at Stylebop.com, $2322 -LRB- approx -RRB-. 
+Neutral.
 root(ROOT-0, Get-1)
 det(look-3, the-2)
 iobj(Get-1, look-3)
@@ -796,6 +872,8 @@ dep(2322-10, $-9)
 dobj(Get-1, 2322-10)
 appos(2322-10, approx-12)
 
+38) MCQ Alexander McQueen at Stylebop.com, $264 -LRB- approx -RRB-. 
+Neutral.
 compound(Alexander-2, MCQ-1)
 nsubj(McQueen-3, Alexander-2)
 root(ROOT-0, McQueen-3)
@@ -805,31 +883,42 @@ dep(264-8, $-7)
 appos(Stylebop.com-5, 264-8)
 appos(264-8, approx-10)
 
+39) All My Relations, $2295. 
+Neutral.
 det(Relations-3, All-1)
 compound(Relations-3, My-2)
 root(ROOT-0, Relations-3)
 dep(2295-6, $-5)
 appos(Relations-3, 2295-6)
 
+40) Kowtow, $229. 
+Neutral.
 root(ROOT-0, Kowtow-1)
 dep(229-4, $-3)
 appos(Kowtow-1, 229-4)
 
+41) ASOS, $70. 
+Neutral.
 root(ROOT-0, ASOS-1)
 dep(70-4, $-3)
 appos(ASOS-1, 70-4)
 
+42) Jeanswest, $119. 
+Neutral.
 root(ROOT-0, Jeanswest-1)
 dep(119-4, $-3)
 appos(Jeanswest-1, 119-4)
 
+43) Need more inspiration? 
+Neutral.
 root(ROOT-0, Need-1)
 amod(inspiration-3, more-2)
 dobj(Need-1, inspiration-3)
 
+44) Shop our editor's picks 
+Neutral.
 root(ROOT-0, Shop-1)
 nmod:poss(editor-3, our-2)
 nmod:poss(picks-5, editor-3)
 case(editor-3, 's-4)
 dobj(Shop-1, picks-5)
-

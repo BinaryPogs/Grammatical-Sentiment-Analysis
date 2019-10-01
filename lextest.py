@@ -197,12 +197,12 @@ for i in map_list:
     amod_nmod_map.update(eval(i)) #feeds and combines the list of rule dictionaries into a larger combined one
 
 
+        
 targets_marked = open('targetsmarked.txt', 'w+')
 for idx,pline in pline_map.items():
     targets_marked.write(pline)
-    if amod_nmod_map.get(idx) != None:
+    if amod_nmod_map.get(idx) != None and ('t{}'.format(amod_nmod_map[idx][1]) not in pline):
         targets_marked.write('t{} \n'.format(amod_nmod_map[idx][1])) ##appends the t# based on s#
     else:
         targets_marked.write('\n') ## if it's just a normal line, new line and continue printing text
-        
 
