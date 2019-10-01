@@ -25,7 +25,7 @@ advcl_dobj_map = {}
 line_map = {}
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
 #filename = input('Enter Filename:')
-lexxe = open('C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\anttest.ant').read()
+lexxe = open('C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\000140.ant').read()
 
 
 paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
@@ -93,7 +93,7 @@ for k,v in sourcemap.items():
                         if second_word == [i]:
                             amod_nmod1_map[k1] = second_word, v[-1]
 
-map_list.append('advmod_conjb_map')
+map_list.append('amod_nmod_map')
 
 for k,v in sourcemap.items():
     if re.search('amod',v):
@@ -123,7 +123,7 @@ for k, v in sourcemap.items():
                             if second_word == [i]:
                                 advmod_conjb_map[k1] = second_word, v[-1] #this creates a dict with para+line as keys
                                                                           # and target word, target number as values
-map_list.append('amod_nmod_map')
+map_list.append('advmod_conjb_map')
 
 
 for k, v in sourcemap.items():
@@ -137,6 +137,7 @@ for k, v in sourcemap.items():
                         for i in first_word:
                             if second_word == [i]:
                                 amod_nmodin_map[k1] = second_word, v[-1]
+
 map_list.append('amod_nmodin_map')
 
 for k, v in sourcemap.items():
@@ -191,7 +192,7 @@ for k, v in sourcemap.items():
                         for i in first_word:
                             if second_word == [i]:
                                 second_word = re.findall('\, (.*?)\-',v1)
-                                advmod_nmod_map[k1] = second_word, v1[-1]
+                                advmod_nmod_map[k1] = second_word, v[-1]
 map_list.append('advmod_nmod_map')
 for i in map_list:
     amod_nmod_map.update(eval(i)) #feeds and combines the list of rule dictionaries into a larger combined one
@@ -200,7 +201,7 @@ for i in map_list:
 targets_marked = open('targetsmarked.txt', 'w+')
 for idx,pline in pline_map.items():
     targets_marked.write(pline)
-    if amod_nmod_map.get(idx) != None:
+    if amod_nmod_map.get(idx) != None and ('t{}'.format(amod_nmod_map[idx][1]) not in pline):
         targets_marked.write('t{} \n'.format(amod_nmod_map[idx][1])) ##appends the t# based on s#
     else:
         targets_marked.write('\n') ## if it's just a normal line, new line and continue printing text

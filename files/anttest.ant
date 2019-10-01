@@ -44,7 +44,7 @@ amod(Market-8, magical-5) s1
 compound(Market-8, Portobello-6)
 compound(Market-8, Road-7)
 nsubj('s-2, Market-8)
-acl:relcl(Market-8, find-9) t1
+acl:relcl(Market-8, find-9)
 dobj(find-9, those-11)
 mark(able-23, that-12)
 nsubj(able-23, you-13) t2
