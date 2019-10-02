@@ -64,7 +64,19 @@ def createParaLineMap(p_map): ##Uses the p_map to create a para_line map which
             pline_map[idx] = item
     return pline_map
 
-
+def print_progress_bar(iteration, total, prefix="", suffix="", length=30, fill="=", head=">", track="."):
+    filled_length = int(length * iteration // total)
+    if filled_length == 0:
+        bar = track * length
+    elif filled_length == 1:
+        bar = head + track * (length - 1)
+    elif filled_length == length:
+        bar = fill * filled_length
+    else:
+        bar = fill * (filled_length-1) + ">" + "." * (length-filled_length)
+    print("\r" + prefix + "[" + bar + "] " + str(iteration) + "/" + str(total), suffix, end = "\r")
+    if iteration == total: 
+        print()
 
 def count_targets(p):
     count = 0
@@ -289,17 +301,21 @@ for k, v in sourcemap.items():
 
 map_list.append('advcl_dobj_map')
 
-print(amod_dobj_map)
+
 for i in map_list:
     #print(eval(i))
     amod_nmod_map.update(eval(i)) #feeds and combines the list of rule dictionaries into a larger combined one
 
-targets_marked = open('targetsmarked.txt', 'w+')
+targets = open('targets.txt', 'w+')
+i=0
+print('Creating Target File...')
 for idx,pline in pline_map.items():
-    targets_marked.write(pline)
-    if amod_nmod_map.get(idx) != None: #and not re.search('t[0-9]$',pline
-        targets_marked.write('t{} \n'.format(amod_nmod_map[idx][1])) ##appends the t# based on s#
+    i+=1
+    print_progress_bar(i+1, len(pline_map)+1)
+    targets.write(pline)
+    if amod_nmod_map.get(idx) != None and not re.search('t[0-9]$',pline):
+        targets.write('t{} \n'.format(amod_nmod_map[idx][1])) ##appends the t# based on s#
     else:
-        targets_marked.write('\n') ## if it's just a normal line, new line and continue printing text
-
+        targets.write('\n') ## if it's just a normal line, new line and continue printing text
+print('targets.txt created')
 
