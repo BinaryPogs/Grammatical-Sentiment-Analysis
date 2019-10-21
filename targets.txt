@@ -2,18 +2,18 @@ nsubj(heard-3, You-1)
 aux(heard-3, 've-2)
 root(ROOT-0, heard-3)
 case(food-6, of-4)
-amod(food-6, slow-5) s1
+amod(food-6, slow-5) s1t1 
 nmod:of(heard-3, food-6) t1 
 
 nsubj(denim-4, This-1)
 cop(denim-4, is-2)
-amod(denim-4, slow-3) s1
+amod(denim-4, slow-3) s1t1 
 root(ROOT-0, denim-4) t1 
 
 nsubj(love-2, I-1)
 root(ROOT-0, love-2) s1
 det(perve-5, a-3)
-amod(perve-5, good-4) s2
+amod(perve-5, good-4) s2t2 
 dobj(love-2, perve-5) t1 
 case(wardrobe-10, inside-6)
 det(celebrity-8, a-7)
@@ -23,14 +23,14 @@ nmod:inside(love-2, wardrobe-10)
 advmod(love-2, thanks-12) s3
 case(mags-16, to-13)
 det(mags-16, the-14)
-amod(mags-16, glossy-15) s4
+amod(mags-16, glossy-15) s4t4 
 nmod:to(thanks-12, mags-16) t3 
 
 expl('s-2, There-1)
 root(ROOT-0, 's-2)
 advmod('s-2, always-3)
 det(Market-8, some-4)
-amod(Market-8, magical-5) s1
+amod(Market-8, magical-5) s1t1 
 compound(Market-8, Portobello-6)
 compound(Market-8, Road-7)
 nsubj('s-2, Market-8)
@@ -53,7 +53,7 @@ advmod(able-23, plus-27)
 advmod(often-30, quite-29)
 advmod('s-2, often-30)
 det(number-34, a-32)
-amod(number-34, staggering-33) s3
+amod(number-34, staggering-33) s3t3 
 nsubj('s-2, number-34) t3
 case(jeans-36, of-35)
 nmod:of(number-34, jeans-36) t3
@@ -77,8 +77,8 @@ root(ROOT-0, wearing-6)
 det(pair-8, a-7)
 dobj(wearing-6, pair-8)
 case(overalls-13, of-9)
-amod(overalls-13, colourful-10) s1
-amod(overalls-13, customised-12) s2
+amod(overalls-13, colourful-10) s1t2 
+amod(overalls-13, customised-12) s2t2 
 nmod:of(pair-8, overalls-13) t1 t2
 case(LAX-15, at-14)
 nmod:at(wearing-6, LAX-15)
@@ -97,7 +97,7 @@ case(planet-14, on-12)
 det(planet-14, the-13)
 dep(have-11, planet-14)
 det(chemicals-18, the-16)
-amod(chemicals-18, toxic-17) s1
+amod(chemicals-18, toxic-17) s1t1 
 dep(planet-14, chemicals-18) t1
 cc(chemicals-18, and-19)
 compound(usage-21, water-20) t1
@@ -110,8 +110,8 @@ nmod:in(chemicals-18, process-25)
 det(impact-28, the-27)
 appos(process-25, impact-28) t2
 case(techniques-34, of-29)
-amod(techniques-34, so-called-30)
-amod(techniques-34, distressing-32) s2
+amod(techniques-34, so-called-30)t2 
+amod(techniques-34, distressing-32) s2t2 
 nmod:of(impact-28, techniques-34) t2
 cc(planet-14, and-36)
 mark(on-38, so-37)
@@ -181,7 +181,7 @@ compound(consumption-23, denim-22) t2
 dobj(slowing-21, consumption-23) t2
 mark(producing-25, by-24)
 advcl(slowing-21, producing-25) s3 t4
-amod(pieces-27, one-of-a-kind-26) s5
+amod(pieces-27, one-of-a-kind-26) s5t5 
 dobj(producing-25, pieces-27) t3 t5
 advcl(producing-25, using-28) s4 
 advmod(different-30, very-29) s7
@@ -301,7 +301,7 @@ compound(Relations-3, My-2)
 nsubj(takes-4, Relations-3)
 nsubj(creates-16, Relations-3) t1 
 root(ROOT-0, takes-4)
-amod(pieces-7, vintage-5)
+amod(pieces-7, vintage-5)t2 
 compound(pieces-7, denim-6)
 dobj(takes-4, pieces-7) t2 
 cc(takes-4, and-8)
@@ -311,7 +311,7 @@ amod(techniques-14, chain-stitch-12)
 compound(techniques-14, embroidery-13)
 dobj(using-10, techniques-14)
 conj:and(takes-4, creates-16) s1
-amod(pieces-18, one-off-17) s2
+amod(pieces-18, one-off-17) s2t2 
 dobj(creates-16, pieces-18) t2 
 
 nsubj(receive-4, You-1)
@@ -358,17 +358,17 @@ det(nature-20, the-18)
 amod(nature-20, homogenous-19)
 nmod:to(counterpoint-16, nature-20)
 case(fashion-23, of-21)
-amod(fashion-23, fast-22) s2
+amod(fashion-23, fast-22) s2t2 
 nmod:of(nature-20, fashion-23) t2
 
-nsubj(bring-4, People-2)
+nsubj(bring-4, People-2)t1 
 aux(bring-4, will-3)
 ccomp(says-37, bring-4) s1
 iobj(bring-4, me-5) t1 
 det(jacket-10, a-6)
-amod(jacket-10, -LSB--7)
-amod(jacket-10, new-8) s2
-amod(jacket-10, -RSB--9)
+amod(jacket-10, -LSB--7)t2 
+amod(jacket-10, new-8) s2t2 
+amod(jacket-10, -RSB--9)t2 
 dobj(bring-4, jacket-10) t2 
 cc(bring-4, but-11)
 nsubj(educate-14, I-12)
@@ -386,22 +386,22 @@ xcomp(going-20, get-22)
 det(work-24, some-23)
 dobj(get-22, work-24)
 acl(work-24, done-25)
-nsubj(worth-28, it-26) t5
+nsubj(worth-28, it-26) t5 
 cop(worth-28, 's-27)
 ccomp(done-25, worth-28) s5
-xcomp(worth-28, getting-29) t5
+xcomp(worth-28, getting-29) t5 
 det(piece-33, a-30)
-amod(piece-33, quality-31) s4
-amod(piece-33, vintage-32)
+amod(piece-33, quality-31) s4t4 
+amod(piece-33, vintage-32)t4 
 dobj(getting-29, piece-33) t4
 nsubj(says-37, he-36)
 root(ROOT-0, says-37)
 
 det(denim-3, The-1)
-amod(denim-3, best-2) s1
+amod(denim-3, best-2) s1t1 
 nsubj(denim-6, denim-3)
 cop(denim-6, is-4)
-amod(denim-6, vintage-5) t1
+amod(denim-6, vintage-5) t1 
 root(ROOT-0, denim-6) t1
 advmod(when-9, especially-8)
 advmod(wear-11, when-9)
@@ -644,7 +644,7 @@ compound(Town-22, Jeans-21)
 appos(Xintang-15, Town-22)
 advmod(turns-31, where-25)
 det(run-off-28, the-26)
-amod(run-off-28, toxic-27) s1
+amod(run-off-28, toxic-27) s1t1 
 nsubj(turns-31, run-off-28)
 nsubj(affects-36, run-off-28)
 case(production-30, from-29)
@@ -665,7 +665,7 @@ nmod:of(health-38, workers-41) t1
 case(Greenpeace-4, According-2)
 mwe(According-2, to-3)
 nmod:according_to(pollute-12, Greenpeace-4)
-amod(levels-7, high-6) s1
+amod(levels-7, high-6) s1t1 
 nsubj(pollute-12, levels-7) t1 s2
 case(lead-9, of-8)
 nmod:of(levels-7, lead-9) t2 t3
@@ -711,10 +711,10 @@ amod(dollar-8, top-7)
 dobj(paying-6, dollar-8)
 case(denim-14, for-9)
 advmod(aged-11, artificially-10) s3
-amod(denim-14, aged-11) t3 s4
+amod(denim-14, aged-11) t3 s4t5 
 cc(aged-11, and-12)
 conj:and(aged-11, distressed-13) 
-amod(denim-14, distressed-13) s5
+amod(denim-14, distressed-13) s5t5 
 nmod:for(dollar-8, denim-14) t4 t5
 cc(avoid-5, and-15)
 advmod(embrace-17, instead-16)
@@ -741,7 +741,7 @@ nmod:of(badge-12, honour-14)
 root(ROOT-0, was-15)
 mark(earned-23, that-16)
 nmod:poss(pair-19, your-17)
-amod(pair-19, favourite-18) s1
+amod(pair-19, favourite-18) s1t1 
 nsubj(earned-23, pair-19) t1 t2
 case(jeans-21, of-20)
 nmod:of(pair-19, jeans-21) t1 t2

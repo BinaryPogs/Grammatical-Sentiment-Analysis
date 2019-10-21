@@ -422,10 +422,10 @@ xcomp(going-20, get-22)
 det(work-24, some-23)
 dobj(get-22, work-24)
 acl(work-24, done-25)
-nsubj(worth-28, it-26) t5
+nsubj(worth-28, it-26) 
 cop(worth-28, 's-27)
 ccomp(done-25, worth-28) s5
-xcomp(worth-28, getting-29) t5
+xcomp(worth-28, getting-29) 
 det(piece-33, a-30)
 amod(piece-33, quality-31) s4
 amod(piece-33, vintage-32)
@@ -439,7 +439,7 @@ det(denim-3, The-1)
 amod(denim-3, best-2) s1
 nsubj(denim-6, denim-3)
 cop(denim-6, is-4)
-amod(denim-6, vintage-5) t1
+amod(denim-6, vintage-5) 
 root(ROOT-0, denim-6) t1
 advmod(when-9, especially-8)
 advmod(wear-11, when-9)

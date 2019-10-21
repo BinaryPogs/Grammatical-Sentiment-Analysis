@@ -12,6 +12,7 @@ amod_nmod_map,amod_nmod1_map, amod_root_map,amod_dobj_map,advmod_nmod_map = {}, 
 amod_nmodin_map, amod_aclrel_map, neg_nmodas_map, root_dobj_map, cop_nmodas_map = {}, {}, {}, {}, {}
 advmod_conjb_map, conjb_nmodas_map, root_xcomp_map, advcl_dobj_map,compound_appos_map  = {}, {}, {}, {}, {}
 conj_nsubj_map, xcomp_dobj_map, xcomp_xsubj_map, ccomp_iobj_map, conj_dobj_map = {}, {}, {}, {}, {}
+ccomp_nsubj, ccomp_xcomp, amod_amod_map = {}, {}, {}
 line_map = {}
 
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
@@ -380,6 +381,51 @@ for k, v in sourcemap.items():
                                 conj_dobj_map[k1] = second_word, v.rstrip()[-1]
 map_list.append('conj_dobj_map')
 
+for k, v in sourcemap.items():
+    if re.search('ccomp', v):
+        v2 = str(re.findall("(?<=ccomp\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("nsubj", v1):
+                    second_word = re.findall(r'nsubj\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                ccomp_nsubj[k1] = second_word, v.rstrip()[-1]
+map_list.append('ccomp_nsubj')
+
+for k, v in sourcemap.items():
+    if re.search('ccomp', v):
+        v2 = str(re.findall("(?<=ccomp\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("xcomp", v1):
+                    second_word = re.findall(r'xcomp\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                ccomp_xcomp[k1] = second_word, v.rstrip()[-1]
+map_list.append('ccomp_xcomp')
+
+for k, v in sourcemap.items():
+    if re.search("amod", v):
+        first_word = re.findall(r'amod\(([^-]*)-', v)
+        for k1, v1 in pline_map.items():
+                if re.search('amod',v1):
+                    second_word = re.findall(
+                        r'amod\(([^-]*)-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                amod_amod_map[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('amod_amod_map')
+
 for i in map_list:
     amod_nmod_map.update(eval(i)) #feeds and combines the list of rule dictionaries into a larger combined one
 
@@ -395,4 +441,5 @@ for idx,pline in pline_map.items():
     else:
         targets.write('\n') ## if it's just a normal line, new line and continue printing text
 print('targets.txt created')
+
 
