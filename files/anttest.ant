@@ -221,7 +221,7 @@ nmod:poss(grandmother-11, his-10)
 nsubj(made-19, grandmother-11) t1
 det(seamstress-16, a-13)
 compound(seamstress-16, master-15) s1
-appos(grandmother-11, seamstress-16) t1
+appos(grandmother-11, seamstress-16) 
 acl(idea-7, made-19)
 iobj(made-19, him-20)
 det(jacket-22, a-21)
@@ -329,7 +329,7 @@ root(ROOT-0, says-22)
 det(Relations-3, All-1)
 compound(Relations-3, My-2)
 nsubj(takes-4, Relations-3)
-nsubj(creates-16, Relations-3) t1
+nsubj(creates-16, Relations-3) 
 root(ROOT-0, takes-4)
 amod(pieces-7, vintage-5)
 compound(pieces-7, denim-6)
@@ -374,11 +374,10 @@ advcl(emailed-19, inbox-23)
 16) Brown aims to create clothes that inspire an ``emotional reaction'', as a counterpoint to the homogenous nature of fast fashion. 
 
 nsubj(aims-2, Brown-1)
-nsubj:xsubj(create-4, Brown-1) t1
-root(ROOT-0, aims-2)
+nsubj:xsubj(create-4, Brown-1) 
 mark(create-4, to-3)
 xcomp(aims-2, create-4) s1
-dobj(create-4, clothes-5) t1
+dobj(create-4, clothes-5) 
 nsubj(inspire-7, clothes-5)
 ref(clothes-5, that-6)
 acl:relcl(clothes-5, inspire-7)
@@ -401,18 +400,18 @@ nmod:of(nature-20, fashion-23) t2
 nsubj(bring-4, People-2)
 aux(bring-4, will-3)
 ccomp(says-37, bring-4) s1
-iobj(bring-4, me-5) t1
+iobj(bring-4, me-5) 
 det(jacket-10, a-6)
 amod(jacket-10, -LSB--7)
 amod(jacket-10, new-8) s2
 amod(jacket-10, -RSB--9)
-dobj(bring-4, jacket-10) t2
+dobj(bring-4, jacket-10) 
 cc(bring-4, but-11)
 nsubj(educate-14, I-12)
 aux(educate-14, will-13)
 conj:but(bring-4, educate-14) s3
 ccomp(says-37, educate-14)
-dobj(educate-14, them-15) t3
+dobj(educate-14, them-15) 
 mark(going-20, if-17)
 nsubj(going-20, you-18)
 nsubj:xsubj(get-22, you-18)
