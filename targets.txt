@@ -120,7 +120,7 @@ xcomp(seem-9, prepared-10) s1-3/3
 nmod(prepared-10, for-11)
 det(test-15, the-13)
 compound(test-15, kangaroo-14) t1
-dep(thing-5, test-15) t1
+dep(thing-5, test-15) t1t3 
 
 det(government-3, The-1)
 compound(government-3, Queensland-2)

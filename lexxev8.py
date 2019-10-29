@@ -47,6 +47,7 @@ acl_nsubjp = {}
 nmod_nsubjpass = {}
 conja_advcl = {}
 acl_dobj={}
+acl_dep = {}
 neg_nsubj ={}
 appos_nsubj = {}
 xcomp_nsubj = {}
@@ -742,6 +743,22 @@ for k, v in sourcemap.items():
                                 second_word = re.findall('\, (.*?)\-',v1)
                                 acl_nsubj[k1] = second_word, v.rstrip()[-1]
 map_list.append('acl_nsubj')
+
+for k, v in sourcemap.items():
+    if re.search("acl:relcl", v):
+        first_word = re.findall(r'acl:relcl\(([^-]*)-', v)
+        for k1, v1 in pline_map.items():
+                if re.search('dep',v1):
+                    second_word = re.findall(
+                        r'dep\(([^-]*)-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                acl_dep[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('acl_dep')
+
 
 for i in map_list:
     #print(eval(i))
