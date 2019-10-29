@@ -650,7 +650,7 @@ amod(uniform-22, global-21)
 xcomp(become-17, uniform-22)
 cc(become-17, and-24)
 nsubj(need-26, we-25)
-nsubj:xsubj(mindful-30, we-25) t1
+nsubj:xsubj(mindful-30, we-25) 
 dep(says-14, need-26)
 conj:and(become-17, need-26)
 mark(mindful-30, to-27)
@@ -702,7 +702,7 @@ amod(run-off-28, toxic-27) s1
 nsubj(turns-31, run-off-28)
 nsubj(affects-36, run-off-28)
 case(production-30, from-29)
-nmod:from(run-off-28, production-30) t1
+nmod:from(run-off-28, production-30) 
 acl:relcl(Xintang-15, turns-31)
 det(waterways-33, the-32)
 nsubj(blue-34, waterways-33) t1 t2
@@ -724,13 +724,13 @@ nmod:according_to(pollute-12, Greenpeace-4)
 amod(levels-7, high-6) s1
 nsubj(pollute-12, levels-7) t1 s2
 case(lead-9, of-8)
-nmod:of(levels-7, lead-9) t2 t3
+nmod:of(levels-7, lead-9) 
 cc(lead-9, and-10)
 nmod:of(levels-7, copper-11) t2 t3
 conj:and(lead-9, copper-11)
 root(ROOT-0, pollute-12) s3
 det(riverbed-14, the-13)
-dobj(pollute-12, riverbed-14) t3
+dobj(pollute-12, riverbed-14) 
 
 28) The dust in the streets is blue. 
 
@@ -756,7 +756,7 @@ advmod(blue-8, too-9)
 30) The air stinks,'' she says. 
 
 det(air-2, The-1)
-nsubj(stinks-3, air-2) t1
+nsubj(stinks-3, air-2) 
 ccomp(says-7, stinks-3) s1
 nsubj(says-7, she-6)
 root(ROOT-0, says-7)
@@ -765,21 +765,21 @@ root(ROOT-0, says-7)
 
 nsubj(encourages-2, She-1)
 root(ROOT-0, encourages-2) s1
-dobj(encourages-2, consumers-3) t1
+dobj(encourages-2, consumers-3) 
 nsubj:xsubj(avoid-5, consumers-3)
 nsubj:xsubj(embrace-17, consumers-3)
 mark(avoid-5, to-4)
 xcomp(encourages-2, avoid-5) s2
-xcomp(avoid-5, paying-6) t2
+xcomp(avoid-5, paying-6) 
 amod(dollar-8, top-7)
 dobj(paying-6, dollar-8)
 case(denim-14, for-9)
 advmod(aged-11, artificially-10) s3
-amod(denim-14, aged-11) t3 s4
+amod(denim-14, aged-11) s4
 cc(aged-11, and-12)
 conj:and(aged-11, distressed-13) 
 amod(denim-14, distressed-13) s5
-nmod:for(dollar-8, denim-14) t4 t5
+nmod:for(dollar-8, denim-14) 
 cc(avoid-5, and-15)
 advmod(embrace-17, instead-16)
 xcomp(encourages-2, embrace-17) s6
@@ -787,7 +787,7 @@ conj:and(avoid-5, embrace-17)
 det(process-21, the-18)
 amod(process-21, natural-19) t6
 compound(process-21, ageing-20) t6
-dobj(embrace-17, process-21) t6
+dobj(embrace-17, process-21) 
 
 32) ``The whole idea behind that sort of look as a badge of honour was that your favourite pair of jeans had earned those makers of age. 
 
@@ -810,7 +810,7 @@ nmod:poss(pair-19, your-17)
 amod(pair-19, favourite-18) s1
 nsubj(earned-23, pair-19) t1 t2
 case(jeans-21, of-20)
-nmod:of(pair-19, jeans-21) t1 t2
+nmod:of(pair-19, jeans-21) 
 aux(earned-23, had-22)
 ccomp(was-15, earned-23) s2
 det(makers-25, those-24)
