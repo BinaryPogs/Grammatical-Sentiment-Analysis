@@ -35,7 +35,7 @@ advcl_dobj = {}
 acl_dobj = {}
 acl_nsubj = {}
 acl_nmodw = {}
-
+advcl_nsubj = {}
 line_map = {}
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
 filename = input('Enter Filename:')
@@ -493,20 +493,22 @@ for k, v in sourcemap.items():
                                 acl_nmodw[k1] = second_word, v.rstrip()[-1]
 map_list.append('acl_nmodw')
 
+
 for k, v in sourcemap.items():
-    if re.search("acl:relcl", v):
-        first_word = re.findall(r'acl:relcl\(([^-]*)-', v)
+    if re.search('advcl', v):
+        v2 = str(re.findall("(?<=advcl\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
         for k1, v1 in pline_map.items():
-                if re.search('nmod:with',v1):
-                    second_word = re.findall(
-                        r'nmod:with\(([^-]*)-', v1.lstrip(' '))
+                if re.search("nsubj", v1):
+                    second_word = re.findall(r'nsubj\(([^-]*)-',
+                                             v1.lstrip(' '))
                     if k[:4] == k1[:4]:
                         for i in first_word:
                             if second_word == [i]:
-                                second_word = re.findall('\, (.*?)\-', v1)
-                                acl_nmodw[k1] = second_word, v.rstrip()[-1]
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                advcl_nsubj[k1] = second_word, v.rstrip()[-1]
+map_list.append('advcl_nsubj')
 
-map_list.append('acl_nmodw')
 
 for i in map_list:
     #print(eval(i))

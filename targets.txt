@@ -539,7 +539,7 @@ det(-RSB--15, the-13)
 compound(-RSB--15, jacket-14) t1
 dobj(-LSB--12, -RSB--15)
 compound:prt(-LSB--12, over-16)
-nsubj(love-21, it-18) t1
+nsubj(love-21, it-18) t1 
 cop(love-21, 's-19)
 case(love-21, with-20)
 advcl(know-5, love-21) s1
