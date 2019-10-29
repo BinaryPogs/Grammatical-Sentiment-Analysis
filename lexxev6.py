@@ -12,7 +12,7 @@ amod_nmod_map,amod_nmod1_map, amod_root_map,amod_dobj_map,advmod_nmod_map = {}, 
 amod_nmodin_map, amod_aclrel_map, neg_nmodas_map, root_dobj_map, cop_nmodas_map = {}, {}, {}, {}, {}
 advmod_conjb_map, conjb_nmodas_map, root_xcomp_map, advcl_dobj_map,compound_appos_map  = {}, {}, {}, {}, {}
 conj_nsubj_map, xcomp_dobj_map, xcomp_xsubj_map, ccomp_iobj_map, conj_dobj_map = {}, {}, {}, {}, {}
-ccomp_nsubj, ccomp_xcomp, amod_amod_map = {}, {}, {}
+ccomp_nsubj, ccomp_xcomp, ccomp_iobj = {}, {}, {}, {}
 line_map = {}
 
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
@@ -84,20 +84,20 @@ pline_map = createParaLineMap(p_map)
 target_count = count_targets(p_map)
 
 
-for k,v in sourcemap.items():
-    if re.search('amod', v):
+for k,v in sourcemap.items(): #Goes through all the source lines
+    if re.search('amod', v): #Searches for all the amod words
         first_word = re.findall(r'amod\(([^-]*)-', v)
-        #print(first_word, 'first')
-        for k1,v1 in pline_map.items():
-            if re.search("nmod:of", v1):
+        for k1,v1 in pline_map.items(): #Searches through all the paragraph lines
+            if re.search("nmod:of", v1): #Looks at all the nmod:of words
                 second_word = re.findall(
-                        r'nmod:of\(([^-]*)-', v1.lstrip(' '))
-                if k[:4] == k1[:4]:
+                        r'nmod:of\(([^-]*)-', v1.lstrip(' ')) #Finds the 2nd word of nmod:of
+                if k[:4] == k1[:4]: #Checks to see if they're in the same paragraph, if not the rule shouldn't apply
                     for i in first_word:
                         second_word = re.findall(
                                     '\, (.*?)\-', v1.lstrip(' '))
-                        if second_word == [i]:
-                            amod_nmod1_map[k1] = second_word, v.rstrip()[-1]
+                        if second_word == [i]: #Checks to see if the second word in nmod:of is the same as the first word in amod
+                            amod_nmod1_map[k1] = second_word, v.rstrip()[-1] 
+                            #Adds to a new dictionary for all words that are the same (this means that they are the target words)
 
 map_list.append('amod_nmod_map')
 
@@ -395,6 +395,23 @@ for k, v in sourcemap.items():
                                 second_word = re.findall('\, (.*?)\-',v1)
                                 ccomp_xcomp[k1] = second_word, v.rstrip()[-1]
 map_list.append('ccomp_xcomp')
+
+for k, v in sourcemap.items():
+    if re.search('ccomp', v):
+        v2 = str(re.findall("(?<=ccomp\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("iobj", v1):
+                    second_word = re.findall(r'iobj\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                ccomp_iobj[k1] = second_word, v.rstrip()[-1]
+map_list.append('ccomp_iobj')
+
+
 
 # for k, v in sourcemap.items():
 #     if re.search("amod", v):

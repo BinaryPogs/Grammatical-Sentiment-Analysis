@@ -30,6 +30,12 @@ ccomp_iobj_map = {}
 conj_dobj_map = {}
 ccomp_nsubj = {}
 ccomp_xcomp = {}
+nmodb_nmodp = {}
+advcl_dobj = {}
+acl_dobj = {}
+acl_nsubj = {}
+acl_nmodw = {}
+
 line_map = {}
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
 filename = input('Enter Filename:')
@@ -98,7 +104,6 @@ p_map = p_map(paragraphs)
 sourcemap = createSourceMap(p_map)
 pline_map = createParaLineMap(p_map)
 target_count = count_targets(p_map)
-
 
 for k,v in sourcemap.items():
     if re.search('amod', v):
@@ -426,11 +431,88 @@ for k, v in sourcemap.items():
                                 ccomp_xcomp[k1] = second_word, v.rstrip()[-1]
 map_list.append('ccomp_xcomp')
 
+for k, v in sourcemap.items():
+    if re.search('nmod:but', v):
+        v2 = str(re.findall("(?<=nmod:but\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("nmod:poss", v1):
+                    second_word = re.findall(r'nmod:poss\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                nmodb_nmodp[k1] = second_word, v.rstrip()[-1]
+map_list.append('nmodb_nmodp')
 
+for k, v in sourcemap.items():
+    if re.search("advcl", v):
+        first_word = re.findall(r'advcl\(([^-]*)-', v)
+        for k1, v1 in pline_map.items():
+                if re.search('dobj',v1):
+                    second_word = re.findall(
+                        r'dobj\(([^-]*)-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                advcl_dobj[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('advcl_dobj')
+
+
+for k, v in sourcemap.items():
+    if re.search('acl:relcl', v):
+        v2 = str(re.findall("(?<=acl:relcl\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("dobj", v1):
+                    second_word = re.findall(r'dobj\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                acl_dobj[k1] = second_word, v.rstrip()[-1]
+map_list.append('acl_dobj')
+
+
+for k, v in sourcemap.items():
+    if re.search('acl:relcl', v):
+        v2 = str(re.findall("(?<=acl:relcl\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("nmod:with", v1):
+                    second_word = re.findall(r'nmod:with\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                acl_nmodw[k1] = second_word, v.rstrip()[-1]
+map_list.append('acl_nmodw')
+
+for k, v in sourcemap.items():
+    if re.search("acl:relcl", v):
+        first_word = re.findall(r'acl:relcl\(([^-]*)-', v)
+        for k1, v1 in pline_map.items():
+                if re.search('nmod:with',v1):
+                    second_word = re.findall(
+                        r'nmod:with\(([^-]*)-', v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-', v1)
+                                acl_nmodw[k1] = second_word, v.rstrip()[-1]
+
+map_list.append('acl_nmodw')
 
 for i in map_list:
     #print(eval(i))
     amod_nmod_map.update(eval(i)) #feeds and combines the list of rule dictionaries into a larger combined one
+
+found_targets_counter = 0
 
 targets = open('targets.txt', 'w+')
 i=0
@@ -444,3 +526,4 @@ for idx,pline in pline_map.items():
     else:
         targets.write('\n') ## if it's just a normal line, new line and continue printing text
 print('targets.txt created')
+print("Found {} targets".format(len(amod_nmod_map)))

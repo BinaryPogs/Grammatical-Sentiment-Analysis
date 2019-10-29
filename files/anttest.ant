@@ -498,7 +498,7 @@ nsubj(produces-27, desire-8)
 case(ink-10, for-9)
 nmod:for(desire-8, ink-10)
 case(inability-13, but-11)
-nmod:poss(inability-13, her-12) t1
+nmod:poss(inability-13, her-12) 
 nmod:but(ink-10, inability-13) s1
 mark(commit-15, to-14)
 acl(desire-8, commit-15) t1
@@ -506,7 +506,7 @@ mark(led-17, that-16)
 ccomp(commit-15, led-17)
 det(illustrator-20, the-18)
 compound(illustrator-20, fashion-19) t2
-dobj(led-17, illustrator-20) t2
+dobj(led-17, illustrator-20) 
 mark(create-22, to-21)
 advcl(led-17, create-22) s2
 nmod:poss(brand-24, her-23)
@@ -514,7 +514,7 @@ dobj(create-22, brand-24) t2
 ref(desire-8, which-26)
 acl:relcl(desire-8, produces-27) t2 s3
 amod(designs-29, painted-28)
-dobj(produces-27, designs-29) t3
+dobj(produces-27, designs-29) 
 case(denim-32, on-30)
 amod(denim-32, vintage-31)
 nmod:on(designs-29, denim-32) t3
@@ -545,14 +545,14 @@ conj:and(Smith-8, Love-14)
 nsubj(recalls-2, Darby-1)
 root(ROOT-0, recalls-2)
 nummod(client-4, one-3)
-nsubj(struggled-8, client-4) t1
+nsubj(struggled-8, client-4) 
 nsubj(sparkling-18, client-4)
 ref(client-4, who-6)
 aux(struggled-8, had-7)
 acl:relcl(client-4, struggled-8) s1
 case(image-11, with-9)
 compound(image-11, body-10) t1
-nmod:with(struggled-8, image-11) t1
+nmod:with(struggled-8, image-11) 
 nmod:poss(life-14, her-12) t1
 amod(life-14, whole-13)
 dep(image-11, life-14) t1
