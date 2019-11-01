@@ -1,0 +1,1155 @@
+008390.psd
+
+1) Christian Coleman, the college kid primed to spoil Usain Bolt's farewell A lot can be gleaned from a goodbye. 
+
+compound(Coleman-2, Christian-1) 
+nsubjpass(gleaned-18, Coleman-2) 
+det(kid-6, the-4)
+compound(kid-6, college-5) 
+appos(Coleman-2, kid-6) 
+acl(kid-6, primed-7) s3
+mark(spoil-9, to-8)
+xcomp(primed-7, spoil-9)  s1
+compound(Bolt-11, Usain-10)
+nmod:poss(farewell-13, Bolt-11)
+case(Bolt-11, 's-12)
+dobj(spoil-9, farewell-13) 
+det(lot-15, A-14) 
+dep(farewell-13, lot-15) 
+aux(gleaned-18, can-16)
+auxpass(gleaned-18, be-17) 
+root(ROOT-0, gleaned-18) s2
+case(goodbye-21, from-19) 
+det(goodbye-21, a-20)
+nmod:from(gleaned-18, goodbye-21)
+
+2) For many sports people, time spent talking to the media is an exercise in finishing the job with minimal pain. 
+
+case(people-4, For-1)
+amod(people-4, many-2)
+compound(people-4, sports-3)
+nmod:for(exercise-14, people-4)
+nsubj(exercise-14, time-6) 
+acl(time-6, spent-7)
+xcomp(spent-7, talking-8)
+case(media-11, to-9)
+det(media-11, the-10)
+nmod:to(talking-8, media-11)
+cop(exercise-14, is-12)
+det(exercise-14, an-13)
+root(ROOT-0, exercise-14)  s2
+mark(finishing-16, in-15)
+acl(exercise-14, finishing-16) s1 
+det(job-18, the-17)
+dobj(finishing-16, job-18) 
+case(pain-21, with-19)
+amod(pain-21, minimal-20) s4
+nmod:with(finishing-16, pain-21) s3 
+
+3) It is understandable - how many times can a person be asked the same questions? 
+
+nsubj(understandable-3, It-1) 
+cop(understandable-3, is-2)
+root(ROOT-0, understandable-3) s1
+advmod(many-6, how-5)
+amod(times-7, many-6)
+dep(asked-12, times-7)
+aux(asked-12, can-8)
+det(person-10, a-9)
+nsubjpass(asked-12, person-10) 
+auxpass(asked-12, be-11)
+dep(understandable-3, asked-12) s2
+det(questions-15, the-13)
+amod(questions-15, same-14) s3
+dobj(asked-12, questions-15)  
+
+4) But as I start wrapping up and thanking Christian Coleman for putting up with my queries, he interjects: ``No, I thank you for your time, truly. 
+
+cc(interjects-19, But-1)
+mark(start-4, as-2)
+nsubj(start-4, I-3) 
+advcl(interjects-19, start-4) s4
+ccomp(start-4, wrapping-5) 
+compound:prt(wrapping-5, up-6) 
+cc(wrapping-5, and-7)
+ccomp(start-4, thanking-8) s1 
+conj:and(wrapping-5, thanking-8)
+compound(Coleman-10, Christian-9) 
+dobj(thanking-8, Coleman-10) 
+mark(putting-12, for-11)
+acl(Coleman-10, putting-12) s2-1/3 
+compound:prt(putting-12, up-13) s2-2/3 
+case(queries-16, with-14) s2-3/3 
+nmod:poss(queries-16, my-15)
+nmod:with(putting-12, queries-16) 
+nsubj(interjects-19, he-18) 
+root(ROOT-0, interjects-19) s5
+discourse(thank-25, No-22)
+nsubj(thank-25, I-24) 
+ccomp(interjects-19, thank-25) s3 
+dobj(thank-25, you-26) 
+case(time-29, for-27)
+nmod:poss(time-29, your-28) 
+nmod:for(thank-25, time-29) 
+advmod(thank-25, truly-31) s6
+
+5) ``Photo: AP It is a mark of how new this entire experience is to him and it is impossible not to be charmed by that. 
+
+nsubj(mark-8, Photo-2)
+advmod(mark-8, AP-4)
+nsubj(mark-8, It-5) 
+cop(mark-8, is-6)
+det(mark-8, a-7)
+root(ROOT-0, mark-8) s1
+case(new-11, of-9)
+advmod(new-11, how-10)
+nmod:of(him-17, new-11) s2
+det(experience-14, this-12)
+amod(experience-14, entire-13) s3
+nsubj(him-17, experience-14)   s4
+cop(him-17, is-15)
+case(him-17, to-16)
+acl:relcl(mark-8, him-17) 
+cc(mark-8, and-18)
+nsubj(impossible-21, it-19)
+nsubjpass:xsubj(charmed-25, it-19) 
+cop(impossible-21, is-20)
+conj:and(mark-8, impossible-21) s5
+neg(charmed-25, not-22)
+mark(charmed-25, to-23)
+auxpass(charmed-25, be-24) 
+xcomp(impossible-21, charmed-25) 
+case(that-27, by-26)
+nmod:by(charmed-25, that-27)
+
+6) Still a college student at the University of Tennessee, this is the first time Coleman, 21, has spoken to a journalist outside of the United States. 
+
+advmod(student-4, Still-1)
+det(student-4, a-2)
+compound(student-4, college-3)
+ccomp(time-15, student-4)
+case(University-7, at-5)
+det(University-7, the-6)
+nmod:at(student-4, University-7)
+case(Tennessee-9, of-8)
+nmod:of(University-7, Tennessee-9)
+nsubj(time-15, this-11)
+cop(time-15, is-12)
+det(time-15, the-13)
+amod(time-15, first-14)
+root(ROOT-0, time-15)
+nsubj(spoken-21, Coleman-16) 
+amod(Coleman-16, 21-18)
+aux(spoken-21, has-20)
+acl:relcl(time-15, spoken-21) s1-1/2
+case(States-29, to-22) s1-2/2
+det(States-29, a-23)
+compound(States-29, journalist-24) 
+case(States-29, outside-25)
+mwe(outside-25, of-26)
+det(States-29, the-27)
+compound(States-29, United-28)
+nmod:outside_of(spoken-21, States-29)
+
+7) There has been no reason to. 
+
+expl(reason-5, There-1) 
+aux(reason-5, has-2) s1
+cop(reason-5, been-3)
+neg(reason-5, no-4)
+root(ROOT-0, reason-5) 
+acl(reason-5, to-6)
+
+8) He has never been to Europe before and he readily admits that most people ``have never even heard of me''. 
+
+nsubj(Europe-6, He-1) 
+aux(Europe-6, has-2)
+neg(Europe-6, never-3)
+cop(Europe-6, been-4) s1-1/2
+case(Europe-6, to-5) s1-2/2
+root(ROOT-0, Europe-6) 
+advmod(Europe-6, before-7)
+cc(Europe-6, and-8)
+nsubj(admits-11, he-9) 
+advmod(admits-11, readily-10) s3
+conj:and(Europe-6, admits-11)  s2
+mark(heard-19, that-12)
+amod(people-14, most-13) s4
+nsubj(heard-19, people-14)  
+aux(heard-19, have-16)
+neg(heard-19, never-17)
+advmod(heard-19, even-18)
+ccomp(admits-11, heard-19) s5
+case(me-21, of-20)
+nmod:of(heard-19, me-21) 
+
+9) Which might only be the case for three more days. 
+
+nsubj(case-6, Which-1)
+aux(case-6, might-2)
+advmod(case-6, only-3)
+cop(case-6, be-4)
+det(case-6, the-5)
+root(ROOT-0, case-6)
+case(days-10, for-7)
+nummod(days-10, three-8)
+amod(days-10, more-9)
+nmod:for(case-6, days-10)
+
+10) Because Coleman is the fastest man in the world this year - and if he achieves his dream of raining on Usain Bolt's retirement parade at the London World Championships this weekend, everyone will know his name. 
+
+mark(man-6, Because-1)
+nsubj(man-6, Coleman-2) 
+cop(man-6, is-3)
+det(man-6, the-4)
+amod(man-6, fastest-5) s1
+advcl(know-37, man-6) 
+case(world-9, in-7)
+det(world-9, the-8)
+nmod:in(man-6, world-9)
+det(year-11, this-10)
+dep(world-9, year-11)
+cc(world-9, and-13)
+mark(achieves-16, if-14)
+nsubj(achieves-16, he-15) 
+nmod:in(man-6, achieves-16) s2
+conj:and(world-9, achieves-16)
+nmod:poss(dream-18, his-17)
+dobj(achieves-16, dream-18)  
+mark(raining-20, of-19)
+acl(dream-18, raining-20) s3
+case(parade-26, on-21)
+compound(Bolt-23, Usain-22) 
+nmod:poss(parade-26, Bolt-23)
+case(Bolt-23, 's-24)
+compound(parade-26, retirement-25) 
+nmod:on(raining-20, parade-26) 
+case(Championships-31, at-27)
+det(Championships-31, the-28)
+compound(Championships-31, London-29)
+compound(Championships-31, World-30)
+nmod:at(parade-26, Championships-31)
+det(weekend-33, this-32)
+dobj(raining-20, weekend-33)
+nsubj(know-37, everyone-35) 
+aux(know-37, will-36)
+root(ROOT-0, know-37) s4
+nmod:poss(name-39, his-38) 
+dobj(know-37, name-39) 
+
+11) First the numbers: Coleman's 9.82-second 100 metres time set in Eugene at the start of June is significantly faster than anyone else has managed this season - next on the list is Yohan Blake with 9.90 sec. 
+
+advmod(numbers-3, First-1)
+det(numbers-3, the-2)
+nsubj(faster-21, numbers-3)
+nmod:poss(time-10, Coleman-5) 
+case(Coleman-5, 's-6)
+amod(time-10, 9.82-second-7)
+nummod(metres-9, 100-8)
+dep(9.82-second-7, metres-9)
+dep(numbers-3, time-10)
+acl(time-10, set-11) 
+case(Eugene-13, in-12)
+nmod:in(set-11, Eugene-13)
+case(start-16, at-14)
+det(start-16, the-15)
+nmod:at(set-11, start-16)
+case(June-18, of-17)
+nmod:of(start-16, June-18)
+cop(faster-21, is-19)
+advmod(faster-21, significantly-20) s2
+root(ROOT-0, faster-21) s1-1/2 
+mark(managed-26, than-22) s1-2/2
+nsubj(managed-26, anyone-23)  
+advmod(anyone-23, else-24)  
+aux(managed-26, has-25)
+advcl(faster-21, managed-26) s3
+det(season-28, this-27) 
+dobj(managed-26, season-28) 
+nsubj(Blake-36, next-30) s4-1/4
+case(list-33, on-31) s4-2/4
+det(list-33, the-32) s4-3/4
+nmod:on(next-30, list-33) s4-4/4
+cop(Blake-36, is-34)
+compound(Blake-36, Yohan-35) 
+parataxis(faster-21, Blake-36) 
+case(sec-39, with-37)
+nummod(sec-39, 9.90-38)
+nmod:with(Blake-36, sec-39)
+
+12) Coleman has broken 10 seconds on no fewer than six occasions this year. 
+
+nsubj(broken-3, Coleman-1) 
+aux(broken-3, has-2)
+root(ROOT-0, broken-3) s1-1/2 
+nummod(seconds-5, 10-4) 
+dobj(broken-3, seconds-5) 
+case(occasions-11, on-6) s1-2/2 
+advmod(six-10, no-7) s2-1/3
+advmod(six-10, fewer-8) s2-2/3
+advmod(six-10, than-9) s2-3/3
+nummod(occasions-11, six-10) 
+nmod:on(broken-3, occasions-11) 
+det(year-13, this-12)
+dep(occasions-11, year-13)
+
+13) And he became only the second person in history, after Justin Gatlin, to complete the double-double of indoor 60m and 200m, and outdoor 100m and 200m NCAA - the US national collegiate competition - titles in one year. 
+。
+cc(became-3, And-1)
+nsubj(became-3, he-2)  
+root(ROOT-0, became-3) s1
+advmod(person-7, only-4) s2
+det(person-7, the-5)
+amod(person-7, second-6)  
+xcomp(became-3, person-7)  
+case(history-9, in-8)
+nmod:in(became-3, history-9)
+case(Gatlin-13, after-11)
+compound(Gatlin-13, Justin-12)
+nmod:after(became-3, Gatlin-13)
+mark(complete-16, to-15)
+advcl(became-3, complete-16) s3
+det(double-double-18, the-17)
+dobj(complete-16, double-double-18) 
+case(60m-21, of-19)
+amod(60m-21, indoor-20)
+nmod:of(double-double-18, 60m-21)
+cc(60m-21, and-22)
+nmod:of(double-double-18, 200m-23)
+conj:and(60m-21, 200m-23)
+cc(double-double-18, and-25)
+amod(100m-27, outdoor-26)
+dobj(complete-16, 100m-27)
+conj:and(double-double-18, 100m-27)
+cc(100m-27, and-28)
+compound(NCAA-30, 200m-29)
+conj:and(double-double-18, NCAA-30)
+conj:and(100m-27, NCAA-30)
+det(US-33, the-32)
+dep(100m-27, US-33)
+amod(competition-36, national-34)
+amod(competition-36, collegiate-35)
+dep(US-33, competition-36)
+dep(100m-27, titles-38)
+case(year-41, in-39)
+nummod(year-41, one-40)
+nmod:in(titles-38, year-41)
+
+14) By contrast, Bolt has run just three races, dipping below 10 seconds once. 
+
+case(contrast-2, By-1)
+nmod:by(run-6, contrast-2)
+nsubj(run-6, Bolt-4)  
+aux(run-6, has-5)
+root(ROOT-0, run-6) s1
+advmod(run-6, just-7) s2
+nummod(races-9, three-8)  
+nmod:npmod(just-7, races-9)  
+xcomp(run-6, dipping-11) s3-1/2 
+case(once-15, below-12) s3-2/2 
+nummod(seconds-14, 10-13) 
+nmod:npmod(once-15, seconds-14) 
+advcl(dipping-11, once-15) s4
+
+15) So has Coleman allowed himself to think how much his life might have changed by 10 pm on Saturday night? 
+
+advmod(has-2, So-1)
+root(ROOT-0, has-2)
+dobj(has-2, Coleman-3) 
+acl(Coleman-3, allowed-4) s1
+dobj(allowed-4, himself-5) 
+nsubj:xsubj(think-7, himself-5)
+mark(think-7, to-6)
+xcomp(allowed-4, think-7) 
+advmod(much-9, how-8) 
+dep(changed-14, much-9) 
+nmod:poss(life-11, his-10) 
+nsubj(changed-14, life-11) 
+aux(changed-14, might-12)
+aux(changed-14, have-13)
+dep(has-2, changed-14) s2
+case(pm-17, by-15)
+nummod(pm-17, 10-16)
+nmod:by(changed-14, pm-17)
+case(Saturday-19, on-18)
+nmod:on(pm-17, Saturday-19)
+nmod:tmod(changed-14, night-20)
+
+16) ``It would be crazy to beat Bolt,'' he says. 
+
+nsubj(crazy-5, It-2) 
+nsubj:xsubj(beat-7, It-2)
+aux(crazy-5, would-3)
+cop(crazy-5, be-4)
+ccomp(says-12, crazy-5) s1
+mark(beat-7, to-6)
+xcomp(crazy-5, beat-7)  s2
+dobj(beat-7, Bolt-8) 
+nsubj(says-12, he-11)
+root(ROOT-0, says-12)
+
+17) ``It would open the door for a lot of people to see me, who have never even heard of me before because I've never run on the pro circuit. 
+
+nsubj(open-4, It-2) 
+aux(open-4, would-3)
+root(ROOT-0, open-4) s1
+det(door-6, the-5)
+dobj(open-4, door-6) 
+case(lot-9, for-7)
+det(lot-9, a-8) s2-1/2
+nmod:for(open-4, lot-9) s2-2/2
+case(people-11, of-10)
+nmod:of(lot-9, people-11)    
+nsubj(heard-20, people-11)
+mark(see-13, to-12)
+acl(people-11, see-13) s3
+dobj(see-13, me-14) 
+ref(people-11, who-16)
+aux(heard-20, have-17)
+neg(heard-20, never-18) s4-1/2
+advmod(heard-20, even-19)
+acl:relcl(people-11, heard-20) s4-2/2
+case(me-22, of-21)
+nmod:of(heard-20, me-22) 
+advmod(run-28, before-23)
+mark(run-28, because-24)
+nsubj(run-28, I-25) 
+aux(run-28, 've-26)
+neg(run-28, never-27) s5-1/2
+advcl(open-4, run-28) s5-2/2
+case(circuit-32, on-29)
+det(circuit-32, the-30)
+amod(circuit-32, pro-31) 
+nmod:on(run-28, circuit-32) 
+
+18) It's definitely pretty exciting. 
+
+nsubj(exciting-5, It-1) 
+cop(exciting-5, 's-2)
+advmod(exciting-5, definitely-3) s2
+advmod(exciting-5, pretty-4) s3
+root(ROOT-0, exciting-5) s1  
+
+19) If I get the opportunity to make it to the final and line up next to him I'll be sure to take in the situation and remember the moment. 
+
+mark(get-3, If-1)
+nsubj(get-3, I-2)  
+advcl(sure-21, get-3) s2
+det(opportunity-5, the-4)
+dobj(get-3, opportunity-5)  
+nsubj:xsubj(make-7, opportunity-5)
+nsubj:xsubj(line-13, opportunity-5)
+mark(make-7, to-6)
+xcomp(get-3, make-7) s1-1/5
+dobj(make-7, it-8) s1-2/5
+case(final-11, to-9) s1-3/5
+det(final-11, the-10) s1-4/5
+nmod:to(make-7, final-11) s1-5/5
+cc(make-7, and-12)
+xcomp(get-3, line-13) s3-1/2 
+conj:and(make-7, line-13) 
+advmod(him-17, up-14) s3-2/2 
+case(him-17, next-15) s4-1/3
+mwe(next-15, to-16) s4-2/3
+nmod:next_to(line-13, him-17) s4-3/3
+nsubj(sure-21, I-18)
+nsubj:xsubj(take-23, I-18)
+nsubj:xsubj(remember-28, I-18) 
+aux(sure-21, 'll-19)
+cop(sure-21, be-20)
+root(ROOT-0, sure-21) s5
+mark(take-23, to-22)
+xcomp(sure-21, take-23)  s6-1/2
+case(situation-26, in-24)  s6-2/2
+det(situation-26, the-25)
+nmod:in(take-23, situation-26) 
+cc(take-23, and-27)
+xcomp(sure-21, remember-28)  s7
+conj:and(take-23, remember-28)
+det(moment-30, the-29)
+dobj(remember-28, moment-30) 
+
+20) You will now receive updates from Sport Newsletter Sport Newsletter Get the latest news and updates emailed straight to your inbox. 
+
+nsubj(receive-4, You-1)  
+aux(receive-4, will-2)
+advmod(receive-4, now-3)
+root(ROOT-0, receive-4) s1
+nsubj(Get-11, updates-5) 
+case(Newsletter-10, from-6)
+compound(Newsletter-10, Sport-7)
+compound(Newsletter-10, Newsletter-8)
+compound(Newsletter-10, Sport-9)
+nmod:from(updates-5, Newsletter-10)
+ccomp(receive-4, Get-11) s2
+det(news-14, the-12)
+amod(news-14, latest-13) s3
+dobj(Get-11, news-14)   
+cc(news-14, and-15)
+dobj(Get-11, updates-16)  
+conj:and(news-14, updates-16)
+acl(updates-16, emailed-17) s4 
+advmod(inbox-21, straight-18) s5
+case(inbox-21, to-19)
+nmod:poss(inbox-21, your-20) 
+advcl(emailed-17, inbox-21) 
+
+21) ``But at the same time I've got to pull myself back in and compete because it's an opportunity that not many people get. 
+
+cc(got-9, But-2)
+case(time-6, at-3)
+det(time-6, the-4)
+amod(time-6, same-5)
+advmod(got-9, time-6)
+nsubj(got-9, I-7)
+nsubj:xsubj(pull-11, I-7)
+nsubj:xsubj(compete-16, I-7)  
+aux(got-9, 've-8)
+root(ROOT-0, got-9)
+mark(pull-11, to-10)
+xcomp(got-9, pull-11) s1-1/3
+dobj(pull-11, myself-12) 
+compound:prt(pull-11, back-13) s1-2/3
+nmod(pull-11, in-14) s1-3/3
+cc(pull-11, and-15)
+xcomp(got-9, compete-16) s2
+conj:and(pull-11, compete-16)
+mark(opportunity-21, because-17)
+nsubj(opportunity-21, it-18)
+cop(opportunity-21, 's-19)
+det(opportunity-21, an-20)
+advcl(compete-16, opportunity-21) 
+mark(get-26, that-22)
+neg(people-25, not-23)
+amod(people-25, many-24)
+nsubj(get-26, people-25)
+ccomp(opportunity-21, get-26)
+
+22) I'm looking forward to it and I'm going to try to take full advantage of it. 
+
+nsubj(looking-3, I-1) 
+aux(looking-3, 'm-2)
+root(ROOT-0, looking-3) s3-1/2
+advmod(looking-3, forward-4) s3-2/2
+case(it-6, to-5)
+nmod:to(looking-3, it-6) 
+cc(looking-3, and-7)
+nsubj(going-10, I-8)
+nsubj:xsubj(try-12, I-8) 
+aux(going-10, 'm-9)
+conj:and(looking-3, going-10)
+mark(try-12, to-11)
+xcomp(going-10, try-12) s1 
+mark(take-14, to-13)
+xcomp(try-12, take-14)  s4-1/3
+amod(advantage-16, full-15) s2
+dobj(take-14, advantage-16)   s4-2/3
+case(it-18, of-17) s4-3/3
+nmod:of(advantage-16, it-18) 
+
+23) I always shoot for the stars and even if you don't make it that far, you end up pretty high. 
+
+nsubj(shoot-3, I-1) 
+advmod(shoot-3, always-2) s5
+root(ROOT-0, shoot-3) s1-1/2 
+case(stars-6, for-4) s1-2/2 
+det(stars-6, the-5)
+nmod:for(shoot-3, stars-6) 
+cc(shoot-3, and-7)
+advmod(make-13, even-8)
+mark(make-13, if-9)
+nsubj(make-13, you-10) 
+aux(make-13, do-11)
+neg(make-13, n't-12)
+advcl(end-19, make-13) s6-1-2 
+dobj(make-13, it-14) s6-2/2 
+advmod(far-16, that-15) s8
+advmod(make-13, far-16) s7 
+nsubj(end-19, you-18) 
+conj:and(shoot-3, end-19) s2-1/2 
+advmod(high-22, up-20) s2-2/2 
+advmod(high-22, pretty-21) s4
+advmod(end-19, high-22) s3 
+
+24) My goal is to go out and try to get gold.'' 
+
+nmod:poss(goal-2, My-1)  
+nsubj(is-3, goal-2)  
+nsubj:xsubj(go-5, goal-2)
+nsubj:xsubj(try-8, goal-2)
+root(ROOT-0, is-3)
+mark(go-5, to-4)
+xcomp(is-3, go-5) s1-1/2
+compound:prt(go-5, out-6) s1-2/2
+cc(go-5, and-7)
+xcomp(is-3, try-8) s2
+conj:and(go-5, try-8)
+mark(get-10, to-9)
+xcomp(try-8, get-10) 
+dobj(get-10, gold-11) 
+
+25) The Coleman story began in Atlanta, Georgia, where he started sprinting aged five, before putting athletics on the back burner at high school. 
+
+det(story-3, The-1)
+compound(story-3, Coleman-2) 
+nsubj(began-4, story-3) 
+root(ROOT-0, began-4) s1
+case(Georgia-8, in-5) 
+compound(Georgia-8, Atlanta-6) 
+nmod:in(began-4, Georgia-8) 
+advmod(started-12, where-10)
+nsubj(started-12, he-11)   
+advcl(began-4, started-12) s2
+xcomp(started-12, sprinting-13) 
+nummod(five-15, aged-14) s3
+dobj(sprinting-13, five-15) 
+mark(putting-18, before-17)
+advcl(began-4, putting-18) s4
+dobj(putting-18, athletics-19) 
+case(burner-23, on-20) 
+det(burner-23, the-21)
+amod(burner-23, back-22) 
+nmod:on(putting-18, burner-23) 
+case(school-26, at-24)
+amod(school-26, high-25)
+nmod:at(burner-23, school-26)
+
+26) At that point he was intent on making it in the world of American football, but when the athletics college offers rolled in he returned to his first love and headed just up the road to the University of Tennessee - where Gatlin had also studied. 
+
+case(point-3, At-1)
+det(point-3, that-2)
+nmod:at(intent-6, point-3)
+nsubj(intent-6, he-4) 
+nsubj(rolled-23, he-4) 
+cop(intent-6, was-5)
+root(ROOT-0, intent-6) s1
+mark(making-8, on-7)
+advcl(intent-6, making-8) 
+dobj(making-8, it-9) 
+case(world-12, in-10)
+det(world-12, the-11)
+nmod:in(making-8, world-12)
+case(football-15, of-13)
+amod(football-15, American-14)
+nmod:of(world-12, football-15)
+cc(intent-6, but-17)
+advmod(offers-22, when-18)
+det(college-21, the-19)
+compound(college-21, athletics-20) s2-1/2
+nsubj(offers-22, college-21) s2-2/2
+advcl(rolled-23, offers-22)  
+conj:but(intent-6, rolled-23) s3-1/2
+case(he-25, in-24) s3-2/2
+nmod:in(rolled-23, he-25) 
+dep(he-25, returned-26) s4
+case(love-30, to-27)
+nmod:poss(love-30, his-28) 
+amod(love-30, first-29) s5-1/2
+nmod:to(returned-26, love-30) s5-2/2
+cc(returned-26, and-31)
+dep(he-25, headed-32) s6
+conj:and(returned-26, headed-32)
+advmod(headed-32, just-33)
+case(road-36, up-34)
+det(road-36, the-35)
+nmod:up(headed-32, road-36)
+case(University-39, to-37)
+det(University-39, the-38)
+nmod:to(headed-32, University-39)    
+case(Tennessee-41, of-40)
+nmod:of(University-39, Tennessee-41)    
+advmod(studied-47, where-43) 
+nsubj(studied-47, Gatlin-44) 
+aux(studied-47, had-45)
+advmod(studied-47, also-46)
+parataxis(headed-32, studied-47) s7
+
+27) After breaking 10 seconds for the first time last year, he was selected as part of the US 4x100m team for the Rio Olympics, where he admits he was ``like a deer in headlights - I was pretty much a nobody''. 
+
+mark(breaking-2, After-1)
+advcl(selected-14, breaking-2) s2 
+nummod(seconds-4, 10-3) 
+dobj(breaking-2, seconds-4) 
+case(time-8, for-5)
+det(time-8, the-6) s3-1/3
+amod(time-8, first-7) s3-2/3
+nmod:for(seconds-4, time-8) s3-3/3
+amod(year-10, last-9)
+nmod:tmod(breaking-2, year-10)
+nsubjpass(selected-14, he-12)  
+auxpass(selected-14, was-13)
+root(ROOT-0, selected-14) s4
+case(part-16, as-15)
+nmod:as(selected-14, part-16) 
+case(team-21, of-17)
+det(team-21, the-18)
+compound(team-21, US-19)
+amod(team-21, 4x100m-20)
+nmod:of(part-16, team-21)
+case(Olympics-25, for-22)
+det(Olympics-25, the-23)
+compound(Olympics-25, Rio-24)
+nmod:for(selected-14, Olympics-25)
+advmod(admits-29, where-27)
+nsubj(admits-29, he-28) 
+advcl(selected-14, admits-29) s5
+nsubj(deer-35, he-30)  
+cop(deer-35, was-31)
+case(deer-35, like-33) s6
+det(deer-35, a-34)
+ccomp(admits-29, deer-35) 
+case(headlights-37, in-36) 
+nmod:in(deer-35, headlights-37) 
+nsubj(nobody-44, I-39) 
+cop(nobody-44, was-40)
+advmod(much-42, pretty-41)
+advmod(nobody-44, much-42)
+det(nobody-44, a-43)
+parataxis(selected-14, nobody-44) s1
+
+28) He ran only in the heats in Brazil, before returning to his dual life as a sports management major and budding college sprinter. 
+
+nsubj(ran-2, He-1)  
+root(ROOT-0, ran-2) s1 
+advmod(ran-2, only-3) s2
+case(heats-6, in-4) s3-1/2 
+det(heats-6, the-5)
+nmod:in(ran-2, heats-6) s3-2/2 
+case(Brazil-8, in-7)
+nmod:in(heats-6, Brazil-8)
+mark(returning-11, before-10)
+advcl(ran-2, returning-11) s4
+case(life-15, to-12)
+nmod:poss(life-15, his-13) 
+amod(life-15, dual-14) s5
+nmod:to(returning-11, life-15)  
+case(major-20, as-16)
+det(major-20, a-17)
+compound(major-20, sports-18)
+compound(major-20, management-19)
+nmod:as(returning-11, major-20)
+cc(major-20, and-21)
+amod(sprinter-24, budding-22) s6
+compound(sprinter-24, college-23)
+nmod:as(returning-11, sprinter-24) 
+conj:and(major-20, sprinter-24)
+
+29) Then, last winter things began to change. 
+
+advmod(began-6, Then-1)
+amod(things-5, last-3)
+compound(things-5, winter-4)
+nsubj(began-6, things-5)
+nsubj:xsubj(change-8, things-5) 
+root(ROOT-0, began-6) s1
+mark(change-8, to-7)
+xcomp(began-6, change-8) 
+
+30) ``I think it was both my mindset and natural evolution,'' he says. 
+
+nsubj(think-3, I-2)
+ccomp(says-15, think-3)
+nsubj(mindset-8, it-4)  
+cop(mindset-8, was-5)
+dep(mindset-8, both-6)
+nmod:poss(mindset-8, my-7)
+ccomp(think-3, mindset-8) s1
+cc(mindset-8, and-9)
+amod(evolution-11, natural-10) s2-1/2
+ccomp(think-3, evolution-11) s2-2/2
+conj:and(mindset-8, evolution-11)
+nsubj(says-15, he-14)
+root(ROOT-0, says-15)
+
+31) ``I've always been a little kid compared to the guys I've competed against in terms of body development. 
+
+nsubj(kid-8, I-2)  
+aux(kid-8, 've-3)
+advmod(kid-8, always-4)
+cop(kid-8, been-5)
+det(kid-8, a-6)
+amod(kid-8, little-7) s2
+dep(competed-15, kid-8) s1 
+case(guys-12, compared-9) s3-1/2
+mwe(compared-9, to-10) s3-2/2
+det(guys-12, the-11)
+acl(kid-8, guys-12)  
+nsubj(competed-15, I-13) 
+aux(competed-15, 've-14)
+root(ROOT-0, competed-15) s4-1/2
+case(terms-18, against-16) s4-2/2
+case(terms-18, in-17)
+nmod:in(competed-15, terms-18)
+case(development-21, of-19)
+compound(development-21, body-20)
+nmod:of(terms-18, development-21)
+
+32) ``I've always looked younger, so naturally my body got a bit bigger and stronger. 
+
+nsubj(looked-5, I-2) 
+aux(looked-5, 've-3)
+advmod(looked-5, always-4)
+root(ROOT-0, looked-5)
+dobj(looked-5, younger-6) s1
+dep(looked-5, so-8)
+advmod(got-12, naturally-9)
+nmod:poss(body-11, my-10)
+nsubj(got-12, body-11)  
+parataxis(looked-5, got-12)
+det(bit-14, a-13)
+nmod:npmod(bigger-15, bit-14) s4
+xcomp(got-12, bigger-15) s2 
+cc(bigger-15, and-16)
+xcomp(got-12, stronger-17) s3 
+conj:and(bigger-15, stronger-17)
+
+33) I combined that with a good work ethic, good mindset and focus. 
+
+nsubj(combined-2, I-1) 
+root(ROOT-0, combined-2) s1-1/2   
+dobj(combined-2, that-3) 
+case(ethic-8, with-4) s1-2/2   
+det(ethic-8, a-5)
+amod(ethic-8, good-6) s2
+compound(ethic-8, work-7)  s3-1/2
+nmod:with(combined-2, ethic-8)  s3-2/2
+amod(mindset-11, good-10) s6
+nmod:with(combined-2, mindset-11) s4 
+conj:and(ethic-8, mindset-11)
+cc(ethic-8, and-12)
+nmod:with(combined-2, focus-13) s5 
+conj:and(ethic-8, focus-13)
+
+34) I don't look at specific times to run so I wasn't necessarily running for 9.82, but my coach just said that's what happens when you execute your race properly. 
+
+nsubj(look-4, I-1) 
+nsubj:xsubj(run-9, I-1)
+aux(look-4, do-2)
+neg(look-4, n't-3)
+root(ROOT-0, look-4) s1-1/2
+case(times-7, at-5) s1-2/2
+amod(times-7, specific-6) s2
+nmod:at(look-4, times-7)  
+mark(run-9, to-8)
+xcomp(look-4, run-9)
+mark(running-15, so-10)
+nsubj(running-15, I-11) 
+cop(running-15, was-12)
+neg(running-15, n't-13) s5
+advmod(running-15, necessarily-14) s4 
+advcl(run-9, running-15) s3-1/2 
+case(9.82-17, for-16) s3-2/2 
+nmod:for(running-15, 9.82-17) 
+cc(look-4, but-19)
+nmod:poss(coach-21, my-20)
+nsubj(said-23, coach-21)
+advmod(said-23, just-22)
+conj:but(look-4, said-23)
+mark('s-25, that-24)
+ccomp(said-23, 's-25)
+nsubj(happens-27, what-26)
+ccomp('s-25, happens-27)
+advmod(execute-30, when-28)
+nsubj(execute-30, you-29) 
+advcl(happens-27, execute-30) s6 
+nmod:poss(race-32, your-31) 
+dobj(execute-30, race-32) 
+advmod(execute-30, properly-33) s7
+
+35) A lot of people don't realise how competitive college sprinting is.'' 
+
+det(lot-2, A-1) s2-1/2
+nsubj(realise-7, lot-2) s2-2/2
+case(people-4, of-3)
+nmod:of(lot-2, people-4)  
+aux(realise-7, do-5)
+neg(realise-7, n't-6)
+root(ROOT-0, realise-7) s1
+advmod(is-12, how-8)
+amod(sprinting-11, competitive-9) s3
+compound(sprinting-11, college-10) 
+nsubj(is-12, sprinting-11) 
+ccomp(realise-7, is-12)
+
+36) That success resulted in Nike snapping him up on a seven-figure deal in June, meaning he will now forego the final year of eligibility to run for Tennessee and instead join the professional circuit next campaign. 
+
+det(success-2, That-1)
+nsubj(resulted-3, success-2) 
+root(ROOT-0, resulted-3) s1-1/2
+case(Nike-5, in-4) s1-2/2
+nmod:in(resulted-3, Nike-5)  
+acl(Nike-5, snapping-6)  s2-1/2
+dobj(snapping-6, him-7)  
+compound:prt(snapping-6, up-8) s2-2/2
+case(deal-12, on-9)
+det(deal-12, a-10)
+amod(deal-12, seven-figure-11)
+nmod:on(snapping-6, deal-12)
+case(June-14, in-13)
+nmod:in(deal-12, June-14)
+advcl(snapping-6, meaning-16)
+nsubj(forego-20, he-17)  
+aux(forego-20, will-18)
+advmod(forego-20, now-19)
+ccomp(meaning-16, forego-20) s3
+det(year-23, the-21)
+amod(year-23, final-22)
+dobj(forego-20, year-23)
+case(eligibility-25, of-24)
+nmod:of(year-23, eligibility-25) 
+mark(run-27, to-26)
+advcl(forego-20, run-27)
+case(Tennessee-29, for-28)
+nmod:for(run-27, Tennessee-29)
+cc(run-27, and-30)
+advmod(join-32, instead-31)
+advcl(forego-20, join-32) s4
+conj:and(run-27, join-32)
+det(circuit-35, the-33)
+amod(circuit-35, professional-34) 
+dobj(join-32, circuit-35) 
+amod(campaign-37, next-36)
+dobj(run-27, campaign-37)
+
+37) As well as the obvious financial benefits, the change will allow him to operate outside of the gruelling world of college athletics, in which athletes compete around the US week in, week out. 
+
+case(benefits-7, As-1)
+advmod(benefits-7, well-2)
+case(benefits-7, as-3)
+det(benefits-7, the-4)
+amod(benefits-7, obvious-5) s1
+amod(benefits-7, financial-6) 
+nmod:as(allow-12, benefits-7) 
+det(change-10, the-9)
+nsubj(allow-12, change-10) 
+aux(allow-12, will-11)
+root(ROOT-0, allow-12) s2
+dobj(allow-12, him-13)  
+nsubj:xsubj(operate-15, him-13)
+mark(operate-15, to-14)
+xcomp(allow-12, operate-15)  s3
+case(world-20, outside-16)
+mwe(outside-16, of-17)
+det(world-20, the-18)
+amod(world-20, gruelling-19) s4
+nmod:outside_of(operate-15, world-20) 
+case(athletics-23, of-21)
+compound(athletics-23, college-22)
+nmod:of(world-20, athletics-23)
+nmod:in(compete-28, athletics-23)
+case(which-26, in-25)
+ref(athletics-23, which-26)
+nsubj(compete-28, athletes-27) 
+acl:relcl(athletics-23, compete-28) s5  
+case(week-32, around-29)
+det(week-32, the-30)
+compound(week-32, US-31)
+nmod:around(compete-28, week-32) s6-1/2
+case(week-32, in-33) s6-2/2
+advmod(compete-28, week-35) s7-1/2
+case(week-35, out-36) s7-2/2
+
+38) The sheer number of races he has already run this season meant he opted not to double up in London, despite also qualifying in the 200m and sitting third in the global rankings with a best of 19.85 sec. 
+
+det(number-3, The-1)
+amod(number-3, sheer-2) s2
+nsubj(meant-12, number-3) 
+case(races-5, of-4)
+nmod:of(number-3, races-5)
+nsubj(run-9, he-6) 
+aux(run-9, has-7)
+advmod(run-9, already-8)
+acl:relcl(races-5, run-9) 
+det(season-11, this-10)
+dobj(run-9, season-11)
+root(ROOT-0, meant-12)
+nsubj(opted-14, he-13)
+nsubj:xsubj(double-17, he-13)   
+ccomp(meant-12, opted-14) s1
+neg(double-17, not-15)
+mark(double-17, to-16)
+xcomp(opted-14, double-17)  s3-1/2
+compound:prt(double-17, up-18)  s3-2/2
+case(London-20, in-19)
+nmod:in(double-17, London-20)
+mark(qualifying-24, despite-22)
+advmod(qualifying-24, also-23)
+advcl(double-17, qualifying-24) s4
+case(200m-27, in-25)
+det(200m-27, the-26)
+nmod:in(qualifying-24, 200m-27)
+cc(qualifying-24, and-28)
+advcl(double-17, sitting-29)
+conj:and(qualifying-24, sitting-29) s5-1/2
+dobj(sitting-29, third-30) s5-2/2
+case(rankings-34, in-31)
+det(rankings-34, the-32)
+amod(rankings-34, global-33) s6
+nmod:in(third-30, rankings-34) 
+case(best-37, with-35)
+det(best-37, a-36)
+nmod:with(sitting-29, best-37) s7
+case(sec-40, of-38)
+nummod(sec-40, 19.85-39) 
+nmod:of(best-37, sec-40) 
+
+39) However, he insists he will not be tired once the World Championships begin. 
+
+advmod(insists-4, However-1)
+nsubj(insists-4, he-3) 
+root(ROOT-0, insists-4) s1
+nsubj(tired-9, he-5)  
+aux(tired-9, will-6)
+neg(tired-9, not-7) 
+cop(tired-9, be-8) 
+ccomp(insists-4, tired-9) s2
+mark(begin-14, once-10)
+det(Championships-13, the-11)
+compound(Championships-13, World-12) 
+nsubj(begin-14, Championships-13) 
+advcl(tired-9, begin-14) s3
+
+40) ``I'm definitely going to be able to stay at the top of my game,'' he says. 
+
+nsubj(going-5, I-2)
+nsubj:xsubj(able-8, I-2) 
+aux(going-5, 'm-3)
+advmod(going-5, definitely-4) s2
+ccomp(says-20, going-5)
+mark(able-8, to-6)
+cop(able-8, be-7)  
+xcomp(going-5, able-8) s1 
+mark(stay-10, to-9)
+xcomp(able-8, stay-10)  s3
+case(top-13, at-11) s3-1/2
+det(top-13, the-12) 
+nmod:at(stay-10, top-13) s3-2/2
+case(game-16, of-14)
+nmod:poss(game-16, my-15)
+nmod:of(top-13, game-16)
+nsubj(says-20, he-19)
+root(ROOT-0, says-20)
+
+41) ``I feel pretty good and I think I would have also been able to compete in the 200m and be in contention for a medal as well. 
+
+nsubj(feel-3, I-2) 
+root(ROOT-0, feel-3) 
+advmod(good-5, pretty-4) s2
+xcomp(feel-3, good-5) s1 
+cc(feel-3, and-6)
+nsubj(think-8, I-7) 
+conj:and(feel-3, think-8)
+nsubj(able-14, I-9)  
+nsubj:xsubj(compete-16, I-9)
+aux(able-14, would-10)
+aux(able-14, have-11)
+advmod(able-14, also-12)
+cop(able-14, been-13)
+ccomp(think-8, able-14) s3
+mark(compete-16, to-15)
+xcomp(able-14, compete-16) 
+case(200m-19, in-17)
+det(200m-19, the-18)
+nmod:in(compete-16, 200m-19)
+cc(compete-16, and-20)
+cop(contention-23, be-21)
+case(contention-23, in-22) s4-1/2
+xcomp(able-14, contention-23) s4-2/2
+conj:and(compete-16, contention-23)
+case(medal-26, for-24)
+det(medal-26, a-25)
+nmod:for(contention-23, medal-26) 
+advmod(contention-23, as-27)
+mwe(as-27, well-28)
+
+42) ``But it's been a really long season and I know I'm going to go out there and push my body to whatever limit I can get to, so I have to think about my whole career - I don't want to burn out. 
+
+cc(season-9, But-2)
+nsubjpass(season-9, it-3) 
+auxpass(season-9, 's-4)
+cop(season-9, been-5)
+det(season-9, a-6)
+advmod(long-8, really-7) s4
+amod(season-9, long-8) s3
+root(ROOT-0, season-9) s2  
+cc(season-9, and-10)
+nsubj(know-12, I-11)
+conj:and(season-9, know-12)
+nsubj(going-15, I-13)
+nsubj:xsubj(go-17, I-13)
+nsubj:xsubj(push-21, I-13)  
+aux(going-15, 'm-14)
+ccomp(know-12, going-15)
+mark(go-17, to-16)
+xcomp(going-15, go-17) s5-1/2
+compound:prt(go-17, out-18) s5-2/2
+advmod(go-17, there-19)
+cc(go-17, and-20)
+xcomp(going-15, push-21) s6-1/3
+conj:and(go-17, push-21)
+nmod:poss(body-23, my-22) 
+dobj(push-21, body-23) 
+mark(limit-26, to-24) s6-2/3
+nsubj(limit-26, whatever-25) 
+advcl(push-21, limit-26) s6-3/3
+nsubj(get-29, I-27)
+aux(get-29, can-28)
+dep(limit-26, get-29)
+nmod(get-29, to-30)
+dep(get-29, so-32)
+nsubj(have-34, I-33)
+nsubj:xsubj(think-36, I-33) 
+parataxis(get-29, have-34)
+mark(think-36, to-35)
+xcomp(have-34, think-36) s7-1/2
+case(career-40, about-37) s7-2/2
+nmod:poss(career-40, my-38)
+amod(career-40, whole-39) s8
+nmod:about(think-36, career-40)  
+nsubj(want-45, I-42)
+nsubj:xsubj(burn-47, I-42) 
+aux(want-45, do-43) 
+neg(want-45, n't-44) 
+parataxis(get-29, want-45) s1 
+mark(burn-47, to-46)
+xcomp(want-45, burn-47)  
+compound:prt(burn-47, out-48)  
+
+43) ``I'm looking forward to the years to come and competing with the top guys. 
+
+nsubj(looking-4, I-2) 
+nsubj:xsubj(come-10, I-2)
+nsubj(competing-12, I-2)
+aux(looking-4, 'm-3)
+root(ROOT-0, looking-4) s2-1/2
+compound:prt(looking-4, forward-5) s2-2/2
+case(years-8, to-6)
+det(years-8, the-7)
+nmod:to(looking-4, years-8)   
+mark(come-10, to-9)
+xcomp(looking-4, come-10) s3
+cc(looking-4, and-11)
+conj:and(looking-4, competing-12) s4-1/2
+case(guys-16, with-13) s4-2/2
+det(guys-16, the-14)
+amod(guys-16, top-15) s1
+nmod:with(competing-12, guys-16)  
+
+44) The future is very bright for the sprints.'' 
+
+det(future-2, The-1)
+nsubj(bright-5, future-2) 
+cop(bright-5, is-3)
+advmod(bright-5, very-4) s2
+root(ROOT-0, bright-5) s1 
+case(sprints-8, for-6)
+det(sprints-8, the-7)
+nmod:for(bright-5, sprints-8) 
+
+45) The Telegraph, London 
+
+det(Telegraph-2, The-1)
+root(ROOT-0, Telegraph-2)
+appos(Telegraph-2, London-4)
+
+

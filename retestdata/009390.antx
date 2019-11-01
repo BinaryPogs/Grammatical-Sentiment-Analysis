@@ -1,0 +1,534 @@
+009390.psd
+
+1) New Battle of Brisbane: `We will never surrender' BRISBANE Lord Mayor Graham Quirk has declared the city won't be held to ransom over during the next five weeks. 
+
+compound(Battle-2, New-1)
+nsubj(BRISBANE-12, Battle-2)
+case(Brisbane-4, of-3)
+nmod:of(Battle-2, Brisbane-4)
+nsubj(surrender-10, We-7) 
+aux(surrender-10, will-8)
+neg(surrender-10, never-9)
+dep(Brisbane-4, surrender-10) s2
+root(ROOT-0, BRISBANE-12)
+compound(Quirk-16, Lord-13)
+compound(Quirk-16, Mayor-14)
+compound(Quirk-16, Graham-15) 
+nsubj(declared-18, Quirk-16) 
+aux(declared-18, has-17)
+ccomp(BRISBANE-12, declared-18) s3
+det(city-20, the-19)
+nsubjpass(held-24, city-20) 
+nsubj:xsubj(ransom-26, city-20)
+aux(held-24, wo-21) 
+neg(held-24, n't-22) 
+auxpass(held-24, be-23) 
+ccomp(declared-18, held-24) s1 
+mark(ransom-26, to-25) 
+xcomp(held-24, ransom-26) s4
+compound:prt(ransom-26, over-27) 
+case(weeks-32, during-28)
+det(weeks-32, the-29)
+amod(weeks-32, next-30)
+nummod(weeks-32, five-31)
+nmod:during(ransom-26, weeks-32)
+
+2) A cabal of 11 unions are refusing to rule out broadening strike action from bus drivers and cleaners to librarians, call centre workers and other frontline services in a new Battle of Brisbane. 
+
+det(cabal-2, A-1)
+nsubj(refusing-7, cabal-2) 
+nsubj:xsubj(rule-9, cabal-2)
+case(unions-5, of-3)
+nummod(unions-5, 11-4)
+nmod:of(cabal-2, unions-5)
+aux(refusing-7, are-6)
+root(ROOT-0, refusing-7) s1
+mark(rule-9, to-8) 
+xcomp(refusing-7, rule-9)  s2-1/2
+compound:prt(rule-9, out-10)  s2-2/2
+xcomp(rule-9, broadening-11)  s4
+compound(action-13, strike-12) s3
+dobj(broadening-11, action-13)  
+case(drivers-16, from-14)
+compound(drivers-16, bus-15)
+nmod:from(action-13, drivers-16)
+cc(drivers-16, and-17)
+nmod:from(action-13, cleaners-18)
+conj:and(drivers-16, cleaners-18)
+case(librarians-20, to-19)
+nmod:to(broadening-11, librarians-20)
+amod(workers-24, call-22)
+compound(workers-24, centre-23)
+nmod:to(broadening-11, workers-24)
+conj:and(librarians-20, workers-24)
+cc(librarians-20, and-25)
+amod(services-28, other-26)
+compound(services-28, frontline-27)
+nmod:to(broadening-11, services-28)
+conj:and(librarians-20, services-28)
+case(Battle-32, in-29)
+det(Battle-32, a-30)
+amod(Battle-32, new-31)
+nmod:in(broadening-11, Battle-32)
+case(Brisbane-34, of-33)
+nmod:of(Battle-32, Brisbane-34)
+
+3) However as about 500 union members rallied outside City Hall yesterday, Cr Quirk said council would refuse to budge from its 2.5 per cent pay rise offer for employees. 
+
+advmod(rallied-7, However-1)
+mark(rallied-7, as-2)
+advmod(500-4, about-3)
+nummod(members-6, 500-4)
+compound(members-6, union-5)
+nsubj(rallied-7, members-6) 
+advcl(said-15, rallied-7) s2
+case(Hall-10, outside-8)
+compound(Hall-10, City-9)
+nmod:outside(rallied-7, Hall-10)
+nmod:tmod(rallied-7, yesterday-11)
+compound(Quirk-14, Cr-13)
+nsubj(said-15, Quirk-14)
+root(ROOT-0, said-15)
+nsubj(refuse-18, council-16)
+nsubj:xsubj(budge-20, council-16) 
+aux(refuse-18, would-17)
+ccomp(said-15, refuse-18) s1
+mark(budge-20, to-19)
+xcomp(refuse-18, budge-20) 
+case(2.5-23, from-21) 
+nmod:poss(2.5-23, its-22)
+nmod:from(budge-20, 2.5-23)
+case(offer-28, per-24)
+compound(offer-28, cent-25)
+compound(offer-28, pay-26)
+compound(offer-28, rise-27)
+nmod:per(2.5-23, offer-28)
+case(employees-30, for-29)
+nmod:for(offer-28, employees-30)
+
+4) ``We've already indicated that we've got a solid offer on the table,'' Cr Quirk said. 
+
+nsubj(indicated-5, We-2) 
+aux(indicated-5, 've-3)
+advmod(indicated-5, already-4)
+ccomp(said-20, indicated-5) s2
+mark(got-9, that-6)
+nsubj(got-9, we-7)
+aux(got-9, 've-8)
+ccomp(indicated-5, got-9)
+det(offer-12, a-10)
+amod(offer-12, solid-11) s1
+dobj(got-9, offer-12) 
+case(table-15, on-13)
+det(table-15, the-14)
+nmod:on(got-9, table-15)
+compound(Quirk-19, Cr-18)
+nsubj(said-20, Quirk-19)
+root(ROOT-0, said-20)
+
+5) ``We believe that it's a fair and reasonable offer and we're not about to budge on that offer.'' 
+
+nsubj(believe-3, We-2) 
+root(ROOT-0, believe-3) s1
+mark(offer-11, that-4) 
+nsubj(offer-11, it-5) 
+cop(offer-11, 's-6)
+det(offer-11, a-7)
+amod(offer-11, fair-8) s2
+cc(fair-8, and-9)
+conj:and(fair-8, reasonable-10) s3
+amod(offer-11, reasonable-10)
+ccomp(believe-3, offer-11)  
+cc(believe-3, and-12)
+nsubj(about-16, we-13)
+nsubj:xsubj(budge-18, we-13) 
+aux(about-16, 're-14)
+neg(about-16, not-15) 
+conj:and(believe-3, about-16) 
+mark(budge-18, to-17)
+xcomp(about-16, budge-18) s4-1/2
+case(offer-21, on-19) s4-2/2
+det(offer-21, that-20)
+nmod:on(budge-18, offer-21) 
+
+6) Bus drivers went out on strike yesterday for four hours, with hundreds protesting in King George Square while nearby streets were empty of buses. 
+
+compound(drivers-2, Bus-1) 
+nsubj(went-3, drivers-2) 
+root(ROOT-0, went-3)
+compound:prt(went-3, out-4)
+case(yesterday-7, on-5) 
+compound(yesterday-7, strike-6) s1
+nmod:on(went-3, yesterday-7)
+case(hours-10, for-8)
+nummod(hours-10, four-9)
+nmod:for(went-3, hours-10)
+case(hundreds-13, with-12)
+nmod:with(went-3, hundreds-13) 
+acl(hundreds-13, protesting-14) s2
+case(Square-18, in-15)
+compound(Square-18, King-16)
+compound(Square-18, George-17)
+nmod:in(protesting-14, Square-18)
+mark(empty-23, while-19)
+amod(streets-21, nearby-20)
+nsubj(empty-23, streets-21) 
+cop(empty-23, were-22)
+advcl(protesting-14, empty-23) s3
+case(buses-25, of-24)
+nmod:of(empty-23, buses-25) 
+
+7) The powerful union bloc have about five more weeks to undertake a range of protected industrial action, including striking for up to 24 hours, as part of negotiating tactics against council. 
+
+det(bloc-4, The-1)
+amod(bloc-4, powerful-2) s1
+compound(bloc-4, union-3) 
+nsubj(have-5, bloc-4) 
+nsubj:xsubj(undertake-11, bloc-4)
+root(ROOT-0, have-5)
+case(weeks-9, about-6)
+nummod(weeks-9, five-7)
+amod(weeks-9, more-8)
+nmod:about(have-5, weeks-9)
+mark(undertake-11, to-10)
+xcomp(have-5, undertake-11) s3
+det(range-13, a-12)
+dobj(undertake-11, range-13)
+case(action-17, of-14)
+amod(action-17, protected-15) s2
+amod(action-17, industrial-16) 
+nmod:of(range-13, action-17)   
+case(striking-20, including-19)
+advcl(undertake-11, striking-20) s4
+case(hours-25, for-21)
+dep(24-24, up-22)
+mwe(up-22, to-23)
+nummod(hours-25, 24-24)
+nmod:for(striking-20, hours-25)
+case(part-28, as-27)
+nmod:as(undertake-11, part-28)
+mark(negotiating-30, of-29)
+acl(part-28, negotiating-30) s5
+dobj(negotiating-30, tactics-31) 
+case(council-33, against-32)
+nmod:against(negotiating-30, council-33)
+
+8) But Cr Quirk said he had a responsibility as the ``custodian of ratepayers' money'' to maintain the 2.5 per cent pay rise offer as part of the new enterprise bargaining agreement. 
+
+cc(said-4, But-1)
+compound(Quirk-3, Cr-2) 
+nsubj(said-4, Quirk-3) 
+root(ROOT-0, said-4) s6
+nsubj(had-6, he-5)  
+ccomp(said-4, had-6)
+det(responsibility-8, a-7)
+dobj(had-6, responsibility-8) s1 
+case(custodian-12, as-9)
+det(custodian-12, the-10)
+nmod:as(responsibility-8, custodian-12) s4 
+case(money-16, of-13)
+nmod:poss(money-16, ratepayers-14) s5
+case(ratepayers-14, '-15)
+nmod:of(custodian-12, money-16)
+mark(maintain-19, to-18)
+acl(money-16, maintain-19) s2 
+det(2.5-21, the-20)
+nsubj(pay-24, 2.5-21)
+case(cent-23, per-22)
+nmod:per(2.5-21, cent-23)
+ccomp(maintain-19, pay-24) 
+compound(offer-26, rise-25) 
+dobj(pay-24, offer-26)
+case(part-28, as-27)
+nmod:as(pay-24, part-28)
+case(agreement-34, of-29)
+det(agreement-34, the-30)
+amod(agreement-34, new-31) s3
+compound(agreement-34, enterprise-32)
+compound(agreement-34, bargaining-33)
+nmod:of(part-28, agreement-34) 
+
+9) The union caucus on Tuesday presented council with a formal request for a 3.5 per cent pay rise over three years, plus an $800 sign-on bonus, which is above council's $400 offer. 
+
+det(caucus-3, The-1)
+compound(caucus-3, union-2)
+nsubj(presented-6, caucus-3) 
+case(Tuesday-5, on-4)
+nmod:on(caucus-3, Tuesday-5)
+root(ROOT-0, presented-6) s1
+dobj(presented-6, council-7)
+case(request-11, with-8)
+det(request-11, a-9)
+amod(request-11, formal-10) s2
+nmod:with(presented-6, request-11)    
+case(3.5-14, for-12)
+advmod(3.5-14, a-13)
+nmod:for(presented-6, 3.5-14)
+case(rise-18, per-15)
+compound(rise-18, cent-16)
+compound(rise-18, pay-17) s3-1/2
+nmod:per(3.5-14, rise-18) s3-2/2
+case(years-21, over-19)
+nummod(years-21, three-20)
+nmod:over(rise-18, years-21)
+cc(3.5-14, plus-23)
+det(bonus-28, an-24)
+amod(bonus-28, $-25)
+compound($-25, 800-26)
+amod(bonus-28, sign-on-27)
+nmod:for(presented-6, bonus-28) s4
+conj:plus(3.5-14, bonus-28)
+nsubj(offer-37, bonus-28)
+ref(bonus-28, which-30)
+cop(offer-37, is-31)
+case(offer-37, above-32)
+nmod:poss(offer-37, council-33)
+case(council-33, 's-34)
+amod(offer-37, $-35)
+nummod($-35, 400-36)
+acl:relcl(bonus-28, offer-37)
+
+10) The Courier-Mail revealed this week a 3.5 per cent pay rise would cost ratepayers an extra $52 million above the $128 million budgeted for the 2.5 per cent pay rise for 7500 employees. 
+
+det(Courier-Mail-2, The-1)
+nsubj(revealed-3, Courier-Mail-2) 
+root(ROOT-0, revealed-3) s1
+det(week-5, this-4)
+nmod:tmod(revealed-3, week-5)
+det(3.5-7, a-6)
+nsubj(cost-13, 3.5-7)
+case(rise-11, per-8)
+compound(rise-11, cent-9)
+compound(rise-11, pay-10) 
+nmod:per(3.5-7, rise-11) 
+aux(cost-13, would-12)
+dep(revealed-3, cost-13) s2
+iobj(cost-13, ratepayers-14) 
+det($-17, an-15)
+amod($-17, extra-16)
+dobj(cost-13, $-17)
+compound(million-19, 52-18)
+nummod($-17, million-19)
+case($-22, above-20)
+det($-22, the-21)
+nmod:above($-17, $-22)
+compound(million-24, 128-23)
+nummod($-22, million-24)
+acl($-22, budgeted-25)
+case(2.5-28, for-26)
+det(2.5-28, the-27)
+nmod:for(budgeted-25, 2.5-28)
+case(rise-32, per-29)
+compound(rise-32, cent-30)
+compound(rise-32, pay-31)
+nmod:per(2.5-28, rise-32)
+case(employees-35, for-33)
+nummod(employees-35, 7500-34)
+nmod:for(rise-32, employees-35)
+
+11) However unions argue the pay rise would be on par with wages growth for minimum workers. 
+
+advmod(argue-3, However-1)
+nsubj(argue-3, unions-2) 
+root(ROOT-0, argue-3) s1
+det(rise-6, the-4)
+compound(rise-6, pay-5)  
+nsubj(par-10, rise-6)  
+aux(par-10, would-7)
+cop(par-10, be-8)
+case(par-10, on-9) s2-1/3
+ccomp(argue-3, par-10) s2-2/3
+case(growth-13, with-11) s2-3/3
+compound(growth-13, wages-12)  
+nmod:with(par-10, growth-13)  
+case(workers-16, for-14)
+amod(workers-16, minimum-15) s3
+nmod:for(growth-13, workers-16)  s4
+
+12) Australian Services Union secretary Neil Henderson refused to rule out strike action for frontline council staff, including call centre operators, but said it would be used as a last resort. 
+
+compound(Henderson-6, Australian-1)
+compound(Henderson-6, Services-2)
+compound(Henderson-6, Union-3)
+compound(Henderson-6, secretary-4)
+compound(Henderson-6, Neil-5)
+nsubj(refused-7, Henderson-6)
+nsubj:xsubj(rule-9, Henderson-6) 
+nsubj(said-24, Henderson-6) 
+root(ROOT-0, refused-7) s1 
+mark(rule-9, to-8)
+xcomp(refused-7, rule-9) s2-1/2 
+compound:prt(rule-9, out-10) s2-2/2 
+compound(action-12, strike-11) 
+dobj(rule-9, action-12) 
+case(staff-16, for-13)
+amod(staff-16, frontline-14)
+compound(staff-16, council-15)
+nmod:for(action-12, staff-16)
+case(operators-21, including-18)
+amod(operators-21, call-19)
+compound(operators-21, centre-20)
+nmod:including(action-12, operators-21)
+cc(refused-7, but-23)
+conj:but(refused-7, said-24)
+nsubjpass(used-28, it-25) 
+aux(used-28, would-26)
+auxpass(used-28, be-27)
+ccomp(said-24, used-28)
+case(resort-32, as-29)
+det(resort-32, a-30)
+amod(resort-32, last-31) s3
+nmod:as(used-28, resort-32) 
+
+13) ``For the council, it needs to start bargaining because the workers are showing they're putting their money where their mouth is,'' Mr Henderson said. 
+
+case(council-4, For-2)
+det(council-4, the-3)
+nmod:for(needs-7, council-4) 
+nsubj(needs-7, it-6)
+nsubj:xsubj(start-9, it-6) 
+ccomp(said-29, needs-7)
+mark(start-9, to-8)
+xcomp(needs-7, start-9) s1
+dobj(start-9, bargaining-10) 
+mark(showing-15, because-11)
+det(workers-13, the-12)
+nsubj(showing-15, workers-13) 
+aux(showing-15, are-14)
+advcl(start-9, showing-15) s2
+nsubj(putting-18, they-16)  
+aux(putting-18, 're-17)
+ccomp(showing-15, putting-18) s1-1/4
+nmod:poss(money-20, their-19)
+dobj(putting-18, money-20) 
+advmod(is-24, where-21) s3-2/4
+nmod:poss(mouth-23, their-22) 
+nsubj(is-24, mouth-23) s3-3/4
+advcl(putting-18, is-24) s3-4/4
+compound(Henderson-28, Mr-27)
+nsubj(said-29, Henderson-28)
+root(ROOT-0, said-29)
+
+14) It comes as bus drivers will refuse to collect fares tomorrow, costing ratepayers an estimated $515,000, after they yesterday walked off the job for the fourth time in two weeks. 
+
+nsubj(comes-2, It-1) 
+root(ROOT-0, comes-2) s3
+mark(refuse-7, as-3)
+compound(drivers-5, bus-4)
+nsubj(refuse-7, drivers-5) 
+nsubj:xsubj(collect-9, drivers-5)
+aux(refuse-7, will-6)
+advcl(comes-2, refuse-7) s1
+mark(collect-9, to-8)
+xcomp(refuse-7, collect-9)  s4
+dobj(collect-9, fares-10) 
+nmod:tmod(collect-9, tomorrow-11)
+advcl(collect-9, costing-13) s5
+iobj(costing-13, ratepayers-14)  
+det(515,000-18, an-15)
+amod(515,000-18, estimated-16) s6
+dep(515,000-18, $-17)
+dobj(costing-13, 515,000-18)  
+mark(walked-23, after-20)
+nsubj(walked-23, they-21) 
+nsubj(walked-23, yesterday-22)
+advcl(costing-13, walked-23) s2-1/2
+compound:prt(walked-23, off-24) s2-2/2
+det(job-26, the-25)
+dobj(walked-23, job-26) 
+case(time-30, for-27)
+det(time-30, the-28)
+amod(time-30, fourth-29)
+nmod:for(job-26, time-30)
+case(weeks-33, in-31)
+nummod(weeks-33, two-32)
+nmod:in(walked-23, weeks-33)
+
+15) Council said about 50 per cent of drivers participated in the strike, with 65 per cent of bus trips unaffected. 
+
+nsubj(said-2, Council-1)
+root(ROOT-0, said-2)
+advmod(50-4, about-3)
+nsubj(participated-9, 50-4)
+case(cent-6, per-5)
+nmod:per(50-4, cent-6)
+case(drivers-8, of-7)
+nmod:of(cent-6, drivers-8) 
+ccomp(said-2, participated-9) s1
+case(strike-12, in-10)
+det(strike-12, the-11)
+nmod:in(participated-9, strike-12) 
+case(65-15, with-14)
+nmod:with(participated-9, 65-15)
+case(cent-17, per-16)
+nmod:per(65-15, cent-17)
+case(trips-20, of-18)
+compound(trips-20, bus-19) 
+nmod:of(cent-17, trips-20) 
+amod(trips-20, unaffected-21) s2
+
+16) Rail, Tram and Bus spokesman Tom Brown said it was ``unprecedented'' for all council unions to rally against the administration. 
+
+compound(Brown-8, Rail-1)
+conj:and(Rail-1, Tram-3)
+compound(Brown-8, Tram-3)
+cc(Rail-1, and-4)
+conj:and(Rail-1, Bus-5)
+compound(Brown-8, Bus-5)
+compound(Brown-8, spokesman-6)
+compound(Brown-8, Tom-7)
+nsubj(said-9, Brown-8)
+root(ROOT-0, said-9)
+nsubj(unprecedented-13, it-10) 
+nsubj:xsubj(rally-20, it-10)
+cop(unprecedented-13, was-11)
+ccomp(said-9, unprecedented-13) s2
+case(unions-18, for-15)
+det(unions-18, all-16) s3
+compound(unions-18, council-17)   
+nmod:for(unprecedented-13, unions-18)   
+mark(rally-20, to-19)
+xcomp(unprecedented-13, rally-20) s1-1/2
+case(administration-23, against-21) s1-2/2
+det(administration-23, the-22)
+nmod:against(rally-20, administration-23) 
+
+17) It is the first time bus drivers have gone on strike since 1998. 
+
+nsubj(time-5, It-1) 
+cop(time-5, is-2)
+det(time-5, the-3)
+amod(time-5, first-4) s1
+root(ROOT-0, time-5) 
+compound(drivers-7, bus-6) 
+nsubj(gone-9, drivers-7) 
+aux(gone-9, have-8)
+acl:relcl(time-5, gone-9)  s2-1/2
+case(strike-11, on-10)  s2-2/2
+nmod:on(gone-9, strike-11) 
+case(1998-13, since-12)
+nmod:since(gone-9, 1998-13)
+
+18) Meanwhile, Transport Workers Union spokesman Troy Fernandez said members were just asking for a ``lousy dollar an hour for our members''. 
+
+advmod(said-9, Meanwhile-1)
+compound(Fernandez-8, Transport-3)
+compound(Fernandez-8, Workers-4)
+compound(Fernandez-8, Union-5)
+compound(Fernandez-8, spokesman-6)
+compound(Fernandez-8, Troy-7) 
+nsubj(said-9, Fernandez-8) 
+root(ROOT-0, said-9) s1
+nsubj(asking-13, members-10) 
+aux(asking-13, were-11)
+advmod(asking-13, just-12)
+ccomp(said-9, asking-13) s2-1/2
+case(dollar-18, for-14) s2-2/2
+det(dollar-18, a-15)
+amod(dollar-18, lousy-17) s3
+nmod:for(asking-13, dollar-18)  
+det(hour-20, an-19)
+dep(dollar-18, hour-20)
+case(members-23, for-21)
+nmod:poss(members-23, our-22)
+nmod:for(asking-13, members-23)

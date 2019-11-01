@@ -53,6 +53,8 @@ appos_nsubj = {}
 xcomp_nsubj = {}
 xcomp_nsubj = {}
 acl_nsubj = {}
+dep_advmod = {}
+acl_nmodto = {}
 line_map = {}
 path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
 filename = input('Enter Filename:')
@@ -759,6 +761,35 @@ for k, v in sourcemap.items():
 
 map_list.append('acl_dep')
 
+for k, v in sourcemap.items():
+    if re.search('dep', v):
+        v2 = str(re.findall("(?<=dep\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("advmod", v1):
+                    second_word = re.findall(r'advmod\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                dep_advmod[k1] = second_word, v.rstrip()[-1]
+map_list.append('dep_advmod')
+
+for k, v in sourcemap.items():
+    if re.search('acl:relcl', v):
+        v2 = str(re.findall("(?<=acl:relcl\().+?(?=\))", v))
+        first_word = re.findall('\, (.*?)\-', v2)
+        for k1, v1 in pline_map.items():
+                if re.search("nmod:to", v1):
+                    second_word = re.findall(r'nmod:to\(([^-]*)-',
+                                             v1.lstrip(' '))
+                    if k[:4] == k1[:4]:
+                        for i in first_word:
+                            if second_word == [i]:
+                                second_word = re.findall('\, (.*?)\-',v1)
+                                acl_nmodto[k1] = second_word, v.rstrip()[-1]
+map_list.append('acl_nmodto')
 
 for i in map_list:
     #print(eval(i))

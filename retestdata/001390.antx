@@ -1,0 +1,174 @@
+001390.psd
+
+1) The car gadget about to become redundant THE drivers of Australia's two biggest car brands - Toyota and Mazda - have a button in their car that's about to become obsolete. 
+
+det(gadget-3, The-1)
+compound(gadget-3, car-2)
+nsubj(have-22, gadget-3) 
+advmod(gadget-3, about-4)
+mark(become-6, to-5)
+acl(gadget-3, become-6)
+xcomp(become-6, redundant-7) s1
+det(drivers-9, THE-8)
+dep(redundant-7, drivers-9)
+case(brands-16, of-10)
+nmod:poss(brands-16, Australia-11)
+case(Australia-11, 's-12)
+nummod(brands-16, two-13)
+amod(brands-16, biggest-14) s2
+compound(brands-16, car-15) 
+nmod:of(drivers-9, brands-16) 
+dep(gadget-3, Toyota-18) 
+cc(Toyota-18, and-19)
+dep(gadget-3, Mazda-20) 
+conj:and(Toyota-18, Mazda-20)
+root(ROOT-0, have-22)
+det(button-24, a-23)
+dobj(have-22, button-24) 
+nsubj(about-30, button-24)
+nsubj:xsubj(become-32, button-24)
+case(car-27, in-25)
+nmod:poss(car-27, their-26)
+nmod:in(button-24, car-27)
+ref(button-24, that-28)
+aux(about-30, 's-29)
+acl:relcl(button-24, about-30)
+mark(become-32, to-31)
+xcomp(about-30, become-32)
+xcomp(become-32, obsolete-33) s3
+
+2) The axing of the Pandora music streaming service in Australia from the end of this month will affect more than 1 million drivers with the app embedded in their car's audio system. 
+
+det(axing-2, The-1)
+nsubj(affect-18, axing-2) s1 
+case(service-8, of-3)
+det(service-8, the-4)
+compound(service-8, Pandora-5)
+compound(service-8, music-6)
+compound(service-8, streaming-7)
+nmod:of(axing-2, service-8) 
+case(Australia-10, in-9)
+nmod:in(service-8, Australia-10)
+case(end-13, from-11)
+det(end-13, the-12)
+nmod:from(Australia-10, end-13)
+case(month-16, of-14)
+det(month-16, this-15)
+nmod:of(end-13, month-16)
+aux(affect-18, will-17)
+root(ROOT-0, affect-18) s2
+advmod(million-22, more-19)
+mwe(more-19, than-20)
+compound(million-22, 1-21)
+nummod(drivers-23, million-22)
+dobj(affect-18, drivers-23) 
+case(app-26, with-24)
+det(app-26, the-25)
+nmod:with(affect-18, app-26) 
+acl(app-26, embedded-27) s3
+case(system-33, in-28)
+nmod:poss(car-30, their-29)
+nmod:poss(system-33, car-30)
+case(car-30, 's-31)
+amod(system-33, audio-32) 
+nmod:in(embedded-27, system-33) 
+
+3) Mazda introduced Pandora in 2014 and has gradually rolled it out to its entire passenger car range since. 
+
+nsubj(introduced-2, Mazda-1)  
+nsubj(rolled-9, Mazda-1)
+root(ROOT-0, introduced-2) s1
+dobj(introduced-2, Pandora-3) 
+case(2014-5, in-4)
+nmod:in(Pandora-3, 2014-5)
+cc(introduced-2, and-6)
+aux(rolled-9, has-7)
+advmod(rolled-9, gradually-8)
+conj:and(introduced-2, rolled-9) s2-1/2
+dobj(rolled-9, it-10) 
+compound:prt(rolled-9, out-11) s2-2/2
+case(range-17, to-12)
+nmod:poss(range-17, its-13)
+amod(range-17, entire-14) s3
+compound(range-17, passenger-15) 
+compound(range-17, car-16) 
+nmod:to(rolled-9, range-17) 
+advmod(range-17, since-18)
+
+4) ``Mazda, like many, was disappointed to hear of the unexpected withdrawal of Pandora from the Australian market. 
+
+nsubj(disappointed-8, Mazda-2)
+nsubj:xsubj(hear-10, Mazda-2) 
+case(many-5, like-4)
+advcl(disappointed-8, many-5)
+cop(disappointed-8, was-7)
+root(ROOT-0, disappointed-8) s1
+mark(hear-10, to-9)
+xcomp(disappointed-8, hear-10)
+case(withdrawal-14, of-11)
+det(withdrawal-14, the-12)
+amod(withdrawal-14, unexpected-13) s3
+nmod:of(hear-10, withdrawal-14) s2 
+case(Pandora-16, of-15)
+nmod:of(withdrawal-14, Pandora-16) 
+case(market-20, from-17)
+det(market-20, the-18)
+amod(market-20, Australian-19)
+nmod:from(hear-10, market-20)
+
+5) Given its sudden closure, in time the Pandora function is expected to be removed from the MZD Connect menu -LRB- on future models -RRB-,'' said Mazda spokesman Tony Mee. 
+
+case(closure-4, Given-1)
+nmod:poss(closure-4, its-2) 
+amod(closure-4, sudden-3) s4
+nmod:given(expected-12, closure-4) s1 
+case(time-7, in-6)
+nmod:in(closure-4, time-7)
+det(function-10, the-8)
+compound(function-10, Pandora-9)  
+nsubjpass(expected-12, function-10) 
+nsubjpass:xsubj(removed-15, function-10)
+auxpass(expected-12, is-11)
+ccomp(said-28, expected-12) s2 
+mark(removed-15, to-13)
+auxpass(removed-15, be-14)
+xcomp(expected-12, removed-15) s3
+case(menu-20, from-16)
+det(menu-20, the-17)
+compound(menu-20, MZD-18)
+compound(menu-20, Connect-19)
+nmod:from(removed-15, menu-20)
+case(models-24, on-22)
+amod(models-24, future-23)
+dep(removed-15, models-24)
+root(ROOT-0, said-28)
+compound(Mee-32, Mazda-29)
+compound(Mee-32, spokesman-30)
+compound(Mee-32, Tony-31)
+nsubj(said-28, Mee-32)
+
+6) Meanwhile Toyota introduced Pandora to selected models in 2015 and currently has it available across its entire model range -LRB- see table below -RRB-. 
+
+advmod(introduced-3, Meanwhile-1)
+nsubj(introduced-3, Toyota-2)  
+nsubj(has-12, Toyota-2)
+root(ROOT-0, introduced-3) s1
+dobj(introduced-3, Pandora-4) 
+case(models-7, to-5)
+amod(models-7, selected-6)
+nmod:to(introduced-3, models-7)
+case(2015-9, in-8)
+nmod:in(models-7, 2015-9)
+cc(introduced-3, and-10)
+advmod(has-12, currently-11)
+conj:and(introduced-3, has-12) s2-1/2
+nsubj(available-14, it-13) 
+xcomp(has-12, available-14) s2-2/2
+case(range-19, across-15)
+nmod:poss(range-19, its-16)
+amod(range-19, entire-17) s3
+compound(range-19, model-18) 
+nmod:across(available-14, range-19) 
+dep(range-19, see-21)
+dobj(see-21, table-22)
+advmod(see-21, below-23)

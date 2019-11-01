@@ -1,0 +1,734 @@
+011390.psd
+
+1) Domino's ditches one of its classic pizzas THE Margherita is dead. 
+
+nsubj(ditches-3, Domino-1) 
+case(Domino-1, 's-2)
+root(ROOT-0, ditches-3) 
+dobj(ditches-3, one-4)
+case(pizzas-8, of-5)
+nmod:poss(pizzas-8, its-6)
+amod(pizzas-8, classic-7) s1
+nmod:of(one-4, pizzas-8)  s3
+det(Margherita-10, THE-9)
+nsubj(dead-12, Margherita-10) 
+cop(dead-12, is-11)
+acl:relcl(one-4, dead-12) s2
+
+2) Long live the Margherita. 
+
+nsubj(live-2, Long-1) s1
+root(ROOT-0, live-2)  s2
+det(Margherita-4, the-3)
+dobj(live-2, Margherita-4) 
+
+3) The timeless classic, topped with tomato, cheese and basil, is that started the whole shebang, but Domino's says people just aren't buying it anymore - so it's getting the axe. 
+
+det(classic-3, The-1)
+amod(classic-3, timeless-2) s2
+nsubj(is-13, classic-3) s1 
+acl(classic-3, topped-5)
+case(tomato-7, with-6)
+nmod:with(topped-5, tomato-7) 
+nmod:with(topped-5, cheese-9) 
+conj:and(tomato-7, cheese-9)
+cc(tomato-7, and-10)
+nmod:with(topped-5, basil-11) 
+conj:and(tomato-7, basil-11)
+root(ROOT-0, is-13)
+mark(started-15, that-14) 
+ccomp(is-13, started-15) s5
+det(shebang-18, the-16)
+amod(shebang-18, whole-17)
+dobj(started-15, shebang-18) 
+cc(is-13, but-20)
+nsubj(says-23, Domino-21)
+case(Domino-21, 's-22)
+conj:but(is-13, says-23)
+nsubj(buying-28, people-24)
+advmod(buying-28, just-25)
+aux(buying-28, are-26) s3-1/3
+neg(buying-28, n't-27) s3-2/3
+ccomp(says-23, buying-28) s3-3/3
+dobj(buying-28, it-29) 
+advmod(buying-28, anymore-30)
+advmod(says-23, so-32)
+nsubj(getting-35, it-33) 
+aux(getting-35, 's-34)
+parataxis(says-23, getting-35)
+det(axe-37, the-36)
+dobj(getting-35, axe-37) s4
+
+4) ``It's like any business, if pizzas don't sell, they get deleted,'' Domino's chief executive Don Meij told news.com.au. 
+
+nsubj(business-6, It-2) 
+cop(business-6, 's-3)
+case(business-6, like-4) s2
+det(business-6, any-5)
+ccomp(deleted-16, business-6) 
+mark(sell-12, if-8)
+nsubj(sell-12, pizzas-9) 
+aux(sell-12, do-10) s1-1/3
+neg(sell-12, n't-11) s1-2/3
+advcl(business-6, sell-12) s1-3/3
+nsubjpass(deleted-16, they-14) 
+auxpass(deleted-16, get-15) s1-1/2
+ccomp(told-25, deleted-16) s1-2/2
+nmod:poss(Meij-24, Domino-19)
+case(Domino-19, 's-20)
+compound(Meij-24, chief-21)
+compound(Meij-24, executive-22)
+compound(Meij-24, Don-23) 
+nsubj(told-25, Meij-24) 
+root(ROOT-0, told-25) s3
+xcomp(told-25, news.com.au-26) 
+
+5) ``You can't just endlessly add new pizzas to the menu and not take something away.'' 
+
+nsubj(add-7, You-2)
+nsubj(take-15, You-2)  
+aux(add-7, ca-3)
+neg(add-7, n't-4)
+advmod(add-7, just-5)
+advmod(add-7, endlessly-6) s2
+root(ROOT-0, add-7) s1 
+amod(pizzas-9, new-8) s3
+dobj(add-7, pizzas-9)  
+case(menu-12, to-10)
+det(menu-12, the-11)
+nmod:to(add-7, menu-12) 
+cc(add-7, and-13)
+neg(take-15, not-14)
+conj:and(add-7, take-15) s4
+dobj(take-15, something-16) 
+advmod(take-15, away-17)
+
+6) From Monday, the pizza giant will begin rolling out an overhauled menu, with 20 new pizzas introduced over 20 weeks, launched in ``three phases''. 
+
+case(Monday-2, From-1)
+nmod:from(begin-8, Monday-2)
+det(giant-6, the-4)
+compound(giant-6, pizza-5) 
+nsubj(begin-8, giant-6) 
+aux(begin-8, will-7)
+root(ROOT-0, begin-8)
+xcomp(begin-8, rolling-9) s1-1/2
+compound:prt(rolling-9, out-10) s1-2/2
+det(menu-13, an-11)
+amod(menu-13, overhauled-12) s2
+dobj(rolling-9, menu-13)  
+case(pizzas-18, with-15)
+nummod(pizzas-18, 20-16)
+amod(pizzas-18, new-17) s4
+nmod:with(rolling-9, pizzas-18)   
+acl(pizzas-18, introduced-19) s3
+case(weeks-22, over-20)
+nummod(weeks-22, 20-21)
+nmod:over(introduced-19, weeks-22)
+acl(weeks-22, launched-24) s5
+case(phases-28, in-25)
+nummod(phases-28, three-27)
+nmod:in(launched-24, phases-28)
+
+7) Gone are the rectangular ``Chef's Best'' pizzas, which will be replaced with a ``Premium'' range, complementing the mid-tier ``Traditional'' favourites and cheapest ``Value'' line. 
+
+dep(Best-8, Gone-1) s1
+cop(Best-8, are-2)
+det(Best-8, the-3)
+amod(Best-8, rectangular-4) s4
+nmod:poss(Best-8, Chef-6) s5-1/2
+case(Chef-6, 's-7)
+root(ROOT-0, Best-8) s5-2/2
+nsubj(Best-8, pizzas-10)    
+nsubjpass(replaced-15, pizzas-10)
+ref(pizzas-10, which-12)
+aux(replaced-15, will-13)
+auxpass(replaced-15, be-14)
+acl:relcl(pizzas-10, replaced-15) s6
+case(range-21, with-16)
+det(range-21, a-17)
+amod(range-21, Premium-19) s7
+nmod:with(replaced-15, range-21)  
+acl(range-21, complementing-23) s2
+det(favourites-29, the-24)
+amod(favourites-29, mid-tier-25) s3
+amod(favourites-29, Traditional-27)  
+dobj(complementing-23, favourites-29) s8
+cc(favourites-29, and-30)
+dobj(complementing-23, cheapest-31) s9
+conj:and(favourites-29, cheapest-31)
+compound(line-35, Value-33)   
+dep(cheapest-31, line-35)   
+
+8) While the Chef's Best sell for $12.95, the Premium pizzas are pricier at $15.90. 
+
+mark(sell-6, While-1)
+det(Chef-3, the-2)
+nmod:poss(Best-5, Chef-3)
+case(Chef-3, 's-4)
+nsubj(sell-6, Best-5) 
+advcl(pricier-15, sell-6) 
+case(12.95-9, for-7)
+dep(12.95-9, $-8)
+nmod:for(sell-6, 12.95-9)
+det(pizzas-13, the-11)
+compound(pizzas-13, Premium-12) s2
+nsubj(pricier-15, pizzas-13)  
+cop(pricier-15, are-14)
+root(ROOT-0, pricier-15) s1
+case(15.90-18, at-16)
+dep(15.90-18, $-17)
+nmod:at(pricier-15, 15.90-18)
+
+9) The Margherita, along with a number of other pizzas, will be deleted in every market except Victoria, which has a ``different pizza culture'', according to Mr Meij. 
+
+det(Margherita-2, The-1)
+nsubjpass(deleted-14, Margherita-2) 
+advmod(deleted-14, along-4)
+case(number-7, with-5)
+det(number-7, a-6) s2-1/2
+nmod:with(along-4, number-7) s2-2/2
+case(pizzas-10, of-8)
+amod(pizzas-10, other-9) 
+nmod:of(number-7, pizzas-10) 
+aux(deleted-14, will-12)
+auxpass(deleted-14, be-13) 
+root(ROOT-0, deleted-14) s1
+case(market-17, in-15)
+det(market-17, every-16)
+nmod:in(deleted-14, market-17)
+nsubj(has-22, market-17)
+case(Victoria-19, except-18) s3
+nmod:except(market-17, Victoria-19)  
+ref(market-17, which-21)
+acl:relcl(market-17, has-22) s4
+det(culture-27, a-23)
+amod(culture-27, different-25) s5
+compound(culture-27, pizza-26)  
+dobj(has-22, culture-27)  
+case(Meij-33, according-30)
+mwe(according-30, to-31)
+compound(Meij-33, Mr-32)
+nmod:according_to(has-22, Meij-33)
+
+10) ``It's the only place in Australia that has a different range,'' he said. 
+
+nsubj(place-6, It-2)
+cop(place-6, 's-3)
+det(place-6, the-4)
+amod(place-6, only-5) s3
+nsubj(has-10, place-6)  
+ccomp(said-17, place-6)
+case(Australia-8, in-7)
+nmod:in(place-6, Australia-8)
+ref(place-6, that-9)
+acl:relcl(place-6, has-10) s2
+det(range-13, a-11)
+amod(range-13, different-12) s1
+dobj(has-10, range-13)  
+nsubj(said-17, he-16)
+root(ROOT-0, said-17)
+
+11) ``If you went across the country, you have nearly identical numbers -LSB- in the types of pizzas sold -RSB-, but Melbourne is different. 
+
+mark(went-4, If-2)
+nsubj(went-4, you-3) 
+advcl(have-10, went-4) s2-1/2
+case(country-7, across-5) s2-2/2
+det(country-7, the-6)
+nmod:across(went-4, country-7) 
+nsubj(have-10, you-9) 
+root(ROOT-0, have-10) s3
+advmod(identical-12, nearly-11) s4
+amod(numbers-13, identical-12) s5
+dobj(have-10, numbers-13)   
+acl(numbers-13, -LSB--14)
+case(types-17, in-15)
+det(types-17, the-16)
+nmod:in(-LSB--14, types-17)
+case(pizzas-19, of-18)
+nmod:of(types-17, pizzas-19) 
+acl(pizzas-19, sold-20) s6
+xcomp(sold-20, -RSB--21)
+cc(have-10, but-23)
+nsubj(different-26, Melbourne-24) 
+cop(different-26, is-25)
+conj:but(have-10, different-26) s1
+
+12) ``We have a pizza there called The Lot, which is really just a fancy version of the Supreme, but Victorians love to walk into the store and say, `Do you have The Lot?' 
+
+nsubj(called-7, We-2) 
+aux(called-7, have-3) s1
+det(pizza-5, a-4)
+nmod:npmod(there-6, pizza-5)  
+advmod(called-7, there-6)
+root(ROOT-0, called-7) s2
+det(Lot-9, The-8)  
+dobj(called-7, Lot-9)  
+nsubj(version-17, Lot-9)
+ref(Lot-9, which-11)
+cop(version-17, is-12)
+advmod(version-17, really-13)
+advmod(version-17, just-14)
+det(version-17, a-15)
+amod(version-17, fancy-16) s4
+acl:relcl(Lot-9, version-17) s3  
+case(Supreme-20, of-18)
+det(Supreme-20, the-19)
+nmod:of(version-17, Supreme-20) s5
+cc(called-7, but-22)
+nsubj(love-24, Victorians-23) 
+nsubj:xsubj(walk-26, Victorians-23)
+nsubj:xsubj(say-31, Victorians-23)
+conj:but(called-7, love-24) s6
+mark(walk-26, to-25)
+xcomp(love-24, walk-26) 
+case(store-29, into-27) 
+det(store-29, the-28)
+nmod:into(walk-26, store-29)
+cc(walk-26, and-30)
+xcomp(love-24, say-31)
+conj:and(walk-26, say-31)
+aux(have-36, Do-34)
+nsubj(have-36, you-35)
+dep(say-31, have-36)
+det(Lot-38, The-37)
+dobj(have-36, Lot-38)
+
+13) We had a butter chicken pizza there. 
+
+nsubj(had-2, We-1) 
+root(ROOT-0, had-2) s1
+det(pizza-6, a-3)
+compound(pizza-6, butter-4) s2
+compound(pizza-6, chicken-5) s3
+dobj(had-2, pizza-6)   
+advmod(had-2, there-7)
+
+14) Victorian pizza culture is different, and we respect that.'' 
+
+amod(culture-3, Victorian-1) 
+compound(culture-3, pizza-2) 
+nsubj(different-5, culture-3) 
+cop(different-5, is-4)
+root(ROOT-0, different-5) s2
+cc(different-5, and-7)
+nsubj(respect-9, we-8) 
+conj:and(different-5, respect-9) s1
+dobj(respect-9, that-10) 
+
+15) Other pizzas getting the chop include Prawn, Bacon and Feta, Grand Supreme, Loaded Meatlovers, Chicken and Camembert, Deli Vege and Camembert, Hickory BBQ Pulled Beef, Lamb Tzatziki, and BBQ Lamb and Bacon. 
+
+amod(pizzas-2, Other-1)
+nsubj(include-6, pizzas-2)
+acl(pizzas-2, getting-3)
+det(chop-5, the-4)
+dobj(getting-3, chop-5)
+root(ROOT-0, include-6)
+dobj(include-6, Prawn-7)
+dobj(include-6, Bacon-9)
+conj:and(Prawn-7, Bacon-9)
+cc(Prawn-7, and-10)
+dobj(include-6, Feta-11)
+conj:and(Prawn-7, Feta-11)
+compound(Supreme-14, Grand-13)
+dobj(include-6, Supreme-14)
+conj:and(Prawn-7, Supreme-14)
+compound(Meatlovers-17, Loaded-16)
+dobj(include-6, Meatlovers-17)
+conj:and(Prawn-7, Meatlovers-17)
+dobj(include-6, Chicken-19)
+conj:and(Prawn-7, Chicken-19)
+cc(Chicken-19, and-20)
+conj:and(Prawn-7, Camembert-21)
+conj:and(Chicken-19, Camembert-21)
+compound(Vege-24, Deli-23)
+dobj(include-6, Vege-24)
+conj:and(Prawn-7, Vege-24)
+cc(Vege-24, and-25)
+conj:and(Prawn-7, Camembert-26)
+conj:and(Vege-24, Camembert-26)
+compound(Beef-31, Hickory-28)
+compound(Beef-31, BBQ-29)
+compound(Beef-31, Pulled-30)
+dobj(include-6, Beef-31)
+conj:and(Prawn-7, Beef-31)
+compound(Tzatziki-34, Lamb-33)
+dobj(include-6, Tzatziki-34)
+conj:and(Prawn-7, Tzatziki-34)
+cc(Prawn-7, and-36)
+compound(Lamb-38, BBQ-37)
+dobj(include-6, Lamb-38)
+conj:and(Prawn-7, Lamb-38)
+cc(Lamb-38, and-39)
+conj:and(Prawn-7, Bacon-40)
+conj:and(Lamb-38, Bacon-40)
+
+16) He said the goal of the Premium range was to standardise the size of all of Domino's pizzas. 
+
+nsubj(said-2, He-1)
+root(ROOT-0, said-2)
+det(goal-4, the-3)
+nsubj(was-9, goal-4) 
+nsubj:xsubj(standardise-11, goal-4)
+case(range-8, of-5)
+det(range-8, the-6)
+compound(range-8, Premium-7)
+nmod:of(goal-4, range-8)
+ccomp(said-2, was-9)
+mark(standardise-11, to-10)
+xcomp(was-9, standardise-11) s1
+det(size-13, the-12)
+dobj(standardise-11, size-13) 
+case(all-15, of-14)
+nmod:of(size-13, all-15)
+case(pizzas-19, of-16)
+nmod:poss(pizzas-19, Domino-17)
+case(Domino-17, 's-18)
+nmod:of(all-15, pizzas-19)
+
+17) Mr Meij said customers were confused by the Chef's Best line. 
+
+compound(Meij-2, Mr-1)
+nsubj(said-3, Meij-2)
+root(ROOT-0, said-3)
+nsubjpass(confused-6, customers-4) 
+auxpass(confused-6, were-5)
+ccomp(said-3, confused-6) s1
+case(line-12, by-7)
+det(Chef-9, the-8)
+nmod:poss(line-12, Chef-9)
+case(Chef-9, 's-10)
+amod(line-12, Best-11) 
+nmod:by(confused-6, line-12) 
+
+18) ``Customers were saying, `I don't get it, it's your premium pizza but it's smaller, it's a rectangle,''' he said. 
+
+nsubj(saying-4, Customers-2)
+aux(saying-4, were-3)
+ccomp(said-31, saying-4)
+nsubj(get-10, I-7) 
+aux(get-10, do-8)
+neg(get-10, n't-9)
+xcomp(saying-4, get-10) s2
+dobj(get-10, it-11) 
+nsubj(pizza-17, it-13) 
+cop(pizza-17, 's-14)
+nmod:poss(pizza-17, your-15)
+compound(pizza-17, premium-16) s1
+xcomp(saying-4, pizza-17) 
+conj:but(get-10, pizza-17)
+cc(get-10, but-18)
+nsubj(smaller-21, it-19) 
+cop(smaller-21, 's-20)
+xcomp(saying-4, smaller-21) s3
+conj:but(get-10, smaller-21)
+nsubj(rectangle-26, it-23) 
+cop(rectangle-26, 's-24)
+det(rectangle-26, a-25)
+xcomp(saying-4, rectangle-26) s4
+conj:but(get-10, rectangle-26)
+nsubj(said-31, he-30)
+root(ROOT-0, said-31)
+
+19) ``They would go on to explain their version of premium. 
+
+nsubj(go-4, They-2) 
+nsubj:xsubj(explain-7, They-2)
+aux(go-4, would-3)
+root(ROOT-0, go-4)
+compound:prt(go-4, on-5)
+mark(explain-7, to-6)
+xcomp(go-4, explain-7) s1
+nmod:poss(version-9, their-8)
+dobj(explain-7, version-9)  
+case(premium-11, of-10)
+nmod:of(version-9, premium-11) s2
+
+20) Premium means different things to different people, which is why this is being launched in three stages, targeting three different groups.'' 
+
+nsubj(means-2, Premium-1) 
+root(ROOT-0, means-2) s1
+amod(things-4, different-3) 
+dobj(means-2, things-4) 
+case(people-7, to-5)
+amod(people-7, different-6)
+nmod:to(means-2, people-7)
+nsubj(is-10, people-7)
+ref(people-7, which-9)
+acl:relcl(people-7, is-10)
+advmod(launched-15, why-11)
+nsubjpass(launched-15, this-12)  
+aux(launched-15, is-13)
+auxpass(launched-15, being-14)
+advcl(is-10, launched-15) s2
+case(stages-18, in-16)
+nummod(stages-18, three-17)
+nmod:in(launched-15, stages-18)
+advcl(means-2, targeting-20) s3
+nummod(groups-23, three-21)
+amod(groups-23, different-22) s4
+dobj(targeting-20, groups-23)  
+
+21) Mr Meij said ``phase one'' was ``your favourite pizzas, but how do we take them up a bit, make them more premium''. 
+
+compound(Meij-2, Mr-1)
+nsubj(said-3, Meij-2)
+root(ROOT-0, said-3)
+nsubj(pizzas-12, phase-5)
+nsubj(do-16, phase-5) 
+nummod(phase-5, one-6) 
+cop(pizzas-12, was-8)
+nmod:poss(pizzas-12, your-10)
+amod(pizzas-12, favourite-11) s1
+dep(said-3, pizzas-12) 
+cc(pizzas-12, but-14)
+advmod(do-16, how-15)
+dep(said-3, do-16)
+conj:but(pizzas-12, do-16)
+nsubj(take-18, we-17)  
+ccomp(do-16, take-18) s2-1/2
+dobj(take-18, them-19) 
+advmod(take-18, up-20) s2-2/2
+det(bit-22, a-21)
+nmod:npmod(up-20, bit-22)
+dep(take-18, make-24) s3
+dobj(make-24, them-25)  
+amod(premium-27, more-26) s5
+dobj(take-18, premium-27) s4 
+
+22) ``We've done that in the past, we introduced rashers of bacon a few years back instead of diced bacon, then camembert, feta,'' he said. 
+
+nsubj(done-4, We-2) 
+aux(done-4, 've-3)
+ccomp(said-31, done-4) s1
+mark(introduced-11, that-5) 
+case(past-8, in-6)
+det(past-8, the-7)
+nmod:in(introduced-11, past-8)
+nsubj(introduced-11, we-10) 
+ccomp(done-4, introduced-11) s2
+dobj(introduced-11, rashers-12)  
+case(bacon-14, of-13) 
+nmod:of(rashers-12, bacon-14)  
+det(years-17, a-15)
+amod(years-17, few-16)
+nmod:npmod(back-18, years-17)
+advmod(rashers-12, back-18)
+case(bacon-22, instead-19) s3-1/2
+mwe(instead-19, of-20) s3-2/2
+amod(bacon-22, diced-21) 
+nmod:instead_of(rashers-12, bacon-22) 
+advmod(camembert-25, then-24)
+appos(rashers-12, camembert-25)
+appos(camembert-25, feta-27)
+nsubj(said-31, he-30)
+root(ROOT-0, said-31)
+
+23) ``There are new toppings we haven't sold before, new and exciting ways to present pizza.'' 
+
+expl(are-3, There-2)
+root(ROOT-0, are-3)
+amod(toppings-5, new-4) s4
+nsubj(are-3, toppings-5)  
+nsubj(sold-9, we-6) 
+aux(sold-9, have-7)
+neg(sold-9, n't-8)
+acl:relcl(toppings-5, sold-9) s3
+mark(present-17, before-10)
+amod(ways-15, new-12) s1
+cc(new-12, and-13)
+conj:and(new-12, exciting-14) s2
+amod(ways-15, exciting-14)
+nsubj(present-17, ways-15)   
+mark(present-17, to-16)
+advcl(sold-9, present-17) s5
+dobj(present-17, pizza-18) 
+
+24) But just like the Margherita, he said individual toppings would be deleted as part of an ``ongoing process''. 
+
+cc(said-8, But-1)
+advmod(Margherita-5, just-2)
+case(Margherita-5, like-3)
+det(Margherita-5, the-4)
+nmod:like(said-8, Margherita-5)
+nsubj(said-8, he-7)
+root(ROOT-0, said-8)
+amod(toppings-10, individual-9) s2
+nsubjpass(deleted-13, toppings-10)  
+aux(deleted-13, would-11)
+auxpass(deleted-13, be-12) 
+ccomp(said-8, deleted-13) s1
+case(part-15, as-14)
+nmod:as(deleted-13, part-15)
+case(process-20, of-16)
+det(process-20, an-17)
+amod(process-20, ongoing-19) s3
+nmod:of(part-15, process-20) 
+
+25) ``We used to sell duck a few years ago, blue cheese, lamb is one of the toppings that will be deleted eventually,'' he said. 
+
+nsubj(used-3, We-2)
+nsubj:xsubj(sell-5, We-2) 
+ccomp(said-29, used-3) s1
+mark(sell-5, to-4)
+xcomp(used-3, sell-5)  s2
+dobj(sell-5, duck-6) 
+det(years-9, a-7)
+amod(years-9, few-8)
+nmod:npmod(ago-10, years-9)
+advmod(sell-5, ago-10)
+amod(cheese-13, blue-12) 
+nsubj(said-29, cheese-13) 
+nsubj(one-17, lamb-15) 
+cop(one-17, is-16)
+parataxis(said-29, one-17)
+case(toppings-20, of-18)
+det(toppings-20, the-19)
+nmod:of(one-17, toppings-20) s3 
+nsubjpass(deleted-24, toppings-20)
+ref(toppings-20, that-21)
+aux(deleted-24, will-22)
+auxpass(deleted-24, be-23)
+acl:relcl(toppings-20, deleted-24) s4 
+advmod(deleted-24, eventually-25) s5
+nsubj(said-29, he-28)
+root(ROOT-0, said-29)
+
+26) ``It's about what's trending, what do people love.'' 
+
+nsubj(trending-7, It-2)
+cop(trending-7, 's-3)
+mark(trending-7, about-4)
+nsubj(trending-7, what-5)
+aux(trending-7, 's-6)
+root(ROOT-0, trending-7)
+nsubj(do-10, what-9) 
+ccomp(trending-7, do-10)
+nsubj(love-12, people-11) 
+ccomp(do-10, love-12) s1
+
+27) Last month, Deutsche Bank analyst Michael Simotas said Domino's was as part of a strategy to cut food costs in an attempt to reduce cost pressure stemming from recent changes that increased penalty rates for employees. 
+
+amod(month-2, Last-1)
+nmod:tmod(said-9, month-2)
+compound(Simotas-8, Deutsche-4)
+compound(Simotas-8, Bank-5)
+compound(Simotas-8, analyst-6)
+compound(Simotas-8, Michael-7)
+nsubj(said-9, Simotas-8)
+root(ROOT-0, said-9)
+nsubj(part-14, Domino-10) 
+case(Domino-10, 's-11)
+cop(part-14, was-12)
+case(part-14, as-13)
+ccomp(said-9, part-14) s4-1/2
+case(strategy-17, of-15) s4-2/2
+det(strategy-17, a-16)
+nmod:of(part-14, strategy-17) s1  
+mark(cut-19, to-18)
+acl(strategy-17, cut-19) s2 
+compound(costs-21, food-20)
+dobj(cut-19, costs-21) 
+case(attempt-24, in-22)
+det(attempt-24, an-23)
+nmod:in(cut-19, attempt-24)  
+mark(reduce-26, to-25)
+acl(attempt-24, reduce-26) s3
+compound(pressure-28, cost-27) 
+dobj(reduce-26, pressure-28)  
+acl(pressure-28, stemming-29) s5-1/2
+case(changes-32, from-30) s5-2/2
+amod(changes-32, recent-31)
+nmod:from(stemming-29, changes-32)  
+nsubj(increased-34, changes-32)
+ref(changes-32, that-33)
+acl:relcl(changes-32, increased-34) s6
+compound(rates-36, penalty-35) 
+dobj(increased-34, rates-36) 
+case(employees-38, for-37)
+nmod:for(increased-34, employees-38)
+
+28) ``We understand Domino's is planning to reduce the size of its pizzas to provide additional cost relief,'' Mr Simotas said in a briefing note. 
+
+nsubj(understand-3, We-2) 
+ccomp(said-24, understand-3) s2
+nsubj(planning-7, Domino-4)  
+nsubj:xsubj(reduce-9, Domino-4)
+case(Domino-4, 's-5)
+aux(planning-7, is-6)
+ccomp(understand-3, planning-7) s3
+mark(reduce-9, to-8)
+xcomp(planning-7, reduce-9)  s4
+det(size-11, the-10)
+dobj(reduce-9, size-11) 
+case(pizzas-14, of-12)
+nmod:poss(pizzas-14, its-13)
+nmod:of(size-11, pizzas-14)
+mark(provide-16, to-15)
+acl(pizzas-14, provide-16)  s5
+amod(relief-19, additional-17) s6
+compound(relief-19, cost-18)  
+dobj(provide-16, relief-19)  
+compound(Simotas-23, Mr-22)
+nsubj(said-24, Simotas-23) 
+root(ROOT-0, said-24) s1
+case(note-28, in-25)
+det(note-28, a-26)
+compound(note-28, briefing-27)
+nmod:in(said-24, note-28) 
+
+29) ``Domino's has already conducted trials on selling Pepsi products and is about to conduct trials on the smaller pizzas, but we see some risk to consumer perception from both of these initiatives.'' 
+
+nsubj(conducted-6, Domino-2)  
+case(Domino-2, 's-3)
+aux(conducted-6, has-4)
+advmod(conducted-6, already-5)
+root(ROOT-0, conducted-6) s1
+dobj(conducted-6, trials-7)  
+mark(selling-9, on-8)
+advcl(conducted-6, selling-9) s2
+compound(products-11, Pepsi-10) 
+dobj(selling-9, products-11) 
+cc(conducted-6, and-12)
+cop(about-14, is-13)
+conj:and(conducted-6, about-14)
+mark(conduct-16, to-15)
+xcomp(about-14, conduct-16) s3
+dobj(conduct-16, trials-17)  s4
+case(pizzas-21, on-18)
+det(pizzas-21, the-19)
+amod(pizzas-21, smaller-20) s5
+nmod:on(conduct-16, pizzas-21)  
+cc(conducted-6, but-23)
+nsubj(see-25, we-24) 
+conj:and(conducted-6, see-25) s7
+det(risk-27, some-26)
+dobj(see-25, risk-27)  s8 
+case(perception-30, to-28)
+compound(perception-30, consumer-29) 
+nmod:to(see-25, perception-30) 
+case(both-32, from-31) s9-1/2
+nmod:from(see-25, both-32) s10-1/2
+case(initiatives-35, of-33) s10-2/2
+det(initiatives-35, these-34)
+nmod:of(both-32, initiatives-35) s9-2/2 
+
+30) Domino's reports its full-year financial results later this month. 
+
+nsubj(reports-3, Domino-1) 
+case(Domino-1, 's-2)
+root(ROOT-0, reports-3) s1
+nmod:poss(results-7, its-4)
+amod(results-7, full-year-5) s2
+amod(results-7, financial-6)  
+dobj(reports-3, results-7)  
+advmod(month-10, later-8)
+det(month-10, this-9)
+nmod:tmod(reports-3, month-10)
+
+31) Originally published as 
+
+advmod(published-2, Originally-1) s1
+root(ROOT-0, published-2) 
+nmod(published-2, as-3)

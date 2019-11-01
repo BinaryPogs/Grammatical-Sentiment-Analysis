@@ -1,0 +1,572 @@
+013390.psd
+
+1) How I smuggled Di out of Australia ``THEY were quite big women, so there wasn't much room.'' 
+
+advmod(smuggled-3, How-1)
+nsubj(smuggled-3, I-2) 
+csubj(women-13, smuggled-3) s1-1/2
+dep(THEY-9, Di-4) 
+case(Australia-7, out-5) s1-2/2
+mwe(out-5, of-6)
+nmod:out_of(Di-4, Australia-7)
+xcomp(smuggled-3, THEY-9) 
+cop(women-13, were-10)
+advmod(big-12, quite-11)
+amod(women-13, big-12) s2
+root(ROOT-0, women-13) 
+mark(was-17, so-15)
+expl(was-17, there-16) 
+advcl(women-13, was-17)
+neg(was-17, n't-18)
+amod(room-20, much-19) s3
+nsubj(was-17, room-20) 
+
+2) The ex-Qantas executive at the centre of a top-secret mission to smuggle the future Princess Diana out of Australia yesterday revealed its bizarre details: deceptions, a secret rendezvous... and being squashed into the back of a daggy Toyota Corona with the laughing 178 cm beauty and her mother. 
+
+det(executive-3, The-1)
+amod(executive-3, ex-Qantas-2)
+nsubj(revealed-21, executive-3)  
+nsubj(squashed-34, executive-3)
+case(centre-6, at-4)
+det(centre-6, the-5)
+nmod:at(executive-3, centre-6)
+case(mission-10, of-7)
+det(mission-10, a-8)
+amod(mission-10, top-secret-9) s2
+nmod:of(centre-6, mission-10) 
+mark(smuggle-12, to-11)
+acl(mission-10, smuggle-12) s2
+det(Diana-16, the-13)
+amod(Diana-16, future-14)
+compound(Diana-16, Princess-15)
+dobj(smuggle-12, Diana-16) 
+compound:prt(smuggle-12, out-17)
+case(Australia-19, of-18)
+nmod:of(smuggle-12, Australia-19)
+nmod:tmod(smuggle-12, yesterday-20)
+root(ROOT-0, revealed-21) s3
+nmod:poss(details-24, its-22)
+amod(details-24, bizarre-23) s1
+dobj(revealed-21, details-24)    
+dep(details-24, deceptions-26) s4
+det(rendezvous-30, a-28)
+amod(rendezvous-30, secret-29) s6
+appos(deceptions-26, rendezvous-30) s5 
+cc(revealed-21, and-32)
+cop(squashed-34, being-33)
+conj:and(revealed-21, squashed-34) 
+case(back-37, into-35)
+det(back-37, the-36)
+nmod:into(squashed-34, back-37)
+case(Corona-42, of-38)
+det(Corona-42, a-39)
+amod(Corona-42, daggy-40)
+compound(Corona-42, Toyota-41)
+nmod:of(back-37, Corona-42)
+case(beauty-48, with-43)
+det(beauty-48, the-44)
+compound(beauty-48, laughing-45)
+nummod(beauty-48, 178-46)
+compound(beauty-48, cm-47)
+nmod:with(squashed-34, beauty-48)
+cc(beauty-48, and-49)
+nmod:poss(mother-51, her-50)
+nmod:with(squashed-34, mother-51)
+conj:and(beauty-48, mother-51)
+
+3) ``It was really quite funny,'' says Brian Wild, of Killarney Heights in Sydney. 
+
+nsubj(funny-6, It-2) 
+cop(funny-6, was-3)
+advmod(funny-6, really-4) s2
+advmod(funny-6, quite-5) s3
+ccomp(says-9, funny-6) s1  
+root(ROOT-0, says-9)
+compound(Wild-11, Brian-10)
+nsubj(says-9, Wild-11)
+case(Heights-15, of-13)
+compound(Heights-15, Killarney-14)
+nmod:of(Wild-11, Heights-15)
+case(Sydney-17, in-16)
+nmod:in(Heights-15, Sydney-17)
+
+4) The urgent operation, which blended thriller with farce, was to get the then Diana Spencer back to London, unseen, in time for her official engagement to Prince Charles in February 1981. 
+
+det(operation-3, The-1)
+amod(operation-3, urgent-2) s1
+nsubj(blended-6, operation-3)   
+nsubj(was-11, operation-3)
+nsubj:xsubj(get-13, operation-3)
+ref(operation-3, which-5)
+acl:relcl(operation-3, blended-6) s2  
+dobj(blended-6, thriller-7) s3
+case(farce-9, with-8)
+nmod:with(blended-6, farce-9) s4
+root(ROOT-0, was-11)
+mark(get-13, to-12)
+xcomp(was-11, get-13) s3-1/2 
+det(Spencer-17, the-14)
+amod(Spencer-17, then-15)
+compound(Spencer-17, Diana-16) 
+dobj(get-13, Spencer-17) 
+compound:prt(get-13, back-18) s3-2/2 
+case(London-20, to-19)
+nmod:to(get-13, London-20)
+xcomp(get-13, unseen-22) s4
+case(time-25, in-24)
+nmod:in(get-13, time-25)
+case(engagement-29, for-26)
+nmod:poss(engagement-29, her-27) 
+amod(engagement-29, official-28) s5
+nmod:for(time-25, engagement-29)  s6
+case(Charles-32, to-30)
+compound(Charles-32, Prince-31) 
+nmod:to(engagement-29, Charles-32) 
+case(February-34, in-33)
+nmod:in(Charles-32, February-34)
+nummod(February-34, 1981-35)
+
+5) But with Qantas grounded by a cabin crew strike, media swamping Sydney Airport and paparazzi sniffing round Diana's holiday location - mother Frances Shand Kydd's rural property in Yass, NSW - it was never going to be easy. 
+
+cc(going-39, But-1)
+case(Qantas-3, with-2)
+nmod:with(going-39, Qantas-3) 
+acl(Qantas-3, grounded-4) s1
+case(strike-9, by-5)
+det(strike-9, a-6)
+amod(strike-9, cabin-7) 
+compound(strike-9, crew-8) 
+nmod:by(grounded-4, strike-9) s4
+appos(strike-9, media-11) 
+acl(media-11, swamping-12) s5
+compound(Airport-14, Sydney-13)
+nsubj(sniffing-17, Airport-14) 
+cc(Airport-14, and-15)
+conj:and(Airport-14, paparazzi-16)
+nsubj(sniffing-17, paparazzi-16) 
+advcl(swamping-12, sniffing-17) s2-1/2
+compound(Diana-19, round-18) s2-2/2
+nmod:poss(location-22, Diana-19) 
+case(Diana-19, 's-20)
+compound(location-22, holiday-21)
+dobj(sniffing-17, location-22) 
+compound(Kydd-27, mother-24)
+compound(Kydd-27, Frances-25)
+compound(Kydd-27, Shand-26)
+nmod:poss(property-30, Kydd-27)
+case(Kydd-27, 's-28)
+amod(property-30, rural-29)
+dep(location-22, property-30)
+case(NSW-34, in-31)
+compound(NSW-34, Yass-32)
+nmod:in(property-30, NSW-34)
+nsubj(going-39, it-36)
+nsubj:xsubj(easy-42, it-36) 
+aux(going-39, was-37)
+neg(going-39, never-38) s3-1/2
+root(ROOT-0, going-39)
+mark(easy-42, to-40)
+cop(easy-42, be-41)
+xcomp(going-39, easy-42) s3-2/2
+
+6) That's where Brian came in. 
+
+nsubj('s-2, That-1)
+root(ROOT-0, 's-2)
+advmod(came-5, where-3)
+nsubj(came-5, Brian-4)
+advcl('s-2, came-5)
+compound:prt(came-5, in-6)
+
+7) As regional manager for Qantas, the dad-of-two was briefed by the chief executive - and a government figure in Canberra - that a very special passenger, known only as ``Miss Reid'', had to be flown out of Sydney incognito within days. 
+
+case(manager-3, As-1)
+amod(manager-3, regional-2)
+nmod:as(briefed-10, manager-3) 
+case(Qantas-5, for-4)
+nmod:for(manager-3, Qantas-5)
+det(dad-of-two-8, the-7)
+nsubjpass(briefed-10, dad-of-two-8)
+auxpass(briefed-10, was-9)
+root(ROOT-0, briefed-10) s2
+case(executive-14, by-11)
+det(executive-14, the-12)
+amod(executive-14, chief-13)
+nmod:by(briefed-10, executive-14) 
+cc(figure-19, and-16)
+det(government-18, a-17)
+nsubj(figure-19, government-18)
+parataxis(briefed-10, figure-19) 
+case(Canberra-21, in-20)
+nmod:in(figure-19, Canberra-21)
+mark(had-37, that-23)
+det(passenger-27, a-24)
+advmod(passenger-27, very-25) s3
+amod(passenger-27, special-26) s1 
+nsubj(had-37, passenger-27)    
+nsubjpass:xsubj(flown-40, passenger-27)
+acl(passenger-27, known-29) s4-1/2
+advmod(known-29, only-30)
+case(Reid-34, as-31) s4-2/2
+compound(Reid-34, Miss-33) 
+nmod:as(known-29, Reid-34) 
+ccomp(briefed-10, had-37)
+mark(flown-40, to-38)
+auxpass(flown-40, be-39)
+xcomp(had-37, flown-40) s5-1/2
+compound:prt(flown-40, out-41) s5-2/2
+case(incognito-44, of-42)
+compound(incognito-44, Sydney-43)
+nmod:of(flown-40, incognito-44) s6
+case(days-46, within-45)
+nmod:within(incognito-44, days-46)
+
+8) ``I was given a codeword called The Reid File,'' says Brian. 
+
+nsubjpass(given-4, I-2) 
+auxpass(given-4, was-3)
+ccomp(says-13, given-4) s1
+det(codeword-6, a-5)
+dobj(given-4, codeword-6)  
+acl(codeword-6, called-7) s2
+det(File-10, The-8)
+compound(File-10, Reid-9) 
+dobj(called-7, File-10) 
+root(ROOT-0, says-13)
+nsubj(says-13, Brian-14)
+
+9) ``I was asked to get her into the airport and onto the aircraft without going through the front door.'' 
+
+nsubjpass(asked-4, I-2) 
+nsubj:xsubj(get-6, I-2)
+nsubj:xsubj(get-6', I-2)
+auxpass(asked-4, was-3)
+root(ROOT-0, asked-4) s1
+mark(get-6, to-5)
+xcomp(asked-4, get-6)  s2-1/2 s3-1/2
+xcomp(asked-4, get-6')
+conj:and(get-6, get-6')
+dobj(get-6, her-7)  
+case(airport-10, into-8) s2-2/2
+det(airport-10, the-9)
+nmod:into(get-6, airport-10) 
+cc(get-6, and-11)
+case(aircraft-14, onto-12) s3-2/2
+det(aircraft-14, the-13)
+nmod:onto(get-6', aircraft-14) 
+mark(going-16, without-15) s4
+advcl(get-6, going-16)  s4-1/2
+case(door-20, through-17)  s4-2/2
+det(door-20, the-18)
+amod(door-20, front-19) 
+nmod:through(going-16, door-20) 
+
+10) Brian, 85, at first had ``no idea'' who Miss Reid was; having run similar operations, he thought it might be a political defector. 
+
+nsubj(had-7, Brian-1)  
+amod(Brian-1, 85-3)
+case(first-6, at-5)
+advmod(had-7, first-6)
+root(ROOT-0, had-7) 
+neg(idea-10, no-9) s2-1/2
+dobj(had-7, idea-10) s2-2/2
+dobj(was-15, idea-10)
+ref(idea-10, who-12)
+compound(Reid-14, Miss-13)
+nsubj(was-15, Reid-14)
+acl:relcl(idea-10, was-15)
+aux(run-18, having-17) 
+advcl(thought-23, run-18) s3
+amod(operations-20, similar-19) s4
+dobj(run-18, operations-20)  
+nsubj(thought-23, he-22)
+parataxis(idea-10, thought-23)
+nsubj(defector-29, it-24) 
+aux(defector-29, might-25)
+cop(defector-29, be-26)
+det(defector-29, a-27)
+amod(defector-29, political-28)
+ccomp(thought-23, defector-29) s1
+
+11) He plotted a route into the airport via an access gate and tunnel, ending at a hidden waiting room away from prying eyes, and did a test run ``in case anything went wrong''. 
+
+nsubj(plotted-2, He-1) 
+nsubj(did-27, He-1)
+root(ROOT-0, plotted-2) s1
+det(route-4, a-3)
+dobj(plotted-2, route-4)  
+case(airport-7, into-5)
+det(airport-7, the-6)
+nmod:into(plotted-2, airport-7)
+case(gate-11, via-8)
+det(gate-11, an-9)
+compound(gate-11, access-10)
+nmod:via(airport-7, gate-11)
+cc(gate-11, and-12)
+nmod:via(airport-7, tunnel-13)
+conj:and(gate-11, tunnel-13)
+dep(plotted-2, ending-15) s2-1/2
+case(room-20, at-16) s2-2/2
+det(room-20, a-17)
+amod(room-20, hidden-18) s3
+compound(room-20, waiting-19)   
+nmod:at(ending-15, room-20)   
+advmod(ending-15, away-21) s4-1/2
+case(eyes-24, from-22) s4-2/2
+amod(eyes-24, prying-23) 
+nmod:from(ending-15, eyes-24) 
+cc(plotted-2, and-26)
+conj:and(plotted-2, did-27)
+det(run-30, a-28)
+compound(run-30, test-29)
+dobj(did-27, run-30)
+case(anything-34, in-32)
+compound(anything-34, case-33)
+dobj(did-27, anything-34) 
+acl:relcl(anything-34, went-35) s5-1/2
+xcomp(went-35, wrong-36) s5-2/2
+
+12) Meanwhile plans were laid to get Diana from the farm unseen by a buzzing media helicopter. 
+
+advmod(laid-4, Meanwhile-1)
+nsubjpass(laid-4, plans-2)
+nsubj:xsubj(get-6, plans-2)
+auxpass(laid-4, were-3)
+root(ROOT-0, laid-4)
+mark(get-6, to-5)
+xcomp(laid-4, get-6)
+dobj(get-6, Diana-7)
+case(farm-10, from-8)
+det(farm-10, the-9)
+nmod:from(get-6, farm-10)
+amod(farm-10, unseen-11)
+case(helicopter-16, by-12)
+det(helicopter-16, a-13)
+amod(helicopter-16, buzzing-14)
+compound(helicopter-16, media-15)
+nmod:by(unseen-11, helicopter-16)
+
+13) ``Her mother went out the front door in her dressing gown with a broom in her hand waving it at this bloody helicopter, to distract it while Diana went out the back and got in the car to go to Sydney. 
+
+nmod:poss(mother-3, Her-2)
+nsubj(went-4, mother-3)   
+root(ROOT-0, went-4) s2-1/2
+compound:prt(went-4, out-5) s2-2/2
+det(door-8, the-6)
+amod(door-8, front-7)
+dobj(went-4, door-8) 
+case(gown-12, in-9)
+nmod:poss(gown-12, her-10)
+amod(gown-12, dressing-11)
+nmod:in(door-8, gown-12)
+case(broom-15, with-13)
+det(broom-15, a-14)
+nmod:with(went-4, broom-15)
+case(hand-18, in-16)
+nmod:poss(hand-18, her-17)
+nmod:in(broom-15, hand-18)
+acl(hand-18, waving-19) s3
+dobj(waving-19, it-20) 
+case(helicopter-24, at-21)
+det(helicopter-24, this-22)
+amod(helicopter-24, bloody-23) s1
+nmod:at(waving-19, helicopter-24) 
+mark(distract-27, to-26)
+advcl(waving-19, distract-27) s4
+dobj(distract-27, it-28) 
+mark(went-31, while-29)
+nsubj(went-31, Diana-30)  
+nsubj(got-36, Diana-30)
+nsubj:xsubj(go-41, Diana-30)
+advcl(distract-27, went-31) s5-1/2
+compound:prt(went-31, out-32) s5-2/2
+det(back-34, the-33)
+dobj(went-31, back-34) 
+cc(went-31, and-35)
+advcl(distract-27, got-36) s6-1/2
+conj:and(went-31, got-36) 
+case(car-39, in-37) s6-2/2
+det(car-39, the-38)
+nmod:in(got-36, car-39) 
+mark(go-41, to-40)
+xcomp(got-36, go-41)
+case(Sydney-43, to-42)
+nmod:to(go-41, Sydney-43)
+
+14) It worked.'' 
+
+nsubj(worked-2, It-1) 
+root(ROOT-0, worked-2) s1
+
+15) Brian met the yellow Toyota Corona on the corner of O'Riordan and Gardeners Rd in Mascot. 
+
+nsubj(met-2, Brian-1) 
+root(ROOT-0, met-2) s1
+det(Corona-6, the-3)
+amod(Corona-6, yellow-4)
+compound(Corona-6, Toyota-5) 
+dobj(met-2, Corona-6) 
+case(corner-9, on-7)
+det(corner-9, the-8)
+nmod:on(met-2, corner-9)
+case(Rd-14, of-10)
+compound(Rd-14, O'Riordan-11)
+cc(O'Riordan-11, and-12)
+conj:and(O'Riordan-11, Gardeners-13)
+compound(Rd-14, Gardeners-13)
+nmod:of(corner-9, Rd-14)
+case(Mascot-16, in-15)
+nmod:in(met-2, Mascot-16)
+
+16) ``The car arrived, the back door opened and I got in. 
+
+det(car-3, The-2)
+nsubj(arrived-4, car-3) 
+root(ROOT-0, arrived-4) s1
+det(door-8, the-6)
+amod(door-8, back-7)
+nsubj(opened-9, door-8) 
+conj:and(arrived-4, opened-9) s2
+cc(arrived-4, and-10)
+nsubj(got-12, I-11) 
+conj:and(arrived-4, got-12) s3-1/2
+compound:prt(got-12, in-13) s3-2/2
+
+17) There was the driver and a guy in the front, and Lady Diana and her mother in the back seat. 
+
+expl(was-2, There-1)
+root(ROOT-0, was-2)
+det(driver-4, the-3)
+nsubj(was-2, driver-4) 
+cc(driver-4, and-5)
+det(guy-7, a-6)
+nsubj(was-2, guy-7) 
+conj:and(driver-4, guy-7)
+case(front-10, in-8) s1-1/2
+det(front-10, the-9)
+nmod:in(guy-7, front-10) s1-2/2
+cc(driver-4, and-12)
+compound(Diana-14, Lady-13)
+nsubj(was-2, Diana-14) 
+conj:and(driver-4, Diana-14)
+cc(Diana-14, and-15)
+nmod:poss(mother-17, her-16)
+conj:and(driver-4, mother-17) 
+conj:and(Diana-14, mother-17)
+case(seat-21, in-18) s2-1/2
+det(seat-21, the-19)
+amod(seat-21, back-20) s2-2/2
+nmod:in(was-2, seat-21)
+
+18) They were both big ladies... it was rather a squash. 
+
+nsubj(ladies-5, They-1) 
+cop(ladies-5, were-2)
+det(ladies-5, both-3)
+amod(ladies-5, big-4) s2
+root(ROOT-0, ladies-5) 
+nsubj(squash-11, it-7) 
+cop(squash-11, was-8)
+advmod(squash-11, rather-9) s3
+det(squash-11, a-10)
+parataxis(ladies-5, squash-11) s1 
+
+19) ``I just said hello, I'm Brian Wild and I'm to take you to the airport - there was a lot of laughter.'' 
+
+nsubj(said-4, I-2) 
+advmod(said-4, just-3)
+root(ROOT-0, said-4) s1
+discourse(Wild-10, hello-5) 
+nsubj(Wild-10, I-7)
+cop(Wild-10, 'm-8)
+compound(Wild-10, Brian-9)
+dep(said-4, Wild-10)
+cc(Wild-10, and-11)
+nsubj('m-13, I-12)
+nsubj:xsubj(take-15, I-12) 
+dep(said-4, 'm-13)
+conj:and(Wild-10, 'm-13)
+mark(take-15, to-14)
+xcomp('m-13, take-15) s2
+dobj(take-15, you-16) 
+case(airport-19, to-17)
+det(airport-19, the-18)
+nmod:to(take-15, airport-19)
+expl(was-22, there-21) 
+parataxis(said-4, was-22)
+det(lot-24, a-23) s4-1/2
+nsubj(was-22, lot-24) s4-2/2
+case(laughter-26, of-25)
+nmod:of(lot-24, laughter-26) s3 
+
+20) Brian spent the next three hours chatting with the women as he chaperoned them through the airport and onto a special Qantas flight manned by hastily-trained administrative staff taking the role of striking cabin crew. 
+
+nsubj(spent-2, Brian-1)  
+root(ROOT-0, spent-2) s2
+det(hours-6, the-3)
+amod(hours-6, next-4)
+nummod(hours-6, three-5)
+dobj(spent-2, hours-6) 
+acl(hours-6, chatting-7) s3-1/2
+case(women-10, with-8) s3-2/2
+det(women-10, the-9)
+nmod:with(chatting-7, women-10) 
+mark(chaperoned-13, as-11)
+nsubj(chaperoned-13, he-12) 
+nsubj(manned-24, he-12)
+advcl(chatting-7, chaperoned-13) s4
+dobj(chaperoned-13, them-14) 
+case(airport-17, through-15)
+det(airport-17, the-16)
+nmod:through(chaperoned-13, airport-17)
+cc(chaperoned-13, and-18)
+case(flight-23, onto-19)
+det(flight-23, a-20)
+amod(flight-23, special-21)
+compound(flight-23, Qantas-22)
+nmod:onto(manned-24, flight-23) 
+advcl(chatting-7, manned-24) s5
+conj:and(chaperoned-13, manned-24)
+case(staff-28, by-25)
+amod(staff-28, hastily-trained-26) s1
+amod(staff-28, administrative-27)   
+nmod:by(manned-24, staff-28)   
+xcomp(manned-24, taking-29) s6-1/2
+det(role-31, the-30)
+dobj(taking-29, role-31) s6-2/2
+case(crew-35, of-32)
+amod(crew-35, striking-33) s7
+compound(crew-35, cabin-34)  
+nmod:of(role-31, crew-35)  
+
+21) Just a week later, the engagement was announced. 
+
+advmod(week-3, Just-1)
+det(week-3, a-2)
+nmod:npmod(later-4, week-3)
+advmod(announced-9, later-4)
+det(engagement-7, the-6)
+nsubjpass(announced-9, engagement-7) 
+auxpass(announced-9, was-8)
+root(ROOT-0, announced-9) s1
+
+22) ``They were lovely,'' he says of the family. 
+
+nsubj(lovely-4, They-2) 
+cop(lovely-4, were-3)
+ccomp(says-8, lovely-4) s1
+nsubj(says-8, he-7)
+root(ROOT-0, says-8)
+case(family-11, of-9)
+det(family-11, the-10)
+nmod:of(says-8, family-11)
+
+23) And they clearly thought highly of him. 
+
+cc(thought-4, And-1)
+nsubj(thought-4, they-2) 
+advmod(thought-4, clearly-3) s1
+root(ROOT-0, thought-4)  s2-1/3
+advmod(thought-4, highly-5)  s2-2/3
+case(him-7, of-6)  s2-3/3
+nmod:of(thought-4, him-7) 

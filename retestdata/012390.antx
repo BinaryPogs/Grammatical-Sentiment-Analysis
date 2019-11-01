@@ -1,0 +1,439 @@
+012390.psd
+
+1) Oasis' Liam brands brother a `stalker potato' LIAM Gallagher has branded his brother Noel a ``stalker'' and joked about him ``licking out Bono's a **'' in a shocking new interview. 
+
+nmod:poss(brands-4, Oasis-1)
+case(Oasis-1, '-2)
+compound(brands-4, Liam-3)
+nsubj(brother-5, brands-4)
+root(ROOT-0, brother-5)
+det(potato-9, a-6)
+compound(potato-9, stalker-8) s1
+dobj(brother-5, potato-9) 
+compound(Gallagher-12, LIAM-11)  
+nsubj(branded-14, Gallagher-12)  
+nsubj(joked-23, Gallagher-12)
+aux(branded-14, has-13)
+acl:relcl(potato-9, branded-14) s2
+nmod:poss(brother-16, his-15)
+dobj(branded-14, brother-16) 
+xcomp(branded-14, Noel-17) 
+det(stalker-20, a-18)
+dobj(Noel-17, stalker-20) 
+cc(branded-14, and-22)
+acl:relcl(potato-9, joked-23)
+conj:and(branded-14, joked-23) s3-1/2
+mark(licking-27, about-24) s3-2/2
+nsubj(licking-27, him-25)  
+advcl(joked-23, licking-27) s4-1/2
+compound:prt(licking-27, out-28) s4-2/2
+dobj(licking-27, Bono-29) 
+cop(**-32, 's-30)
+det(**-32, a-31)
+acl:relcl(Bono-29, **-32)
+case(interview-38, in-34)
+det(interview-38, a-35)
+amod(interview-38, shocking-36) s5
+amod(interview-38, new-37) s6
+nmod:in(**-32, interview-38)  
+
+2) The Northern rocker made the comments when asked about what he thought of his brother supporting U2 on their European and US tour, Liam said: ``I love our kid, but every time I see him he's got his arm around some crazy celebrity. 
+
+det(rocker-3, The-1)
+amod(rocker-3, Northern-2)
+nsubj(made-4, rocker-3)  
+root(ROOT-0, made-4) s4
+det(comments-6, the-5)
+dobj(made-4, comments-6) 
+advmod(asked-8, when-7)
+advcl(made-4, asked-8) s5
+mark(thought-12, about-9)
+dobj(thought-12, what-10)
+nsubj(thought-12, he-11) 
+advcl(asked-8, thought-12) s6-1/2
+case(U2-17, of-13) s6-2/2
+nmod:poss(U2-17, his-14)
+compound(U2-17, brother-15)  
+amod(U2-17, supporting-16) s1
+nmod:of(thought-12, U2-17) 
+case(tour-23, on-18)
+nmod:poss(tour-23, their-19)
+amod(tour-23, European-20)
+cc(European-20, and-21)
+conj:and(European-20, US-22)
+amod(tour-23, US-22)
+nmod:on(U2-17, tour-23)
+nsubj(said-26, Liam-25)
+dep(made-4, said-26)
+nsubj(love-30, I-29) 
+ccomp(said-26, love-30) s2
+nmod:poss(kid-32, our-31) 
+dobj(love-30, kid-32) 
+cc(made-4, but-34)
+det(time-36, every-35)
+nsubj(see-38, time-36)
+nsubj(see-38, I-37) 
+conj:but(made-4, see-38) s7
+dobj(see-38, him-39) 
+nsubjpass(got-42, he-40) 
+auxpass(got-42, 's-41)
+dep(see-38, got-42) s8-1/3
+nmod:poss(arm-44, his-43) 
+dobj(got-42, arm-44) s8-2/3
+case(celebrity-48, around-45) s8-3/3
+det(celebrity-48, some-46)
+amod(celebrity-48, crazy-47) s3
+nmod:around(got-42, celebrity-48) 
+
+3) It's like he's stalking them. 
+
+nsubj('s-2, It-1)
+root(ROOT-0, 's-2)
+mark(stalking-6, like-3)
+nsubj(stalking-6, he-4) 
+aux(stalking-6, 's-5)
+advcl('s-2, stalking-6) s1
+dobj(stalking-6, them-7) 
+
+4) ``Every time I see pictures of him, I just see a potato - a stalker potato when he has his arm around Bono.'' 
+
+det(time-3, Every-2)
+nsubj(see-5, time-3)
+nsubj(see-5, I-4) 
+ccomp(see-12, see-5) s1
+dobj(see-5, pictures-6) 
+case(him-8, of-7)
+nmod:of(pictures-6, him-8)
+nsubj(see-12, I-10) 
+advmod(see-12, just-11)
+root(ROOT-0, see-12) s2
+det(potato-14, a-13)
+dobj(see-12, potato-14) 
+det(potato-18, a-16)
+compound(potato-18, stalker-17) s3
+dep(potato-14, potato-18) 
+advmod(has-21, when-19)
+nsubj(has-21, he-20) 
+acl:relcl(potato-18, has-21) s4-1/3
+nmod:poss(arm-23, his-22) 
+dobj(has-21, arm-23) s4-2/3
+case(Bono-25, around-24) s4-3/3
+nmod:around(has-21, Bono-25) 
+
+5) ``It's nice to know while he's out licking Bono's a *** I'm sort of doing it for real.'' 
+
+nsubj(nice-4, It-2) 
+nsubj:xsubj(know-6, It-2)
+cop(nice-4, 's-3)
+root(ROOT-0, nice-4) s1
+mark(know-6, to-5)
+xcomp(nice-4, know-6) 
+mark(licking-11, while-7)
+nsubj(licking-11, he-8) 
+aux(licking-11, 's-9)
+advmod(licking-11, out-10)
+advcl(know-6, licking-11) s2
+nsubj(***-15, Bono-12) 
+cop(***-15, 's-13)
+det(***-15, a-14)
+ccomp(licking-11, ***-15)
+nsubj(sort-18, I-16)
+cop(sort-18, 'm-17)
+acl:relcl(***-15, sort-18)
+mark(doing-20, of-19)
+acl(sort-18, doing-20)
+dobj(doing-20, it-21)
+case(real-23, for-22)
+nmod:for(doing-20, real-23)
+
+6) The Oasis brothers ever since they formed the band way back in 1991. 
+
+det(brothers-3, The-1)
+compound(brothers-3, Oasis-2)
+nsubj(formed-7, brothers-3)
+advmod(formed-7, ever-4)
+case(they-6, since-5)
+nmod:since(ever-4, they-6) 
+root(ROOT-0, formed-7) s1
+det(way-10, the-8)
+compound(way-10, band-9) 
+dobj(formed-7, way-10)
+advmod(formed-7, back-11)
+case(1991-13, in-12)
+nmod:in(formed-7, 1991-13)
+
+7) Despite this, Liam is still holding out hope that Oasis will reform one day. 
+
+case(this-2, Despite-1)
+nmod:despite(holding-7, this-2)
+nsubj(holding-7, Liam-4) 
+aux(holding-7, is-5)
+advmod(holding-7, still-6)
+root(ROOT-0, holding-7) s1-1/2
+compound:prt(holding-7, out-8) s1-2/2
+dobj(holding-7, hope-9) 
+mark(reform-13, that-10)
+nsubj(reform-13, Oasis-11) 
+aux(reform-13, will-12)
+ccomp(holding-7, reform-13) s2
+nummod(day-15, one-14)
+nmod:tmod(reform-13, day-15)
+
+8) He continued: ``Without a doubt, that's my band. 
+
+nsubj(continued-2, He-1)
+root(ROOT-0, continued-2)
+case(doubt-7, Without-5) s1
+det(doubt-7, a-6)
+nmod:without(band-12, doubt-7) 
+nsubj(band-12, that-9)
+cop(band-12, 's-10)
+nmod:poss(band-12, my-11)
+ccomp(continued-2, band-12)
+
+9) ``We've got to become brothers first before we can talk about the music, once we start liking each other, inevitable the next step is to take the band around the block for a spin. 
+
+nsubj(got-4, We-2) 
+nsubj:xsubj(become-6, We-2)
+aux(got-4, 've-3)
+ccomp(is-28, got-4)
+mark(become-6, to-5)
+xcomp(got-4, become-6) s1
+xcomp(become-6, brothers-7) 
+advmod(become-6, first-8)
+mark(talk-12, before-9)
+nsubj(talk-12, we-10) 
+aux(talk-12, can-11)
+advcl(become-6, talk-12) s2-1/2
+case(music-15, about-13) s2-2/2
+det(music-15, the-14)
+nmod:about(talk-12, music-15) 
+mark(start-19, once-17)
+nsubj(start-19, we-18)  
+advcl(become-6, start-19) 
+xcomp(start-19, liking-20) s3
+det(other-22, each-21) 
+dobj(liking-20, other-22) 
+amod(step-27, inevitable-24)
+det(step-27, the-25)
+amod(step-27, next-26)
+nsubj(is-28, step-27)
+nsubj:xsubj(take-30, step-27)
+root(ROOT-0, is-28)
+mark(take-30, to-29)
+xcomp(is-28, take-30) s4
+det(band-32, the-31)
+dobj(take-30, band-32) 
+case(block-35, around-33)
+det(block-35, the-34)
+nmod:around(take-30, block-35)
+case(spin-38, for-36)
+det(spin-38, a-37)
+nmod:for(block-35, spin-38)
+
+10) ``I love Oasis, it's the best thing ever.'' 
+
+nsubj(love-3, I-2) 
+ccomp(thing-10, love-3) s1
+dobj(love-3, Oasis-4) 
+nsubj(thing-10, it-6) 
+cop(thing-10, 's-7)
+det(thing-10, the-8)
+amod(thing-10, best-9) s2
+root(ROOT-0, thing-10) 
+advmod(thing-10, ever-11)
+
+11) Earlier this week, Liam told Beats 1 his dream about the band coming back together was never far from his mind. 
+
+advmod(week-3, Earlier-1)
+det(week-3, this-2)
+nmod:tmod(told-6, week-3)
+nsubj(told-6, Liam-5) 
+root(ROOT-0, told-6) s3
+dobj(told-6, Beats-7) 
+nummod(Beats-7, 1-8) 
+nmod:poss(dream-10, his-9)
+nsubj(mind-22, dream-10)  
+case(band-13, about-11)
+det(band-13, the-12)
+nmod:about(dream-10, band-13) 
+acl(band-13, coming-14) s1-1/3
+compound:prt(coming-14, back-15) s1-2/3
+advmod(coming-14, together-16) s1-3/3
+cop(mind-22, was-17) 
+dep(far-19, never-18) 
+advmod(mind-22, far-19) s2-1/2
+case(mind-22, from-20) s2-2/2
+nmod:poss(mind-22, his-21)
+acl:relcl(Beats-7, mind-22) 
+
+12) He said: ``The most important thing that people keep missing is that me and our kid don't speak and that's the saddest thing about it. 
+
+nsubj(said-2, He-1)
+root(ROOT-0, said-2)
+det(thing-8, The-5)
+advmod(important-7, most-6) s2
+amod(thing-8, important-7)  s3
+nsubj(is-13, thing-8) 
+mark(keep-11, that-9)
+nsubj(keep-11, people-10) 
+dep(thing-8, keep-11) s4
+xcomp(keep-11, missing-12) 
+ccomp(said-2, is-13)
+mark(speak-21, that-14)
+nsubj(speak-21, me-15) 
+cc(me-15, and-16)
+nmod:poss(kid-18, our-17) 
+conj:and(me-15, kid-18) 
+nsubj(speak-21, kid-18)
+aux(speak-21, do-19)
+neg(speak-21, n't-20)
+ccomp(is-13, speak-21) s5
+cc(speak-21, and-22)
+nsubj(thing-27, that-23) 
+cop(thing-27, 's-24)
+det(thing-27, the-25)
+amod(thing-27, saddest-26) s1
+ccomp(is-13, thing-27) 
+conj:and(speak-21, thing-27)
+case(it-29, about-28)
+nmod:about(thing-27, it-29)
+
+13) ``Two wrongs don't make no right. 
+nummod(wrongs-3, Two-2) 
+nsubj(make-6, wrongs-3) 
+aux(make-6, do-4) 
+neg(make-6, n't-5) 
+root(ROOT-0, make-6) s1
+neg(right-8, no-7) 
+dobj(make-6, right-8) 
+
+14) So before Oasis get back together and before there's cheques knocking about, me and him need to start becoming brothers and friends again, and inevitably we'll start making music. 
+
+dep(need-18, So-1)
+mark(get-4, before-2)
+nsubj(get-4, Oasis-3) 
+dep(need-18, get-4) s1-1/3
+compound:prt(get-4, back-5) s1-2/3
+dep(get-4, together-6) s1-3/3
+cc(together-6, and-7)
+mark('s-10, before-8)
+expl('s-10, there-9)
+dep(get-4, 's-10)
+conj:and(together-6, 's-10)
+nsubj('s-10, cheques-11) 
+acl(cheques-11, knocking-12) s2-1/2
+dep(knocking-12, about-13) s2-2/2
+nsubj(need-18, me-15)
+nsubj:xsubj(start-20, me-15) 
+cc(me-15, and-16)
+conj:and(me-15, him-17) 
+nsubj(need-18, him-17)
+nsubj:xsubj(start-20, him-17)
+root(ROOT-0, need-18)
+mark(start-20, to-19)
+xcomp(need-18, start-20)
+xcomp(start-20, becoming-21) s3
+xcomp(becoming-21, brothers-22) 
+cc(brothers-22, and-23)
+xcomp(becoming-21, friends-24) 
+conj:and(brothers-22, friends-24)
+advmod(becoming-21, again-25)
+cc(need-18, and-27)
+advmod(start-31, inevitably-28)
+nsubj(start-31, we-29) 
+aux(start-31, 'll-30)
+conj:and(need-18, start-31)
+xcomp(start-31, making-32) s4
+dobj(making-32, music-33) 
+
+15) ``He prods me and I prod him. 
+
+nsubj(prods-3, He-2) 
+root(ROOT-0, prods-3) s1
+nsubj(prod-7, me-4) 
+cc(me-4, and-5)
+conj:and(me-4, I-6)
+nsubj(prod-7, I-6) 
+ccomp(prods-3, prod-7) s2
+dobj(prod-7, him-8) 
+
+16) I'm letting him know that I'm still here. 
+
+nsubj(letting-3, I-1) 
+aux(letting-3, 'm-2)
+root(ROOT-0, letting-3) s1
+nsubj(know-5, him-4) 
+ccomp(letting-3, know-5) 
+mark('m-8, that-6)
+nsubj('m-8, I-7)
+ccomp(know-5, 'm-8)
+advmod('m-8, still-9)
+advmod('m-8, here-10)
+
+17) ``I'm right here, I ain't going away. 
+
+nsubj(right-4, I-2)
+cop(right-4, 'm-3)
+ccomp(going-10, right-4)
+advmod(right-4, here-5)
+nsubj(going-10, I-7) 
+aux(going-10, ai-8)
+neg(going-10, n't-9)
+root(ROOT-0, going-10) s1-1/2
+compound:prt(going-10, away-11) s1-2/2
+
+18) I find it funny taking the p ** s out of my older brother who thinks his s ** t don't stink. 
+
+nsubj(find-2, I-1) 
+root(ROOT-0, find-2) s2
+nsubj(s-9, it-3)  
+dep(s-9, funny-4) s1
+csubj(s-9, taking-5)  s3-1/3
+det(p-7, the-6)
+dobj(taking-5, p-7) 
+dep(taking-5, **-8) 
+xcomp(find-2, s-9) 
+case(brother-14, out-10) s3-2/3
+mwe(out-10, of-11) s3-3/3
+nmod:poss(brother-14, my-12)
+amod(brother-14, older-13)
+nmod:out_of(s-9, brother-14) 
+nsubj(thinks-16, brother-14)
+ref(brother-14, who-15)
+acl:relcl(brother-14, thinks-16)
+nmod:poss(t-20, his-17)
+compound(t-20, s-18) 
+compound(t-20, **-19) 
+nsubj(stink-23, t-20) 
+aux(stink-23, do-21)
+neg(stink-23, n't-22)
+ccomp(thinks-16, stink-23) s4
+
+19) I find it funny.'' 
+
+nsubj(find-2, I-1) 
+root(ROOT-0, find-2) s2
+nsubj(funny-4, it-3)  
+xcomp(find-2, funny-4) s1
+
+20) originally appeared on The Sun and has been republished here with permission. 
+
+advmod(appeared-2, originally-1) s1
+root(ROOT-0, appeared-2)  
+case(Sun-5, on-3)
+det(Sun-5, The-4)
+nmod:on(appeared-2, Sun-5)
+cc(appeared-2, and-6)
+aux(republished-9, has-7)
+auxpass(republished-9, been-8)
+conj:and(appeared-2, republished-9) 
+advmod(republished-9, here-10)
+case(permission-12, with-11)
+nmod:with(republished-9, permission-12) s2
+
+21) Originally published as 
+
+advmod(published-2, Originally-1) s1
+root(ROOT-0, published-2) 
+nmod(published-2, as-3)

@@ -1,0 +1,316 @@
+010390.psd
+
+1) Tesla will end up with a comfortable amount of cash by the end of the year -- but 2018 could be a different story Tesla reported, beating analysts' expectations by posting a narrower loss, $US1.33 per share, and the $US1.88 anticipated. 
+
+nsubj(end-3, Tesla-1) 
+aux(end-3, will-2)
+root(ROOT-0, end-3) s1-1/3 
+compound:prt(end-3, up-4) s1-2/3 
+case(amount-8, with-5) s1-3/3 
+det(amount-8, a-6)
+amod(amount-8, comfortable-7) s2
+nmod:with(end-3, amount-8)  
+case(cash-10, of-9)  
+nmod:of(amount-8, cash-10)  
+case(end-13, by-11)
+det(end-13, the-12)
+nmod:by(end-3, end-13)
+case(year-16, of-14)
+det(year-16, the-15)
+nmod:of(end-13, year-16)
+cc(end-3, but-18)
+nsubj(story-24, 2018-19)  
+aux(story-24, could-20)
+cop(story-24, be-21)
+det(story-24, a-22)
+amod(story-24, different-23) s3
+conj:but(end-3, story-24) 
+nsubj(reported-26, Tesla-25)
+acl:relcl(story-24, reported-26)
+xcomp(reported-26, beating-28) s4
+nmod:poss(expectations-31, analysts-29) 
+case(analysts-29, '-30)
+dobj(beating-28, expectations-31)  
+mark(posting-33, by-32)
+advcl(beating-28, posting-33) s5
+det(loss-36, a-34)
+amod(loss-36, narrower-35) s6
+dobj(posting-33, loss-36)  
+dobj(posting-33, $-38)
+conj:and(loss-36, $-38)
+compound(.33-40, US1-39)
+nummod($-38, .33-40)
+case(share-42, per-41)
+nmod:per($-38, share-42)
+cc(loss-36, and-44)
+det($-46, the-45)
+dobj(posting-33, $-46)
+conj:and(loss-36, $-46)
+compound(.88-48, US1-47)
+nummod($-46, .88-48)
+acl($-46, anticipated-49)
+
+2) In its, Tesla also outlined how much cash it intends to burn for the rest of 2017, as it ramps up production of the new. 
+
+case(its-2, In-1)
+nmod:in(outlined-6, its-2)
+nsubj(outlined-6, Tesla-4) 
+advmod(outlined-6, also-5)
+root(ROOT-0, outlined-6) s3
+advmod(much-8, how-7) 
+dobj(intends-11, much-8) 
+nsubj:xsubj(burn-13, much-8)
+dep(much-8, cash-9)  
+nsubj(intends-11, it-10) 
+ccomp(outlined-6, intends-11) s4
+mark(burn-13, to-12)
+xcomp(intends-11, burn-13)  s1
+case(rest-16, for-14)
+det(rest-16, the-15)
+nmod:for(burn-13, rest-16)
+case(2017-18, of-17)
+nmod:of(rest-16, 2017-18)
+mark(ramps-22, as-20)
+nsubj(ramps-22, it-21) 
+advcl(intends-11, ramps-22) s2-1/2
+compound:prt(ramps-22, up-23) s2-2/2
+dobj(ramps-22, production-24)  
+case(new-27, of-25)
+det(new-27, the-26)
+nmod:of(production-24, new-27) s5
+
+3) ``Capital expenditures should be about $US2 billion during the second half of 2017, as we make milestone-based payments for Model 3 equipment, continue with Gigafactory 1 construction, and expand our Supercharger, store, delivery hub, and service networks,'' the company wrote. 
+
+compound(expenditures-3, Capital-2)
+nsubj($-7, expenditures-3)
+nsubj(continue-27, expenditures-3)
+nsubj(expand-34, expenditures-3)
+aux($-7, should-4)
+cop($-7, be-5)
+advmod($-7, about-6)
+ccomp(wrote-50, $-7)
+compound(billion-9, US2-8)
+nummod($-7, billion-9)
+case(half-13, during-10)
+det(half-13, the-11)
+amod(half-13, second-12)
+nmod:during($-7, half-13)
+case(2017-15, of-14)
+nmod:of(half-13, 2017-15)
+mark(make-19, as-17)
+nsubj(make-19, we-18)   
+advcl($-7, make-19) s3
+amod(payments-21, milestone-based-20) s1
+dobj(make-19, payments-21)   s4
+case(equipment-25, for-22)
+compound(equipment-25, Model-23) 
+nummod(equipment-25, 3-24) 
+nmod:for(payments-21, equipment-25) 
+conj:and($-7, continue-27)
+ccomp(wrote-50, continue-27) s5
+case(construction-31, with-28)
+compound(construction-31, Gigafactory-29) 
+nummod(construction-31, 1-30) 
+nmod:with(continue-27, construction-31) 
+cc($-7, and-33)
+conj:and($-7, expand-34) s2
+ccomp(wrote-50, expand-34)
+nmod:poss(Supercharger-36, our-35)
+dobj(expand-34, Supercharger-36) 
+dobj(expand-34, store-38) 
+conj:and(Supercharger-36, store-38)
+compound(hub-41, delivery-40) 
+dobj(expand-34, hub-41) 
+conj:and(Supercharger-36, hub-41)
+cc(Supercharger-36, and-43)
+compound(networks-45, service-44) 
+dobj(expand-34, networks-45) 
+conj:and(Supercharger-36, networks-45)
+det(company-49, the-48)
+nsubj(wrote-50, company-49)
+root(ROOT-0, wrote-50)
+
+4) With roughly $US3 billion in cash currently on the balance sheet, Tesla should spend itself down to $US1 billion by the end of 2017. 
+
+case($-3, With-1)
+advmod($-3, roughly-2) s2
+nmod:with(spend-16, $-3) 
+compound(billion-5, US3-4) 
+nummod($-3, billion-5) 
+case(cash-7, in-6) 
+nmod:in($-3, cash-7) 
+advmod(sheet-12, currently-8)
+case(sheet-12, on-9)
+det(sheet-12, the-10)
+compound(sheet-12, balance-11)
+nmod:on(cash-7, sheet-12)
+nsubj(spend-16, Tesla-14) 
+aux(spend-16, should-15)
+root(ROOT-0, spend-16) s1-1/2
+dobj(spend-16, itself-17) 
+compound:prt(spend-16, down-18) s1-2/2
+case($-20, to-19)
+nmod:to(spend-16, $-20)
+compound(billion-22, US1-21)
+nummod($-20, billion-22)
+case(end-25, by-23)
+det(end-25, the-24)
+nmod:by(spend-16, end-25)
+case(2017-27, of-26)
+nmod:of(end-25, 2017-27)
+
+5) This is the position that the company has historically said it likes to be in. 
+
+nsubj(position-4, This-1)
+cop(position-4, is-2)
+det(position-4, the-3)
+root(ROOT-0, position-4) 
+mark(said-10, that-5)
+det(company-7, the-6)
+nsubj(said-10, company-7) 
+aux(said-10, has-8)
+advmod(said-10, historically-9)
+ccomp(position-4, said-10)
+nsubj(likes-12, it-11)
+nsubj:xsubj(in-15, it-11) 
+ccomp(said-10, likes-12) s1-1/3
+mark(in-15, to-13) s1-2/3
+cop(in-15, be-14) s1-3/3
+xcomp(likes-12, in-15)
+
+6) However, unless that position improves in 2018, Tesla will be running low on cash by its own standards. 
+
+advmod(running-13, However-1)
+mark(improves-6, unless-3)
+det(position-5, that-4)
+nsubj(improves-6, position-5) 
+advcl(running-13, improves-6) s1
+case(2018-8, in-7)
+nmod:in(improves-6, 2018-8)
+nsubj(running-13, Tesla-10) 
+aux(running-13, will-11)
+aux(running-13, be-12)
+root(ROOT-0, running-13) s2-1/2
+advmod(running-13, low-14) s2-2/2
+case(cash-16, on-15) 
+nmod:on(low-14, cash-16)
+case(standards-20, by-17)
+nmod:poss(standards-20, its-18)
+amod(standards-20, own-19)
+nmod:by(running-13, standards-20)
+
+7) Capitalising on Model 3 pre-orders will be critical; there are currently around 500,000, and Tesla has never built more than 100,000 vehicles in a year. 
+
+csubj(critical-8, Capitalising-1) 
+case(pre-orders-5, on-2)
+compound(pre-orders-5, Model-3)
+nummod(pre-orders-5, 3-4)
+nmod:on(Capitalising-1, pre-orders-5)
+aux(critical-8, will-6)
+cop(critical-8, be-7)
+root(ROOT-0, critical-8) s1
+expl(are-11, there-10)
+parataxis(critical-8, are-11)
+advmod(are-11, currently-12)
+case(500,000-14, around-13)
+nmod:around(are-11, 500,000-14)
+cc(are-11, and-16)
+nsubj(built-20, Tesla-17) 
+aux(built-20, has-18)
+neg(built-20, never-19) 
+parataxis(critical-8, built-20) s2
+conj:and(are-11, built-20)
+advmod(100,000-23, more-21)
+mwe(more-21, than-22)
+nummod(vehicles-24, 100,000-23)
+dobj(built-20, vehicles-24) 
+case(year-27, in-25)
+det(year-27, a-26)
+nmod:in(built-20, year-27)
+
+8) This sets the stage for an expected capital raise at some point in either 2017 or 2018. 
+
+nsubj(sets-2, This-1) 
+root(ROOT-0, sets-2) s1-1/3
+det(stage-4, the-3) s1-2/3
+dobj(sets-2, stage-4) s1-3/3
+case(raise-9, for-5)
+det(raise-9, an-6)
+amod(raise-9, expected-7) s2
+compound(raise-9, capital-8)  
+nmod:for(stage-4, raise-9)  
+case(point-12, at-10)
+det(point-12, some-11)
+nmod:at(raise-9, point-12)
+case(2017-15, in-13)
+cc:preconj(2017-15, either-14)
+nmod:in(point-12, 2017-15)
+cc(2017-15, or-16)
+nmod:in(point-12, 2018-17)
+conj:or(2017-15, 2018-17)
+
+9) Tesla will hold an earnings call with analysts on Wednesday and CEO Elon Musk will likely be asked whether the carmaker would consider issuing new stock sooner rather than later. 
+
+nsubj(hold-3, Tesla-1) 
+aux(hold-3, will-2)
+root(ROOT-0, hold-3) s1
+det(call-6, an-4)
+compound(call-6, earnings-5) 
+dobj(hold-3, call-6) 
+case(analysts-8, with-7)
+nmod:with(hold-3, analysts-8)
+case(Wednesday-10, on-9)
+nmod:on(analysts-8, Wednesday-10)
+cc(hold-3, and-11)
+compound(Musk-14, CEO-12)
+compound(Musk-14, Elon-13) 
+nsubjpass(asked-18, Musk-14) 
+aux(asked-18, will-15)
+advmod(asked-18, likely-16)
+auxpass(asked-18, be-17)
+conj:and(hold-3, asked-18) s2
+mark(consider-23, whether-19)
+det(carmaker-21, the-20)
+nsubj(consider-23, carmaker-21) 
+aux(consider-23, would-22)
+ccomp(asked-18, consider-23) s3
+xcomp(consider-23, issuing-24)  s4
+amod(stock-26, new-25) s5
+dobj(issuing-24, stock-26)  
+advmod(issuing-24, sooner-27)
+case(later-30, rather-28)
+mwe(rather-28, than-29)
+advcl(issuing-24, later-30)
+
+10) Get the latest Tesla stock price here. 
+
+root(ROOT-0, Get-1) s1
+det(price-6, the-2)
+amod(price-6, latest-3) s2
+compound(price-6, Tesla-4)
+compound(price-6, stock-5)
+dobj(Get-1, price-6)  
+advmod(Get-1, here-7)
+
+11) NOW WATCH: Money & Markets videos Business Insider Emails & Alerts Site highlights each day to your inbox. 
+
+advmod(WATCH-2, NOW-1)
+root(ROOT-0, WATCH-2)
+compound(Emails-10, Money-4)
+cc(Money-4, &-5)
+conj:&(Money-4, Markets-6)
+compound(Emails-10, Markets-6)
+compound(Emails-10, videos-7)
+compound(Emails-10, Business-8)
+compound(Emails-10, Insider-9)
+nsubj(highlights-14, Emails-10) 
+cc(Emails-10, &-11)
+compound(Site-13, Alerts-12)
+conj:&(Emails-10, Site-13) 
+nsubj(highlights-14, Site-13)
+parataxis(WATCH-2, highlights-14) s1
+det(day-16, each-15)
+nmod:tmod(highlights-14, day-16)
+case(inbox-19, to-17)
+nmod:poss(inbox-19, your-18)
+nmod:to(highlights-14, inbox-19)

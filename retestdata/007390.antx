@@ -1,0 +1,580 @@
+007390.psd
+
+1) Kidman: `We did that out of frustration' NICOLE Kidman's very good year continues with the long awaited second season of acclaimed drama Top of the Lake. 
+
+root(ROOT-0, Kidman-1)
+nsubj(did-5, We-4) 
+dep(Kidman-1, did-5) 
+mark(continues-17, that-6)
+case(frustration-9, out-7) s1-1/3
+mwe(out-7, of-8) s1-2/3
+nmod:out_of(continues-17, frustration-9) s1-3/3
+case(frustration-9, '-10)
+compound(Kidman-12, NICOLE-11) 
+nmod:poss(year-16, Kidman-12) 
+case(Kidman-12, 's-13)
+advmod(good-15, very-14) s3
+amod(year-16, good-15) s2 
+dep(frustration-9, year-16)  
+ccomp(did-5, continues-17) s4
+case(season-23, with-18)
+det(season-23, the-19)
+amod(season-23, long-20) s6
+amod(season-23, awaited-21) s5 
+amod(season-23, second-22)
+nmod:with(continues-17, season-23)   
+case(Top-27, of-24)
+amod(Top-27, acclaimed-25) s7
+compound(Top-27, drama-26)  s8
+nmod:of(season-23, Top-27)
+case(Lake-30, of-28)
+det(Lake-30, the-29)
+nmod:of(Top-27, Lake-30)
+
+2) In the series, Kidman plays the adoptive mother of the child Elisabeth Moss' character, Robin, gave up at 16. 
+
+case(series-3, In-1)
+det(series-3, the-2)
+nmod:in(plays-6, series-3)
+nsubj(plays-6, Kidman-5) 
+root(ROOT-0, plays-6) s3
+det(mother-9, the-7)
+amod(mother-9, adoptive-8) s2 
+dobj(plays-6, mother-9)  
+case(child-12, of-10)
+det(child-12, the-11)
+nmod:of(mother-9, child-12)
+compound(Moss-14, Elisabeth-13)
+nmod:poss(character-16, Moss-14)
+case(Moss-14, '-15)
+nsubj(gave-20, character-16)
+appos(character-16, Robin-18) 
+acl:relcl(child-12, gave-20) s1-1/2
+compound:prt(gave-20, up-21) s1-2/2
+case(16-23, at-22)
+nmod:at(gave-20, 16-23)
+
+3) Kidman's character, Julia, is ferocious, flawed and dryly funny. 
+
+nmod:poss(character-3, Kidman-1)
+case(Kidman-1, 's-2)
+nsubj(ferocious-8, character-3)
+nsubj(flawed-10, character-3)
+nsubj(funny-13, character-3)
+appos(character-3, Julia-5)   
+cop(ferocious-8, is-7)
+root(ROOT-0, ferocious-8) s1
+conj:and(ferocious-8, flawed-10) s2
+cc(ferocious-8, and-11)
+advmod(funny-13, dryly-12) s3
+conj:and(ferocious-8, funny-13)  s4
+
+4) The complexity of this role matches her lauded performance in Big Little Lies earlier this year, a role for which she has been nominated for an Emmy. 
+
+det(complexity-2, The-1)
+nsubj(matches-6, complexity-2) s1 
+case(role-5, of-3)
+det(role-5, this-4)
+nmod:of(complexity-2, role-5) 
+root(ROOT-0, matches-6) s5
+nsubj(lauded-8, her-7)
+ccomp(matches-6, lauded-8) s2
+dobj(lauded-8, performance-9)  
+case(Lies-13, in-10)
+compound(Lies-13, Big-11)
+compound(Lies-13, Little-12)
+nmod:in(lauded-8, Lies-13)
+advmod(year-16, earlier-14)
+det(year-16, this-15)
+nmod:tmod(lauded-8, year-16)
+det(role-19, a-18)
+dobj(lauded-8, role-19)
+nmod:for(nominated-25, role-19)
+case(which-21, for-20)
+ref(role-19, which-21)
+nsubjpass(nominated-25, she-22) 
+aux(nominated-25, has-23)
+auxpass(nominated-25, been-24) 
+acl:relcl(role-19, nominated-25) s3 
+case(Emmy-28, for-26)
+det(Emmy-28, an-27)
+nmod:for(nominated-25, Emmy-28) s4
+
+5) But the Big Little Lies role is not one that came easy - it was one she had to create for herself as her and Reese Witherspoon shepherded the production from the very beginning. 
+
+cc(one-9, But-1)
+det(role-6, the-2)
+compound(role-6, Big-3)
+compound(role-6, Little-4)
+compound(role-6, Lies-5)
+nsubj(one-9, role-6) 
+cop(one-9, is-7)
+neg(one-9, not-8) 
+root(ROOT-0, one-9) s1 
+nsubj(came-11, one-9)
+ref(one-9, that-10) 
+acl:relcl(one-9, came-11) s2-1/2
+xcomp(came-11, easy-12) s2-2/2
+nsubj(one-16, it-14) 
+cop(one-16, was-15)
+dep(one-9, one-16) s3 
+nsubj(had-18, she-17) 
+nsubj:xsubj(create-20, she-17)
+acl:relcl(one-16, had-18)
+mark(create-20, to-19)
+xcomp(had-18, create-20) s4
+case(herself-22, for-21)
+nmod:for(create-20, herself-22)
+case(her-24, as-23)
+nmod:as(create-20, her-24) 
+cc(one-9, and-25)
+compound(Witherspoon-27, Reese-26) 
+nsubj(shepherded-28, Witherspoon-27) 
+conj:and(one-9, shepherded-28) s5
+nsubj(came-11, shepherded-28)
+det(production-30, the-29)
+dobj(shepherded-28, production-30) 
+case(beginning-34, from-31)
+det(beginning-34, the-32)
+amod(beginning-34, very-33)
+nmod:from(shepherded-28, beginning-34)
+
+6) ``We did that out of frustration,'' Kidman said at a Top of the Lake Q&A last night in Sydney. 
+
+nsubj(did-3, We-2) 
+ccomp(said-11, did-3) 
+dobj(did-3, that-4)
+compound:prt(did-3, out-5) s1-1/3
+case(frustration-7, of-6) s1-2/3
+nmod:of(did-3, frustration-7) s1-3/3
+nsubj(said-11, Kidman-10)
+root(ROOT-0, said-11)
+case(Top-14, at-12)
+det(Top-14, a-13)
+nmod:at(said-11, Top-14)
+case(Q&A-18, of-15)
+det(Q&A-18, the-16)
+compound(Q&A-18, Lake-17)
+nmod:of(Top-14, Q&A-18)
+amod(night-20, last-19)
+nmod:tmod(said-11, night-20)
+case(Sydney-22, in-21)
+nmod:in(said-11, Sydney-22)
+
+7) ``Reese and I were frustrated because we weren't being offered the sort of roles we wanted in terms of complexity and that was born out of a desire to create an opportunity for ourselves and our friends. 
+
+nsubjpass(frustrated-6, Reese-2) 
+cc(Reese-2, and-3)
+conj:and(Reese-2, I-4) 
+nsubjpass(frustrated-6, I-4)
+auxpass(frustrated-6, were-5)
+root(ROOT-0, frustrated-6) s1
+mark(offered-12, because-7)
+nsubjpass(offered-12, we-8) 
+aux(offered-12, were-9)
+neg(offered-12, n't-10)
+auxpass(offered-12, being-11)
+advcl(frustrated-6, offered-12) s2
+det(sort-14, the-13)
+dobj(offered-12, sort-14)
+case(roles-16, of-15)
+nmod:of(sort-14, roles-16)  
+nsubj(wanted-18, we-17)
+dep(offered-12, wanted-18)
+case(terms-20, in-19)
+nmod:in(wanted-18, terms-20)
+case(complexity-22, of-21)
+nmod:of(terms-20, complexity-22) s3
+cc(wanted-18, and-23)
+nsubjpass(born-26, that-24) 
+auxpass(born-26, was-25)
+dep(offered-12, born-26) s4-1/2
+conj:and(wanted-18, born-26)
+compound:prt(born-26, out-27) s4-2/2
+case(desire-30, of-28)
+det(desire-30, a-29)
+nmod:of(born-26, desire-30)  
+mark(create-32, to-31)
+acl(desire-30, create-32) s5
+det(opportunity-34, an-33)
+dobj(create-32, opportunity-34) 
+case(ourselves-36, for-35)
+nmod:for(create-32, ourselves-36)
+cc(ourselves-36, and-37)
+nmod:poss(friends-39, our-38)
+nmod:for(create-32, friends-39)
+conj:and(ourselves-36, friends-39)
+
+8) ``We were able to do that because we had the ability to go and option a book like Big Little Lies and we had a company that gave us the money to at least develop it and then it took off.'' 
+
+nsubj(able-4, We-2) 
+nsubj:xsubj(do-6, We-2)
+cop(able-4, were-3)
+root(ROOT-0, able-4) s2
+mark(do-6, to-5)
+xcomp(able-4, do-6) 
+mark(had-10, that-7)
+mark(had-10, because-8)
+nsubj(had-10, we-9) 
+advcl(do-6, had-10) s1
+det(ability-12, the-11) 
+dobj(had-10, ability-12)   
+mark(go-14, to-13)
+acl(ability-12, go-14) s3
+cc(go-14, and-15)
+acl(ability-12, option-16) s4
+conj:and(go-14, option-16)
+det(book-18, a-17)
+dobj(go-14, book-18) 
+case(Lies-22, like-19)
+compound(Lies-22, Big-20)
+compound(Lies-22, Little-21)
+nmod:like(book-18, Lies-22)
+cc(had-10, and-23)
+nsubj(had-25, we-24) 
+advcl(do-6, had-25) s5
+conj:and(had-10, had-25)
+det(company-27, a-26)
+dobj(had-25, company-27)  
+nsubj(gave-29, company-27)
+ref(company-27, that-28)
+acl:relcl(company-27, gave-29) s6-1/2
+iobj(gave-29, us-30) 
+det(money-32, the-31)
+dobj(gave-29, money-32) s6-2/2
+mark(develop-36, to-33)
+advmod(develop-36, at-34) s7-1/2
+mwe(at-34, least-35) s7-2/2
+acl(money-32, develop-36)  s8
+dobj(develop-36, it-37) 
+cc(able-4, and-38)
+advmod(took-41, then-39)
+nsubj(took-41, it-40) 
+conj:and(able-4, took-41) s9-1/2
+compound:prt(took-41, off-42) s9-2/2
+
+9) Kidman credited the first Top of the Lake series, which debuted in 2013 and was created by New Zealand director Jane Campion and Gerard Lee, as giving her the inspiration to pursue Big Little Lies. 
+
+nsubj(credited-2, Kidman-1) 
+root(ROOT-0, credited-2) s2
+det(Top-5, the-3)
+amod(Top-5, first-4)
+dobj(credited-2, Top-5)
+case(series-9, of-6)
+det(series-9, the-7)
+compound(series-9, Lake-8)
+nmod:of(Top-5, series-9)    
+nsubj(debuted-12, series-9)
+nsubjpass(created-17, series-9)
+ref(series-9, which-11)
+acl:relcl(series-9, debuted-12) s3
+case(2013-14, in-13)
+nmod:in(debuted-12, 2013-14)
+cc(debuted-12, and-15)
+auxpass(created-17, was-16)
+acl:relcl(series-9, created-17) s4
+conj:and(debuted-12, created-17)
+case(Campion-23, by-18)
+compound(Campion-23, New-19) 
+compound(Campion-23, Zealand-20)
+compound(Campion-23, director-21) 
+compound(Campion-23, Jane-22) 
+nmod:by(created-17, Campion-23) 
+cc(Campion-23, and-24)
+compound(Lee-26, Gerard-25) 
+nmod:by(created-17, Lee-26) 
+conj:and(Campion-23, Lee-26)
+mark(giving-29, as-28)
+advcl(credited-2, giving-29) s1-1/2
+iobj(giving-29, her-30) 
+det(inspiration-32, the-31) 
+dobj(giving-29, inspiration-32) s1-2/2 
+mark(pursue-34, to-33)
+acl(inspiration-32, pursue-34) s5
+compound(Lies-37, Big-35) 
+compound(Lies-37, Little-36) 
+dobj(pursue-34, Lies-37) 
+
+10) ``We saw Top of the Lake and we saw what they were able to accomplish and that was how we were able to say `maybe we can do Big Little Lies'. 
+
+nsubj(saw-3, We-2) 
+root(ROOT-0, saw-3) s1
+dobj(saw-3, Top-4) 
+case(Lake-7, of-5) 
+det(Lake-7, the-6) 
+nmod:of(Top-4, Lake-7) 
+cc(saw-3, and-8)
+nsubj(saw-10, we-9) 
+conj:and(saw-3, saw-10) s2
+dobj(accomplish-16, what-11) 
+nsubj(able-14, they-12)
+nsubj:xsubj(accomplish-16, they-12) 
+cop(able-14, were-13)
+dep(saw-10, able-14) s3
+mark(accomplish-16, to-15)
+xcomp(able-14, accomplish-16)  s4
+cc(able-14, and-17)
+nsubj(was-19, that-18)
+dep(saw-10, was-19)
+conj:and(able-14, was-19)
+advmod(able-23, how-20)
+nsubj(able-23, we-21)
+nsubj:xsubj(say-25, we-21) 
+cop(able-23, were-22)
+ccomp(was-19, able-23) s5
+mark(say-25, to-24)
+xcomp(able-23, say-25) 
+advmod(do-30, maybe-27)
+nsubj(do-30, we-28) 
+aux(do-30, can-29)
+ccomp(say-25, do-30) s6
+compound(Lies-33, Big-31) 
+compound(Lies-33, Little-32) 
+dobj(do-30, Lies-33) 
+
+11) Because at the time there was True Detective, which had male leads and we wanted to do something that had female leads and was set in America. 
+
+case(time-4, Because-1)
+case(time-4, at-2)
+det(time-4, the-3)
+nmod:at(was-6, time-4)
+expl(was-6, there-5)
+root(ROOT-0, was-6)
+compound(Detective-8, True-7) s1
+nsubj(was-6, Detective-8)  
+nsubj(had-11, Detective-8)
+ref(Detective-8, which-10)
+acl:relcl(Detective-8, had-11) s2
+amod(leads-13, male-12) s4
+dobj(had-11, leads-13)  
+cc(was-6, and-14)
+nsubj(wanted-16, we-15) 
+nsubj:xsubj(do-18, we-15)
+conj:and(was-6, wanted-16) 
+mark(do-18, to-17)
+xcomp(wanted-16, do-18) s3
+dobj(do-18, something-19)   
+nsubj(had-21, something-19)
+nsubjpass(set-26, something-19)
+ref(something-19, that-20)
+acl:relcl(something-19, had-21)
+amod(leads-23, female-22) s5
+dobj(had-21, leads-23)  s6
+cc(had-21, and-24)
+auxpass(set-26, was-25)
+acl:relcl(something-19, set-26)
+conj:and(had-21, set-26) s7 
+case(America-28, in-27) s8-1/2
+nmod:in(set-26, America-28) s8-2/2
+
+12) We were inspired by Top of the Lake. 
+
+nsubjpass(inspired-3, We-1) 
+auxpass(inspired-3, were-2) 
+root(ROOT-0, inspired-3) s1
+case(Top-5, by-4)
+nmod:by(inspired-3, Top-5) 
+case(Lake-8, of-6) 
+det(Lake-8, the-7) 
+nmod:of(Top-5, Lake-8) 
+
+13) That was the stepping stone. 
+
+nsubj(stone-5, That-1) 
+cop(stone-5, was-2)
+det(stone-5, the-3)
+amod(stone-5, stepping-4) s2
+root(ROOT-0, stone-5) s1 
+
+14) ``The more things that are made that are successful that have women as leads is great because it inspires others and it also gives the people that put the money behind things the belief it's going to be successful or has the opportunity to be successful. 
+
+det(things-4, The-2)
+amod(things-4, more-3)
+nsubjpass(made-7, things-4)   
+nsubj(great-17, things-4)
+ref(things-4, that-5)
+auxpass(made-7, are-6)
+acl:relcl(things-4, made-7) s1
+mark(successful-10, that-8)
+cop(successful-10, are-9)
+ccomp(made-7, successful-10) s2
+nsubj(have-12, that-11)
+ccomp(successful-10, have-12) s3-1/3 
+dobj(have-12, women-13) 
+case(leads-15, as-14) s3-2/3 
+nmod:as(women-13, leads-15) s3-3/3 
+cop(great-17, is-16)
+root(ROOT-0, great-17) s4
+mark(inspires-20, because-18)
+nsubj(inspires-20, it-19) 
+advcl(great-17, inspires-20) s5
+dobj(inspires-20, others-21) 
+cc(great-17, and-22)
+nsubj(gives-25, it-23) 
+advmod(gives-25, also-24)
+conj:and(great-17, gives-25) s6-1/2
+det(people-27, the-26)
+iobj(gives-25, people-27) 
+nsubj(put-29, people-27)
+ref(people-27, that-28)
+acl:relcl(people-27, put-29)
+det(money-31, the-30)
+dobj(put-29, money-31)
+case(things-33, behind-32)
+nmod:behind(put-29, things-33)
+det(belief-35, the-34)
+dobj(gives-25, belief-35) s6-2/2  
+nsubj(going-38, it-36)
+nsubj:xsubj(successful-41, it-36)
+nsubj(has-43, it-36)
+aux(going-38, 's-37)
+acl:relcl(belief-35, going-38)
+mark(successful-41, to-39)
+cop(successful-41, be-40)
+xcomp(going-38, successful-41) s7
+cc(going-38, or-42)
+acl:relcl(belief-35, has-43)
+conj:or(going-38, has-43)
+det(opportunity-45, the-44)
+dobj(has-43, opportunity-45) s8 
+mark(successful-48, to-46)
+cop(successful-48, be-47)
+acl(opportunity-45, successful-48) s9
+
+15) We're all helping each other. 
+
+nsubj(helping-4, We-1) 
+aux(helping-4, 're-2)
+advmod(helping-4, all-3)
+root(ROOT-0, helping-4) s1
+det(other-6, each-5)  
+dobj(helping-4, other-6) 
+
+16) ``I think in television right now, there's great opportunity for women because it's a place in which there is money and directors of this calibre -LSB- Campion and Ariel Kleiman -RSB- who are willing to work in that medium and write and explore their storytelling.'' 
+
+nsubj(think-3, I-2)
+ccomp('s-10, think-3)
+case(television-5, in-4)
+nmod:in(think-3, television-5)
+advmod(now-7, right-6)
+advmod(think-3, now-7)
+expl('s-10, there-9)
+root(ROOT-0, 's-10)
+amod(opportunity-12, great-11) s2
+nsubj('s-10, opportunity-12) s1 
+case(women-14, for-13)
+nmod:for(opportunity-12, women-14) 
+mark(place-19, because-15)
+nsubj(place-19, it-16)
+cop(place-19, 's-17)
+det(place-19, a-18)
+advcl('s-10, place-19)
+nmod:in(is-23, place-19)
+case(which-21, in-20)
+ref(place-19, which-21)
+expl(is-23, there-22)
+acl:relcl(place-19, is-23)
+nsubj(is-23, money-24)
+cc(money-24, and-25)
+nsubj(is-23, directors-26)
+conj:and(money-24, directors-26) s3 
+case(Campion-31, of-27)
+det(Campion-31, this-28)
+amod(Campion-31, calibre-29) 
+compound(Campion-31, -LSB--30) 
+nmod:of(money-24, Campion-31) 
+nsubj(willing-38, Campion-31)
+nsubj:xsubj(work-40, Campion-31)
+nsubj:xsubj(write-45, Campion-31)
+cc(Campion-31, and-32)
+compound(-RSB--35, Ariel-33) 
+compound(-RSB--35, Kleiman-34) 
+nmod:of(money-24, -RSB--35)
+conj:and(Campion-31, -RSB--35)
+nsubj(willing-38, -RSB--35)
+nsubj:xsubj(work-40, -RSB--35)
+ref(Campion-31, who-36)
+cop(willing-38, are-37)
+acl:relcl(Campion-31, willing-38) s3
+mark(work-40, to-39)
+xcomp(willing-38, work-40) 
+case(medium-43, in-41)
+det(medium-43, that-42)
+nmod:in(work-40, medium-43)
+cc(work-40, and-44)
+xcomp(willing-38, write-45)  s4
+conj:and(work-40, write-45)
+cc(write-45, and-46)
+conj:and(work-40, explore-47)  s5
+conj:and(write-45, explore-47)
+nmod:poss(storytelling-49, their-48)
+dobj(write-45, storytelling-49)  
+
+17) Top of the Lake: China Girl is the second collaboration between Campion and Kidman. 
+
+nsubj(collaboration-11, Top-1)
+case(Girl-7, of-2)
+det(Girl-7, the-3)
+compound(Girl-7, Lake-4)
+compound(Girl-7, China-6)
+nmod:of(Top-1, Girl-7)
+cop(collaboration-11, is-8)
+det(collaboration-11, the-9)
+amod(collaboration-11, second-10)
+root(ROOT-0, collaboration-11) s1
+case(Campion-13, between-12)
+nmod:between(collaboration-11, Campion-13) 
+cc(Campion-13, and-14)
+nmod:between(collaboration-11, Kidman-15) 
+conj:and(Campion-13, Kidman-15)
+
+18) The pair previously worked together on Portrait of a Lady and also have a close personal relationship. 
+
+det(pair-2, The-1)
+nsubj(worked-4, pair-2)  
+nsubj(have-13, pair-2)
+advmod(worked-4, previously-3)
+root(ROOT-0, worked-4) s1-1/2
+compound:prt(worked-4, together-5) s1-2/2
+case(Portrait-7, on-6)
+nmod:on(worked-4, Portrait-7) 
+case(Lady-10, of-8)
+det(Lady-10, a-9)
+nmod:of(Portrait-7, Lady-10)
+cc(worked-4, and-11)
+advmod(have-13, also-12)
+conj:and(worked-4, have-13) s2
+det(relationship-17, a-14)
+advmod(personal-16, close-15) s3
+amod(relationship-17, personal-16)
+dobj(have-13, relationship-17)  
+
+19) Kidman is goddaughter to Campion's daughter, Alice Englert, who portrays Kidman's adoptive daughter in the series. 
+
+nsubj(goddaughter-3, Kidman-1) 
+cop(goddaughter-3, is-2)
+root(ROOT-0, goddaughter-3)
+case(daughter-7, to-4)
+nmod:poss(daughter-7, Campion-5)
+case(Campion-5, 's-6)
+nmod:to(goddaughter-3, daughter-7)
+nsubj(portrays-13, daughter-7)
+compound(Englert-10, Alice-9)
+appos(daughter-7, Englert-10)
+ref(daughter-7, who-12)
+acl:relcl(daughter-7, portrays-13) s1
+nmod:poss(daughter-17, Kidman-14) 
+case(Kidman-14, 's-15)
+amod(daughter-17, adoptive-16) s2
+dobj(portrays-13, daughter-17)  
+case(series-20, in-18)
+det(series-20, the-19)
+nmod:in(daughter-17, series-20)
+
+20) Originally published as 
+
+advmod(published-2, Originally-1) s1
+root(ROOT-0, published-2) 
+nmod(published-2, as-3)
+
+

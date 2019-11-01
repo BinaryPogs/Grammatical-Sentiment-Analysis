@@ -1,0 +1,396 @@
+003390.psd
+
+1) Scaramucci dumped from White House US PRESIDENT Donald Trump has removed Anthony Scaramucci from his position as communications director, just over a week after he arrived. 
+
+nsubj(removed-11, Scaramucci-1) 
+acl(Scaramucci-1, dumped-2) s1-1/2
+case(Trump-9, from-3) s1-2/2
+compound(Trump-9, White-4)
+compound(Trump-9, House-5)
+compound(Trump-9, US-6)
+compound(Trump-9, PRESIDENT-7)
+compound(Trump-9, Donald-8)
+nmod:from(dumped-2, Trump-9)
+aux(removed-11, has-10)
+root(ROOT-0, removed-11) s2-1/4
+compound(Scaramucci-13, Anthony-12) 
+dobj(removed-11, Scaramucci-13) 
+case(position-16, from-14) s2-2/4
+nmod:poss(position-16, his-15) s2-3/4
+nmod:from(Scaramucci-13, position-16) s2-4/4
+case(director-19, as-17)
+compound(director-19, communications-18)
+nmod:as(removed-11, director-19)
+advmod(director-19, just-21)
+amod(director-19, over-22)
+det(week-24, a-23)
+dep(director-19, week-24)
+mark(arrived-27, after-25)
+nsubj(arrived-27, he-26) 
+acl(week-24, arrived-27) s3
+
+2) The White House confirmed his resignation in a statement on Monday. 
+
+det(House-3, The-1)
+compound(House-3, White-2) 
+nsubj(confirmed-4, House-3) 
+root(ROOT-0, confirmed-4) s1
+nmod:poss(resignation-6, his-5) 
+dobj(confirmed-4, resignation-6)  s2
+case(statement-9, in-7)
+det(statement-9, a-8)
+nmod:in(confirmed-4, statement-9)
+case(Monday-11, on-10)
+nmod:on(confirmed-4, Monday-11)
+
+3) It came just days after Mr Scaramucci unloaded a crude attack against other senior members of the president's senior staff. 
+
+nsubj(came-2, It-1)
+root(ROOT-0, came-2)
+advmod(days-4, just-3)
+nmod:tmod(came-2, days-4)
+mark(unloaded-8, after-5)
+compound(Scaramucci-7, Mr-6) 
+nsubj(unloaded-8, Scaramucci-7) 
+advcl(came-2, unloaded-8) s1
+det(attack-11, a-9)
+amod(attack-11, crude-10) s2
+dobj(unloaded-8, attack-11)   s3
+case(members-15, against-12)
+amod(members-15, other-13)
+amod(members-15, senior-14) 
+nmod:against(attack-11, members-15) 
+case(staff-21, of-16)
+det(president-18, the-17)
+nmod:poss(staff-21, president-18)
+case(president-18, 's-19)
+amod(staff-21, senior-20)
+nmod:of(members-15, staff-21)
+
+4) The decision to remove Mr Scaramucci reportedly came at the request of the new chief of staff, John F Kelly, who was appointed on Monday in his new role. 
+
+det(decision-2, The-1)
+nsubj(came-8, decision-2)  
+mark(remove-4, to-3)
+acl(decision-2, remove-4) s1
+compound(Scaramucci-6, Mr-5) 
+dobj(remove-4, Scaramucci-6) 
+advmod(came-8, reportedly-7)
+root(ROOT-0, came-8) s3-1/2
+case(request-11, at-9) s3-2/2
+det(request-11, the-10)
+nmod:at(came-8, request-11)
+case(chief-15, of-12)
+det(chief-15, the-13)
+amod(chief-15, new-14)
+nmod:of(request-11, chief-15)
+case(staff-17, of-16)
+nmod:of(chief-15, staff-17)
+nsubjpass(appointed-25, staff-17)
+compound(Kelly-21, John-19)  
+compound(Kelly-21, F-20)  
+appos(staff-17, Kelly-21)  
+ref(staff-17, who-23)
+auxpass(appointed-25, was-24) 
+acl:relcl(staff-17, appointed-25) s2
+case(Monday-27, on-26)
+nmod:on(appointed-25, Monday-27)
+case(role-31, in-28)
+nmod:poss(role-31, his-29)
+amod(role-31, new-30)
+nmod:in(appointed-25, role-31) 
+
+5) Mr Kelly was tapped by Mr Trump to bring some stability to an at times chaotic White House. 
+
+compound(Kelly-2, Mr-1)  
+nsubjpass(tapped-4, Kelly-2)  
+nsubj:xsubj(bring-9, Kelly-2)
+auxpass(tapped-4, was-3) 
+root(ROOT-0, tapped-4) s1
+case(Trump-7, by-5)
+compound(Trump-7, Mr-6)
+nmod:by(tapped-4, Trump-7)
+mark(bring-9, to-8)
+xcomp(tapped-4, bring-9) s2
+det(stability-11, some-10)
+dobj(bring-9, stability-11) 
+case(House-18, to-12)
+det(House-18, an-13)
+advmod(chaotic-16, at-14) s4-1/2
+nmod:npmod(chaotic-16, times-15) s4-2/2
+amod(House-18, chaotic-16) s3 
+compound(House-18, White-17)  
+nmod:to(bring-9, House-18)  
+
+6) CNN reported White House sources saying that Mr Kelly did not believe Mr Scaramucci was disciplined enough for the role. 
+
+nsubj(reported-2, CNN-1)
+root(ROOT-0, reported-2)
+compound(sources-5, White-3)
+compound(sources-5, House-4)
+dobj(reported-2, sources-5)
+xcomp(reported-2, saying-6)
+mark(believe-12, that-7)
+compound(Kelly-9, Mr-8)
+nsubj(believe-12, Kelly-9)
+aux(believe-12, did-10)
+neg(believe-12, not-11) s1-1/2
+ccomp(saying-6, believe-12) s1-2/2
+compound(Scaramucci-14, Mr-13)  
+nsubjpass(disciplined-16, Scaramucci-14)  
+auxpass(disciplined-16, was-15) s2-1/3
+ccomp(believe-12, disciplined-16) s2-2/3
+advmod(disciplined-16, enough-17) s2-3/3
+case(role-20, for-18)
+det(role-20, the-19)
+nmod:for(disciplined-16, role-20)
+
+7) CNN said that Mr Scaramucci, known affectionately as The Mooch by friends and colleagues, was escorted off the property. 
+
+nsubj(said-2, CNN-1)
+root(ROOT-0, said-2)
+mark(escorted-18, that-3)
+compound(Scaramucci-5, Mr-4)  
+nsubjpass(escorted-18, Scaramucci-5)  
+acl(Scaramucci-5, known-7) s1 
+advmod(known-7, affectionately-8) s2
+case(Mooch-11, as-9)
+det(Mooch-11, The-10)
+nmod:as(known-7, Mooch-11)
+case(friends-13, by-12)
+nmod:by(known-7, friends-13) 
+cc(friends-13, and-14)
+nmod:by(known-7, colleagues-15) 
+conj:and(friends-13, colleagues-15)
+auxpass(escorted-18, was-17)
+ccomp(said-2, escorted-18) s3
+compound:prt(escorted-18, off-19)
+det(property-21, the-20)
+dobj(escorted-18, property-21)
+
+8) Mr Scaramucci's removal came just 10 days after he was brought on to the West Wing staff, although he wasn't expected to officially assume his role until mid-August. 
+
+compound(Scaramucci-2, Mr-1) 
+nmod:poss(removal-4, Scaramucci-2) 
+case(Scaramucci-2, 's-3)
+nsubj(came-5, removal-4) s1
+root(ROOT-0, came-5)
+advmod(days-8, just-6)
+nummod(days-8, 10-7)
+dep(brought-12, days-8)
+mark(brought-12, after-9)
+nsubjpass(brought-12, he-10) 
+auxpass(brought-12, was-11)
+advcl(came-5, brought-12) s2-1/2
+case(staff-18, on-13) s2-2/2
+case(staff-18, to-14)
+det(staff-18, the-15)
+compound(staff-18, West-16)
+compound(staff-18, Wing-17)
+nmod:to(brought-12, staff-18)
+mark(expected-24, although-20)
+nsubjpass(expected-24, he-21)  
+nsubj:xsubj(assume-27, he-21)
+auxpass(expected-24, was-22)
+neg(expected-24, n't-23)
+advcl(brought-12, expected-24) s3
+mark(assume-27, to-25)
+advmod(assume-27, officially-26)
+xcomp(expected-24, assume-27) s4
+nmod:poss(role-29, his-28) 
+dobj(assume-27, role-29) 
+case(mid-August-31, until-30)
+nmod:until(assume-27, mid-August-31)
+
+9) His arrival led to the departures of Sean Spicer, the former press secretary, and Reince Priebus, the president's first chief of staff. 
+
+nmod:poss(arrival-2, His-1) 
+nsubj(led-3, arrival-2) 
+root(ROOT-0, led-3) s2-1/2
+case(departures-6, to-4) s2-2/2
+det(departures-6, the-5)
+nmod:to(led-3, departures-6) s1 
+case(Spicer-9, of-7)
+compound(Spicer-9, Sean-8) 
+nmod:of(departures-6, Spicer-9) 
+det(secretary-14, the-11)
+amod(secretary-14, former-12) 
+compound(secretary-14, press-13) 
+nmod:of(departures-6, secretary-14) 
+conj:and(Spicer-9, secretary-14)
+cc(Spicer-9, and-16)
+compound(Priebus-18, Reince-17) 
+nmod:of(departures-6, Priebus-18) 
+conj:and(Spicer-9, Priebus-18)
+det(president-21, the-20)
+nmod:poss(chief-24, president-21)
+case(president-21, 's-22)
+amod(chief-24, first-23) 
+appos(Priebus-18, chief-24) 
+case(staff-26, of-25)
+nmod:of(chief-24, staff-26)
+
+10) Mr Scaramucci targeted Mr Priebus as well as chief White House strategist Steve Bannon in an expletive-filled interview with The New Yorker last week, calling Mr Priebus a ``f**king paranoid schizophrenic, a paranoiac.'' 
+
+compound(Scaramucci-2, Mr-1) 
+nsubj(targeted-3, Scaramucci-2)
+root(ROOT-0, targeted-3) s1
+compound(Priebus-5, Mr-4) 
+dobj(targeted-3, Priebus-5) 
+cc(Priebus-5, as-6)
+mwe(as-6, well-7)
+mwe(as-6, as-8)
+amod(Bannon-14, chief-9)
+compound(Bannon-14, White-10)
+compound(Bannon-14, House-11)
+compound(Bannon-14, strategist-12)
+compound(Bannon-14, Steve-13) 
+dobj(targeted-3, Bannon-14) 
+conj:and(Priebus-5, Bannon-14)
+case(interview-18, in-15)
+det(interview-18, an-16)
+amod(interview-18, expletive-filled-17) s2
+nmod:in(targeted-3, interview-18) 
+case(Yorker-22, with-19)
+det(Yorker-22, The-20)
+compound(Yorker-22, New-21)
+nmod:with(targeted-3, Yorker-22)
+amod(week-24, last-23)
+nmod:tmod(targeted-3, week-24)
+advcl(targeted-3, calling-26)
+compound(Priebus-28, Mr-27)   
+iobj(calling-26, Priebus-28)
+det(schizophrenic-33, a-29)
+amod(schizophrenic-33, f**king-31)
+amod(schizophrenic-33, paranoid-32) s3
+dobj(calling-26, schizophrenic-33) s4
+det(paranoiac-36, a-35)
+appos(schizophrenic-33, paranoiac-36) s5
+
+11) Referring to the interview at a press briefing on Monday White House spokesperson Sarah Huckabee-Sanders said that Mr Trump ``felt that Anthony's comments were inappropriate for a person in that position.'' 
+
+csubj(said-16, Referring-1)
+case(interview-4, to-2)
+det(interview-4, the-3)
+nmod:to(Referring-1, interview-4)
+case(briefing-8, at-5)
+det(briefing-8, a-6)
+compound(briefing-8, press-7)
+nmod:at(interview-4, briefing-8)
+case(Huckabee-Sanders-15, on-9)
+compound(Huckabee-Sanders-15, Monday-10)
+compound(Huckabee-Sanders-15, White-11)
+compound(Huckabee-Sanders-15, House-12)
+compound(Huckabee-Sanders-15, spokesperson-13)
+compound(Huckabee-Sanders-15, Sarah-14)
+nmod:on(Referring-1, Huckabee-Sanders-15)
+root(ROOT-0, said-16)
+mark(felt-21, that-17)
+compound(Trump-19, Mr-18) 
+nsubj(felt-21, Trump-19) 
+ccomp(said-16, felt-21) s2
+mark(inappropriate-27, that-22)
+nmod:poss(comments-25, Anthony-23) 
+case(Anthony-23, 's-24)
+nsubj(inappropriate-27, comments-25) 
+cop(inappropriate-27, were-26)
+ccomp(felt-21, inappropriate-27) s1
+case(person-30, for-28)
+det(person-30, a-29)
+nmod:for(inappropriate-27, person-30) 
+case(position-33, in-31)
+det(position-33, that-32)
+nmod:in(person-30, position-33)
+
+12) Highest Stock Market EVER, best economic numbers in years, unemployment lowest in 17 years, wages raising, border secure, S.C.: No WH chaos! 
+
+compound(EVER-4, Highest-1) s1
+compound(EVER-4, Stock-2) 
+compound(EVER-4, Market-3) 
+nsubj(unemployment-12, EVER-4)
+amod(numbers-8, best-6) s2
+amod(numbers-8, economic-7) 
+appos(EVER-4, numbers-8) 
+case(years-10, in-9)
+nmod:in(numbers-8, years-10)
+root(ROOT-0, unemployment-12) 
+nsubj(raising-19, lowest-13) s3
+case(years-16, in-14)
+nummod(years-16, 17-15)
+nmod:in(lowest-13, years-16)
+appos(years-16, wages-18) 
+ccomp(unemployment-12, raising-19) s4
+dep(raising-19, border-21) 
+xcomp(border-21, secure-22) s5
+dobj(raising-19, S.C.-24) 
+neg(chaos-28, No-26) s6
+compound(chaos-28, WH-27)
+dep(S.C.-24, chaos-28) 
+
+13) This is despite Mr Trump refusing to criticise Mr Scaramucci following the interview and the reports of close associates of Mr Trump, who said the president approved of Mr Scaramucci's aggressive style. 
+
+nsubj(Trump-5, This-1)
+cop(Trump-5, is-2)
+case(Trump-5, despite-3)
+compound(Trump-5, Mr-4) 
+root(ROOT-0, Trump-5) 
+acl(Trump-5, refusing-6) s1
+mark(criticise-8, to-7)
+xcomp(refusing-6, criticise-8)  s2
+compound(Scaramucci-10, Mr-9) 
+dobj(criticise-8, Scaramucci-10) 
+case(interview-13, following-11)
+det(interview-13, the-12)
+nmod:following(Scaramucci-10, interview-13)
+cc(interview-13, and-14)
+det(reports-16, the-15)
+nmod:following(Scaramucci-10, reports-16)
+conj:and(interview-13, reports-16)
+case(associates-19, of-17)
+amod(associates-19, close-18) s3
+nmod:of(reports-16, associates-19) 
+case(Trump-22, of-20)
+compound(Trump-22, Mr-21)
+nmod:of(associates-19, Trump-22)
+nsubj(said-25, Trump-22)
+ref(Trump-22, who-24)
+acl:relcl(Trump-22, said-25)
+det(president-27, the-26)
+nsubj(approved-28, president-27) 
+ccomp(said-25, approved-28) s4
+case(style-34, of-29)
+compound(Scaramucci-31, Mr-30) 
+nmod:poss(style-34, Scaramucci-31) 
+case(Scaramucci-31, 's-32)
+amod(style-34, aggressive-33) s5
+nmod:of(approved-28, style-34)  
+
+14) Newt Gingrich, the former Republican House Speaker and a surrogate of Mr Trump, said Mr Trump and Mr Scaramucci ``sort of speak the same language.'' 
+
+compound(Gingrich-2, Newt-1)
+nsubj(said-16, Gingrich-2)
+det(Speaker-8, the-4)
+amod(Speaker-8, former-5) s1
+compound(Speaker-8, Republican-6)
+compound(Speaker-8, House-7)
+appos(Gingrich-2, Speaker-8) 
+cc(Speaker-8, and-9)
+det(surrogate-11, a-10)
+appos(Gingrich-2, surrogate-11)
+conj:and(Speaker-8, surrogate-11)
+case(Trump-14, of-12)
+compound(Trump-14, Mr-13)
+nmod:of(surrogate-11, Trump-14)
+root(ROOT-0, said-16)
+compound(Trump-18, Mr-17)
+nsubj(speak-25, Trump-18)
+cc(Trump-18, and-19)
+compound(Scaramucci-21, Mr-20)
+conj:and(Trump-18, Scaramucci-21)
+nsubj(speak-25, Scaramucci-21)
+advmod(speak-25, sort-23)
+case(sort-23, of-24)
+ccomp(said-16, speak-25)
+det(language-28, the-26)
+amod(language-28, same-27)
+dobj(speak-25, language-28)

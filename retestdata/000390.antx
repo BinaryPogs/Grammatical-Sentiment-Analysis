@@ -1,0 +1,995 @@
+000390.psd
+
+1) Google Home: Just a week and I'm falling in love with `her' After just a week sharing an apartment with Google's aptly named home assistant Google Home, we're in love, and we're pretty sure the feeling is mutual. 
+
+compound(Home-2, Google-1)
+root(ROOT-0, Home-2)
+advmod(falling-10, Just-4)
+det(week-6, a-5)
+nsubj(falling-10, week-6)
+cc(week-6, and-7)
+conj:and(week-6, I-8)
+nsubj(falling-10, I-8)  
+aux(falling-10, 'm-9)
+advcl(love-37, falling-10) s1-1/4
+case(love-12, in-11) s1-2/4
+nmod:in(falling-10, love-12) s1-3/4
+case(her-15, with-13) s1-4/4
+nmod:with(falling-10, her-15) 
+case(week-20, After-17)
+advmod(week-20, just-18)
+det(week-20, a-19)
+nmod:after(falling-10, week-20)
+acl(week-20, sharing-21) s2
+det(apartment-23, an-22)
+dobj(sharing-21, apartment-23) 
+case(aptly-27, with-24)
+nmod:poss(aptly-27, Google-25)
+case(Google-25, 's-26)
+nmod:with(sharing-21, aptly-27)
+acl(aptly-27, named-28)
+compound(Home-32, home-29)
+compound(Home-32, assistant-30) 
+compound(Home-32, Google-31)
+dobj(named-28, Home-32)
+nsubj(love-37, we-34) 
+cop(love-37, 're-35)
+case(love-37, in-36) s3-1/2
+parataxis(Home-2, love-37) s3-2/2
+cc(love-37, and-39)
+nsubj(sure-43, we-40) 
+cop(sure-43, 're-41)
+advmod(sure-43, pretty-42) s5
+parataxis(Home-2, sure-43) s4 
+conj:and(love-37, sure-43)
+det(feeling-45, the-44)
+nsubj(mutual-47, feeling-45)  
+cop(mutual-47, is-46)
+ccomp(sure-43, mutual-47) s6
+
+2) Arriving home after a long day, we say: ``Hey, Google. 
+
+advcl(say-9, Arriving-1) s1
+dobj(Arriving-1, home-2) 
+case(day-6, after-3)
+det(day-6, a-4)
+amod(day-6, long-5)
+nmod:after(Arriving-1, day-6)
+nsubj(say-9, we-8)  
+root(ROOT-0, say-9) s2
+discourse(Google-14, Hey-12)
+parataxis(say-9, Google-14)
+
+3) Good evening.'' 
+
+amod(evening-2, Good-1) s1
+root(ROOT-0, evening-2) 
+
+4) Back comes, ``Hi. 
+
+nsubj(comes-2, Back-1)
+root(ROOT-0, comes-2)
+dobj(comes-2, Hi-5)
+
+5) It's good to hear your voice.'' 
+
+nsubj(good-3, It-1) 
+nsubj:xsubj(hear-5, It-1)
+cop(good-3, 's-2)
+root(ROOT-0, good-3) s1
+mark(hear-5, to-4)
+xcomp(good-3, hear-5)  s2
+nmod:poss(voice-7, your-6)
+dobj(hear-5, voice-7) 
+
+6) One of the endearing things about this clever $199 gadget is that she can figure out stuff, like that you've been away all day, and tailor her response to add some machine-made warmth. 
+
+nsubj(is-12, One-1)
+case(things-5, of-2)
+det(things-5, the-3)
+amod(things-5, endearing-4) s1
+nmod:of(One-1, things-5) 
+case($-9, about-6)
+det($-9, this-7)
+amod($-9, clever-8) s3
+nmod:about(things-5, $-9)
+compound(gadget-11, 199-10) 
+nummod($-9, gadget-11)    
+root(ROOT-0, is-12)
+mark(figure-16, that-13)
+nsubj(figure-16, she-14)
+nsubj(like-20, she-14)
+nsubj(tailor-30, she-14)   
+aux(figure-16, can-15)
+ccomp(is-12, figure-16) s4-1/2
+compound:prt(figure-16, out-17) s4-2/2
+dobj(figure-16, stuff-18) 
+ccomp(is-12, like-20)
+conj:and(figure-16, like-20)
+mark(day-27, that-21)
+nsubj(day-27, you-22)
+aux(day-27, 've-23)
+cop(day-27, been-24)
+advmod(day-27, away-25)
+det(day-27, all-26)
+ccomp(like-20, day-27)
+cc(figure-16, and-29)
+ccomp(is-12, tailor-30)
+conj:and(figure-16, tailor-30) s6
+nmod:poss(response-32, her-31)
+dobj(tailor-30, response-32) 
+mark(add-34, to-33)
+acl(response-32, add-34) s5
+det(warmth-37, some-35)
+amod(warmth-37, machine-made-36) s2
+dobj(add-34, warmth-37)  
+
+7) It's already obvious that after a couple of years' development, Home will be powerful technology. 
+
+nsubj(obvious-4, It-1) 
+cop(obvious-4, 's-2)
+advmod(obvious-4, already-3)
+root(ROOT-0, obvious-4) s2
+mark(technology-18, that-5)
+case(couple-8, after-6)
+det(couple-8, a-7)
+nmod:after(technology-18, couple-8)
+case(development-12, of-9)
+nmod:poss(development-12, years-10) 
+case(years-10, '-11)
+nmod:of(couple-8, development-12) s3
+nsubj(technology-18, Home-14) 
+aux(technology-18, will-15)
+cop(technology-18, be-16)
+amod(technology-18, powerful-17) s1
+ccomp(obvious-4, technology-18) 
+
+8) But right now, it does enough out of the box to justify the spend, and even more so if you combine it with a Chromecast media dongle or Wemo internet-enabled appliance switch. 
+
+cc(does-6, But-1)
+advmod(now-3, right-2)
+advmod(does-6, now-3)
+nsubj(does-6, it-5) 
+root(ROOT-0, does-6)
+advmod(box-11, enough-7) s1
+case(box-11, out-8)
+mwe(out-8, of-9)
+det(box-11, the-10)
+nmod:out_of(does-6, box-11)
+mark(justify-13, to-12)
+xcomp(box-11, justify-13) s2
+det(spend-15, the-14)
+dobj(justify-13, spend-15) 
+cc(box-11, and-17)
+advmod(more-19, even-18)
+nmod:out_of(does-6, more-19)
+conj:and(box-11, more-19)
+advmod(combine-23, so-20)
+mark(combine-23, if-21)
+nsubj(combine-23, you-22) 
+ccomp(more-19, combine-23) s3
+dobj(combine-23, it-24) 
+case(dongle-29, with-25)
+det(dongle-29, a-26)
+amod(dongle-29, Chromecast-27)
+compound(dongle-29, media-28)
+nmod:with(combine-23, dongle-29) 
+cc(dongle-29, or-30)
+compound(switch-34, Wemo-31)
+amod(switch-34, internet-enabled-32)
+compound(switch-34, appliance-33) 
+nmod:with(combine-23, switch-34) 
+conj:or(dongle-29, switch-34)
+
+9) Her Basic set-up takes minutes. 
+
+nmod:poss(set-up-3, Her-1)
+compound(set-up-3, Basic-2)
+nsubj(takes-4, set-up-3) 
+root(ROOT-0, takes-4) s1
+dobj(takes-4, minutes-5) 
+
+10) Unbox the device, which is often compared in looks to a table top electric air freshener, plug it in and download a free app that identifies the unit and guides you through the process of connecting to your Wi-Fi network. 
+
+root(ROOT-0, Unbox-1) s1
+det(device-3, the-2)
+dobj(Unbox-1, device-3)  
+nsubj(looks-10, device-3)
+ref(device-3, which-5) 
+dep(looks-10, is-6)
+advmod(looks-10, often-7)
+case(looks-10, compared-8) s2
+case(looks-10, in-9)
+acl:relcl(device-3, looks-10)
+case(freshener-17, to-11)
+det(freshener-17, a-12)
+compound(freshener-17, table-13)
+compound(freshener-17, top-14)
+amod(freshener-17, electric-15)
+compound(freshener-17, air-16)
+nmod:to(looks-10, freshener-17) 
+conj:and(Unbox-1, plug-19) s3-1/2
+dobj(plug-19, it-20) 
+nmod(plug-19, in-21) s3-2/2
+cc(Unbox-1, and-22)
+conj:and(Unbox-1, download-23) s4
+det(app-26, a-24)
+amod(app-26, free-25) s6
+dobj(download-23, app-26)  
+nsubj(identifies-28, app-26)
+ref(app-26, that-27)
+acl:relcl(app-26, identifies-28) s7
+det(unit-30, the-29)
+dobj(identifies-28, unit-30) 
+cc(download-23, and-31)
+conj:and(Unbox-1, guides-32) s8
+conj:and(download-23, guides-32)
+dobj(guides-32, you-33) 
+case(process-36, through-34)
+det(process-36, the-35)
+nmod:through(guides-32, process-36)
+mark(connecting-38, of-37)
+acl(process-36, connecting-38) s9
+case(network-42, to-39)
+nmod:poss(network-42, your-40)
+amod(network-42, Wi-Fi-41)
+nmod:to(connecting-38, network-42) 
+
+11) Hooking up with other gear like Chromecast and Wemo is a little more fiddly, but you won't need a tech degree. 
+
+csubj(fiddly-14, Hooking-1)  s3-1/2
+compound:prt(Hooking-1, up-2)  s3-2/2
+case(gear-5, with-3) 
+amod(gear-5, other-4) 
+nmod:with(Hooking-1, gear-5) 
+case(Chromecast-7, like-6)
+nmod:like(gear-5, Chromecast-7)
+cc(Chromecast-7, and-8)
+nmod:like(gear-5, Wemo-9)
+conj:and(Chromecast-7, Wemo-9)
+cop(fiddly-14, is-10)
+det(little-12, a-11) s2-1/3
+nmod:npmod(more-13, little-12) s2-2/3
+advmod(fiddly-14, more-13) s2-3/3
+root(ROOT-0, fiddly-14) s1
+cc(fiddly-14, but-16)
+nsubj(need-20, you-17) 
+aux(need-20, wo-18)
+neg(need-20, n't-19)
+conj:but(fiddly-14, need-20) s4
+det(degree-23, a-21)
+compound(degree-23, tech-22)
+dobj(need-20, degree-23) 
+
+12) What's to like about Home? 
+
+dobj(like-4, What-1)
+cop(like-4, 's-2)
+mark(like-4, to-3)
+root(ROOT-0, like-4)
+case(Home-6, about-5)
+nmod:about(like-4, Home-6)
+
+13) Well, a device that can understand spoken, natural language Google queries and respond in moments turns out to be very handy. 
+
+discourse(turns-18, Well-1)
+det(device-4, a-3)
+nsubj(understand-7, device-4) 
+nsubj(respond-15, device-4)
+nsubj(turns-18, device-4)
+nsubj:xsubj(handy-23, device-4)
+ref(device-4, that-5)
+aux(understand-7, can-6)
+acl:relcl(device-4, understand-7) s1
+advcl(queries-13, spoken-8)
+amod(Google-12, natural-10)
+compound(Google-12, language-11) 
+nsubj(queries-13, Google-12)
+ccomp(understand-7, queries-13) 
+cc(understand-7, and-14)
+acl:relcl(device-4, respond-15)
+conj:and(understand-7, respond-15) 
+case(moments-17, in-16)
+nmod:in(respond-15, moments-17)
+root(ROOT-0, turns-18)
+compound:prt(turns-18, out-19)
+mark(handy-23, to-20)
+cop(handy-23, be-21)
+advmod(handy-23, very-22) s3
+xcomp(turns-18, handy-23) s2 
+
+14) ``OK, Google. 
+
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
+
+15) When is the next Victorian State election?'' 
+
+advmod(is-2, When-1)
+root(ROOT-0, is-2)
+det(election-7, the-3)
+amod(election-7, next-4) s1
+amod(election-7, Victorian-5)
+compound(election-7, State-6)
+nsubj(is-2, election-7) 
+
+16) ``What's 190 degrees Fahrenheit in centigrade?'' 
+
+root(ROOT-0, What-2)
+cop(What-2, 's-3)
+nummod(degrees-5, 190-4)
+nsubj(What-2, degrees-5)
+acl(degrees-5, Fahrenheit-6)
+case(centigrade-8, in-7)
+nmod:in(Fahrenheit-6, centigrade-8)
+
+17) ``What's the phone number for the Melbourne Theatre Company?'' 
+
+root(ROOT-0, What-2)
+cop(What-2, 's-3)
+det(number-6, the-4)
+compound(number-6, phone-5)
+nsubj(What-2, number-6)
+case(Company-11, for-7)
+det(Company-11, the-8)
+compound(Company-11, Melbourne-9)
+compound(Company-11, Theatre-10)
+nmod:for(number-6, Company-11)
+
+18) More often than not, Home has a nearly instant answer. 
+
+advmod(often-2, More-1)
+advmod(has-7, often-2)
+case(not-4, than-3)
+advcl(often-2, not-4)
+nsubj(has-7, Home-6) 
+root(ROOT-0, has-7) s1
+det(answer-11, a-8)
+advmod(answer-11, nearly-9) s3
+amod(answer-11, instant-10) s2 
+dobj(has-7, answer-11)  
+
+19) Local knowledge Your clever air freshener also knows where you are. 
+
+amod(knowledge-2, Local-1)
+nsubj(knows-8, knowledge-2)
+nmod:poss(freshener-6, Your-3) 
+amod(freshener-6, clever-4) s1
+compound(freshener-6, air-5)  
+dep(knowledge-2, freshener-6)  
+advmod(knows-8, also-7)
+root(ROOT-0, knows-8) s2
+advmod(are-11, where-9) 
+nsubj(are-11, you-10)
+ccomp(knows-8, are-11)
+
+20) ``OK, Google. 
+
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
+
+21) Where's the closest pharmacy?'' 
+
+advmod('s-2, Where-1)
+root(ROOT-0, 's-2)
+det(pharmacy-5, the-3)
+amod(pharmacy-5, closest-4) s1
+nsubj('s-2, pharmacy-5) 
+
+22) gets the right answer at our house. 
+
+root(ROOT-0, gets-1) s2
+det(answer-4, the-2)
+amod(answer-4, right-3) s1
+dobj(gets-1, answer-4)  
+case(house-7, at-5)
+nmod:poss(house-7, our-6)
+nmod:at(gets-1, house-7)
+
+23) ``What's tomorrow's weather?'' 
+
+root(ROOT-0, What-2)
+cop(What-2, 's-3)
+nmod:poss(weather-6, tomorrow-4)
+case(tomorrow-4, 's-5)
+nsubj(What-2, weather-6)
+
+24) generates a report for our suburb. 
+
+root(ROOT-0, generates-1) s1
+det(report-3, a-2)
+dobj(generates-1, report-3) 
+case(suburb-6, for-4)
+nmod:poss(suburb-6, our-5)
+nmod:for(report-3, suburb-6)
+
+25) Of course, you could do all this at the keyboard, but it's liberating to access information while making a cup of tea rather than tethering yourself to a PC. 
+
+case(course-2, Of-1)
+nmod:of(do-6, course-2)
+nsubj(do-6, you-4) 
+aux(do-6, could-5)
+root(ROOT-0, do-6) s1
+det:predet(this-8, all-7) 
+dobj(do-6, this-8) 
+case(keyboard-11, at-9)
+det(keyboard-11, the-10)
+nmod:at(do-6, keyboard-11)
+cc(do-6, but-13)
+nsubj(liberating-16, it-14)
+nsubj:xsubj(access-18, it-14) 
+cop(liberating-16, 's-15)
+conj:but(do-6, liberating-16) s2
+mark(access-18, to-17)
+xcomp(liberating-16, access-18)  s3
+dobj(access-18, information-19) 
+mark(making-21, while-20)
+advcl(access-18, making-21)
+det(cup-23, a-22)
+dobj(making-21, cup-23)
+case(tea-25, of-24)
+nmod:of(cup-23, tea-25)
+cc(making-21, rather-26) s4-1/2
+mwe(rather-26, than-27) s4-2/2
+advcl(access-18, tethering-28)  s5
+conj:negcc(making-21, tethering-28)
+dobj(tethering-28, yourself-29) 
+case(PC-32, to-30)
+det(PC-32, a-31)
+nmod:to(tethering-28, PC-32) 
+
+26) We especially like Home's customisable morning routine. 
+
+nsubj(like-3, We-1) 
+advmod(like-3, especially-2) s2
+root(ROOT-0, like-3) s1 
+nmod:poss(routine-8, Home-4)
+case(Home-4, 's-5)
+amod(routine-8, customisable-6) s3
+compound(routine-8, morning-7)
+dobj(like-3, routine-8)  
+
+27) ``OK, Google. 
+
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
+
+28) Good morning'' initiates a cheery greeting, immediately followed by the time, a localised weather report, a traffic report on our usual route to work and five-minute news updates from ABC radio and the BBC. 
+
+amod(initiates-4, Good-1) s1
+compound(initiates-4, morning-2) 
+nsubj(followed-10, initiates-4)
+det(cheery-6, a-5)
+dep(initiates-4, cheery-6) s2
+amod(cheery-6, greeting-7) 
+advmod(followed-10, immediately-9)
+root(ROOT-0, followed-10)
+case(time-13, by-11)
+det(time-13, the-12)
+nmod:by(followed-10, time-13)
+det(report-18, a-15)
+amod(report-18, localised-16) s3
+compound(report-18, weather-17) 
+appos(time-13, report-18) 
+det(report-22, a-20)
+compound(report-22, traffic-21)
+appos(time-13, report-22)
+conj:and(report-18, report-22)
+case(route-26, on-23)
+nmod:poss(route-26, our-24)
+amod(route-26, usual-25)
+nmod:on(report-22, route-26)
+mark(work-28, to-27)
+acl(report-22, work-28)
+cc(report-18, and-29)
+amod(updates-32, five-minute-30)
+compound(updates-32, news-31)
+appos(time-13, updates-32)
+conj:and(report-18, updates-32)
+case(radio-35, from-33)
+compound(radio-35, ABC-34)
+nmod:from(updates-32, radio-35)
+cc(radio-35, and-36)
+det(BBC-38, the-37)
+nmod:from(updates-32, BBC-38)
+conj:and(radio-35, BBC-38)
+
+29) If the phone rings, it's ``OK, Google. 
+
+mark(rings-4, If-1)
+det(phone-3, the-2)
+nsubj(rings-4, phone-3)
+advcl(Google-11, rings-4)
+nsubj(Google-11, it-6) 
+cop(Google-11, 's-7)
+advmod(Google-11, OK-9) s1
+root(ROOT-0, Google-11)
+
+30) Pause.'' 
+
+root(ROOT-0, Pause-1)
+
+31) She'll wait patiently and resume the news summary when you're ready. 
+
+nsubj(wait-3, She-1)
+nsubj(resume-6, She-1)  
+aux(wait-3, 'll-2)
+root(ROOT-0, wait-3) s1 
+advmod(wait-3, patiently-4) s2
+cc(wait-3, and-5)
+conj:and(wait-3, resume-6) s3
+det(summary-9, the-7)
+compound(summary-9, news-8)
+dobj(resume-6, summary-9) 
+advmod(ready-13, when-10)
+nsubj(ready-13, you-11) 
+cop(ready-13, 're-12)
+advcl(resume-6, ready-13) s4
+
+32) Once a couple of compatible smart devices are in sight, Home really starts to show off. 
+
+mark(sight-10, Once-1)
+det(couple-3, a-2)
+nsubj(sight-10, couple-3)
+case(devices-7, of-4)
+amod(smart-6, compatible-5) s3
+amod(devices-7, smart-6) s4
+nmod:of(couple-3, devices-7)   
+cop(sight-10, are-8)
+case(sight-10, in-9) s2-1/2
+advcl(starts-14, sight-10) s2-2/2
+nsubj(starts-14, Home-12)
+nsubj:xsubj(show-16, Home-12) 
+advmod(starts-14, really-13)
+root(ROOT-0, starts-14)
+mark(show-16, to-15)
+xcomp(starts-14, show-16) s1-1/2
+compound:prt(show-16, off-17) s1-2/2
+
+33) We already have a lounge heater controllable via Wi-Fi or the net using a Wemo switch. 
+
+nsubj(have-3, We-1) 
+advmod(have-3, already-2)
+root(ROOT-0, have-3) s1
+det(controllable-7, a-4)
+compound(controllable-7, lounge-5) s2
+compound(controllable-7, heater-6)   
+dobj(have-3, controllable-7) s3
+case(Wi-Fi-9, via-8)
+nmod:via(controllable-7, Wi-Fi-9) 
+cc(controllable-7, or-10)
+det(net-12, the-11)
+dobj(have-3, net-12)  
+conj:or(controllable-7, net-12)
+acl(net-12, using-13) s4
+det(switch-16, a-14)
+compound(switch-16, Wemo-15) 
+dobj(using-13, switch-16) 
+
+34) Now we can operate it by voice. 
+
+advmod(operate-4, Now-1)
+nsubj(operate-4, we-2) 
+aux(operate-4, can-3)
+root(ROOT-0, operate-4) s1
+dobj(operate-4, it-5) 
+case(voice-7, by-6)
+nmod:by(operate-4, voice-7)
+
+35) ``OK, Google. 
+
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
+
+36) Turn on the lounge room heater.'' 
+
+root(ROOT-0, Turn-1) s1-1/2
+case(heater-6, on-2) s1-2/2
+det(heater-6, the-3)
+compound(heater-6, lounge-4) s2
+compound(heater-6, room-5)
+nmod:on(Turn-1, heater-6)  
+
+37) For those kinds of commands, the unit always confirms the instruction so you can be sure that your direction to activate a heater in the bedroom hasn't been misunderstood as a request for a shed light to be switched on. 
+
+case(kinds-3, For-1)
+det(kinds-3, those-2)
+nmod:for(confirms-10, kinds-3)
+case(commands-5, of-4)
+nmod:of(kinds-3, commands-5)
+det(unit-8, the-7)
+nsubj(confirms-10, unit-8) 
+advmod(confirms-10, always-9) s3
+root(ROOT-0, confirms-10) s2 
+det(instruction-12, the-11)
+dobj(confirms-10, instruction-12) 
+mark(sure-17, so-13)
+nsubj(sure-17, you-14) 
+aux(sure-17, can-15)
+cop(sure-17, be-16)
+advcl(confirms-10, sure-17) s4
+mark(misunderstood-31, that-18)
+nmod:poss(direction-20, your-19)
+nsubjpass(misunderstood-31, direction-20)  
+mark(activate-22, to-21)
+acl(direction-20, activate-22) s4
+det(heater-24, a-23)
+dobj(activate-22, heater-24) 
+case(bedroom-27, in-25)
+det(bedroom-27, the-26)
+nmod:in(heater-24, bedroom-27)
+aux(misunderstood-31, has-28)
+neg(misunderstood-31, n't-29) 
+auxpass(misunderstood-31, been-30) 
+ccomp(sure-17, misunderstood-31) s1
+case(request-34, as-32)
+det(request-34, a-33)
+nmod:as(misunderstood-31, request-34) 
+case(light-38, for-35)
+det(light-38, a-36)
+amod(light-38, shed-37)
+nmod:for(request-34, light-38) 
+mark(switched-41, to-39)
+auxpass(switched-41, be-40)
+acl(light-38, switched-41) s5
+compound:prt(switched-41, on-42)
+
+38) There are dozens of third-party controllers on Home's compatibility list, but most aren't on sale in Australia, yet. 
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nsubj(are-2, dozens-3)
+case(controllers-6, of-4)
+amod(controllers-6, third-party-5)
+nmod:of(dozens-3, controllers-6)
+case(list-11, on-7)
+nmod:poss(list-11, Home-8)
+case(Home-8, 's-9)
+compound(list-11, compatibility-10) s1
+nmod:on(controllers-6, list-11) 
+cc(are-2, but-13)
+nsubj(sale-18, most-14) 
+cop(sale-18, are-15)
+neg(sale-18, n't-16)
+case(sale-18, on-17) s2-1/2
+conj:but(are-2, sale-18) s2-2/2
+case(Australia-20, in-19)
+nmod:in(sale-18, Australia-20)
+advmod(sale-18, yet-22)
+
+39) Home entertainment Most fun is playing around with Google Home and Google's own Chromecast dongle. 
+
+compound(entertainment-2, Home-1)
+nsubj(playing-6, entertainment-2) 
+advmod(fun-4, Most-3) s2
+advmod(playing-6, fun-4) s1 
+aux(playing-6, is-5)
+root(ROOT-0, playing-6)  s3-1/2
+compound:prt(playing-6, around-7)  s3-2/2
+case(Home-10, with-8)
+compound(Home-10, Google-9) 
+nmod:with(playing-6, Home-10) 
+cc(Home-10, and-11)
+nmod:poss(dongle-16, Google-12)
+case(Google-12, 's-13)
+amod(dongle-16, own-14)
+compound(dongle-16, Chromecast-15)
+nmod:with(playing-6, dongle-16) 
+conj:and(Home-10, dongle-16)
+
+40) We have one connected to a sound system, imaginatively identified by the device name ``Music''. 
+
+nsubj(identified-11, We-1) 
+aux(identified-11, have-2) s1
+dobj(identified-11, one-3)   
+acl(one-3, connected-4) s2
+case(system-8, to-5)
+det(system-8, a-6)
+amod(system-8, sound-7) 
+nmod:to(connected-4, system-8) 
+advmod(identified-11, imaginatively-10) s3
+root(ROOT-0, identified-11)  s4
+case(Music-17, by-12)
+det(Music-17, the-13)
+compound(Music-17, device-14) 
+compound(Music-17, name-15)
+nmod:by(identified-11, Music-17)
+
+41) ``OK, Google, play smooth jazz on Music.'' 
+
+discourse(play-6, OK-2)
+nsubj(play-6, Google-4)
+root(ROOT-0, play-6) s2
+amod(jazz-8, smooth-7) s1
+dobj(play-6, jazz-8)  
+case(Music-10, on-9)
+nmod:on(play-6, Music-10)
+
+42) Sure enough, Home locates an internet radio station dedicated to easy listening jazz, and it's playing through your lounge room speakers in a second or two. 
+
+advmod(enough-2, Sure-1)
+advmod(locates-5, enough-2)
+nsubj(locates-5, Home-4) 
+root(ROOT-0, locates-5) s2
+det(station-9, an-6)
+compound(station-9, internet-7)
+compound(station-9, radio-8)
+dobj(locates-5, station-9)  
+acl(station-9, dedicated-10) s3
+case(jazz-14, to-11)
+amod(jazz-14, easy-12) s1
+compound(jazz-14, listening-13) 
+nmod:to(dedicated-10, jazz-14)  
+cc(locates-5, and-16)
+nsubj(playing-19, it-17) 
+aux(playing-19, 's-18)
+conj:and(locates-5, playing-19) s4
+case(speakers-24, through-20)
+nmod:poss(speakers-24, your-21)
+compound(speakers-24, lounge-22)
+compound(speakers-24, room-23)
+nmod:through(playing-19, speakers-24) 
+case(second-27, in-25)
+det(second-27, a-26)
+nmod:in(playing-19, second-27)
+cc(second-27, or-28)
+nmod:in(playing-19, two-29)
+conj:or(second-27, two-29)
+
+43) Home's built-in speaker is adequate for music, if you're not too fussy, and perfectly good for spoken audio. 
+
+nmod:poss(speaker-4, Home-1)
+case(Home-1, 's-2)
+amod(speaker-4, built-in-3)
+nsubj(adequate-6, speaker-4)  
+cop(adequate-6, is-5)
+root(ROOT-0, adequate-6) s1
+case(music-8, for-7)
+nmod:for(adequate-6, music-8) 
+mark(fussy-15, if-10)
+nsubj(fussy-15, you-11) 
+nsubj(good-19, you-11)
+cop(fussy-15, 're-12)
+neg(fussy-15, not-13) 
+advmod(fussy-15, too-14)
+advcl(adequate-6, fussy-15) s2 
+cc(fussy-15, and-17)
+advmod(good-19, perfectly-18) s4
+advcl(adequate-6, good-19) s3 
+conj:and(fussy-15, good-19)
+case(audio-22, for-20)
+amod(audio-22, spoken-21) 
+nmod:for(fussy-15, audio-22) 
+
+44) ``OK, Google. 
+
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
+
+45) Play David Attenborough on Netflix.'' 
+
+root(ROOT-0, Play-1) s1
+compound(Attenborough-3, David-2) 
+dobj(Play-1, Attenborough-3) 
+case(Netflix-5, on-4)
+nmod:on(Attenborough-3, Netflix-5)
+
+46) ``Play Beatles White Album.'' 
+
+compound(White-4, Play-2) 
+compound(White-4, Beatles-3)
+nsubj(Album-5, White-4)
+root(ROOT-0, Album-5) s1
+
+47) ``Play Frank Sinatra.'' 
+
+root(ROOT-0, Play-2) s1
+compound(Sinatra-4, Frank-3) 
+dobj(Play-2, Sinatra-4) 
+
+48) ``OK, Google, skip this track.'' 
+
+discourse(skip-6, OK-2)
+nsubj(skip-6, Google-4) 
+root(ROOT-0, skip-6) s1
+det(track-8, this-7)
+dobj(skip-6, track-8) 
+
+49) ``Turn volume down.'' 
+
+root(ROOT-0, Turn-2) s1-1/2
+dobj(Turn-2, volume-3) 
+compound:prt(Turn-2, down-4) s1-2/2
+
+50) The instructions work most of the time, with a fail rate of maybe 10 per cent as long as you speak reasonably clearly. 
+
+det(instructions-2, The-1)
+nsubj(work-3, instructions-2) 
+root(ROOT-0, work-3) s1 
+dobj(work-3, most-4) s2-1/4
+case(time-7, of-5) s2-2/4
+det(time-7, the-6) s2-3/4
+nmod:of(most-4, time-7) s2-4/4
+case(rate-12, with-9)
+det(rate-12, a-10)
+amod(rate-12, fail-11)
+nmod:with(work-3, rate-12)
+case(10-15, of-13)
+advmod(10-15, maybe-14)
+nmod:of(rate-12, 10-15)
+case(cent-17, per-16)
+nmod:per(10-15, cent-17)
+advmod(long-19, as-18)
+advmod(10-15, long-19)
+mark(speak-22, as-20)
+nsubj(speak-22, you-21) 
+advcl(long-19, speak-22) 
+advmod(speak-22, reasonably-23) s4
+advmod(speak-22, clearly-24) s3 
+
+51) Privacy advocates can fairly ask about the risks of a smart device that's listening around the clock and talks to the internet. 
+
+amod(advocates-2, Privacy-1) s1
+nsubj(ask-5, advocates-2)  
+aux(ask-5, can-3)
+advmod(ask-5, fairly-4) s3
+root(ROOT-0, ask-5) s2 
+case(risks-8, about-6)
+det(risks-8, the-7)
+nmod:about(ask-5, risks-8)  s4
+case(device-12, of-9)
+det(device-12, a-10)
+amod(device-12, smart-11) s3
+nmod:of(risks-8, device-12)    
+nsubj(listening-15, device-12)
+ref(device-12, that-13)
+aux(listening-15, 's-14)
+acl:relcl(device-12, listening-15) s6
+case(clock-18, around-16)
+det(clock-18, the-17)
+nmod:around(listening-15, clock-18) 
+cc(clock-18, and-19)
+nmod:around(listening-15, talks-20) s7
+conj:and(clock-18, talks-20)
+case(internet-23, to-21)
+det(internet-23, the-22)
+nmod:to(listening-15, internet-23) 
+
+52) We discovered just how carefully Home listens while we were trying to watch some YouTube videos about Home itself. 
+
+nsubj(discovered-2, We-1) 
+root(ROOT-0, discovered-2) s2
+advmod(how-4, just-3)
+advmod(listens-7, how-4)
+compound(Home-6, carefully-5) s1
+nsubj(listens-7, Home-6) 
+ccomp(discovered-2, listens-7) 
+mark(trying-11, while-8)
+nsubj(trying-11, we-9) 
+nsubj:xsubj(watch-13, we-9)
+aux(trying-11, were-10)
+advcl(listens-7, trying-11) s3
+mark(watch-13, to-12)
+xcomp(trying-11, watch-13)  s4
+det(videos-16, some-14)
+compound(videos-16, YouTube-15) 
+dobj(watch-13, videos-16)
+case(Home-18, about-17)
+nmod:about(watch-13, Home-18)
+advmod(Home-18, itself-19)
+
+53) Picking up the audio from sound tracks, she started reacting to ``OK, Google'' commands in the videos. 
+
+advcl(started-10, Picking-1) s1-1/2
+compound:prt(Picking-1, up-2) s1-2/2
+det(audio-4, the-3)
+dobj(Picking-1, audio-4) 
+case(tracks-7, from-5)
+amod(tracks-7, sound-6)
+nmod:from(Picking-1, tracks-7)
+nsubj(started-10, she-9)  
+root(ROOT-0, started-10) s2
+xcomp(started-10, reacting-11)  s3
+case(commands-18, to-12)
+amod(Google-16, OK-14)
+amod(commands-18, Google-16)
+nmod:to(reacting-11, commands-18) 
+case(videos-21, in-19)
+det(videos-21, the-20)
+nmod:in(reacting-11, videos-21)
+
+54) We couldn't get to the end of one clip because the presenter demonstrated how to tell Home to turn off YouTube, which the device promptly did. 
+
+nsubj(get-4, We-1) 
+aux(get-4, could-2)
+neg(get-4, n't-3)
+root(ROOT-0, get-4) s1
+case(end-7, to-5)
+det(end-7, the-6)
+nmod:to(get-4, end-7) 
+case(clip-10, of-8)
+nummod(clip-10, one-9)
+nmod:of(end-7, clip-10)
+mark(demonstrated-14, because-11)
+det(presenter-13, the-12)
+nsubj(demonstrated-14, presenter-13) 
+advcl(get-4, demonstrated-14) s2
+advmod(tell-17, how-15)
+mark(tell-17, to-16)
+ccomp(demonstrated-14, tell-17)
+dobj(tell-17, Home-18)
+nsubj:xsubj(turn-20, Home-18)
+mark(turn-20, to-19)
+xcomp(tell-17, turn-20)
+compound:prt(turn-20, off-21)
+dobj(turn-20, YouTube-22)
+dobj(did-28, YouTube-22)
+ref(YouTube-22, which-24)
+det(device-26, the-25)
+nsubj(did-28, device-26) 
+advmod(did-28, promptly-27) s4
+acl:relcl(YouTube-22, did-28) s3 
+
+55) The full potential for mayhem became apparent when a visitor was playing with Apple's Siri service on our new MacBook Pro, at just the moment we'd started an ``OK, Google'' command. 
+
+det(potential-3, The-1)
+amod(potential-3, full-2) s1
+nsubj(became-6, potential-3)  
+case(mayhem-5, for-4)
+nmod:for(potential-3, mayhem-5) 
+root(ROOT-0, became-6)
+xcomp(became-6, apparent-7) s2
+advmod(playing-12, when-8)
+det(visitor-10, a-9)
+nsubj(playing-12, visitor-10) 
+aux(playing-12, was-11)
+advcl(became-6, playing-12) s3
+case(service-17, with-13)
+nmod:poss(service-17, Apple-14)
+case(Apple-14, 's-15)
+compound(service-17, Siri-16) 
+nmod:with(playing-12, service-17)
+case(Pro-22, on-18)
+nmod:poss(Pro-22, our-19)
+amod(Pro-22, new-20)
+compound(Pro-22, MacBook-21)
+nmod:on(playing-12, Pro-22)
+case(moment-27, at-24)
+advmod(moment-27, just-25)
+det(moment-27, the-26)
+nmod:at(playing-12, moment-27)
+nsubj(started-30, we-28) 
+aux(started-30, 'd-29)
+acl:relcl(moment-27, started-30) s4
+det(command-37, an-31)
+amod(Google-35, OK-33)
+amod(command-37, Google-35)
+dobj(started-30, command-37) 
+
+56) When Google responds to Siri, you know you're in the 21st century. 
+
+advmod(responds-3, When-1)
+nsubj(responds-3, Google-2) 
+advcl(know-8, responds-3) s1
+case(Siri-5, to-4)
+nmod:to(responds-3, Siri-5) 
+nsubj(know-8, you-7) 
+root(ROOT-0, know-8) s2
+nsubj(century-14, you-9) 
+cop(century-14, 're-10)
+case(century-14, in-11)
+det(century-14, the-12)
+amod(century-14, 21st-13)
+ccomp(know-8, century-14)
+
+57) Peter Moon is a technology lawyer with Cooper Mills. 
+
+compound(Moon-2, Peter-1) 
+nsubj(lawyer-6, Moon-2) 
+cop(lawyer-6, is-3)
+det(lawyer-6, a-4)
+compound(lawyer-6, technology-5) s2
+root(ROOT-0, lawyer-6) s1 
+case(Mills-9, with-7)
+compound(Mills-9, Cooper-8)
+nmod:with(lawyer-6, Mills-9)

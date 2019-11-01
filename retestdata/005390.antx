@@ -1,0 +1,83 @@
+005390.psd
+
+1) Search how every university in Australia ranks for sexual harassment and assault On August 1, the Human Rights Commission released its report titled, after surveying more than 30,000 students nationwide. 
+
+ccomp(released-21, Search-1)
+advmod(ranks-7, how-2)
+det(university-4, every-3)
+nsubj(ranks-7, university-4) 
+case(Australia-6, in-5)
+nmod:in(university-4, Australia-6)
+ccomp(Search-1, ranks-7) s3
+case(harassment-10, for-8)
+amod(harassment-10, sexual-9)  
+nmod:for(ranks-7, harassment-10) s4
+cc(harassment-10, and-11)
+nmod:for(ranks-7, assault-12) s5
+conj:and(harassment-10, assault-12)
+case(August-14, On-13)
+nmod:on(ranks-7, August-14)
+nummod(August-14, 1-15)
+det(Commission-20, the-17)
+compound(Commission-20, Human-18)  
+compound(Commission-20, Rights-19)  
+nsubj(released-21, Commission-20)  
+root(ROOT-0, released-21) s1
+nmod:poss(report-23, its-22)
+dobj(released-21, report-23) 
+acl(report-23, titled-24)
+mark(surveying-27, after-26)
+advcl(released-21, surveying-27) s2
+advmod(30,000-30, more-28)
+mwe(more-28, than-29)
+nummod(students-31, 30,000-30)
+dobj(surveying-27, students-31) 
+advmod(surveying-27, nationwide-32)
+
+2) Use the interactive below to see reported sexual assaults and harassment at specific universities. 
+
+root(ROOT-0, Use-1) s1
+det(interactive-3, the-2)
+dobj(Use-1, interactive-3) 
+nsubj:xsubj(see-6, interactive-3)
+advmod(see-6, below-4)
+mark(see-6, to-5)
+xcomp(Use-1, see-6) 
+amod(assaults-9, reported-7)
+amod(assaults-9, sexual-8)  
+dobj(see-6, assaults-9) s2
+cc(assaults-9, and-10)
+dobj(see-6, harassment-11) s3
+conj:and(assaults-9, harassment-11)
+case(universities-14, at-12)
+amod(universities-14, specific-13) s4
+nmod:at(see-6, universities-14) 
+
+3) Click on the arrows beside the red text to explore other universities or data points, or you can click on the bars in the graph. 
+
+csubj(points-15, Click-1) s1
+case(arrows-4, on-2)
+det(arrows-4, the-3)
+nmod:on(Click-1, arrows-4) 
+case(text-8, beside-5)
+det(text-8, the-6)
+amod(text-8, red-7)
+nmod:beside(Click-1, text-8)
+mark(explore-10, to-9)
+acl(text-8, explore-10) s2
+amod(universities-12, other-11)
+dobj(explore-10, universities-12) 
+cc(universities-12, or-13)
+dobj(explore-10, data-14) 
+conj:or(universities-12, data-14)
+root(ROOT-0, points-15) 
+cc(points-15, or-17)
+nsubj(click-20, you-18)
+aux(click-20, can-19)
+conj:or(points-15, click-20) s3
+case(bars-23, on-21)
+det(bars-23, the-22)
+nmod:on(click-20, bars-23) 
+case(graph-26, in-24)
+det(graph-26, the-25)
+nmod:in(bars-23, graph-26)

@@ -1,0 +1,169 @@
+006390.psd
+
+1) Seriously, why are we giving Foxtel $30 million? 
+
+root(ROOT-0, Seriously-1)
+advmod(giving-6, why-3)
+aux(giving-6, are-4)
+nsubj(giving-6, we-5) 
+ccomp(Seriously-1, giving-6) s1
+iobj(giving-6, Foxtel-7) 
+dep(million-10, $-8)
+compound(million-10, 30-9)
+dobj(giving-6, million-10)
+
+2) It's hard to believe, but it looks like the Turnbull government is going to get away with its $30 million backhander to Rupert Murdoch. 
+
+nsubj(hard-3, It-1)
+nsubj:xsubj(believe-5, It-1) 
+cop(hard-3, 's-2)
+root(ROOT-0, hard-3) s1
+mark(believe-5, to-4)
+xcomp(hard-3, believe-5) 
+cc(hard-3, but-7)
+nsubj(looks-9, it-8)
+conj:but(hard-3, looks-9)
+mark(going-15, like-10)
+det(government-13, the-11)
+compound(government-13, Turnbull-12) 
+nsubj(going-15, government-13) 
+nsubj:xsubj(get-17, government-13)
+aux(going-15, is-14)
+advcl(looks-9, going-15)
+mark(get-17, to-16)
+xcomp(going-15, get-17) s2-1/3
+compound:prt(get-17, away-18) s2-2/3
+case(backhander-24, with-19) s2-3/3
+nmod:poss(backhander-24, its-20)
+amod(backhander-24, $-21)
+compound(million-23, 30-22)
+nummod($-21, million-23)
+nmod:with(get-17, backhander-24) 
+case(Murdoch-27, to-25)
+compound(Murdoch-27, Rupert-26)
+nmod:to(backhander-24, Murdoch-27)
+
+3) I know life comes at you fast these days, but it seems odd that is going to recede into the fog of winter.Photo: Jim Rice That would be a shame. 
+
+nsubj(know-2, I-1)
+root(ROOT-0, know-2)
+nsubj(comes-4, life-3) 
+ccomp(know-2, comes-4) s3-1/2 
+case(you-6, at-5) s3-2/2 
+nmod:at(comes-4, you-6) 
+advmod(you-6, fast-7) s4
+det(days-9, these-8)
+nmod:tmod(comes-4, days-9)
+cc(know-2, but-11)
+nsubj(seems-13, it-12) 
+conj:but(know-2, seems-13) 
+xcomp(seems-13, odd-14) s1
+nsubj(going-17, odd-14)
+nsubj:xsubj(recede-19, odd-14)
+ref(odd-14, that-15)
+aux(going-17, is-16)
+acl:relcl(odd-14, going-17)
+mark(recede-19, to-18)
+xcomp(going-17, recede-19)
+case(fog-22, into-20)
+det(fog-22, the-21)
+nmod:into(recede-19, fog-22)
+case(winter.Photo-24, of-23)
+nmod:of(fog-22, winter.Photo-24)
+compound(Rice-27, Jim-26)
+dep(odd-14, Rice-27)
+nsubj(shame-32, Rice-27)
+ref(Rice-27, That-28) 
+aux(shame-32, would-29)
+cop(shame-32, be-30)
+det(shame-32, a-31)
+acl:relcl(Rice-27, shame-32) s2
+
+4) So let's remind ourselves of this delicious little scandal before it disappears down the memory hole forever. 
+
+advmod(let-2, So-1)
+root(ROOT-0, let-2)
+nsubj(remind-4, 's-3)
+ccomp(let-2, remind-4) s1
+dobj(remind-4, ourselves-5) 
+case(scandal-10, of-6)
+det(scandal-10, this-7)
+amod(little-9, delicious-8) s2
+amod(scandal-10, little-9) s3
+nmod:of(ourselves-5, scandal-10)  
+mark(disappears-13, before-11)
+nsubj(disappears-13, it-12) 
+advcl(remind-4, disappears-13) s4
+case(hole-17, down-14)
+det(hole-17, the-15)
+compound(hole-17, memory-16)
+nmod:down(disappears-13, hole-17)
+advmod(disappears-13, forever-18)
+
+5) Less than two weeks ago the ABC made an FOI application for documents relating to a $30 million grant to Murdoch's pay TV business. 
+
+compound(two-3, Less-1)
+advmod(two-3, than-2)
+nummod(weeks-4, two-3)
+nmod:npmod(ago-5, weeks-4)
+advmod(made-8, ago-5)
+det(ABC-7, the-6)
+nsubj(made-8, ABC-7) 
+root(ROOT-0, made-8) s1
+det(application-11, an-9)
+compound(application-11, FOI-10)
+dobj(made-8, application-11) 
+case(documents-13, for-12)
+nmod:for(made-8, documents-13) 
+acl(documents-13, relating-14) s2
+case(grant-20, to-15)
+det(grant-20, a-16)
+amod(grant-20, $-17)
+compound(million-19, 30-18)
+nummod($-17, million-19)
+nmod:to(relating-14, grant-20) 
+case(business-26, to-21)
+nmod:poss(business-26, Murdoch-22)
+case(Murdoch-22, 's-23)
+compound(business-26, pay-24)
+compound(business-26, TV-25)
+nmod:to(relating-14, business-26)
+
+6) The money, to be paid over two years, was to ``support the broadcast of underrepresented sports... including women's sports, niche sports, and sports with a high level of community involvement and participation''. 
+
+det(money-2, The-1)
+nsubj(support-14, money-2) 
+mark(paid-6, to-4)
+auxpass(paid-6, be-5)
+dep(support-14, paid-6) s2
+case(years-9, over-7)
+nummod(years-9, two-8)
+nmod:over(paid-6, years-9)
+aux(support-14, was-11)
+mark(support-14, to-12)
+root(ROOT-0, support-14) s1
+det(broadcast-16, the-15)
+dobj(support-14, broadcast-16) 
+case(sports-19, of-17)
+amod(sports-19, underrepresented-18) s3
+nmod:of(broadcast-16, sports-19) 
+case(sports-24, including-21)
+nmod:poss(sports-24, women-22)
+case(women-22, 's-23)
+nmod:including(support-14, sports-24)
+compound(sports-27, niche-26)
+nmod:including(support-14, sports-27)
+conj:and(sports-24, sports-27)
+cc(sports-24, and-29)
+nmod:including(support-14, sports-30)
+conj:and(sports-24, sports-30)
+case(level-34, with-31)
+det(level-34, a-32)
+amod(level-34, high-33) s4
+nmod:with(sports-30, level-34) 
+case(involvement-37, of-35)
+compound(involvement-37, community-36)
+nmod:of(level-34, involvement-37)
+cc(involvement-37, and-38)
+nmod:of(level-34, participation-39)
+conj:and(involvement-37, participation-39)
