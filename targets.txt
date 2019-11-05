@@ -1,835 +1,880 @@
-nsubj(heard-3, You-1)
-aux(heard-3, 've-2)
-root(ROOT-0, heard-3)
-case(food-6, of-4)
-amod(food-6, slow-5) s1
-nmod:of(heard-3, food-6) t1t1 
+compound(Home-2, Google-1)
+root(ROOT-0, Home-2)
+advmod(falling-10, Just-4)
+det(week-6, a-5)
+nsubj(falling-10, week-6)t4 
+cc(week-6, and-7)
+conj:and(week-6, I-8)
+nsubj(falling-10, I-8)  t4 
+aux(falling-10, 'm-9)
+advcl(love-37, falling-10) s1-1/4
+case(love-12, in-11) s1-2/4
+nmod:in(falling-10, love-12) s1-3/4
+case(her-15, with-13) s1-4/4
+nmod:with(falling-10, her-15) 
+case(week-20, After-17)
+advmod(week-20, just-18)
+det(week-20, a-19)
+nmod:after(falling-10, week-20)
+acl(week-20, sharing-21) s2
+det(apartment-23, an-22)
+dobj(sharing-21, apartment-23) t2 
+case(aptly-27, with-24)
+nmod:poss(aptly-27, Google-25)
+case(Google-25, 's-26)
+nmod:with(sharing-21, aptly-27)
+acl(aptly-27, named-28)
+compound(Home-32, home-29)
+compound(Home-32, assistant-30) 
+compound(Home-32, Google-31)
+dobj(named-28, Home-32)
+nsubj(love-37, we-34) 
+cop(love-37, 're-35)
+case(love-37, in-36) s3-1/2
+parataxis(Home-2, love-37) s3-2/2
+cc(love-37, and-39)
+nsubj(sure-43, we-40) 
+cop(sure-43, 're-41)
+advmod(sure-43, pretty-42) s5
+parataxis(Home-2, sure-43) s4 
+conj:and(love-37, sure-43)
+det(feeling-45, the-44)
+nsubj(mutual-47, feeling-45)  t6 
+cop(mutual-47, is-46)
+ccomp(sure-43, mutual-47) s6
 
-nsubj(denim-4, This-1)
-cop(denim-4, is-2)
-amod(denim-4, slow-3) s1
-root(ROOT-0, denim-4) t1t1 
+advcl(say-9, Arriving-1) s1
+dobj(Arriving-1, home-2) t1 
+case(day-6, after-3)
+det(day-6, a-4)
+amod(day-6, long-5)
+nmod:after(Arriving-1, day-6)
+nsubj(say-9, we-8)  t2 
+root(ROOT-0, say-9) s2
+discourse(Google-14, Hey-12)
+parataxis(say-9, Google-14)
 
-nsubj(love-2, I-1)t1 
-root(ROOT-0, love-2) s1t3 
-det(perve-5, a-3)
-amod(perve-5, good-4) s2
-dobj(love-2, perve-5) t1, t2t1 
-case(wardrobe-10, inside-6)
-det(celebrity-8, a-7)
-nmod:poss(wardrobe-10, celebrity-8)
-case(celebrity-8, 's-9)
-nmod:inside(love-2, wardrobe-10)
-advmod(love-2, thanks-12) s3
-case(mags-16, to-13)
-det(mags-16, the-14)
-amod(mags-16, glossy-15) s4
-nmod:to(thanks-12, mags-16) t3, t4t3 
+amod(evening-2, Good-1) s1
+root(ROOT-0, evening-2) t1 
 
-expl('s-2, There-1)
+nsubj(comes-2, Back-1)
+root(ROOT-0, comes-2)
+dobj(comes-2, Hi-5)
+
+nsubj(good-3, It-1) t2 
+nsubj:xsubj(hear-5, It-1)t2 
+cop(good-3, 's-2)
+root(ROOT-0, good-3) s1
+mark(hear-5, to-4)
+xcomp(good-3, hear-5)  s2t1 
+nmod:poss(voice-7, your-6)
+dobj(hear-5, voice-7) t2 
+
+nsubj(is-12, One-1)
+case(things-5, of-2)
+det(things-5, the-3)
+amod(things-5, endearing-4) s1
+nmod:of(One-1, things-5) t1 
+case($-9, about-6)
+det($-9, this-7)
+amod($-9, clever-8) s3
+nmod:about(things-5, $-9)
+compound(gadget-11, 199-10) 
+nummod($-9, gadget-11)    
+root(ROOT-0, is-12)
+mark(figure-16, that-13)
+nsubj(figure-16, she-14)t2 
+nsubj(like-20, she-14)
+nsubj(tailor-30, she-14)   t6 
+aux(figure-16, can-15)
+ccomp(is-12, figure-16) s4-1/2
+compound:prt(figure-16, out-17) s4-2/2
+dobj(figure-16, stuff-18) 
+ccomp(is-12, like-20)
+conj:and(figure-16, like-20)
+mark(day-27, that-21)
+nsubj(day-27, you-22)
+aux(day-27, 've-23)
+cop(day-27, been-24)
+advmod(day-27, away-25)
+det(day-27, all-26)
+ccomp(like-20, day-27)
+cc(figure-16, and-29)
+ccomp(is-12, tailor-30)
+conj:and(figure-16, tailor-30) s6
+nmod:poss(response-32, her-31)
+dobj(tailor-30, response-32) 
+mark(add-34, to-33)
+acl(response-32, add-34) s5
+det(warmth-37, some-35)
+amod(warmth-37, machine-made-36) s2
+dobj(add-34, warmth-37)  t5 
+
+nsubj(obvious-4, It-1) t2 
+cop(obvious-4, 's-2)
+advmod(obvious-4, already-3)
+root(ROOT-0, obvious-4) s2
+mark(technology-18, that-5)
+case(couple-8, after-6)
+det(couple-8, a-7)
+nmod:after(technology-18, couple-8)
+case(development-12, of-9)
+nmod:poss(development-12, years-10) 
+case(years-10, '-11)
+nmod:of(couple-8, development-12) s3
+nsubj(technology-18, Home-14) 
+aux(technology-18, will-15)
+cop(technology-18, be-16)
+amod(technology-18, powerful-17) s1
+ccomp(obvious-4, technology-18) 
+
+cc(does-6, But-1)
+advmod(now-3, right-2)
+advmod(does-6, now-3)
+nsubj(does-6, it-5) 
+root(ROOT-0, does-6)
+advmod(box-11, enough-7) s1
+case(box-11, out-8)
+mwe(out-8, of-9)
+det(box-11, the-10)
+nmod:out_of(does-6, box-11)
+mark(justify-13, to-12)
+xcomp(box-11, justify-13) s2
+det(spend-15, the-14)
+dobj(justify-13, spend-15) t2 
+cc(box-11, and-17)
+advmod(more-19, even-18)
+nmod:out_of(does-6, more-19)
+conj:and(box-11, more-19)
+advmod(combine-23, so-20)
+mark(combine-23, if-21)
+nsubj(combine-23, you-22) t3 
+ccomp(more-19, combine-23) s3
+dobj(combine-23, it-24) 
+case(dongle-29, with-25)
+det(dongle-29, a-26)
+amod(dongle-29, Chromecast-27)
+compound(dongle-29, media-28)
+nmod:with(combine-23, dongle-29) 
+cc(dongle-29, or-30)
+compound(switch-34, Wemo-31)
+amod(switch-34, internet-enabled-32)
+compound(switch-34, appliance-33) 
+nmod:with(combine-23, switch-34) 
+conj:or(dongle-29, switch-34)
+
+nmod:poss(set-up-3, Her-1)
+compound(set-up-3, Basic-2)
+nsubj(takes-4, set-up-3) t1 
+root(ROOT-0, takes-4) s1
+dobj(takes-4, minutes-5) t1 
+
+root(ROOT-0, Unbox-1) s1
+det(device-3, the-2)
+dobj(Unbox-1, device-3)  t1 
+nsubj(looks-10, device-3)
+ref(device-3, which-5) 
+dep(looks-10, is-6)
+advmod(looks-10, often-7)
+case(looks-10, compared-8) s2
+case(looks-10, in-9)
+acl:relcl(device-3, looks-10)
+case(freshener-17, to-11)
+det(freshener-17, a-12)
+compound(freshener-17, table-13)
+compound(freshener-17, top-14)
+amod(freshener-17, electric-15)
+compound(freshener-17, air-16)
+nmod:to(looks-10, freshener-17) 
+conj:and(Unbox-1, plug-19) s3-1/2
+dobj(plug-19, it-20) 
+nmod(plug-19, in-21) s3-2/2
+cc(Unbox-1, and-22)
+conj:and(Unbox-1, download-23) s4
+det(app-26, a-24)
+amod(app-26, free-25) s6
+dobj(download-23, app-26)  t6 
+nsubj(identifies-28, app-26)t7 
+ref(app-26, that-27)
+acl:relcl(app-26, identifies-28) s7t6 
+det(unit-30, the-29)
+dobj(identifies-28, unit-30) t7 
+cc(download-23, and-31)
+conj:and(Unbox-1, guides-32) s8
+conj:and(download-23, guides-32)
+dobj(guides-32, you-33) 
+case(process-36, through-34)
+det(process-36, the-35)
+nmod:through(guides-32, process-36)
+mark(connecting-38, of-37)
+acl(process-36, connecting-38) s9
+case(network-42, to-39)
+nmod:poss(network-42, your-40)
+amod(network-42, Wi-Fi-41)
+nmod:to(connecting-38, network-42) 
+
+csubj(fiddly-14, Hooking-1)  s3-1/2
+compound:prt(Hooking-1, up-2)  s3-2/2
+case(gear-5, with-3) 
+amod(gear-5, other-4) 
+nmod:with(Hooking-1, gear-5) 
+case(Chromecast-7, like-6)
+nmod:like(gear-5, Chromecast-7)
+cc(Chromecast-7, and-8)
+nmod:like(gear-5, Wemo-9)
+conj:and(Chromecast-7, Wemo-9)
+cop(fiddly-14, is-10)
+det(little-12, a-11) s2-1/3
+nmod:npmod(more-13, little-12) s2-2/3
+advmod(fiddly-14, more-13) s2-3/3
+root(ROOT-0, fiddly-14) s1t3 
+cc(fiddly-14, but-16)
+nsubj(need-20, you-17) 
+aux(need-20, wo-18)
+neg(need-20, n't-19)
+conj:but(fiddly-14, need-20) s4
+det(degree-23, a-21)
+compound(degree-23, tech-22)
+dobj(need-20, degree-23) t4 
+
+dobj(like-4, What-1)
+cop(like-4, 's-2)
+mark(like-4, to-3)
+root(ROOT-0, like-4)
+case(Home-6, about-5)
+nmod:about(like-4, Home-6)
+
+discourse(turns-18, Well-1)
+det(device-4, a-3)
+nsubj(understand-7, device-4) t1 
+nsubj(respond-15, device-4)
+nsubj(turns-18, device-4)t2 
+nsubj:xsubj(handy-23, device-4)t2 
+ref(device-4, that-5)
+aux(understand-7, can-6)
+acl:relcl(device-4, understand-7) s1
+advcl(queries-13, spoken-8)
+amod(Google-12, natural-10)
+compound(Google-12, language-11) 
+nsubj(queries-13, Google-12)
+ccomp(understand-7, queries-13) 
+cc(understand-7, and-14)
+acl:relcl(device-4, respond-15)
+conj:and(understand-7, respond-15) 
+case(moments-17, in-16)
+nmod:in(respond-15, moments-17)
+root(ROOT-0, turns-18)
+compound:prt(turns-18, out-19)
+mark(handy-23, to-20)
+cop(handy-23, be-21)
+advmod(handy-23, very-22) s3
+xcomp(turns-18, handy-23) s2 
+
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
+
+advmod(is-2, When-1)
+root(ROOT-0, is-2)
+det(election-7, the-3)
+amod(election-7, next-4) s1
+amod(election-7, Victorian-5)
+compound(election-7, State-6)
+nsubj(is-2, election-7) 
+
+root(ROOT-0, What-2)
+cop(What-2, 's-3)
+nummod(degrees-5, 190-4)
+nsubj(What-2, degrees-5)
+acl(degrees-5, Fahrenheit-6)
+case(centigrade-8, in-7)
+nmod:in(Fahrenheit-6, centigrade-8)
+
+root(ROOT-0, What-2)
+cop(What-2, 's-3)
+det(number-6, the-4)
+compound(number-6, phone-5)
+nsubj(What-2, number-6)
+case(Company-11, for-7)
+det(Company-11, the-8)
+compound(Company-11, Melbourne-9)
+compound(Company-11, Theatre-10)
+nmod:for(number-6, Company-11)
+
+advmod(often-2, More-1)
+advmod(has-7, often-2)
+case(not-4, than-3)
+advcl(often-2, not-4)
+nsubj(has-7, Home-6) t1 
+root(ROOT-0, has-7) s1
+det(answer-11, a-8)
+advmod(answer-11, nearly-9) s3
+amod(answer-11, instant-10) s2 
+dobj(has-7, answer-11)  t1 
+
+amod(knowledge-2, Local-1)
+nsubj(knows-8, knowledge-2)t2 
+nmod:poss(freshener-6, Your-3) 
+amod(freshener-6, clever-4) s1
+compound(freshener-6, air-5)  
+dep(knowledge-2, freshener-6)  
+advmod(knows-8, also-7)
+root(ROOT-0, knows-8) s2
+advmod(are-11, where-9) 
+nsubj(are-11, you-10)
+ccomp(knows-8, are-11)
+
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
+
+advmod('s-2, Where-1)
 root(ROOT-0, 's-2)
-advmod('s-2, always-3)
-det(Market-8, some-4)
-amod(Market-8, magical-5) s1
-compound(Market-8, Portobello-6)
-compound(Market-8, Road-7)
-nsubj('s-2, Market-8)
-acl:relcl(Market-8, find-9) t1t1 
-dobj(find-9, those-11)
-mark(able-23, that-12)
-nsubj(able-23, you-13) t2t3 
-nsubj:xsubj(nab-25, you-13) 
-case(mortal-18, as-15)
-det(mortal-18, a-16)
-amod(mortal-18, mere-17)
-nmod:as(able-23, mortal-18) t2 t3 
-aux(able-23, will-20)
-neg(able-23, never-21) s2-1/3
-cop(able-23, be-22) s2-2/3
-dep(those-11, able-23) s2-3/3
-mark(nab-25, to-24)
-xcomp(able-23, nab-25)
-advmod(able-23, plus-27)t3 
-advmod(often-30, quite-29)
-advmod('s-2, often-30)
-det(number-34, a-32)
-amod(number-34, staggering-33) s3
-nsubj('s-2, number-34) t3
-case(jeans-36, of-35)
-nmod:of(number-34, jeans-36) t3t3 
-nsubj(unheard-41, it-38)
-nsubj:xsubj(have-47, it-38)
-cop(unheard-41, 's-39)
-neg(unheard-41, not-40)
-parataxis('s-2, unheard-41)
-case(fashionistas-45, of-42)
-case(fashionistas-45, for-43)
-det(fashionistas-45, some-44)
-nmod:for(unheard-41, fashionistas-45)
-mark(have-47, to-46)
-xcomp(unheard-41, have-47)
+det(pharmacy-5, the-3)
+amod(pharmacy-5, closest-4) s1
+nsubj('s-2, pharmacy-5) 
 
-case(rainbow-3, Over-1)
-det(rainbow-3, the-2)
-nmod:over(wearing-6, rainbow-3)
-nsubj(wearing-6, Kesha-5) t1 t2
-root(ROOT-0, wearing-6)
-det(pair-8, a-7)
-dobj(wearing-6, pair-8)
-case(overalls-13, of-9)
-amod(overalls-13, colourful-10) s1
-amod(overalls-13, customised-12) s2
-nmod:of(pair-8, overalls-13) t1 t2t2 
-case(LAX-15, at-14)
-nmod:at(wearing-6, LAX-15)
+root(ROOT-0, gets-1) s2
+det(answer-4, the-2)
+amod(answer-4, right-3) s1
+dobj(gets-1, answer-4)  t2 
+case(house-7, at-5)
+nmod:poss(house-7, our-6)
+nmod:at(gets-1, house-7)
 
-root(ROOT-0, Photo-1)
-compound(Images-4, Getty-3)
-dep(Photo-1, Images-4)
-cc(have-11, But-5)
-mark(learning-7, since-6)
-csubj(have-11, learning-7)
-advmod(the-9, about-8)
-dobj(learning-7, the-9)
-aux(have-11, can-10)
-acl:relcl(Images-4, have-11)
-case(planet-14, on-12)
-det(planet-14, the-13)
-dep(have-11, planet-14)
-det(chemicals-18, the-16)
-amod(chemicals-18, toxic-17) s1
-dep(planet-14, chemicals-18) t1
-cc(chemicals-18, and-19)
-compound(usage-21, water-20) t1
-dep(planet-14, usage-21)
-conj:and(chemicals-18, usage-21)
-case(process-25, in-22)
-det(process-25, the-23)
-amod(process-25, dyeing-24)
-nmod:in(chemicals-18, process-25)
-det(impact-28, the-27)
-appos(process-25, impact-28) t2
-case(techniques-34, of-29)
-amod(techniques-34, so-called-30)
-amod(techniques-34, distressing-32) s2
-nmod:of(impact-28, techniques-34) t2t2 
-cc(planet-14, and-36)
-mark(on-38, so-37)
-dep(have-11, on-38)
-conj:and(planet-14, on-38)
-nsubj(had-42, I-40)
-aux(had-42, 've-41)
-parataxis(have-11, had-42)
-det(rethink-45, a-43)
-amod(rethink-45, massive-44)
-dobj(had-42, rethink-45) s3
-case(pairs-49, about-46)
-advmod(many-48, how-47) t3
-amod(pairs-49, many-48) t3
-nmod:about(need-54, pairs-49) t3
-case(jeans-51, of-50)
-nmod:of(pairs-49, jeans-51) t3
-nsubj(need-54, I-52)
-acl:relcl(rethink-45, need-54)
+root(ROOT-0, What-2)
+cop(What-2, 's-3)
+nmod:poss(weather-6, tomorrow-4)
+case(tomorrow-4, 's-5)
+nsubj(What-2, weather-6)
 
-nsubj(own-3, I-1)
-nsubj(survive-10, I-1) t2
-advmod(own-3, probably-2)
-root(ROOT-0, own-3)
-advmod(seven-5, about-4)
-nummod(pairs-6, seven-5)
-dobj(own-3, pairs-6)
-cc(own-3, but-7)
-aux(survive-10, could-8)
-advmod(survive-10, easily-9) s1
-conj:but(own-3, survive-10) t1 s2t1 
-case(three-12, with-11)
-nmod:with(survive-10, three-12) t2t2 
-det(light-15, a-14)
-dep(three-12, light-15) t2
-det(dark-18, a-17)
-dep(three-12, dark-18) t2
-conj:and(light-15, dark-18) 
-cc(light-15, and-19)
-det(black-21, a-20)
-dep(three-12, black-21) t2
-conj:and(light-15, black-21)
+root(ROOT-0, generates-1) s1
+det(report-3, a-2)
+dobj(generates-1, report-3) t1 
+case(suburb-6, for-4)
+nmod:poss(suburb-6, our-5)
+nmod:for(report-3, suburb-6)
 
-case(Friday-2, Given-1)
-nmod:given(timely-7, Friday-2)
-dep(Friday-2, is-3)
-nsubj(timely-7, it-5)t1 
-nsubj:xsubj(share-9, it-5)
-cop(timely-7, is-6)
-root(ROOT-0, timely-7) s1
-mark(share-9, to-8)
-xcomp(timely-7, share-9) t1t1 
-det(stories-11, the-10)
-dobj(share-9, stories-11)
-nsubj(slowing-21, stories-11)t3 
-case(people-14, of-12)
-nummod(people-14, two-13)
-nmod:of(stories-11, people-14) t2
-case(industry-18, in-15)
-det(industry-18, the-16)
-compound(industry-18, fashion-17)
-nmod:in(people-14, industry-18)
-ref(stories-11, who-19)
-aux(slowing-21, are-20)
-acl:relcl(stories-11, slowing-21) s2 t3
-compound(consumption-23, denim-22) t2
-dobj(slowing-21, consumption-23) t2t3 
-mark(producing-25, by-24)
-advcl(slowing-21, producing-25) s3 t4
-amod(pieces-27, one-of-a-kind-26) s5
-dobj(producing-25, pieces-27) t3 t5t4 
-advcl(producing-25, using-28) s4
-advmod(different-30, very-29) s7
-amod(techniques-31, different-30) s6 t7t7 
-dobj(using-28, techniques-31) t4 t6t4 
+case(course-2, Of-1)
+nmod:of(do-6, course-2)
+nsubj(do-6, you-4) t1 
+aux(do-6, could-5)
+root(ROOT-0, do-6) s1
+det:predet(this-8, all-7) 
+dobj(do-6, this-8) t1 
+case(keyboard-11, at-9)
+det(keyboard-11, the-10)
+nmod:at(do-6, keyboard-11)
+cc(do-6, but-13)
+nsubj(liberating-16, it-14)t3 
+nsubj:xsubj(access-18, it-14) t3 
+cop(liberating-16, 's-15)
+conj:but(do-6, liberating-16) s2
+mark(access-18, to-17)
+xcomp(liberating-16, access-18)  s3
+dobj(access-18, information-19) t5 
+mark(making-21, while-20)
+advcl(access-18, making-21)
+det(cup-23, a-22)
+dobj(making-21, cup-23)
+case(tea-25, of-24)
+nmod:of(cup-23, tea-25)
+cc(making-21, rather-26) s4-1/2
+mwe(rather-26, than-27) s4-2/2
+advcl(access-18, tethering-28)  s5
+conj:negcc(making-21, tethering-28)
+dobj(tethering-28, yourself-29) t5 
+case(PC-32, to-30)
+det(PC-32, a-31)
+nmod:to(tethering-28, PC-32) 
 
-compound(Brown-4, Sydney-1)
-compound(Brown-4, native-2)
-compound(Brown-4, Kai-3) t2
-nsubj(got-5, Brown-4) t2t2 
-root(ROOT-0, got-5) s2-1/2
-det(idea-7, the-6)
-dobj(got-5, idea-7) s2-2/2t2 
-mark(made-19, for-8)
-mark(made-19, after-9)
-nmod:poss(grandmother-11, his-10)
-nsubj(made-19, grandmother-11) t1
-det(seamstress-16, a-13)
-compound(seamstress-16, master-15) s1
-appos(grandmother-11, seamstress-16) t1t1 
-acl(idea-7, made-19)
-iobj(made-19, him-20)
-det(jacket-22, a-21)
-dobj(made-19, jacket-22)
-case(blanket-28, with-23)
-det(blanket-28, a-24)
-amod(blanket-28, Native-25)
-amod(blanket-28, American-26)
-amod(blanket-28, Indian-27)
-nmod:with(jacket-22, blanket-28)
-nsubj(found-30, he-29)
-acl:relcl(blanket-28, found-30)
-dobj(found-30, while-31)
-case(tour-33, on-32)
-nmod:on(found-30, tour-33)
-nsubj(guitarist-38, he-35)
-cop(guitarist-38, was-36)
-det(guitarist-38, a-37)
-dep(blanket-28, guitarist-38)
-cc(guitarist-38, and-39)
-dep(blanket-28, surfer-40)
-conj:and(guitarist-38, surfer-40)
-mark(started-43, before-41)
-nsubj(started-43, he-42)
-advcl(guitarist-38, started-43)
-det(brand-45, the-44)
-dobj(started-43, brand-45)
+nsubj(like-3, We-1) t1 
+advmod(like-3, especially-2) s2
+root(ROOT-0, like-3) s1 t2 
+nmod:poss(routine-8, Home-4)
+case(Home-4, 's-5)
+amod(routine-8, customisable-6) s3
+compound(routine-8, morning-7)
+dobj(like-3, routine-8)  t1 
 
-amod(statement-2, Subtle-1)
-root(ROOT-0, statement-2)
-compound(Hadid-5, Bella-4)
-dep(statement-2, Hadid-5)
-acl(Hadid-5, wearing-6)
-det(jacket-10, an-7)
-amod(jacket-10, embroidered-8)
-compound(jacket-10, denim-9)
-dobj(wearing-6, jacket-10)
-case(streets-13, on-11)
-det(streets-13, the-12)
-nmod:on(wearing-6, streets-13)
-case(York-16, of-14)
-compound(York-16, New-15)
-nmod:of(streets-13, York-16)
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
 
-root(ROOT-0, Photo-1)
-compound(Kamau-4, Josiah-3)
-dep(Photo-1, Kamau-4)
-nsubj(kept-7, I-6) t1t2 
-acl:relcl(Kamau-4, kept-7)
-auxpass(stopped-9, getting-8) s1-1/2 t2
-xcomp(kept-7, stopped-9) s1-2/2 t2
-det:predet(-LSB--13, all-10) s2-1/3
-det(-LSB--13, the-11) s2-2/3
-compound(-LSB--13, time-12) s2-3/3
-dobj(stopped-9, -LSB--13)t2 
-cc(stopped-9, and-14)
-xcomp(kept-7, asked-15)
-conj:and(stopped-9, asked-15)
-case(-RSB--19, about-16)
-det(-RSB--19, the-17)
-compound(-RSB--19, jacket-18)
-nmod:about(asked-15, -RSB--19)
+amod(initiates-4, Good-1) s1
+compound(initiates-4, morning-2) 
+nsubj(followed-10, initiates-4)
+det(cheery-6, a-5)
+dep(initiates-4, cheery-6) s2
+amod(cheery-6, greeting-7) 
+advmod(followed-10, immediately-9)
+root(ROOT-0, followed-10)
+case(time-13, by-11)
+det(time-13, the-12)
+nmod:by(followed-10, time-13)
+det(report-18, a-15)
+amod(report-18, localised-16) s3
+compound(report-18, weather-17) 
+appos(time-13, report-18) 
+det(report-22, a-20)
+compound(report-22, traffic-21)
+appos(time-13, report-22)
+conj:and(report-18, report-22)
+case(route-26, on-23)
+nmod:poss(route-26, our-24)
+amod(route-26, usual-25)
+nmod:on(report-22, route-26)
+mark(work-28, to-27)
+acl(report-22, work-28)
+cc(report-18, and-29)
+amod(updates-32, five-minute-30)
+compound(updates-32, news-31)
+appos(time-13, updates-32)
+conj:and(report-18, updates-32)
+case(radio-35, from-33)
+compound(radio-35, ABC-34)
+nmod:from(updates-32, radio-35)
+cc(radio-35, and-36)
+det(BBC-38, the-37)
+nmod:from(updates-32, BBC-38)
+conj:and(radio-35, BBC-38)
 
-nsubj(hanging-8, It-1)
-cop(hanging-8, 's-2)
-advmod(hanging-8, still-3)
-case(office-6, in-4)
-det(office-6, the-5)
-nmod:in(hanging-8, office-6)
-root(ROOT-0, hanging-8)
-case(wall-11, on-9)
-det(wall-11, the-10)
-nmod:on(hanging-8, wall-11)
+mark(rings-4, If-1)
+det(phone-3, the-2)
+nsubj(rings-4, phone-3)
+advcl(Google-11, rings-4)
+nsubj(Google-11, it-6) 
+cop(Google-11, 's-7)
+advmod(Google-11, OK-9) s1
+root(ROOT-0, Google-11)t1 
 
-nsubj(know-3, People-1)
-nsubj(come-15, People-1)
-ref(People-1, who-2)
-acl:relcl(People-1, know-3)
-nsubj(see-6, me-4)
-nsubj(say-10, me-4)
-ccomp(know-3, see-6)
-det(jacket-8, that-7)
-dobj(see-6, jacket-8)
-cc(see-6, and-9)
-ccomp(know-3, say-10)
-conj:and(see-6, say-10)
-nsubj(come-15, you-13)
-aux(come-15, 've-14)
-ccomp(says-22, come-15)
-advmod(far-17, so-16)
-advmod(come-15, far-17)
-nsubj(says-22, Brown-21)
-root(ROOT-0, says-22)
+root(ROOT-0, Pause-1)
 
-det(Relations-3, All-1)
-compound(Relations-3, My-2)
-nsubj(takes-4, Relations-3)
-nsubj(creates-16, Relations-3) t1t1 
-root(ROOT-0, takes-4)
-amod(pieces-7, vintage-5)
-compound(pieces-7, denim-6)
-dobj(takes-4, pieces-7) t2 
-cc(takes-4, and-8)
-parataxis(takes-4, using-10)
-amod(techniques-14, decades-old-11)
-amod(techniques-14, chain-stitch-12)
-compound(techniques-14, embroidery-13)
-dobj(using-10, techniques-14)
-conj:and(takes-4, creates-16) s1
-amod(pieces-18, one-off-17) s2
-dobj(creates-16, pieces-18) t1 t2t2 
+nsubj(wait-3, She-1)t1 
+nsubj(resume-6, She-1)  t3 
+aux(wait-3, 'll-2)
+root(ROOT-0, wait-3) s1 t2 
+advmod(wait-3, patiently-4) s2
+cc(wait-3, and-5)
+conj:and(wait-3, resume-6) s3
+det(summary-9, the-7)
+compound(summary-9, news-8)
+dobj(resume-6, summary-9) t4 
+advmod(ready-13, when-10)
+nsubj(ready-13, you-11) t4 
+cop(ready-13, 're-12)
+advcl(resume-6, ready-13) s4t3 
 
-nsubj(receive-4, You-1)
-aux(receive-4, will-2)
-advmod(receive-4, now-3)
-root(ROOT-0, receive-4)
-nsubj(Get-13, updates-5)
-case(Newsletter-12, from-6)
-compound(Newsletter-12, Daily-7)
-compound(Newsletter-12, Life-8)
-compound(Newsletter-12, Newsletter-9)
-compound(Newsletter-12, Daily-10)
-compound(Newsletter-12, Life-11)
-nmod:from(updates-5, Newsletter-12)
-ccomp(receive-4, Get-13)
-det(news-16, the-14)
-amod(news-16, latest-15)
-dobj(Get-13, news-16)
-cc(news-16, and-17)
-dobj(Get-13, updates-18)
-conj:and(news-16, updates-18)
-acl(updates-18, emailed-19)
-advmod(inbox-23, straight-20)
-case(inbox-23, to-21)
-nmod:poss(inbox-23, your-22)
-advcl(emailed-19, inbox-23)
+mark(sight-10, Once-1)
+det(couple-3, a-2)
+nsubj(sight-10, couple-3)t2 
+case(devices-7, of-4)
+amod(smart-6, compatible-5) s3
+amod(devices-7, smart-6) s4
+nmod:of(couple-3, devices-7)   t4 
+cop(sight-10, are-8)
+case(sight-10, in-9) s2-1/2
+advcl(starts-14, sight-10) s2-2/2
+nsubj(starts-14, Home-12)t2 
+nsubj:xsubj(show-16, Home-12) t2 
+advmod(starts-14, really-13)
+root(ROOT-0, starts-14)
+mark(show-16, to-15)
+xcomp(starts-14, show-16) s1-1/2
+compound:prt(show-16, off-17) s1-2/2
 
-nsubj(aims-2, Brown-1)t1 
-nsubj:xsubj(create-4, Brown-1) t1t1 
-root(ROOT-0, aims-2)
-mark(create-4, to-3)
-xcomp(aims-2, create-4) s1
-dobj(create-4, clothes-5) t1t1 
-nsubj(inspire-7, clothes-5)
-ref(clothes-5, that-6)
-acl:relcl(clothes-5, inspire-7)
-det(reaction-11, an-8)
-amod(reaction-11, emotional-10)
-dobj(inspire-7, reaction-11)
-case(counterpoint-16, as-14)
-det(counterpoint-16, a-15)
-nmod:as(inspire-7, counterpoint-16)
-case(nature-20, to-17)
-det(nature-20, the-18)
-amod(nature-20, homogenous-19)
-nmod:to(counterpoint-16, nature-20)
-case(fashion-23, of-21)
-amod(fashion-23, fast-22) s2
-nmod:of(nature-20, fashion-23) t2t2 
+nsubj(have-3, We-1) t1 
+advmod(have-3, already-2)
+root(ROOT-0, have-3) s1
+det(controllable-7, a-4)
+compound(controllable-7, lounge-5) s2
+compound(controllable-7, heater-6)   
+dobj(have-3, controllable-7) s3t1 
+case(Wi-Fi-9, via-8)
+nmod:via(controllable-7, Wi-Fi-9) 
+cc(controllable-7, or-10)
+det(net-12, the-11)
+dobj(have-3, net-12)  t1 
+conj:or(controllable-7, net-12)
+acl(net-12, using-13) s4
+det(switch-16, a-14)
+compound(switch-16, Wemo-15) 
+dobj(using-13, switch-16) t4 
 
-nsubj(bring-4, People-2)t1 
-aux(bring-4, will-3)
-ccomp(says-37, bring-4) s1
-iobj(bring-4, me-5) t1t1 
-det(jacket-10, a-6)
-amod(jacket-10, -LSB--7)
-amod(jacket-10, new-8) s2
-amod(jacket-10, -RSB--9)
-dobj(bring-4, jacket-10) t2t2 
-cc(bring-4, but-11)
-nsubj(educate-14, I-12)
-aux(educate-14, will-13)
-conj:but(bring-4, educate-14) s3
-ccomp(says-37, educate-14)
-dobj(educate-14, them-15) t3t3 
-mark(going-20, if-17)
-nsubj(going-20, you-18)
-nsubj:xsubj(get-22, you-18)
-aux(going-20, 're-19)
-advcl(educate-14, going-20)
-mark(get-22, to-21)
-xcomp(going-20, get-22)
-det(work-24, some-23)
-dobj(get-22, work-24)
-acl(work-24, done-25)
-nsubj(worth-28, it-26) t5t5 
-cop(worth-28, 's-27)
-ccomp(done-25, worth-28) s5
-xcomp(worth-28, getting-29) t5t5 
-det(piece-33, a-30)
-amod(piece-33, quality-31) s4
-amod(piece-33, vintage-32)
-dobj(getting-29, piece-33) t4t4 
-nsubj(says-37, he-36)
-root(ROOT-0, says-37)
+advmod(operate-4, Now-1)
+nsubj(operate-4, we-2) t1 
+aux(operate-4, can-3)
+root(ROOT-0, operate-4) s1
+dobj(operate-4, it-5) t1 
+case(voice-7, by-6)
+nmod:by(operate-4, voice-7)
 
-det(denim-3, The-1)
-amod(denim-3, best-2) s1
-nsubj(denim-6, denim-3)
-cop(denim-6, is-4)
-amod(denim-6, vintage-5) t1
-root(ROOT-0, denim-6) t1t1 
-advmod(when-9, especially-8)
-advmod(wear-11, when-9)
-nsubj(wear-11, you-10)
-acl:relcl(denim-6, wear-11)t1 
-dobj(wear-11, it-12)
-case(Hadid-15, like-13)
-compound(Hadid-15, Gigi-14)
-nmod:like(wear-11, Hadid-15)
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
 
-nsubj(agree-13, Photo-1)
-compound(Vierig-4, Christian-3)
-dep(Photo-1, Vierig-4)
-dep(Vierig-4, Both-5)
-dep(Photo-1, Brown-6)
-conj:and(Vierig-4, Brown-6)
-cc(Vierig-4, and-7)
-compound(Darby-9, Sarah-8)
-dep(Photo-1, Darby-9)
-conj:and(Vierig-4, Darby-9)
-acl(Photo-1, of-11)
-root(ROOT-0, agree-13) 
-xcomp(agree-13, choosing-14)
-det(design-16, a-15)
-nsubj(little-23, design-16)
-case(jacket-20, for-17)
-det(jacket-20, a-18)
-amod(jacket-20, custom-made-19)
-nmod:for(design-16, jacket-20)
-cop(little-23, is-21)
-det(little-23, a-22)
-ccomp(choosing-14, little-23)
-mark(little-23, like-24)
-dep(little-23, getting-25)
-det(tattoo-27, a-26)
-dobj(getting-25, tattoo-27)
-case(one-30, albeit-29)
-advmod(little-23, one-30)
-nsubj(take-33, you-31)
-aux(take-33, can-32)
-ccomp(little-23, take-33)
-compound:prt(take-33, off-34)
+root(ROOT-0, Turn-1) s1-1/2
+case(heater-6, on-2) s1-2/2
+det(heater-6, the-3)
+compound(heater-6, lounge-4) s2
+compound(heater-6, room-5)
+nmod:on(Turn-1, heater-6)  
 
-case(fact-2, In-1)
-nmod:in(desire-8, fact-2)
-nsubj(desire-8, it-4)
-cop(desire-8, was-5)
-nmod:poss(desire-8, Darby-6)
-case(Darby-6, 's-7)
-root(ROOT-0, desire-8)
-nsubj(produces-27, desire-8)t3 
-case(ink-10, for-9)
-nmod:for(desire-8, ink-10)
-case(inability-13, but-11)
-nmod:poss(inability-13, her-12) t1t1 
-nmod:but(ink-10, inability-13) s1
-mark(commit-15, to-14)
-acl(desire-8, commit-15) t1
-mark(led-17, that-16)
-ccomp(commit-15, led-17)
-det(illustrator-20, the-18)
-compound(illustrator-20, fashion-19) t2
-dobj(led-17, illustrator-20) t2t2 
-mark(create-22, to-21)
-advcl(led-17, create-22) s2
-nmod:poss(brand-24, her-23)
-dobj(create-22, brand-24) t2t2 
-ref(desire-8, which-26)
-acl:relcl(desire-8, produces-27) t2 s3
-amod(designs-29, painted-28)
-dobj(produces-27, designs-29) t3t3 
-case(denim-32, on-30)
-amod(denim-32, vintage-31)
-nmod:on(designs-29, denim-32) t3
-cc(denim-32, and-33)
-nmod:on(designs-29, leather-34) t3
-conj:and(denim-32, leather-34)
+case(kinds-3, For-1)
+det(kinds-3, those-2)
+nmod:for(confirms-10, kinds-3)
+case(commands-5, of-4)
+nmod:of(kinds-3, commands-5)
+det(unit-8, the-7)
+nsubj(confirms-10, unit-8) t2 
+advmod(confirms-10, always-9) s3
+root(ROOT-0, confirms-10) s2 t3 
+det(instruction-12, the-11)
+dobj(confirms-10, instruction-12) t4 
+mark(sure-17, so-13)
+nsubj(sure-17, you-14) t4 
+aux(sure-17, can-15)
+cop(sure-17, be-16)
+advcl(confirms-10, sure-17) s4
+mark(misunderstood-31, that-18)
+nmod:poss(direction-20, your-19)
+nsubjpass(misunderstood-31, direction-20)  
+mark(activate-22, to-21)
+acl(direction-20, activate-22) s4
+det(heater-24, a-23)
+dobj(activate-22, heater-24) t4 
+case(bedroom-27, in-25)
+det(bedroom-27, the-26)
+nmod:in(heater-24, bedroom-27)
+aux(misunderstood-31, has-28)
+neg(misunderstood-31, n't-29) 
+auxpass(misunderstood-31, been-30) 
+ccomp(sure-17, misunderstood-31) s1
+case(request-34, as-32)
+det(request-34, a-33)
+nmod:as(misunderstood-31, request-34) 
+case(light-38, for-35)
+det(light-38, a-36)
+amod(light-38, shed-37)
+nmod:for(request-34, light-38) 
+mark(switched-41, to-39)
+auxpass(switched-41, be-40)
+acl(light-38, switched-41) s5
+compound:prt(switched-41, on-42)
 
-nmod:poss(clients-3, Her-1)
-compound(clients-3, celebrity-2)
-nsubj(include-4, clients-3)
-root(ROOT-0, include-4)
-compound(Smith-8, model-5)
-compound(Smith-8, Stephanie-6)
-compound(Smith-8, Claire-7)
-dobj(include-4, Smith-8)
-cc(Smith-8, and-9)
-det(Love-14, The-10)
-nmod:poss(Love-14, Bachelorette-11)
-case(Bachelorette-11, 's-12)
-compound(Love-14, Georgia-13)
-dobj(include-4, Love-14)
-conj:and(Smith-8, Love-14)
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nsubj(are-2, dozens-3)
+case(controllers-6, of-4)
+amod(controllers-6, third-party-5)
+nmod:of(dozens-3, controllers-6)
+case(list-11, on-7)
+nmod:poss(list-11, Home-8)
+case(Home-8, 's-9)
+compound(list-11, compatibility-10) s1
+nmod:on(controllers-6, list-11) 
+cc(are-2, but-13)
+nsubj(sale-18, most-14) 
+cop(sale-18, are-15)
+neg(sale-18, n't-16)
+case(sale-18, on-17) s2-1/2
+conj:but(are-2, sale-18) s2-2/2
+case(Australia-20, in-19)
+nmod:in(sale-18, Australia-20)
+advmod(sale-18, yet-22)
 
-nsubj(recalls-2, Darby-1)
-root(ROOT-0, recalls-2)
-nummod(client-4, one-3)
-nsubj(struggled-8, client-4) t1t1 
-nsubj(sparkling-18, client-4)
-ref(client-4, who-6)
-aux(struggled-8, had-7)
-acl:relcl(client-4, struggled-8) s1
-case(image-11, with-9)
-compound(image-11, body-10) t1
-nmod:with(struggled-8, image-11) t1t1 
-nmod:poss(life-14, her-12) t1
-amod(life-14, whole-13)
-dep(image-11, life-14) t1
-aux(sparkling-18, having-16)
-dep(recalls-2, sparkling-18)
-mark(am-21, as-19)
-nsubj(am-21, I-20)
-advcl(sparkling-18, am-21)
-dep(sparkling-18, embroidered-23)
-case(cuffs-26, on-24)
-det(cuffs-26, the-25)
-nmod:on(embroidered-23, cuffs-26)
-case(jacket-29, of-27)
-nmod:poss(jacket-29, her-28)
-nmod:of(cuffs-26, jacket-29)
+compound(entertainment-2, Home-1)
+nsubj(playing-6, entertainment-2) t2 
+advmod(fun-4, Most-3) s2
+advmod(playing-6, fun-4) s1 
+aux(playing-6, is-5)
+root(ROOT-0, playing-6)  s3-1/2t1 
+compound:prt(playing-6, around-7)  s3-2/2
+case(Home-10, with-8)
+compound(Home-10, Google-9) 
+nmod:with(playing-6, Home-10) 
+cc(Home-10, and-11)
+nmod:poss(dongle-16, Google-12)
+case(Google-12, 's-13)
+amod(dongle-16, own-14)
+compound(dongle-16, Chromecast-15)
+nmod:with(playing-6, dongle-16) 
+conj:and(Home-10, dongle-16)
 
-nsubj(get-3, I-2)
-nsubj:xsubj(know-5, I-2)
-ccomp(says-25, get-3)
-mark(know-5, to-4)
-xcomp(get-3, know-5)
-dobj(know-5, someone-6)t1 
-mark(love-21, so-7)
-mwe(so-7, that-8)
-advmod(hand-11, when-9)
-nsubj(hand-11, I-10)
-advcl(love-21, hand-11)
-xcomp(hand-11, -LSB--12)
-det(-RSB--15, the-13)
-compound(-RSB--15, jacket-14) t1
-dobj(-LSB--12, -RSB--15)
-compound:prt(-LSB--12, over-16)
-nsubj(love-21, it-18) t1t1 
-cop(love-21, 's-19)
-case(love-21, with-20)
-advcl(know-5, love-21) s1
-nsubj(says-25, she-24)
-root(ROOT-0, says-25)
+nsubj(identified-11, We-1) t4 
+aux(identified-11, have-2) s1
+dobj(identified-11, one-3)   t4 
+acl(one-3, connected-4) s2
+case(system-8, to-5)
+det(system-8, a-6)
+amod(system-8, sound-7) 
+nmod:to(connected-4, system-8) 
+advmod(identified-11, imaginatively-10) s3
+root(ROOT-0, identified-11)  s4t3 
+case(Music-17, by-12)
+det(Music-17, the-13)
+compound(Music-17, device-14) 
+compound(Music-17, name-15)
+nmod:by(identified-11, Music-17)
 
-nsubj(uses-2, Darby-1)
-root(ROOT-0, uses-2)
-advmod(90-4, about-3)
-dobj(uses-2, 90-4)
-case(cent-6, per-5)
-nmod:per(90-4, cent-6)
-acl(cent-6, salvaged-7) t1
-dobj(salvaged-7, denim-8) t1
-case(designs-11, for-9)
-nmod:poss(designs-11, her-10)
-nmod:for(denim-8, designs-11)
-case(jackets-16, including-13)
-nmod:poss(jackets-16, Levi-14) t1
-case(Levi-14, 's-15)
-nmod:including(90-4, jackets-16) t1
-nsubj(need-18, that-17)
-ccomp(jackets-16, need-18)
-xcomp(need-18, soaking-19)
-case(days-22, for-20)
-nummod(days-22, two-21)
-nmod:for(soaking-19, days-22)
-mark(rid-24, to-23)
-xcomp(soaking-19, rid-24) s1
-dobj(rid-24, them-25) t1t1 
-case(years-28, of-26)
-nummod(years-28, 30-27)
-nmod:of(rid-24, years-28)
-case(grime-32, worth-30)
-case(grime-32, of-31)
-nmod:of(years-28, grime-32) t1
+discourse(play-6, OK-2)
+nsubj(play-6, Google-4)t2 
+root(ROOT-0, play-6) s2
+amod(jazz-8, smooth-7) s1
+dobj(play-6, jazz-8)  t2 
+case(Music-10, on-9)
+nmod:on(play-6, Music-10)
 
-compound(Press-2, Clare-1)
-nsubj(says-14, Press-2)
-appos(Press-2, author-5)
-cc(author-5, and-6)
-appos(Press-2, host-7)
-conj:and(author-5, host-7)
-case(podcast-12, of-8)
-det(podcast-12, the-9)
-compound(podcast-12, Wardrobe-10)
-compound(podcast-12, Crisis-11)
-nmod:of(author-5, podcast-12)
-root(ROOT-0, says-14)
-nsubj(become-17, jeans-15)
-aux(become-17, have-16)
-dep(says-14, become-17)
-nmod:poss(uniform-22, our-19)
-amod(uniform-22, unofficial-20)
-amod(uniform-22, global-21)
-xcomp(become-17, uniform-22)
-cc(become-17, and-24)
-nsubj(need-26, we-25)t1 
-nsubj:xsubj(mindful-30, we-25) t1t1 
-dep(says-14, need-26)
-conj:and(become-17, need-26)
-mark(mindful-30, to-27)
-cop(mindful-30, be-28)
-advmod(mindful-30, more-29)
-xcomp(need-26, mindful-30) s1
-case(impact-33, of-31)
-det(impact-33, the-32)
-nmod:of(mindful-30, impact-33)
-nsubj(have-35, they-34)
-acl:relcl(impact-33, have-35)
-case(planet-38, on-36)
-det(planet-38, the-37)
-nmod:on(have-35, planet-38)
-cc(planet-38, and-39)
-det(people-41, the-40)
-nmod:on(have-35, people-41)
-conj:and(planet-38, people-41)
-nsubj(make-43, people-41)
-ref(people-41, who-42)
-acl:relcl(people-41, make-43)
-dobj(make-43, them-44)
+advmod(enough-2, Sure-1)
+advmod(locates-5, enough-2)
+nsubj(locates-5, Home-4) t2 
+root(ROOT-0, locates-5) s2
+det(station-9, an-6)
+compound(station-9, internet-7)
+compound(station-9, radio-8)
+dobj(locates-5, station-9)  t2 
+acl(station-9, dedicated-10) s3
+case(jazz-14, to-11)
+amod(jazz-14, easy-12) s1
+compound(jazz-14, listening-13) 
+nmod:to(dedicated-10, jazz-14)  
+cc(locates-5, and-16)
+nsubj(playing-19, it-17) t4 
+aux(playing-19, 's-18)
+conj:and(locates-5, playing-19) s4
+case(speakers-24, through-20)
+nmod:poss(speakers-24, your-21)
+compound(speakers-24, lounge-22)
+compound(speakers-24, room-23)
+nmod:through(playing-19, speakers-24) 
+case(second-27, in-25)
+det(second-27, a-26)
+nmod:in(playing-19, second-27)
+cc(second-27, or-28)
+nmod:in(playing-19, two-29)
+conj:or(second-27, two-29)
 
-nsubj(says-2, She-1)
-root(ROOT-0, says-2)
-advmod(million-6, more-3)
-mwe(more-3, than-4)
-compound(million-6, 260-5)
-nummod(pairs-7, million-6)
-nsubjpass(made-11, pairs-7)
-case(jeans-9, of-8)
-nmod:of(pairs-7, jeans-9)
-auxpass(made-11, are-10)
-ccomp(says-2, made-11)
-case(export-13, for-12)
-nmod:for(made-11, export-13)
-case(Xintang-15, in-14)
-nmod:in(made-11, Xintang-15)
-compound(China-18, aka-17)
-nmod:poss(Town-22, China-18)
-case(China-18, 's-19)
-compound(Town-22, Jeans-21)
-appos(Xintang-15, Town-22)
-advmod(turns-31, where-25)
-det(run-off-28, the-26)
-amod(run-off-28, toxic-27) s1
-nsubj(turns-31, run-off-28)t2 
-nsubj(affects-36, run-off-28)
-case(production-30, from-29)
-nmod:from(run-off-28, production-30) t1t1 
-acl:relcl(Xintang-15, turns-31)
-det(waterways-33, the-32)
-nsubj(blue-34, waterways-33) t1 t2
-xcomp(turns-31, blue-34) s2
-cc(turns-31, and-35)
-acl:relcl(Xintang-15, affects-36)
-conj:and(turns-31, affects-36) t1
-det(health-38, the-37)
-dobj(affects-36, health-38) t1
-case(workers-41, of-39)
-det(workers-41, the-40)
-nmod:of(health-38, workers-41) t1
+nmod:poss(speaker-4, Home-1)
+case(Home-1, 's-2)
+amod(speaker-4, built-in-3)
+nsubj(adequate-6, speaker-4)  t1 
+cop(adequate-6, is-5)
+root(ROOT-0, adequate-6) s1
+case(music-8, for-7)
+nmod:for(adequate-6, music-8) 
+mark(fussy-15, if-10)
+nsubj(fussy-15, you-11) t2 
+nsubj(good-19, you-11)t3 
+cop(fussy-15, 're-12)
+neg(fussy-15, not-13) 
+advmod(fussy-15, too-14)
+advcl(adequate-6, fussy-15) s2 
+cc(fussy-15, and-17)
+advmod(good-19, perfectly-18) s4
+advcl(adequate-6, good-19) s3 
+conj:and(fussy-15, good-19)
+case(audio-22, for-20)
+amod(audio-22, spoken-21) 
+nmod:for(fussy-15, audio-22) 
 
-case(Greenpeace-4, According-2)
-mwe(According-2, to-3)
-nmod:according_to(pollute-12, Greenpeace-4)
-amod(levels-7, high-6) s1
-nsubj(pollute-12, levels-7) t1 s2t3 
-case(lead-9, of-8)
-nmod:of(levels-7, lead-9) t2 t3t2 
-cc(lead-9, and-10)
-nmod:of(levels-7, copper-11) t2 t3t2 
-conj:and(lead-9, copper-11)
-root(ROOT-0, pollute-12) s3
-det(riverbed-14, the-13)
-dobj(pollute-12, riverbed-14) t3t3 
+root(ROOT-0, OK-2)
+dep(OK-2, Google-4)
 
-det(dust-2, The-1)
-nsubj(blue-7, dust-2) t1t1 
-case(streets-5, in-3)
-det(streets-5, the-4)
-nmod:in(dust-2, streets-5)
-cop(blue-7, is-6)
-root(ROOT-0, blue-7) s1
+root(ROOT-0, Play-1) s1
+compound(Attenborough-3, David-2) 
+dobj(Play-1, Attenborough-3) t1 
+case(Netflix-5, on-4)
+nmod:on(Attenborough-3, Netflix-5)
 
-advmod(rains-3, When-1)
-nsubj(rains-3, it-2)
-advcl(blue-8, rains-3)
-det(puddles-6, the-5)
-nsubj(blue-8, puddles-6) t1t1 
-cop(blue-8, are-7)
-root(ROOT-0, blue-8) s1
-advmod(blue-8, too-9)
+compound(White-4, Play-2) 
+compound(White-4, Beatles-3)
+nsubj(Album-5, White-4)t1 
+root(ROOT-0, Album-5) s1
 
-det(air-2, The-1)
-nsubj(stinks-3, air-2) t1t1 
-ccomp(says-7, stinks-3) s1
-nsubj(says-7, she-6)
-root(ROOT-0, says-7)
+root(ROOT-0, Play-2) s1
+compound(Sinatra-4, Frank-3) 
+dobj(Play-2, Sinatra-4) t1 
 
-nsubj(encourages-2, She-1)t6 
-root(ROOT-0, encourages-2) s1
-dobj(encourages-2, consumers-3) t1t1 
-nsubj:xsubj(avoid-5, consumers-3)t2 
-nsubj:xsubj(embrace-17, consumers-3)t6 
-mark(avoid-5, to-4)
-xcomp(encourages-2, avoid-5) s2t1 
-xcomp(avoid-5, paying-6) t2
-amod(dollar-8, top-7)
-dobj(paying-6, dollar-8)
-case(denim-14, for-9)
-advmod(aged-11, artificially-10) s3
-amod(denim-14, aged-11) t3 s4t3 
-cc(aged-11, and-12)
-conj:and(aged-11, distressed-13) 
-amod(denim-14, distressed-13) s5
-nmod:for(dollar-8, denim-14) t4 t5t5 
-cc(avoid-5, and-15)
-advmod(embrace-17, instead-16)
-xcomp(encourages-2, embrace-17) s6t1 
-conj:and(avoid-5, embrace-17)
-det(process-21, the-18)
-amod(process-21, natural-19) t6
-compound(process-21, ageing-20) t6
-dobj(embrace-17, process-21) t6t6 
+discourse(skip-6, OK-2)
+nsubj(skip-6, Google-4) t1 
+root(ROOT-0, skip-6) s1
+det(track-8, this-7)
+dobj(skip-6, track-8) t1 
 
-det(idea-4, The-2)
-amod(idea-4, whole-3)
-nsubj(was-15, idea-4)
-case(sort-7, behind-5)
-det(sort-7, that-6)
-nmod:behind(idea-4, sort-7)
-case(look-9, of-8)
-nmod:of(idea-4, look-9)
-case(badge-12, as-10)
-det(badge-12, a-11)
-nmod:as(idea-4, badge-12)
-case(honour-14, of-13)
-nmod:of(badge-12, honour-14)
-root(ROOT-0, was-15)
-mark(earned-23, that-16)
-nmod:poss(pair-19, your-17)
-amod(pair-19, favourite-18) s1
-nsubj(earned-23, pair-19) t1 t2t2 
-case(jeans-21, of-20)
-nmod:of(pair-19, jeans-21) t1 t2t1 
-aux(earned-23, had-22)
-ccomp(was-15, earned-23) s2
-det(makers-25, those-24)
-dobj(earned-23, makers-25)
-case(age-27, of-26)
-nmod:of(makers-25, age-27)
+root(ROOT-0, Turn-2) s1-1/2
+dobj(Turn-2, volume-3) t2 
+compound:prt(Turn-2, down-4) s1-2/2
 
-nsubj(had-3, That-1)
-nsubj(had-3, they-2)
-root(ROOT-0, had-3)
-det(story-5, a-4)
-dobj(had-3, story-5)
-mark(tell-7, to-6)
-acl(story-5, tell-7)
+det(instructions-2, The-1)
+nsubj(work-3, instructions-2) t1 
+root(ROOT-0, work-3) s1 
+dobj(work-3, most-4) s2-1/4t1 
+case(time-7, of-5) s2-2/4
+det(time-7, the-6) s2-3/4
+nmod:of(most-4, time-7) s2-4/4
+case(rate-12, with-9)
+det(rate-12, a-10)
+amod(rate-12, fail-11)
+nmod:with(work-3, rate-12)
+case(10-15, of-13)
+advmod(10-15, maybe-14)
+nmod:of(rate-12, 10-15)
+case(cent-17, per-16)
+nmod:per(10-15, cent-17)
+advmod(long-19, as-18)
+advmod(10-15, long-19)
+mark(speak-22, as-20)
+nsubj(speak-22, you-21) 
+advcl(long-19, speak-22) 
+advmod(speak-22, reasonably-23) s4
+advmod(speak-22, clearly-24) s3 
 
-nmod:tmod(authentic-8, Today-1)
-det(story-4, that-3)
-nsubj(authentic-8, story-4) t2t2 
-cop(authentic-8, is-5)
-advmod(authentic-8, less-6) s1-1/2
-mwe(less-6, than-7) s1-2/2
-root(ROOT-0, authentic-8) t1 s2t2 
+amod(advocates-2, Privacy-1) s1
+nsubj(ask-5, advocates-2)  t2 
+aux(ask-5, can-3)
+advmod(ask-5, fairly-4) s3
+root(ROOT-0, ask-5) s2 t3 
+case(risks-8, about-6)
+det(risks-8, the-7)
+nmod:about(ask-5, risks-8)  s4
+case(device-12, of-9)
+det(device-12, a-10)
+amod(device-12, smart-11) s3
+nmod:of(risks-8, device-12)    t3 
+nsubj(listening-15, device-12)t6 
+ref(device-12, that-13)
+aux(listening-15, 's-14)
+acl:relcl(device-12, listening-15) s6t3 
+case(clock-18, around-16)
+det(clock-18, the-17)
+nmod:around(listening-15, clock-18) 
+cc(clock-18, and-19)
+nmod:around(listening-15, talks-20) s7
+conj:and(clock-18, talks-20)
+case(internet-23, to-21)
+det(internet-23, the-22)
+nmod:to(listening-15, internet-23) t6 
 
-nsubj(Friday-7, Genes-1)
-case(Day-4, for-2)
-compound(Day-4, Jeans-3)
-nmod:for(Genes-1, Day-4)
-cop(Friday-7, is-5)
-case(Friday-7, on-6)
-root(ROOT-0, Friday-7)
-appos(Friday-7, August-9)
-nummod(August-9, 4-10)
+nsubj(discovered-2, We-1) t2 
+root(ROOT-0, discovered-2) s2
+advmod(how-4, just-3)
+advmod(listens-7, how-4)
+compound(Home-6, carefully-5) s1
+nsubj(listens-7, Home-6) 
+ccomp(discovered-2, listens-7) 
+mark(trying-11, while-8)
+nsubj(trying-11, we-9) t4 
+nsubj:xsubj(watch-13, we-9)t4 
+aux(trying-11, were-10)
+advcl(listens-7, trying-11) s3
+mark(watch-13, to-12)
+xcomp(trying-11, watch-13)  s4
+det(videos-16, some-14)
+compound(videos-16, YouTube-15) 
+dobj(watch-13, videos-16)t4 
+case(Home-18, about-17)
+nmod:about(watch-13, Home-18)
+advmod(Home-18, itself-19)
 
-root(ROOT-0, Find-1)
-case(jeansforgenes.org.au-5, out-2)
-advmod(jeansforgenes.org.au-5, more-3)
-advmod(jeansforgenes.org.au-5, at-4)
-nmod:out(Find-1, jeansforgenes.org.au-5)
+advcl(started-10, Picking-1) s1-1/2
+compound:prt(Picking-1, up-2) s1-2/2
+det(audio-4, the-3)
+dobj(Picking-1, audio-4) t2 
+case(tracks-7, from-5)
+amod(tracks-7, sound-6)
+nmod:from(Picking-1, tracks-7)
+nsubj(started-10, she-9)  t3 
+root(ROOT-0, started-10) s2
+xcomp(started-10, reacting-11)  s3t2 
+case(commands-18, to-12)
+amod(Google-16, OK-14)
+amod(commands-18, Google-16)
+nmod:to(reacting-11, commands-18) 
+case(videos-21, in-19)
+det(videos-21, the-20)
+nmod:in(reacting-11, videos-21)
 
-root(ROOT-0, Get-1)
-det(look-3, the-2)
-iobj(Get-1, look-3)
-compound(McQueen-5, Alexander-4)
-dobj(Get-1, McQueen-5)
-case(Stylebop.com-7, at-6)
-nmod:at(McQueen-5, Stylebop.com-7)
-dep(2322-10, $-9)
-dobj(Get-1, 2322-10)
-appos(2322-10, approx-12)
+nsubj(get-4, We-1) t1 
+aux(get-4, could-2)
+neg(get-4, n't-3)
+root(ROOT-0, get-4) s1
+case(end-7, to-5)
+det(end-7, the-6)
+nmod:to(get-4, end-7) 
+case(clip-10, of-8)
+nummod(clip-10, one-9)
+nmod:of(end-7, clip-10)
+mark(demonstrated-14, because-11)
+det(presenter-13, the-12)
+nsubj(demonstrated-14, presenter-13) t2 
+advcl(get-4, demonstrated-14) s2
+advmod(tell-17, how-15)
+mark(tell-17, to-16)
+ccomp(demonstrated-14, tell-17)
+dobj(tell-17, Home-18)
+nsubj:xsubj(turn-20, Home-18)
+mark(turn-20, to-19)
+xcomp(tell-17, turn-20)
+compound:prt(turn-20, off-21)
+dobj(turn-20, YouTube-22)
+dobj(did-28, YouTube-22)t3 
+ref(YouTube-22, which-24)
+det(device-26, the-25)
+nsubj(did-28, device-26) t3 
+advmod(did-28, promptly-27) s4
+acl:relcl(YouTube-22, did-28) s3 
 
-compound(Alexander-2, MCQ-1)
-nsubj(McQueen-3, Alexander-2)
-root(ROOT-0, McQueen-3)
-case(Stylebop.com-5, at-4)
-nmod:at(McQueen-3, Stylebop.com-5)
-dep(264-8, $-7)
-appos(Stylebop.com-5, 264-8)
-appos(264-8, approx-10)
+det(potential-3, The-1)
+amod(potential-3, full-2) s1
+nsubj(became-6, potential-3)  t2 
+case(mayhem-5, for-4)
+nmod:for(potential-3, mayhem-5) 
+root(ROOT-0, became-6)
+xcomp(became-6, apparent-7) s2
+advmod(playing-12, when-8)
+det(visitor-10, a-9)
+nsubj(playing-12, visitor-10) t3 
+aux(playing-12, was-11)
+advcl(became-6, playing-12) s3
+case(service-17, with-13)
+nmod:poss(service-17, Apple-14)
+case(Apple-14, 's-15)
+compound(service-17, Siri-16) 
+nmod:with(playing-12, service-17)
+case(Pro-22, on-18)
+nmod:poss(Pro-22, our-19)
+amod(Pro-22, new-20)
+compound(Pro-22, MacBook-21)
+nmod:on(playing-12, Pro-22)
+case(moment-27, at-24)
+advmod(moment-27, just-25)
+det(moment-27, the-26)
+nmod:at(playing-12, moment-27)
+nsubj(started-30, we-28) t4 
+aux(started-30, 'd-29)
+acl:relcl(moment-27, started-30) s4
+det(command-37, an-31)
+amod(Google-35, OK-33)
+amod(command-37, Google-35)
+dobj(started-30, command-37) t4 
 
-det(Relations-3, All-1)
-compound(Relations-3, My-2)
-root(ROOT-0, Relations-3)
-dep(2295-6, $-5)
-appos(Relations-3, 2295-6)
+advmod(responds-3, When-1)
+nsubj(responds-3, Google-2) t1 
+advcl(know-8, responds-3) s1
+case(Siri-5, to-4)
+nmod:to(responds-3, Siri-5) 
+nsubj(know-8, you-7) t2 
+root(ROOT-0, know-8) s2
+nsubj(century-14, you-9) 
+cop(century-14, 're-10)
+case(century-14, in-11)
+det(century-14, the-12)
+amod(century-14, 21st-13)
+ccomp(know-8, century-14)
 
-root(ROOT-0, Kowtow-1)
-dep(229-4, $-3)
-appos(Kowtow-1, 229-4)
-
-root(ROOT-0, ASOS-1)
-dep(70-4, $-3)
-appos(ASOS-1, 70-4)
-
-root(ROOT-0, Jeanswest-1)
-dep(119-4, $-3)
-appos(Jeanswest-1, 119-4)
-
-root(ROOT-0, Need-1)
-amod(inspiration-3, more-2)
-dobj(Need-1, inspiration-3)
-
-root(ROOT-0, Shop-1)
-nmod:poss(editor-3, our-2)
-nmod:poss(picks-5, editor-3)
-case(editor-3, 's-4)
-dobj(Shop-1, picks-5)
+compound(Moon-2, Peter-1) 
+nsubj(lawyer-6, Moon-2) t1 
+cop(lawyer-6, is-3)
+det(lawyer-6, a-4)
+compound(lawyer-6, technology-5) s2
+root(ROOT-0, lawyer-6) s1 
+case(Mills-9, with-7)
+compound(Mills-9, Cooper-8)
+nmod:with(lawyer-6, Mills-9)
 

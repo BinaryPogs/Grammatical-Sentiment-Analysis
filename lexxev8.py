@@ -56,10 +56,14 @@ acl_nsubj = {}
 dep_advmod = {}
 acl_nmodto = {}
 line_map = {}
-path = 'C:\\Users\\Eddie\\Documents\\University\\ISYS358\\resamples\\final\\files\\'
+
+filetype = input('Is this a test file?')
+if 'yes' in filetype:
+    path = os.getcwd() + '\\retestdata\\'
+else:
+    path = os.getcwd() + '\\files\\'
 filename = input('Enter Filename:')
 lexxe = open(path + filename).read()
-
 
 paragraphs = re.sub(r'(\n\d\)*)', r'|\1', lexxe).split('|')
 
@@ -71,7 +75,6 @@ def p_map(paragraphs): #This creates a paragraph dictionary with the key being t
     for i, lines in enumerate(paragraph_lines):
         p_map[i] = lines[3:]
     return p_map
-
 
 
 def createSourceMap(p_map): #This creates a source dictionary
